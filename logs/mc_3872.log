@@ -1,0 +1,951 @@
+[17:37:55] [EnvServerSocketHandler/INFO]: [STDOUT]: Received from localhost:<MissionInit xmlns="http://ProjectMalmo.microsoft.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SchemaVersion="" PlatformVersion="0.37.0"><Mission><About><Summary>MineRLObtainDiamond-v0</Summary></About><ModSettings><MsPerTick>50</MsPerTick></ModSettings><ServerSection><ServerInitialConditions><Time><StartTime>6000</StartTime><AllowPassageOfTime>true</AllowPassageOfTime></Time><AllowSpawning>true</AllowSpawning></ServerInitialConditions><ServerHandlers><DefaultWorldGenerator forceReset="true" generatorOptions="{}"/><ServerQuitFromTimeUp timeLimitMs="900000" description="out_of_time"/><ServerQuitWhenAnyAgentFinishes/></ServerHandlers></ServerSection><AgentSection mode="Survival"><Name>MineRLAgent0</Name><AgentStart/><AgentHandlers><FileBasedPerformanceProducer/><ObservationFromDamage/><PauseCommand/><VideoProducer want_depth="false"><Width>64</Width><Height>64</Height></VideoProducer><ObservationFromFullInventory flat="false"/><ObservationFromEquippedItem/><HumanLevelCommands/><CameraCommands/><PlaceCommands/><EquipCommands/><SimpleCraftCommands/><NearbyCraftCommands/><NearbySmeltCommands/><RewardForPossessingItem sparse="true" excludeLoops="true"><Item amount="1" reward="1" type="log"/><Item amount="1" reward="2" type="planks"/><Item amount="1" reward="4" type="stick"/><Item amount="1" reward="4" type="crafting_table"/><Item amount="1" reward="8" type="wooden_pickaxe"/><Item amount="1" reward="16" type="cobblestone"/><Item amount="1" reward="32" type="furnace"/><Item amount="1" reward="32" type="stone_pickaxe"/><Item amount="1" reward="64" type="iron_ore"/><Item amount="1" reward="128" type="iron_ingot"/><Item amount="1" reward="256" type="iron_pickaxe"/><Item amount="1" reward="1024" type="diamond"/></RewardForPossessingItem><AgentQuitFromPossessingItem><Item type="diamond" amount="1"/></AgentQuitFromPossessingItem></AgentHandlers></AgentSection></Mission><ExperimentUID>10326c23-0fc0-4e10-bbc1-ae5f391b540a</ExperimentUID><ClientRole>0</ClientRole><ClientAgentConnection><ClientIPAddress>127.0.0.1</ClientIPAddress><ClientMissionControlPort>0</ClientMissionControlPort><ClientCommandsPort>0</ClientCommandsPort><AgentIPAddress>127.0.0.1</AgentIPAddress><AgentMissionControlPort>0</AgentMissionControlPort><AgentVideoPort>0</AgentVideoPort><AgentDepthPort>0</AgentDepthPort><AgentLuminancePort>0</AgentLuminancePort><AgentObservationsPort>0</AgentObservationsPort><AgentRewardsPort>0</AgentRewardsPort><AgentColourMapPort>0</AgentColourMapPort></ClientAgentConnection></MissionInit>
+[17:37:56] [EnvServerSocketHandler/INFO]: [STDOUT]: REPLYING WITH: MALMOOK
+[17:37:56] [Client thread/INFO]: [STDOUT]: Mission received: MineRLObtainDiamond-v0
+[17:37:56] [Client thread/INFO]: [STDOUT]: CLIENT request state: CREATING_HANDLERS
+[17:37:56] [Client thread/INFO]: [STDOUT]: CLIENT enter state: CREATING_HANDLERS
+[17:37:56] [Client thread/INFO]: [STDOUT]: Starting command server.
+[17:37:56] [Thread-12/INFO]: [STDOUT]: INFO: ->com(0) Listening for messages on port 10770
+[17:37:56] [Client thread/INFO]: [STDOUT]: CLIENT request state: EVALUATING_WORLD_REQUIREMENTS
+[17:37:56] [Client thread/INFO]: [STDOUT]: CLIENT enter state: EVALUATING_WORLD_REQUIREMENTS
+[17:37:56] [Client thread/INFO]: [STDOUT]: CLIENT request state: CREATING_NEW_WORLD
+[17:37:56] [Client thread/INFO]: [STDOUT]: CLIENT enter state: CREATING_NEW_WORLD
+[17:37:56] [Client thread/INFO]: [STDOUT]: [LOGTOPY] GENERATOR OPTIONS = {}
+[17:37:56] [Server thread/INFO]: Starting integrated minecraft server version 1.11.2
+[17:37:56] [Server thread/INFO]: Generating keypair
+[17:37:56] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[17:37:56] [Server thread/INFO]: Injecting existing block and item data into this server instance
+[17:37:56] [Server thread/INFO]: Applying holder lookups
+[17:37:56] [Server thread/INFO]: Holder lookups applied
+[17:37:57] [Server thread/INFO]: Loading dimension 0 (TEMP_0_f5b34301-d768-4417-9802-68c9f16d8b6b) (net.minecraft.server.integrated.IntegratedServer@7286391e)
+[17:37:57] [Server thread/INFO]: Loading dimension 1 (TEMP_0_f5b34301-d768-4417-9802-68c9f16d8b6b) (net.minecraft.server.integrated.IntegratedServer@7286391e)
+[17:37:57] [Server thread/INFO]: Loading dimension -1 (TEMP_0_f5b34301-d768-4417-9802-68c9f16d8b6b) (net.minecraft.server.integrated.IntegratedServer@7286391e)
+[17:37:57] [Server thread/INFO]: Preparing start region for level 0
+[17:37:58] [Server thread/INFO]: Preparing spawn area: 10%
+[17:37:59] [Server thread/INFO]: Preparing spawn area: 22%
+[17:38:00] [Server thread/INFO]: Preparing spawn area: 35%
+[17:38:01] [Server thread/INFO]: Preparing spawn area: 47%
+[17:38:02] [Server thread/INFO]: Preparing spawn area: 62%
+[17:38:03] [Server thread/INFO]: Preparing spawn area: 79%
+[17:38:04] [Server thread/INFO]: Preparing spawn area: 97%
+[17:38:04] [Server thread/INFO]: Changing view distance to 4, from 10
+[17:38:05] [Netty Local Client IO #0/INFO]: [STDOUT]: Transformed Name: net.minecraft.client.entity.EntityOtherPlayerMP
+[17:38:05] [Netty Local Client IO #0/INFO]: [STDOUT]: MALMO: Found EntityOtherPlayerMP, attempting to transform it
+[17:38:05] [Server thread/INFO]: [STDOUT]: SERVER request state: WAITING_FOR_MOD_READY
+[17:38:05] [Server thread/INFO]: [STDOUT]: CLIENT request state: WAITING_FOR_SERVER_READY
+[17:38:05] [Server thread/INFO]: [STDOUT]: SERVER enter state: WAITING_FOR_MOD_READY
+[17:38:05] [Netty Local Client IO #0/INFO]: Server protocol version 2
+[17:38:05] [Netty Server IO #1/INFO]: Client protocol version 2
+[17:38:05] [Netty Server IO #1/INFO]: Client attempting to join with 5 mods : minecraft@1.11.2,FML@8.0.99.99,malmomod@0.37.0,forge@13.20.1.2588,mcp@9.19
+[17:38:05] [Netty Local Client IO #0/INFO]: [Netty Local Client IO #0] Client side modded connection established
+[17:38:05] [Client thread/INFO]: [STDOUT]: CLIENT enter state: WAITING_FOR_SERVER_READY
+[17:38:06] [Server thread/INFO]: [Server thread] Server side modded connection established
+[17:38:06] [Server thread/INFO]: MineRLAgent0[local:E:25fa7152] logged in with entity id 591 at (-1.5, 73.0, 246.5)
+[17:38:06] [Server thread/INFO]: MineRLAgent0 joined the game
+[17:38:06] [Server thread/INFO]: [STDOUT]: SERVER request state: DORMANT
+[17:38:06] [Server thread/INFO]: [STDOUT]: SERVER enter state: DORMANT
+[17:38:06] [Server thread/INFO]: [STDOUT]: INCOMING MISSION: Received MissionInit directly through ServerStateMachine constructor.
+[17:38:06] [Server thread/INFO]: [STDOUT]: Mission received: MineRLObtainDiamond-v0
+[17:38:06] [Server thread/INFO]: Received mission: §9MineRLObtainDiamond-v0
+[17:38:06] [Server thread/INFO]: Source: §alocalhost
+[17:38:06] [Server thread/INFO]: [STDOUT]: SERVER request state: BUILDING_WORLD
+[17:38:06] [Server thread/INFO]: [STDOUT]: SERVER enter state: BUILDING_WORLD
+[17:38:06] [Server thread/INFO]: [STDOUT]: SERVER request state: WAITING_FOR_AGENTS_TO_ASSEMBLE
+[17:38:06] [Client thread/INFO]: [CHAT] Received mission: §9MineRLObtainDiamond-v0
+[17:38:06] [Client thread/INFO]: [CHAT] Source: §alocalhost
+[17:38:06] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[17:38:06] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[17:38:07] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[17:38:07] [Server thread/INFO]: [STDOUT]: SERVER enter state: WAITING_FOR_AGENTS_TO_ASSEMBLE
+[17:38:07] [Server thread/INFO]: [STDOUT]: Experiment requires: 
+[17:38:07] [Server thread/INFO]: [STDOUT]: >>>> MineRLAgent0
+[17:38:07] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[17:38:07] [Server thread/INFO]: [STDOUT]: Initializing player with username MineRLAgent0 and agentname MineRLAgent0
+[17:38:07] [Client thread/INFO]: [STDOUT]: CLIENT request state: RUNNING
+[17:38:07] [Client thread/INFO]: [STDOUT]: CLIENT enter state: RUNNING
+[17:38:07] [Server thread/INFO]: [STDOUT]: SERVER request state: RUNNING
+[17:38:07] [Server thread/INFO]: [STDOUT]: SERVER enter state: RUNNING
+[17:38:07] [Client thread/INFO]: [STDOUT]: Preparing reward com.microsoft.Malmo.MissionHandlers.RewardForPossessingItemImplementation@4403b81 with agent name MineRLAgent0
+[17:38:07] [Client thread/INFO]: [STDOUT]: [LOGTOPY] On Mac OSX Catalina make sure to install this OpenJDK 1.8.0_152-release-1056-b12, this prevents the NSDragRegions crash
+[17:38:07] [Client thread/INFO]: [STDOUT]: Resized the window
+[17:38:07] [Client thread/INFO]: [STDOUT]: Unpausing
+RewardForPossessingItemImplementation - MineRLAgent0: 1
+RewardForPossessingItemImplementation - MineRLAgent0: 2
+RewardForPossessingItemImplementation - MineRLAgent0: 3
+RewardForPossessingItemImplementation - MineRLAgent0: 4
+RewardForPossessingItemImplementation - MineRLAgent0: 5
+RewardForPossessingItemImplementation - MineRLAgent0: 1
+RewardForPossessingItemImplementation - MineRLAgent0: 2
+RewardForPossessingItemImplementation - MineRLAgent0: 1
+RewardForPossessingItemImplementation - MineRLAgent0: 1
+RewardForPossessingItemImplementation - MineRLAgent0: 2
+RewardForPossessingItemImplementation - MineRLAgent0: 3
+RewardForPossessingItemImplementation - MineRLAgent0: 4
+RewardForPossessingItemImplementation - MineRLAgent0: 6
+RewardForPossessingItemImplementation - MineRLAgent0: 5
+RewardForPossessingItemImplementation - MineRLAgent0: 7
+RewardForPossessingItemImplementation - MineRLAgent0: 8
+RewardForPossessingItemImplementation - MineRLAgent0: 9
+RewardForPossessingItemImplementation - MineRLAgent0: 10
+RewardForPossessingItemImplementation - MineRLAgent0: 6
+RewardForPossessingItemImplementation - MineRLAgent0: 11
+RewardForPossessingItemImplementation - MineRLAgent0: 3
+RewardForPossessingItemImplementation - MineRLAgent0: 12
+RewardForPossessingItemImplementation - MineRLAgent0: 4
+RewardForPossessingItemImplementation - MineRLAgent0: 8
+RewardForPossessingItemImplementation - MineRLAgent0: 12
+RewardForPossessingItemImplementation - MineRLAgent0: 16
+RewardForPossessingItemImplementation - MineRLAgent0: 20
+RewardForPossessingItemImplementation - MineRLAgent0: 24
+RewardForPossessingItemImplementation - MineRLAgent0: 28
+RewardForPossessingItemImplementation - MineRLAgent0: 32
+RewardForPossessingItemImplementation - MineRLAgent0: 36
+RewardForPossessingItemImplementation - MineRLAgent0: 40
+RewardForPossessingItemImplementation - MineRLAgent0: 44
+RewardForPossessingItemImplementation - MineRLAgent0: 48
+[17:42:58] [Client thread/INFO]: [STDOUT]: SM: [CLIENT_STATE_MACHINE] Mission ended for reason: null world still exists: true
+[17:42:58] [Client thread/INFO]: [STDOUT]: Unpausing
+[17:42:58] [Client thread/INFO]: [STDOUT]: CLIENT request state: IDLING
+[17:42:58] [Server thread/INFO]: [STDOUT]: Warning: managed 13/20 ticks this second.
+[17:42:58] [Server thread/INFO]: [STDOUT]: WHY IS THIS NOT WORKING
+[17:42:58] [Server thread/INFO]: [STDOUT]: SERVER request state: WAITING_FOR_AGENTS_TO_QUIT
+[17:42:58] [Server thread/INFO]: [STDOUT]: SERVER enter state: WAITING_FOR_AGENTS_TO_QUIT
+[17:42:58] [Client thread/INFO]: [STDOUT]: CLIENT enter state: IDLING
+[17:42:58] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[17:42:58] [Client thread/INFO]: [STDOUT]: CLIENT enter state: MISSION_ENDED
+[17:42:58] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 6ms behind, skipping 0 tick(s)
+[17:42:58] [Client thread/INFO]: [STDOUT]: inform the agent
+[17:42:58] [EnvServerSocketHandler/INFO]: [STDOUT]: Received from localhost:<MissionInit xmlns="http://ProjectMalmo.microsoft.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SchemaVersion="" PlatformVersion="0.37.0"><Mission><About><Summary>MineRLObtainDiamond-v0</Summary></About><ModSettings><MsPerTick>50</MsPerTick></ModSettings><ServerSection><ServerInitialConditions><Time><StartTime>6000</StartTime><AllowPassageOfTime>true</AllowPassageOfTime></Time><AllowSpawning>true</AllowSpawning></ServerInitialConditions><ServerHandlers><DefaultWorldGenerator forceReset="true" generatorOptions="{}"/><ServerQuitFromTimeUp timeLimitMs="900000" description="out_of_time"/><ServerQuitWhenAnyAgentFinishes/></ServerHandlers></ServerSection><AgentSection mode="Survival"><Name>MineRLAgent0</Name><AgentStart/><AgentHandlers><FileBasedPerformanceProducer/><ObservationFromDamage/><PauseCommand/><VideoProducer want_depth="false"><Width>64</Width><Height>64</Height></VideoProducer><ObservationFromFullInventory flat="false"/><ObservationFromEquippedItem/><HumanLevelCommands/><CameraCommands/><PlaceCommands/><EquipCommands/><SimpleCraftCommands/><NearbyCraftCommands/><NearbySmeltCommands/><RewardForPossessingItem sparse="true" excludeLoops="true"><Item amount="1" reward="1" type="log"/><Item amount="1" reward="2" type="planks"/><Item amount="1" reward="4" type="stick"/><Item amount="1" reward="4" type="crafting_table"/><Item amount="1" reward="8" type="wooden_pickaxe"/><Item amount="1" reward="16" type="cobblestone"/><Item amount="1" reward="32" type="furnace"/><Item amount="1" reward="32" type="stone_pickaxe"/><Item amount="1" reward="64" type="iron_ore"/><Item amount="1" reward="128" type="iron_ingot"/><Item amount="1" reward="256" type="iron_pickaxe"/><Item amount="1" reward="1024" type="diamond"/></RewardForPossessingItem><AgentQuitFromPossessingItem><Item type="diamond" amount="1"/></AgentQuitFromPossessingItem></AgentHandlers></AgentSection></Mission><ExperimentUID>f093d0f9-0407-4f19-a970-0e33b5c27a4e</ExperimentUID><ClientRole>0</ClientRole><ClientAgentConnection><ClientIPAddress>127.0.0.1</ClientIPAddress><ClientMissionControlPort>0</ClientMissionControlPort><ClientCommandsPort>0</ClientCommandsPort><AgentIPAddress>127.0.0.1</AgentIPAddress><AgentMissionControlPort>0</AgentMissionControlPort><AgentVideoPort>0</AgentVideoPort><AgentDepthPort>0</AgentDepthPort><AgentLuminancePort>0</AgentLuminancePort><AgentObservationsPort>0</AgentObservationsPort><AgentRewardsPort>0</AgentRewardsPort><AgentColourMapPort>0</AgentColourMapPort></ClientAgentConnection></MissionInit>
+[17:42:58] [Client thread/INFO]: [STDOUT]: CLIENT request state: WAITING_FOR_SERVER_MISSION_END
+[17:42:58] [Client thread/INFO]: [STDOUT]: CLIENT enter state: WAITING_FOR_SERVER_MISSION_END
+[17:42:58] [Server thread/INFO]: [STDOUT]: SERVER request state: CLEAN_UP
+[17:42:58] [Server thread/INFO]: [STDOUT]: SERVER enter state: CLEAN_UP
+[17:42:58] [Client thread/INFO]: [STDOUT]: CLIENT request state: DORMANT
+[17:42:58] [Server thread/INFO]: [STDOUT]: SERVER request state: DORMANT
+[17:42:58] [EnvServerSocketHandler/INFO]: [STDOUT]: REPLYING WITH: MALMOBUSY
+[17:42:58] [Client thread/INFO]: [STDOUT]: CLIENT enter state: DORMANT
+[17:42:58] [Client thread/INFO]: [STDOUT]: JETTISONING 0 COMMANDS
+[17:42:59] [EnvServerSocketHandler/INFO]: [STDOUT]: Received from localhost:<MissionInit xmlns="http://ProjectMalmo.microsoft.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SchemaVersion="" PlatformVersion="0.37.0"><Mission><About><Summary>MineRLObtainDiamond-v0</Summary></About><ModSettings><MsPerTick>50</MsPerTick></ModSettings><ServerSection><ServerInitialConditions><Time><StartTime>6000</StartTime><AllowPassageOfTime>true</AllowPassageOfTime></Time><AllowSpawning>true</AllowSpawning></ServerInitialConditions><ServerHandlers><DefaultWorldGenerator forceReset="true" generatorOptions="{}"/><ServerQuitFromTimeUp timeLimitMs="900000" description="out_of_time"/><ServerQuitWhenAnyAgentFinishes/></ServerHandlers></ServerSection><AgentSection mode="Survival"><Name>MineRLAgent0</Name><AgentStart/><AgentHandlers><FileBasedPerformanceProducer/><ObservationFromDamage/><PauseCommand/><VideoProducer want_depth="false"><Width>64</Width><Height>64</Height></VideoProducer><ObservationFromFullInventory flat="false"/><ObservationFromEquippedItem/><HumanLevelCommands/><CameraCommands/><PlaceCommands/><EquipCommands/><SimpleCraftCommands/><NearbyCraftCommands/><NearbySmeltCommands/><RewardForPossessingItem sparse="true" excludeLoops="true"><Item amount="1" reward="1" type="log"/><Item amount="1" reward="2" type="planks"/><Item amount="1" reward="4" type="stick"/><Item amount="1" reward="4" type="crafting_table"/><Item amount="1" reward="8" type="wooden_pickaxe"/><Item amount="1" reward="16" type="cobblestone"/><Item amount="1" reward="32" type="furnace"/><Item amount="1" reward="32" type="stone_pickaxe"/><Item amount="1" reward="64" type="iron_ore"/><Item amount="1" reward="128" type="iron_ingot"/><Item amount="1" reward="256" type="iron_pickaxe"/><Item amount="1" reward="1024" type="diamond"/></RewardForPossessingItem><AgentQuitFromPossessingItem><Item type="diamond" amount="1"/></AgentQuitFromPossessingItem></AgentHandlers></AgentSection></Mission><ExperimentUID>f093d0f9-0407-4f19-a970-0e33b5c27a4e</ExperimentUID><ClientRole>0</ClientRole><ClientAgentConnection><ClientIPAddress>127.0.0.1</ClientIPAddress><ClientMissionControlPort>0</ClientMissionControlPort><ClientCommandsPort>0</ClientCommandsPort><AgentIPAddress>127.0.0.1</AgentIPAddress><AgentMissionControlPort>0</AgentMissionControlPort><AgentVideoPort>0</AgentVideoPort><AgentDepthPort>0</AgentDepthPort><AgentLuminancePort>0</AgentLuminancePort><AgentObservationsPort>0</AgentObservationsPort><AgentRewardsPort>0</AgentRewardsPort><AgentColourMapPort>0</AgentColourMapPort></ClientAgentConnection></MissionInit>
+[17:42:59] [EnvServerSocketHandler/INFO]: [STDOUT]: REPLYING WITH: MALMOOK
+[17:42:59] [Client thread/INFO]: [STDOUT]: Mission received: MineRLObtainDiamond-v0
+[17:42:59] [Client thread/INFO]: [STDOUT]: CLIENT request state: CREATING_HANDLERS
+[17:42:59] [Client thread/INFO]: [STDOUT]: CLIENT enter state: CREATING_HANDLERS
+[17:42:59] [Client thread/INFO]: [STDOUT]: CLIENT request state: EVALUATING_WORLD_REQUIREMENTS
+[17:42:59] [Client thread/INFO]: [STDOUT]: CLIENT enter state: EVALUATING_WORLD_REQUIREMENTS
+[17:42:59] [Client thread/INFO]: [STDOUT]: CLIENT request state: PAUSING_OLD_SERVER
+[17:42:59] [Client thread/INFO]: [STDOUT]: CLIENT enter state: PAUSING_OLD_SERVER
+[17:42:59] [Server thread/INFO]: Saving and pausing game...
+[17:42:59] [Server thread/INFO]: Saving chunks for level 'TEMP_0_f5b34301-d768-4417-9802-68c9f16d8b6b'/Overworld
+[17:42:59] [Server thread/INFO]: Saving chunks for level 'TEMP_0_f5b34301-d768-4417-9802-68c9f16d8b6b'/Nether
+[17:42:59] [Server thread/INFO]: Saving chunks for level 'TEMP_0_f5b34301-d768-4417-9802-68c9f16d8b6b'/The End
+[17:42:59] [Client thread/INFO]: [STDOUT]: CLIENT request state: CLOSING_OLD_SERVER
+[17:42:59] [Client thread/INFO]: [STDOUT]: CLIENT enter state: CLOSING_OLD_SERVER
+[17:42:59] [Client thread/INFO]: [STDOUT]: Unpausing
+[17:42:59] [Server thread/INFO]: Stopping server
+[17:42:59] [Server thread/INFO]: Saving players
+[17:42:59] [Server thread/INFO]: MineRLAgent0 lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[17:42:59] [Server thread/INFO]: MineRLAgent0 left the game
+[17:42:59] [Server thread/INFO]: Stopping singleplayer server as player logged out
+[17:42:59] [Server thread/INFO]: Saving worlds
+[17:42:59] [Server thread/INFO]: Saving chunks for level 'TEMP_0_f5b34301-d768-4417-9802-68c9f16d8b6b'/Overworld
+[17:42:59] [Server thread/INFO]: Saving chunks for level 'TEMP_0_f5b34301-d768-4417-9802-68c9f16d8b6b'/Nether
+[17:42:59] [Server thread/INFO]: Saving chunks for level 'TEMP_0_f5b34301-d768-4417-9802-68c9f16d8b6b'/The End
+[17:42:59] [Server thread/INFO]: [STDOUT]: Unpausing
+[17:42:59] [Server thread/INFO]: [STDOUT]: Unpausing
+[17:42:59] [Server thread/INFO]: [STDOUT]: Unpausing
+[17:42:59] [Server thread/INFO]: Unloading dimension 0
+[17:42:59] [Server thread/INFO]: Unloading dimension -1
+[17:42:59] [Server thread/INFO]: Unloading dimension 1
+[17:43:00] [Server thread/INFO]: Applying holder lookups
+[17:43:00] [Server thread/INFO]: Holder lookups applied
+[17:43:10] [Client thread/INFO]: [STDOUT]: CLIENT request state: CREATING_NEW_WORLD
+[17:43:10] [Client thread/INFO]: [STDOUT]: CLIENT enter state: CREATING_NEW_WORLD
+[17:43:10] [Client thread/INFO]: [STDOUT]: [LOGTOPY] GENERATOR OPTIONS = {}
+[17:43:10] [Server thread/INFO]: Starting integrated minecraft server version 1.11.2
+[17:43:10] [Server thread/INFO]: Generating keypair
+[17:43:10] [Server thread/INFO]: Injecting existing block and item data into this server instance
+[17:43:10] [Server thread/INFO]: Applying holder lookups
+[17:43:10] [Server thread/INFO]: Holder lookups applied
+[17:43:10] [Server thread/INFO]: Loading dimension 0 (TEMP_0_0fac265c-2fc8-4243-8908-7cc7ed37a157) (net.minecraft.server.integrated.IntegratedServer@38ae231b)
+[17:43:11] [Server thread/INFO]: Loading dimension 1 (TEMP_0_0fac265c-2fc8-4243-8908-7cc7ed37a157) (net.minecraft.server.integrated.IntegratedServer@38ae231b)
+[17:43:11] [Server thread/INFO]: Loading dimension -1 (TEMP_0_0fac265c-2fc8-4243-8908-7cc7ed37a157) (net.minecraft.server.integrated.IntegratedServer@38ae231b)
+[17:43:11] [Server thread/INFO]: Preparing start region for level 0
+[17:43:12] [Server thread/INFO]: Preparing spawn area: 10%
+[17:43:13] [Server thread/INFO]: Preparing spawn area: 21%
+[17:43:14] [Server thread/INFO]: Preparing spawn area: 31%
+[17:43:15] [Server thread/INFO]: Preparing spawn area: 40%
+[17:43:16] [Server thread/INFO]: Preparing spawn area: 49%
+[17:43:17] [Server thread/INFO]: Preparing spawn area: 61%
+[17:43:18] [Server thread/INFO]: Preparing spawn area: 72%
+[17:43:19] [Server thread/INFO]: Preparing spawn area: 80%
+[17:43:20] [Server thread/INFO]: Preparing spawn area: 89%
+[17:43:21] [Server thread/INFO]: Preparing spawn area: 99%
+[17:43:21] [Server thread/INFO]: Changing view distance to 4, from 10
+[17:43:21] [Client thread/INFO]: Deleting level TEMP_0_f5b34301-d768-4417-9802-68c9f16d8b6b
+[17:43:21] [Client thread/INFO]: Attempt 1...
+[17:43:21] [Netty Local Client IO #1/INFO]: Server protocol version 2
+[17:43:21] [Server thread/INFO]: [STDOUT]: SERVER request state: WAITING_FOR_MOD_READY
+[17:43:21] [Netty Server IO #3/INFO]: Client protocol version 2
+[17:43:21] [Server thread/INFO]: [STDOUT]: CLIENT request state: WAITING_FOR_SERVER_READY
+[17:43:21] [Netty Server IO #3/INFO]: Client attempting to join with 5 mods : minecraft@1.11.2,FML@8.0.99.99,malmomod@0.37.0,forge@13.20.1.2588,mcp@9.19
+[17:43:21] [Netty Local Client IO #1/INFO]: [Netty Local Client IO #1] Client side modded connection established
+[17:43:21] [Client thread/INFO]: [STDOUT]: CLIENT enter state: WAITING_FOR_SERVER_READY
+[17:43:21] [Server thread/INFO]: [STDOUT]: SERVER enter state: WAITING_FOR_MOD_READY
+[17:43:22] [Server thread/INFO]: [Server thread] Server side modded connection established
+[17:43:22] [Server thread/INFO]: MineRLAgent0[local:E:3ad1e2b8] logged in with entity id 12291 at (158.5, 71.0, 247.5)
+[17:43:22] [Server thread/INFO]: MineRLAgent0 joined the game
+[17:43:22] [Server thread/INFO]: [STDOUT]: SERVER request state: DORMANT
+[17:43:22] [Server thread/INFO]: [STDOUT]: SERVER enter state: DORMANT
+[17:43:22] [Server thread/INFO]: [STDOUT]: INCOMING MISSION: Received MissionInit directly through ServerStateMachine constructor.
+[17:43:22] [Server thread/INFO]: [STDOUT]: Mission received: MineRLObtainDiamond-v0
+[17:43:22] [Server thread/INFO]: Received mission: §9MineRLObtainDiamond-v0
+[17:43:22] [Server thread/INFO]: Source: §alocalhost
+[17:43:22] [Server thread/INFO]: [STDOUT]: SERVER request state: BUILDING_WORLD
+[17:43:22] [Server thread/INFO]: [STDOUT]: SERVER enter state: BUILDING_WORLD
+[17:43:22] [Server thread/INFO]: [STDOUT]: SERVER request state: WAITING_FOR_AGENTS_TO_ASSEMBLE
+[17:43:23] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[17:43:23] [Client thread/INFO]: [CHAT] Received mission: §9MineRLObtainDiamond-v0
+[17:43:23] [Client thread/INFO]: [CHAT] Source: §alocalhost
+[17:43:23] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[17:43:23] [Server thread/INFO]: [STDOUT]: SERVER enter state: WAITING_FOR_AGENTS_TO_ASSEMBLE
+[17:43:23] [Server thread/INFO]: [STDOUT]: Experiment requires: 
+[17:43:23] [Server thread/INFO]: [STDOUT]: >>>> MineRLAgent0
+[17:43:23] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[17:43:23] [Server thread/INFO]: [STDOUT]: Initializing player with username MineRLAgent0 and agentname MineRLAgent0
+[17:43:23] [Client thread/INFO]: [STDOUT]: CLIENT request state: RUNNING
+[17:43:23] [Client thread/INFO]: [STDOUT]: CLIENT enter state: RUNNING
+[17:43:23] [Client thread/INFO]: [STDOUT]: Preparing reward com.microsoft.Malmo.MissionHandlers.RewardForPossessingItemImplementation@2f952f1e with agent name MineRLAgent0
+[17:43:23] [Client thread/INFO]: [STDOUT]: Unpausing
+[17:43:23] [Server thread/INFO]: [STDOUT]: SERVER request state: RUNNING
+[17:43:23] [Server thread/INFO]: [STDOUT]: SERVER enter state: RUNNING
+RewardForPossessingItemImplementation - MineRLAgent0: 1
+RewardForPossessingItemImplementation - MineRLAgent0: 1
+RewardForPossessingItemImplementation - MineRLAgent0: 2
+RewardForPossessingItemImplementation - MineRLAgent0: 3
+RewardForPossessingItemImplementation - MineRLAgent0: 1
+RewardForPossessingItemImplementation - MineRLAgent0: 4
+RewardForPossessingItemImplementation - MineRLAgent0: 2
+RewardForPossessingItemImplementation - MineRLAgent0: 5
+RewardForPossessingItemImplementation - MineRLAgent0: 6
+RewardForPossessingItemImplementation - MineRLAgent0: 2
+RewardForPossessingItemImplementation - MineRLAgent0: 7
+RewardForPossessingItemImplementation - MineRLAgent0: 8
+RewardForPossessingItemImplementation - MineRLAgent0: 3
+RewardForPossessingItemImplementation - MineRLAgent0: 9
+RewardForPossessingItemImplementation - MineRLAgent0: 4
+[17:45:34] [Client thread/INFO]: [STDOUT]: 3.0 damage from mob by entity EntityZombie['Zombie'/19058, l='TEMP_0_0fac265c-2fc8-4243-8908-7cc7ed37a157', x=111.67, y=69.00, z=296.30]
+[17:45:35] [Server thread/INFO]: [STDOUT]: Warning skipped damage event - multiple damage events in one tick!
+[17:45:35] [Server thread/INFO]: [STDOUT]: This damage event will be marked as stale=True.
+[17:45:35] [Client thread/INFO]: [STDOUT]: 3.0 damage from arrow by entity EntitySkeleton['Skeleton'/18516, l='TEMP_0_0fac265c-2fc8-4243-8908-7cc7ed37a157', x=111.59, y=67.00, z=306.81]
+[17:45:35] [Server thread/INFO]: [STDOUT]: Warning skipped damage event - multiple damage events in one tick!
+[17:45:35] [Server thread/INFO]: [STDOUT]: This damage event will be marked as stale=True.
+[17:45:35] [Client thread/INFO]: [STDOUT]: 3.0 damage from mob by entity EntityZombie['Zombie'/19058, l='TEMP_0_0fac265c-2fc8-4243-8908-7cc7ed37a157', x=110.96, y=69.00, z=294.66]
+[17:45:35] [Server thread/INFO]: [STDOUT]: Warning skipped damage event - multiple damage events in one tick!
+[17:45:35] [Server thread/INFO]: [STDOUT]: This damage event will be marked as stale=True.
+[17:45:35] [Client thread/INFO]: [STDOUT]: 3.0 damage from mob by entity EntityZombie['Zombie'/19058, l='TEMP_0_0fac265c-2fc8-4243-8908-7cc7ed37a157', x=108.99, y=69.00, z=294.60]
+[17:45:35] [Server thread/INFO]: [STDOUT]: Warning skipped damage event - multiple damage events in one tick!
+[17:45:35] [Server thread/INFO]: [STDOUT]: This damage event will be marked as stale=True.
+[17:45:35] [Client thread/INFO]: [STDOUT]: 4.0 damage from arrow by entity EntitySkeleton['Skeleton'/18516, l='TEMP_0_0fac265c-2fc8-4243-8908-7cc7ed37a157', x=112.50, y=67.00, z=306.02]
+[17:45:36] [Server thread/INFO]: [STDOUT]: Warning skipped damage event - multiple damage events in one tick!
+[17:45:36] [Server thread/INFO]: [STDOUT]: This damage event will be marked as stale=True.
+[17:45:36] [Client thread/INFO]: [STDOUT]: 3.0 damage from mob by entity EntityZombie['Zombie'/19058, l='TEMP_0_0fac265c-2fc8-4243-8908-7cc7ed37a157', x=106.50, y=68.00, z=294.77]
+[17:45:36] [Server thread/INFO]: [STDOUT]: Warning skipped damage event - multiple damage events in one tick!
+[17:45:36] [Server thread/INFO]: [STDOUT]: This damage event will be marked as stale=True.
+[17:45:36] [Client thread/INFO]: [STDOUT]: 3.0 damage from mob by entity EntityZombie['Zombie'/19058, l='TEMP_0_0fac265c-2fc8-4243-8908-7cc7ed37a157', x=103.57, y=67.00, z=293.82]
+[17:45:37] [Server thread/INFO]: [STDOUT]: Warning skipped damage event - multiple damage events in one tick!
+[17:45:37] [Server thread/INFO]: [STDOUT]: This damage event will be marked as stale=True.
+[17:45:37] [Client thread/INFO]: [STDOUT]: 3.0 damage from mob by entity EntityZombie['Zombie'/19058, l='TEMP_0_0fac265c-2fc8-4243-8908-7cc7ed37a157', x=103.41, y=67.00, z=292.94]
+[17:45:37] [Server thread/INFO]: [STDOUT]: Warning skipped damage event - multiple damage events in one tick!
+[17:45:37] [Server thread/INFO]: [STDOUT]: This damage event will be marked as stale=True.
+[17:45:37] [Client thread/INFO]: [STDOUT]: 3.0 damage from mob by entity EntityZombie['Zombie'/19058, l='TEMP_0_0fac265c-2fc8-4243-8908-7cc7ed37a157', x=104.01, y=67.00, z=292.38]
+[17:45:37] [Server thread/INFO]: [STDOUT]: Warning skipped damage event - multiple damage events in one tick!
+[17:45:37] [Server thread/INFO]: [STDOUT]: This damage event will be marked as stale=True.
+[17:45:37] [Client thread/INFO]: [STDOUT]: 4.0 damage from arrow by entity EntitySkeleton['Skeleton'/18516, l='TEMP_0_0fac265c-2fc8-4243-8908-7cc7ed37a157', x=106.39, y=66.00, z=301.48]
+[17:45:38] [Server thread/INFO]: [STDOUT]: Warning skipped damage event - multiple damage events in one tick!
+[17:45:38] [Server thread/INFO]: [STDOUT]: This damage event will be marked as stale=True.
+[17:45:38] [Server thread/INFO]: MineRLAgent0 was slain by Zombie
+[17:45:38] [Client thread/INFO]: [STDOUT]: 3.0 damage from mob by entity EntityZombie['Zombie'/19058, l='TEMP_0_0fac265c-2fc8-4243-8908-7cc7ed37a157', x=104.10, y=67.00, z=293.29]
+[17:45:38] [Client thread/INFO]: [CHAT] MineRLAgent0 was slain by Zombie
+[17:45:38] [Client thread/INFO]: [STDOUT]: SM: [CLIENT_STATE_MACHINE] Mission ended for reason: null world still exists: true
+[17:45:38] [Client thread/INFO]: [STDOUT]: Unpausing
+[17:45:38] [Client thread/INFO]: [STDOUT]: CLIENT request state: IDLING
+[17:45:38] [Client thread/INFO]: [STDOUT]: CLIENT enter state: IDLING
+[17:45:38] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 13ms behind, skipping 0 tick(s)
+[17:45:38] [Server thread/INFO]: [STDOUT]: WHY IS THIS NOT WORKING
+[17:45:38] [Server thread/INFO]: [STDOUT]: SERVER request state: WAITING_FOR_AGENTS_TO_QUIT
+[17:45:38] [Server thread/INFO]: [STDOUT]: SERVER enter state: WAITING_FOR_AGENTS_TO_QUIT
+[17:45:38] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[17:45:38] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[17:45:38] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[17:45:38] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[17:45:38] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[17:45:38] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[17:45:38] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[17:45:38] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[17:45:38] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[17:45:38] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[17:45:38] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[17:45:38] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[17:45:38] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[17:45:38] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[17:45:38] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[17:45:38] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[17:45:38] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[17:45:38] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[17:45:38] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[17:45:38] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[17:45:38] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[17:45:38] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[17:45:38] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[17:45:38] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[17:45:38] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[17:45:38] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[17:45:38] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[17:45:38] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[17:45:38] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[17:45:38] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[17:45:38] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[17:45:38] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[17:45:38] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[17:45:38] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[17:45:38] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[17:45:38] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[17:45:38] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[17:45:38] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[17:45:38] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[17:45:38] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[17:45:38] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[17:45:38] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[17:45:38] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[17:45:38] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[17:45:38] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[17:45:38] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[17:45:38] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[17:45:38] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[17:45:38] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[17:45:38] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[17:45:38] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[17:45:38] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[17:45:38] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[17:45:38] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[17:45:38] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[17:45:38] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[17:45:38] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[17:45:38] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[17:45:38] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[17:45:38] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[17:45:38] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[17:45:38] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[17:45:38] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[17:45:38] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[17:45:38] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[17:45:38] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[17:45:38] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[17:45:38] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[17:45:38] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[17:45:38] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[17:45:38] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[17:45:38] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[17:45:38] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[17:45:38] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[17:45:38] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[17:45:38] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[17:45:38] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[17:45:38] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[17:45:38] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[17:45:38] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[17:45:38] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[17:45:38] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[17:45:38] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[17:45:38] [EnvServerSocketHandler/INFO]: [STDOUT]: Received from localhost:<MissionInit xmlns="http://ProjectMalmo.microsoft.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SchemaVersion="" PlatformVersion="0.37.0"><Mission><About><Summary>MineRLObtainDiamond-v0</Summary></About><ModSettings><MsPerTick>50</MsPerTick></ModSettings><ServerSection><ServerInitialConditions><Time><StartTime>6000</StartTime><AllowPassageOfTime>true</AllowPassageOfTime></Time><AllowSpawning>true</AllowSpawning></ServerInitialConditions><ServerHandlers><DefaultWorldGenerator forceReset="true" generatorOptions="{}"/><ServerQuitFromTimeUp timeLimitMs="900000" description="out_of_time"/><ServerQuitWhenAnyAgentFinishes/></ServerHandlers></ServerSection><AgentSection mode="Survival"><Name>MineRLAgent0</Name><AgentStart/><AgentHandlers><FileBasedPerformanceProducer/><ObservationFromDamage/><PauseCommand/><VideoProducer want_depth="false"><Width>64</Width><Height>64</Height></VideoProducer><ObservationFromFullInventory flat="false"/><ObservationFromEquippedItem/><HumanLevelCommands/><CameraCommands/><PlaceCommands/><EquipCommands/><SimpleCraftCommands/><NearbyCraftCommands/><NearbySmeltCommands/><RewardForPossessingItem sparse="true" excludeLoops="true"><Item amount="1" reward="1" type="log"/><Item amount="1" reward="2" type="planks"/><Item amount="1" reward="4" type="stick"/><Item amount="1" reward="4" type="crafting_table"/><Item amount="1" reward="8" type="wooden_pickaxe"/><Item amount="1" reward="16" type="cobblestone"/><Item amount="1" reward="32" type="furnace"/><Item amount="1" reward="32" type="stone_pickaxe"/><Item amount="1" reward="64" type="iron_ore"/><Item amount="1" reward="128" type="iron_ingot"/><Item amount="1" reward="256" type="iron_pickaxe"/><Item amount="1" reward="1024" type="diamond"/></RewardForPossessingItem><AgentQuitFromPossessingItem><Item type="diamond" amount="1"/></AgentQuitFromPossessingItem></AgentHandlers></AgentSection></Mission><ExperimentUID>b30a7ff3-8656-486a-9439-2d7a9cbb6708</ExperimentUID><ClientRole>0</ClientRole><ClientAgentConnection><ClientIPAddress>127.0.0.1</ClientIPAddress><ClientMissionControlPort>0</ClientMissionControlPort><ClientCommandsPort>0</ClientCommandsPort><AgentIPAddress>127.0.0.1</AgentIPAddress><AgentMissionControlPort>0</AgentMissionControlPort><AgentVideoPort>0</AgentVideoPort><AgentDepthPort>0</AgentDepthPort><AgentLuminancePort>0</AgentLuminancePort><AgentObservationsPort>0</AgentObservationsPort><AgentRewardsPort>0</AgentRewardsPort><AgentColourMapPort>0</AgentColourMapPort></ClientAgentConnection></MissionInit>
+[17:45:38] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[17:45:38] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[17:45:38] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[17:45:38] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[17:45:38] [Client thread/INFO]: [STDOUT]: CLIENT enter state: MISSION_ENDED
+[17:45:38] [Client thread/INFO]: [STDOUT]: inform the agent
+[17:45:38] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[17:45:38] [Client thread/INFO]: [STDOUT]: CLIENT request state: WAITING_FOR_SERVER_MISSION_END
+[17:45:38] [EnvServerSocketHandler/INFO]: [STDOUT]: REPLYING WITH: MALMOBUSY
+[17:45:39] [EnvServerSocketHandler/INFO]: [STDOUT]: Received from localhost:<MissionInit xmlns="http://ProjectMalmo.microsoft.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SchemaVersion="" PlatformVersion="0.37.0"><Mission><About><Summary>MineRLObtainDiamond-v0</Summary></About><ModSettings><MsPerTick>50</MsPerTick></ModSettings><ServerSection><ServerInitialConditions><Time><StartTime>6000</StartTime><AllowPassageOfTime>true</AllowPassageOfTime></Time><AllowSpawning>true</AllowSpawning></ServerInitialConditions><ServerHandlers><DefaultWorldGenerator forceReset="true" generatorOptions="{}"/><ServerQuitFromTimeUp timeLimitMs="900000" description="out_of_time"/><ServerQuitWhenAnyAgentFinishes/></ServerHandlers></ServerSection><AgentSection mode="Survival"><Name>MineRLAgent0</Name><AgentStart/><AgentHandlers><FileBasedPerformanceProducer/><ObservationFromDamage/><PauseCommand/><VideoProducer want_depth="false"><Width>64</Width><Height>64</Height></VideoProducer><ObservationFromFullInventory flat="false"/><ObservationFromEquippedItem/><HumanLevelCommands/><CameraCommands/><PlaceCommands/><EquipCommands/><SimpleCraftCommands/><NearbyCraftCommands/><NearbySmeltCommands/><RewardForPossessingItem sparse="true" excludeLoops="true"><Item amount="1" reward="1" type="log"/><Item amount="1" reward="2" type="planks"/><Item amount="1" reward="4" type="stick"/><Item amount="1" reward="4" type="crafting_table"/><Item amount="1" reward="8" type="wooden_pickaxe"/><Item amount="1" reward="16" type="cobblestone"/><Item amount="1" reward="32" type="furnace"/><Item amount="1" reward="32" type="stone_pickaxe"/><Item amount="1" reward="64" type="iron_ore"/><Item amount="1" reward="128" type="iron_ingot"/><Item amount="1" reward="256" type="iron_pickaxe"/><Item amount="1" reward="1024" type="diamond"/></RewardForPossessingItem><AgentQuitFromPossessingItem><Item type="diamond" amount="1"/></AgentQuitFromPossessingItem></AgentHandlers></AgentSection></Mission><ExperimentUID>b30a7ff3-8656-486a-9439-2d7a9cbb6708</ExperimentUID><ClientRole>0</ClientRole><ClientAgentConnection><ClientIPAddress>127.0.0.1</ClientIPAddress><ClientMissionControlPort>0</ClientMissionControlPort><ClientCommandsPort>0</ClientCommandsPort><AgentIPAddress>127.0.0.1</AgentIPAddress><AgentMissionControlPort>0</AgentMissionControlPort><AgentVideoPort>0</AgentVideoPort><AgentDepthPort>0</AgentDepthPort><AgentLuminancePort>0</AgentLuminancePort><AgentObservationsPort>0</AgentObservationsPort><AgentRewardsPort>0</AgentRewardsPort><AgentColourMapPort>0</AgentColourMapPort></ClientAgentConnection></MissionInit>
+[17:45:39] [EnvServerSocketHandler/INFO]: [STDOUT]: REPLYING WITH: MALMOBUSY
+[17:45:39] [Client thread/INFO]: [STDOUT]: CLIENT enter state: WAITING_FOR_SERVER_MISSION_END
+[17:45:39] [Server thread/INFO]: [STDOUT]: SERVER request state: CLEAN_UP
+[17:45:39] [Client thread/INFO]: [STDOUT]: CLIENT request state: DORMANT
+[17:45:39] [Server thread/INFO]: [STDOUT]: SERVER enter state: CLEAN_UP
+[17:45:39] [Server thread/INFO]: [STDOUT]: SERVER request state: DORMANT
+[17:45:39] [Client thread/INFO]: [STDOUT]: CLIENT enter state: DORMANT
+[17:45:39] [Client thread/INFO]: [STDOUT]: JETTISONING 0 COMMANDS
+[17:45:40] [EnvServerSocketHandler/INFO]: [STDOUT]: Received from localhost:<MissionInit xmlns="http://ProjectMalmo.microsoft.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SchemaVersion="" PlatformVersion="0.37.0"><Mission><About><Summary>MineRLObtainDiamond-v0</Summary></About><ModSettings><MsPerTick>50</MsPerTick></ModSettings><ServerSection><ServerInitialConditions><Time><StartTime>6000</StartTime><AllowPassageOfTime>true</AllowPassageOfTime></Time><AllowSpawning>true</AllowSpawning></ServerInitialConditions><ServerHandlers><DefaultWorldGenerator forceReset="true" generatorOptions="{}"/><ServerQuitFromTimeUp timeLimitMs="900000" description="out_of_time"/><ServerQuitWhenAnyAgentFinishes/></ServerHandlers></ServerSection><AgentSection mode="Survival"><Name>MineRLAgent0</Name><AgentStart/><AgentHandlers><FileBasedPerformanceProducer/><ObservationFromDamage/><PauseCommand/><VideoProducer want_depth="false"><Width>64</Width><Height>64</Height></VideoProducer><ObservationFromFullInventory flat="false"/><ObservationFromEquippedItem/><HumanLevelCommands/><CameraCommands/><PlaceCommands/><EquipCommands/><SimpleCraftCommands/><NearbyCraftCommands/><NearbySmeltCommands/><RewardForPossessingItem sparse="true" excludeLoops="true"><Item amount="1" reward="1" type="log"/><Item amount="1" reward="2" type="planks"/><Item amount="1" reward="4" type="stick"/><Item amount="1" reward="4" type="crafting_table"/><Item amount="1" reward="8" type="wooden_pickaxe"/><Item amount="1" reward="16" type="cobblestone"/><Item amount="1" reward="32" type="furnace"/><Item amount="1" reward="32" type="stone_pickaxe"/><Item amount="1" reward="64" type="iron_ore"/><Item amount="1" reward="128" type="iron_ingot"/><Item amount="1" reward="256" type="iron_pickaxe"/><Item amount="1" reward="1024" type="diamond"/></RewardForPossessingItem><AgentQuitFromPossessingItem><Item type="diamond" amount="1"/></AgentQuitFromPossessingItem></AgentHandlers></AgentSection></Mission><ExperimentUID>b30a7ff3-8656-486a-9439-2d7a9cbb6708</ExperimentUID><ClientRole>0</ClientRole><ClientAgentConnection><ClientIPAddress>127.0.0.1</ClientIPAddress><ClientMissionControlPort>0</ClientMissionControlPort><ClientCommandsPort>0</ClientCommandsPort><AgentIPAddress>127.0.0.1</AgentIPAddress><AgentMissionControlPort>0</AgentMissionControlPort><AgentVideoPort>0</AgentVideoPort><AgentDepthPort>0</AgentDepthPort><AgentLuminancePort>0</AgentLuminancePort><AgentObservationsPort>0</AgentObservationsPort><AgentRewardsPort>0</AgentRewardsPort><AgentColourMapPort>0</AgentColourMapPort></ClientAgentConnection></MissionInit>
+[17:45:40] [EnvServerSocketHandler/INFO]: [STDOUT]: REPLYING WITH: MALMOOK
+[17:45:40] [Client thread/INFO]: [STDOUT]: Mission received: MineRLObtainDiamond-v0
+[17:45:40] [Client thread/INFO]: [STDOUT]: CLIENT request state: CREATING_HANDLERS
+[17:45:40] [Client thread/INFO]: [STDOUT]: CLIENT enter state: CREATING_HANDLERS
+[17:45:40] [Client thread/INFO]: [STDOUT]: CLIENT request state: EVALUATING_WORLD_REQUIREMENTS
+[17:45:40] [Client thread/INFO]: [STDOUT]: CLIENT enter state: EVALUATING_WORLD_REQUIREMENTS
+[17:45:40] [Client thread/INFO]: [STDOUT]: CLIENT request state: PAUSING_OLD_SERVER
+[17:45:40] [Client thread/INFO]: [STDOUT]: CLIENT enter state: PAUSING_OLD_SERVER
+[17:45:40] [Server thread/INFO]: Saving and pausing game...
+[17:45:40] [Server thread/INFO]: Saving chunks for level 'TEMP_0_0fac265c-2fc8-4243-8908-7cc7ed37a157'/Overworld
+[17:45:40] [Server thread/INFO]: Saving chunks for level 'TEMP_0_0fac265c-2fc8-4243-8908-7cc7ed37a157'/Nether
+[17:45:40] [Server thread/INFO]: Saving chunks for level 'TEMP_0_0fac265c-2fc8-4243-8908-7cc7ed37a157'/The End
+[17:45:40] [Client thread/INFO]: [STDOUT]: CLIENT request state: CLOSING_OLD_SERVER
+[17:45:40] [Client thread/INFO]: [STDOUT]: CLIENT enter state: CLOSING_OLD_SERVER
+[17:45:40] [Client thread/INFO]: [STDOUT]: Unpausing
+[17:45:40] [Server thread/INFO]: Stopping server
+[17:45:40] [Server thread/INFO]: Saving players
+[17:45:40] [Server thread/INFO]: MineRLAgent0 lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[17:45:40] [Server thread/INFO]: MineRLAgent0 left the game
+[17:45:40] [Server thread/INFO]: Stopping singleplayer server as player logged out
+[17:45:40] [Server thread/INFO]: Saving worlds
+[17:45:40] [Server thread/INFO]: Saving chunks for level 'TEMP_0_0fac265c-2fc8-4243-8908-7cc7ed37a157'/Overworld
+[17:45:40] [Server thread/INFO]: Saving chunks for level 'TEMP_0_0fac265c-2fc8-4243-8908-7cc7ed37a157'/Nether
+[17:45:40] [Server thread/INFO]: Saving chunks for level 'TEMP_0_0fac265c-2fc8-4243-8908-7cc7ed37a157'/The End
+[17:45:40] [Server thread/INFO]: [STDOUT]: Unpausing
+[17:45:40] [Server thread/INFO]: [STDOUT]: Unpausing
+[17:45:40] [Server thread/INFO]: [STDOUT]: Unpausing
+[17:45:40] [Server thread/INFO]: Unloading dimension 0
+[17:45:40] [Server thread/INFO]: Unloading dimension -1
+[17:45:40] [Server thread/INFO]: Unloading dimension 1
+[17:45:41] [Server thread/INFO]: Applying holder lookups
+[17:45:41] [Server thread/INFO]: Holder lookups applied
+[17:45:51] [Client thread/INFO]: [STDOUT]: CLIENT request state: CREATING_NEW_WORLD
+[17:45:51] [Client thread/INFO]: [STDOUT]: CLIENT enter state: CREATING_NEW_WORLD
+[17:45:51] [Client thread/INFO]: [STDOUT]: [LOGTOPY] GENERATOR OPTIONS = {}
+[17:45:51] [Server thread/INFO]: Starting integrated minecraft server version 1.11.2
+[17:45:51] [Server thread/INFO]: Generating keypair
+[17:45:51] [Server thread/INFO]: Injecting existing block and item data into this server instance
+[17:45:51] [Server thread/INFO]: Applying holder lookups
+[17:45:51] [Server thread/INFO]: Holder lookups applied
+[17:45:51] [Server thread/INFO]: Loading dimension 0 (TEMP_0_0475a811-4e78-4ab6-83f5-a65c51882b9e) (net.minecraft.server.integrated.IntegratedServer@32736953)
+[17:45:52] [Server thread/INFO]: Loading dimension 1 (TEMP_0_0475a811-4e78-4ab6-83f5-a65c51882b9e) (net.minecraft.server.integrated.IntegratedServer@32736953)
+[17:45:52] [Server thread/INFO]: Loading dimension -1 (TEMP_0_0475a811-4e78-4ab6-83f5-a65c51882b9e) (net.minecraft.server.integrated.IntegratedServer@32736953)
+[17:45:52] [Server thread/INFO]: Preparing start region for level 0
+[17:45:53] [Server thread/INFO]: Preparing spawn area: 17%
+[17:45:54] [Server thread/INFO]: Preparing spawn area: 33%
+[17:45:55] [Server thread/INFO]: Preparing spawn area: 49%
+[17:45:56] [Server thread/INFO]: Preparing spawn area: 64%
+[17:45:57] [Server thread/INFO]: Preparing spawn area: 76%
+[17:45:58] [Server thread/INFO]: Preparing spawn area: 90%
+[17:45:59] [Server thread/INFO]: Changing view distance to 4, from 10
+[17:45:59] [Client thread/INFO]: Deleting level TEMP_0_0fac265c-2fc8-4243-8908-7cc7ed37a157
+[17:45:59] [Client thread/INFO]: Attempt 1...
+[17:45:59] [Server thread/INFO]: [STDOUT]: SERVER request state: WAITING_FOR_MOD_READY
+[17:45:59] [Netty Local Client IO #2/INFO]: Server protocol version 2
+[17:45:59] [Netty Server IO #5/INFO]: Client protocol version 2
+[17:45:59] [Netty Server IO #5/INFO]: Client attempting to join with 5 mods : minecraft@1.11.2,FML@8.0.99.99,malmomod@0.37.0,forge@13.20.1.2588,mcp@9.19
+[17:45:59] [Server thread/INFO]: [STDOUT]: CLIENT request state: WAITING_FOR_SERVER_READY
+[17:45:59] [Netty Local Client IO #2/INFO]: [Netty Local Client IO #2] Client side modded connection established
+[17:45:59] [Client thread/INFO]: [STDOUT]: CLIENT enter state: WAITING_FOR_SERVER_READY
+[17:45:59] [Server thread/INFO]: [STDOUT]: SERVER enter state: WAITING_FOR_MOD_READY
+[17:45:59] [Server thread/INFO]: [Server thread] Server side modded connection established
+[17:45:59] [Server thread/INFO]: MineRLAgent0[local:E:bd17004f] logged in with entity id 20344 at (192.5, 67.0, -31.5)
+[17:45:59] [Server thread/INFO]: MineRLAgent0 joined the game
+[17:45:59] [Server thread/INFO]: [STDOUT]: SERVER request state: DORMANT
+[17:45:59] [Server thread/INFO]: [STDOUT]: SERVER enter state: DORMANT
+[17:45:59] [Server thread/INFO]: [STDOUT]: INCOMING MISSION: Received MissionInit directly through ServerStateMachine constructor.
+[17:45:59] [Server thread/INFO]: [STDOUT]: Mission received: MineRLObtainDiamond-v0
+[17:45:59] [Server thread/INFO]: Received mission: §9MineRLObtainDiamond-v0
+[17:45:59] [Server thread/INFO]: Source: §alocalhost
+[17:45:59] [Server thread/INFO]: [STDOUT]: SERVER request state: BUILDING_WORLD
+[17:45:59] [Server thread/INFO]: [STDOUT]: SERVER enter state: BUILDING_WORLD
+[17:45:59] [Server thread/INFO]: [STDOUT]: SERVER request state: WAITING_FOR_AGENTS_TO_ASSEMBLE
+[17:45:59] [Server thread/INFO]: [STDOUT]: SERVER enter state: WAITING_FOR_AGENTS_TO_ASSEMBLE
+[17:45:59] [Server thread/INFO]: [STDOUT]: Experiment requires: 
+[17:45:59] [Server thread/INFO]: [STDOUT]: >>>> MineRLAgent0
+[17:46:00] [Client thread/INFO]: [CHAT] Received mission: §9MineRLObtainDiamond-v0
+[17:46:00] [Client thread/INFO]: [CHAT] Source: §alocalhost
+[17:46:00] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[17:46:00] [Server thread/INFO]: [STDOUT]: Initializing player with username MineRLAgent0 and agentname MineRLAgent0
+[17:46:00] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[17:46:00] [Client thread/INFO]: [STDOUT]: CLIENT request state: RUNNING
+[17:46:00] [Client thread/INFO]: [STDOUT]: CLIENT enter state: RUNNING
+[17:46:00] [Client thread/INFO]: [STDOUT]: Preparing reward com.microsoft.Malmo.MissionHandlers.RewardForPossessingItemImplementation@754e1e1e with agent name MineRLAgent0
+[17:46:00] [Server thread/INFO]: [STDOUT]: SERVER request state: RUNNING
+[17:46:00] [Client thread/INFO]: [STDOUT]: Unpausing
+[17:46:00] [Server thread/INFO]: [STDOUT]: SERVER enter state: RUNNING
+RewardForPossessingItemImplementation - MineRLAgent0: 1
+RewardForPossessingItemImplementation - MineRLAgent0: 2
+RewardForPossessingItemImplementation - MineRLAgent0: 3
+RewardForPossessingItemImplementation - MineRLAgent0: 4
+RewardForPossessingItemImplementation - MineRLAgent0: 5
+RewardForPossessingItemImplementation - MineRLAgent0: 6
+RewardForPossessingItemImplementation - MineRLAgent0: 7
+RewardForPossessingItemImplementation - MineRLAgent0: 8
+RewardForPossessingItemImplementation - MineRLAgent0: 9
+RewardForPossessingItemImplementation - MineRLAgent0: 10
+RewardForPossessingItemImplementation - MineRLAgent0: 11
+RewardForPossessingItemImplementation - MineRLAgent0: 12
+[17:49:33] [Client thread/INFO]: [CHAT] §l29...
+[17:49:33] [Client thread/INFO]: [CHAT] §l28...
+[17:49:34] [Client thread/INFO]: [CHAT] §l27...
+[17:49:34] [Client thread/INFO]: [CHAT] §l26...
+[17:49:34] [Client thread/INFO]: [CHAT] §l25...
+[17:49:35] [Client thread/INFO]: [CHAT] §l24...
+[17:49:35] [Client thread/INFO]: [CHAT] §l23...
+[17:49:35] [Client thread/INFO]: [CHAT] §l22...
+[17:49:35] [Client thread/INFO]: [CHAT] §l21...
+[17:49:36] [Client thread/INFO]: [CHAT] §l20...
+[17:49:36] [Client thread/INFO]: [CHAT] §l19...
+[17:49:36] [Client thread/INFO]: [CHAT] §l18...
+[17:49:36] [Client thread/INFO]: [CHAT] §l17...
+[17:49:37] [Client thread/INFO]: [CHAT] §l16...
+[17:49:37] [Client thread/INFO]: [CHAT] §l15...
+[17:49:37] [Client thread/INFO]: [CHAT] §l14...
+[17:49:37] [Client thread/INFO]: [CHAT] §l13...
+[17:49:38] [Client thread/INFO]: [CHAT] §l12...
+[17:49:38] [Client thread/INFO]: [CHAT] §l11...
+[17:49:38] [Client thread/INFO]: [CHAT] §l10...
+[17:49:38] [Client thread/INFO]: [CHAT] §l9...
+[17:49:39] [Client thread/INFO]: [CHAT] §l8...
+[17:49:39] [Client thread/INFO]: [CHAT] §l7...
+[17:49:39] [Client thread/INFO]: [CHAT] §l6...
+[17:49:40] [Client thread/INFO]: [CHAT] §c§l5...
+[17:49:40] [Client thread/INFO]: [CHAT] §c§l4...
+[17:49:40] [Client thread/INFO]: [CHAT] §c§l3...
+[17:49:40] [Client thread/INFO]: [CHAT] §c§l2...
+[17:49:40] [Client thread/INFO]: [CHAT] §c§l1...
+[17:49:41] [Server thread/INFO]: [STDOUT]: SERVER request state: WAITING_FOR_AGENTS_TO_QUIT
+[17:49:41] [Server thread/INFO]: [STDOUT]: SERVER enter state: WAITING_FOR_AGENTS_TO_QUIT
+[17:49:41] [Client thread/INFO]: [CHAT] §c§l0...
+[17:49:41] [Client thread/INFO]: [STDOUT]: SM: [CLIENT_STATE_MACHINE] Mission ended for reason: null world still exists: true
+[17:49:41] [Client thread/INFO]: [STDOUT]: Unpausing
+[17:49:41] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[17:49:41] [Client thread/INFO]: [STDOUT]: CLIENT enter state: MISSION_ENDED
+[17:49:41] [Client thread/INFO]: [STDOUT]: inform the agent
+[17:49:41] [Client thread/INFO]: [STDOUT]: CLIENT request state: WAITING_FOR_SERVER_MISSION_END
+[17:49:41] [Client thread/INFO]: [STDOUT]: CLIENT enter state: WAITING_FOR_SERVER_MISSION_END
+[17:49:41] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 12ms behind, skipping 0 tick(s)
+[17:49:41] [Server thread/INFO]: [STDOUT]: SERVER request state: CLEAN_UP
+[17:49:41] [Server thread/INFO]: [STDOUT]: SERVER enter state: CLEAN_UP
+[17:49:41] [Server thread/INFO]: [STDOUT]: SERVER request state: DORMANT
+[17:49:41] [Client thread/INFO]: [STDOUT]: CLIENT request state: DORMANT
+[17:49:41] [EnvServerSocketHandler/INFO]: [STDOUT]: Received from localhost:<MissionInit xmlns="http://ProjectMalmo.microsoft.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SchemaVersion="" PlatformVersion="0.37.0"><Mission><About><Summary>MineRLObtainDiamond-v0</Summary></About><ModSettings><MsPerTick>50</MsPerTick></ModSettings><ServerSection><ServerInitialConditions><Time><StartTime>6000</StartTime><AllowPassageOfTime>true</AllowPassageOfTime></Time><AllowSpawning>true</AllowSpawning></ServerInitialConditions><ServerHandlers><DefaultWorldGenerator forceReset="true" generatorOptions="{}"/><ServerQuitFromTimeUp timeLimitMs="900000" description="out_of_time"/><ServerQuitWhenAnyAgentFinishes/></ServerHandlers></ServerSection><AgentSection mode="Survival"><Name>MineRLAgent0</Name><AgentStart/><AgentHandlers><FileBasedPerformanceProducer/><ObservationFromDamage/><PauseCommand/><VideoProducer want_depth="false"><Width>64</Width><Height>64</Height></VideoProducer><ObservationFromFullInventory flat="false"/><ObservationFromEquippedItem/><HumanLevelCommands/><CameraCommands/><PlaceCommands/><EquipCommands/><SimpleCraftCommands/><NearbyCraftCommands/><NearbySmeltCommands/><RewardForPossessingItem sparse="true" excludeLoops="true"><Item amount="1" reward="1" type="log"/><Item amount="1" reward="2" type="planks"/><Item amount="1" reward="4" type="stick"/><Item amount="1" reward="4" type="crafting_table"/><Item amount="1" reward="8" type="wooden_pickaxe"/><Item amount="1" reward="16" type="cobblestone"/><Item amount="1" reward="32" type="furnace"/><Item amount="1" reward="32" type="stone_pickaxe"/><Item amount="1" reward="64" type="iron_ore"/><Item amount="1" reward="128" type="iron_ingot"/><Item amount="1" reward="256" type="iron_pickaxe"/><Item amount="1" reward="1024" type="diamond"/></RewardForPossessingItem><AgentQuitFromPossessingItem><Item type="diamond" amount="1"/></AgentQuitFromPossessingItem></AgentHandlers></AgentSection></Mission><ExperimentUID>b35f7c05-9022-47a3-84c7-9943a0378df7</ExperimentUID><ClientRole>0</ClientRole><ClientAgentConnection><ClientIPAddress>127.0.0.1</ClientIPAddress><ClientMissionControlPort>0</ClientMissionControlPort><ClientCommandsPort>0</ClientCommandsPort><AgentIPAddress>127.0.0.1</AgentIPAddress><AgentMissionControlPort>0</AgentMissionControlPort><AgentVideoPort>0</AgentVideoPort><AgentDepthPort>0</AgentDepthPort><AgentLuminancePort>0</AgentLuminancePort><AgentObservationsPort>0</AgentObservationsPort><AgentRewardsPort>0</AgentRewardsPort><AgentColourMapPort>0</AgentColourMapPort></ClientAgentConnection></MissionInit>
+[17:49:41] [Client thread/INFO]: [STDOUT]: CLIENT enter state: DORMANT
+[17:49:41] [Client thread/INFO]: [STDOUT]: JETTISONING 0 COMMANDS
+[17:49:41] [EnvServerSocketHandler/INFO]: [STDOUT]: REPLYING WITH: MALMOOK
+[17:49:41] [Client thread/INFO]: [STDOUT]: Mission received: MineRLObtainDiamond-v0
+[17:49:41] [Client thread/INFO]: [STDOUT]: CLIENT request state: CREATING_HANDLERS
+[17:49:41] [Client thread/INFO]: [STDOUT]: CLIENT enter state: CREATING_HANDLERS
+[17:49:41] [Client thread/INFO]: [STDOUT]: CLIENT request state: EVALUATING_WORLD_REQUIREMENTS
+[17:49:41] [Client thread/INFO]: [STDOUT]: CLIENT enter state: EVALUATING_WORLD_REQUIREMENTS
+[17:49:41] [Client thread/INFO]: [STDOUT]: CLIENT request state: PAUSING_OLD_SERVER
+[17:49:41] [Client thread/INFO]: [STDOUT]: CLIENT enter state: PAUSING_OLD_SERVER
+[17:49:41] [Server thread/INFO]: Saving and pausing game...
+[17:49:41] [Server thread/INFO]: Saving chunks for level 'TEMP_0_0475a811-4e78-4ab6-83f5-a65c51882b9e'/Overworld
+[17:49:41] [Server thread/INFO]: Saving chunks for level 'TEMP_0_0475a811-4e78-4ab6-83f5-a65c51882b9e'/Nether
+[17:49:41] [Server thread/INFO]: Saving chunks for level 'TEMP_0_0475a811-4e78-4ab6-83f5-a65c51882b9e'/The End
+[17:49:41] [Client thread/INFO]: [STDOUT]: CLIENT request state: CLOSING_OLD_SERVER
+[17:49:41] [Client thread/INFO]: [STDOUT]: CLIENT enter state: CLOSING_OLD_SERVER
+[17:49:41] [Client thread/INFO]: [STDOUT]: Unpausing
+[17:49:41] [Server thread/INFO]: Stopping server
+[17:49:41] [Server thread/INFO]: Saving players
+[17:49:41] [Server thread/INFO]: MineRLAgent0 lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[17:49:41] [Server thread/INFO]: MineRLAgent0 left the game
+[17:49:41] [Server thread/INFO]: Stopping singleplayer server as player logged out
+[17:49:41] [Server thread/INFO]: Saving worlds
+[17:49:41] [Server thread/INFO]: Saving chunks for level 'TEMP_0_0475a811-4e78-4ab6-83f5-a65c51882b9e'/Overworld
+[17:49:41] [Server thread/INFO]: Saving chunks for level 'TEMP_0_0475a811-4e78-4ab6-83f5-a65c51882b9e'/Nether
+[17:49:41] [Server thread/INFO]: Saving chunks for level 'TEMP_0_0475a811-4e78-4ab6-83f5-a65c51882b9e'/The End
+[17:49:41] [Server thread/INFO]: [STDOUT]: Unpausing
+[17:49:41] [Server thread/INFO]: [STDOUT]: Unpausing
+[17:49:41] [Server thread/INFO]: [STDOUT]: Unpausing
+[17:49:41] [Server thread/INFO]: Unloading dimension 0
+[17:49:41] [Server thread/INFO]: Unloading dimension -1
+[17:49:41] [Server thread/INFO]: Unloading dimension 1
+[17:49:42] [Server thread/INFO]: Applying holder lookups
+[17:49:42] [Server thread/INFO]: Holder lookups applied
+[17:49:52] [Client thread/INFO]: [STDOUT]: CLIENT request state: CREATING_NEW_WORLD
+[17:49:52] [Client thread/INFO]: [STDOUT]: CLIENT enter state: CREATING_NEW_WORLD
+[17:49:52] [Client thread/INFO]: [STDOUT]: [LOGTOPY] GENERATOR OPTIONS = {}
+[17:49:52] [Server thread/INFO]: Starting integrated minecraft server version 1.11.2
+[17:49:52] [Server thread/INFO]: Generating keypair
+[17:49:52] [Server thread/INFO]: Injecting existing block and item data into this server instance
+[17:49:52] [Server thread/INFO]: Applying holder lookups
+[17:49:52] [Server thread/INFO]: Holder lookups applied
+[17:49:52] [Server thread/INFO]: Loading dimension 0 (TEMP_0_9a3a9927-53c5-4e62-b399-7f3b05e94639) (net.minecraft.server.integrated.IntegratedServer@1b7e9e35)
+[17:49:52] [Server thread/INFO]: Loading dimension 1 (TEMP_0_9a3a9927-53c5-4e62-b399-7f3b05e94639) (net.minecraft.server.integrated.IntegratedServer@1b7e9e35)
+[17:49:52] [Server thread/INFO]: Loading dimension -1 (TEMP_0_9a3a9927-53c5-4e62-b399-7f3b05e94639) (net.minecraft.server.integrated.IntegratedServer@1b7e9e35)
+[17:49:52] [Server thread/INFO]: Preparing start region for level 0
+[17:49:53] [Server thread/INFO]: Preparing spawn area: 14%
+[17:49:54] [Server thread/INFO]: Preparing spawn area: 26%
+[17:49:55] [Server thread/INFO]: Preparing spawn area: 40%
+[17:49:56] [Server thread/INFO]: Preparing spawn area: 50%
+[17:49:57] [Server thread/INFO]: Preparing spawn area: 62%
+[17:49:58] [Server thread/INFO]: Preparing spawn area: 73%
+[17:49:59] [Server thread/INFO]: Preparing spawn area: 84%
+[17:50:00] [Server thread/INFO]: Preparing spawn area: 96%
+[17:50:01] [Server thread/INFO]: Changing view distance to 4, from 10
+[17:50:01] [Client thread/INFO]: Deleting level TEMP_0_0475a811-4e78-4ab6-83f5-a65c51882b9e
+[17:50:01] [Client thread/INFO]: Attempt 1...
+[17:50:01] [Server thread/INFO]: [STDOUT]: SERVER request state: WAITING_FOR_MOD_READY
+[17:50:01] [Netty Local Client IO #3/INFO]: Server protocol version 2
+[17:50:01] [Netty Server IO #7/INFO]: Client protocol version 2
+[17:50:01] [Netty Server IO #7/INFO]: Client attempting to join with 5 mods : minecraft@1.11.2,FML@8.0.99.99,malmomod@0.37.0,forge@13.20.1.2588,mcp@9.19
+[17:50:01] [Server thread/INFO]: [STDOUT]: CLIENT request state: WAITING_FOR_SERVER_READY
+[17:50:01] [Netty Local Client IO #3/INFO]: [Netty Local Client IO #3] Client side modded connection established
+[17:50:01] [Server thread/INFO]: [STDOUT]: SERVER enter state: WAITING_FOR_MOD_READY
+[17:50:01] [Client thread/INFO]: [STDOUT]: CLIENT enter state: WAITING_FOR_SERVER_READY
+[17:50:02] [Server thread/INFO]: [Server thread] Server side modded connection established
+[17:50:02] [Server thread/INFO]: MineRLAgent0[local:E:f5288db9] logged in with entity id 27715 at (-4.5, 66.0, 238.5)
+[17:50:02] [Server thread/INFO]: MineRLAgent0 joined the game
+[17:50:02] [Server thread/INFO]: [STDOUT]: SERVER request state: DORMANT
+[17:50:02] [Server thread/INFO]: [STDOUT]: SERVER enter state: DORMANT
+[17:50:02] [Server thread/INFO]: [STDOUT]: INCOMING MISSION: Received MissionInit directly through ServerStateMachine constructor.
+[17:50:02] [Server thread/INFO]: [STDOUT]: Mission received: MineRLObtainDiamond-v0
+[17:50:02] [Server thread/INFO]: Received mission: §9MineRLObtainDiamond-v0
+[17:50:02] [Server thread/INFO]: Source: §alocalhost
+[17:50:02] [Server thread/INFO]: [STDOUT]: SERVER request state: BUILDING_WORLD
+[17:50:02] [Server thread/INFO]: [STDOUT]: SERVER enter state: BUILDING_WORLD
+[17:50:02] [Server thread/INFO]: [STDOUT]: SERVER request state: WAITING_FOR_AGENTS_TO_ASSEMBLE
+[17:50:02] [Client thread/INFO]: [CHAT] Received mission: §9MineRLObtainDiamond-v0
+[17:50:02] [Client thread/INFO]: [CHAT] Source: §alocalhost
+[17:50:02] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[17:50:02] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[17:50:03] [Server thread/INFO]: [STDOUT]: SERVER enter state: WAITING_FOR_AGENTS_TO_ASSEMBLE
+[17:50:03] [Server thread/INFO]: [STDOUT]: Experiment requires: 
+[17:50:03] [Server thread/INFO]: [STDOUT]: >>>> MineRLAgent0
+[17:50:03] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[17:50:03] [Server thread/INFO]: [STDOUT]: Initializing player with username MineRLAgent0 and agentname MineRLAgent0
+[17:50:03] [Client thread/INFO]: [STDOUT]: CLIENT request state: RUNNING
+[17:50:03] [Client thread/INFO]: [STDOUT]: CLIENT enter state: RUNNING
+[17:50:03] [Server thread/INFO]: [STDOUT]: SERVER request state: RUNNING
+[17:50:03] [Client thread/INFO]: [STDOUT]: Preparing reward com.microsoft.Malmo.MissionHandlers.RewardForPossessingItemImplementation@496b18ad with agent name MineRLAgent0
+[17:50:03] [Server thread/INFO]: [STDOUT]: SERVER enter state: RUNNING
+[17:50:03] [Client thread/INFO]: [STDOUT]: Unpausing
+[17:57:13] [Client thread/INFO]: [STDOUT]: SM: [CLIENT_STATE_MACHINE] Mission ended for reason: null world still exists: true
+[17:57:13] [Client thread/INFO]: [STDOUT]: Unpausing
+[17:57:13] [Client thread/INFO]: [STDOUT]: CLIENT request state: IDLING
+[17:57:13] [Server thread/INFO]: [STDOUT]: Warning: managed 8/20 ticks this second.
+[17:57:13] [Server thread/INFO]: [STDOUT]: WHY IS THIS NOT WORKING
+[17:57:13] [Server thread/INFO]: [STDOUT]: SERVER request state: WAITING_FOR_AGENTS_TO_QUIT
+[17:57:13] [Server thread/INFO]: [STDOUT]: SERVER enter state: WAITING_FOR_AGENTS_TO_QUIT
+[17:57:13] [Client thread/INFO]: [STDOUT]: CLIENT enter state: IDLING
+[17:57:13] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[17:57:13] [Client thread/INFO]: [STDOUT]: CLIENT enter state: MISSION_ENDED
+[17:57:13] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 5ms behind, skipping 0 tick(s)
+[17:57:13] [Client thread/INFO]: [STDOUT]: inform the agent
+[17:57:13] [EnvServerSocketHandler/INFO]: [STDOUT]: Received from localhost:<MissionInit xmlns="http://ProjectMalmo.microsoft.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SchemaVersion="" PlatformVersion="0.37.0"><Mission><About><Summary>MineRLObtainDiamond-v0</Summary></About><ModSettings><MsPerTick>50</MsPerTick></ModSettings><ServerSection><ServerInitialConditions><Time><StartTime>6000</StartTime><AllowPassageOfTime>true</AllowPassageOfTime></Time><AllowSpawning>true</AllowSpawning></ServerInitialConditions><ServerHandlers><DefaultWorldGenerator forceReset="true" generatorOptions="{}"/><ServerQuitFromTimeUp timeLimitMs="900000" description="out_of_time"/><ServerQuitWhenAnyAgentFinishes/></ServerHandlers></ServerSection><AgentSection mode="Survival"><Name>MineRLAgent0</Name><AgentStart/><AgentHandlers><FileBasedPerformanceProducer/><ObservationFromDamage/><PauseCommand/><VideoProducer want_depth="false"><Width>64</Width><Height>64</Height></VideoProducer><ObservationFromFullInventory flat="false"/><ObservationFromEquippedItem/><HumanLevelCommands/><CameraCommands/><PlaceCommands/><EquipCommands/><SimpleCraftCommands/><NearbyCraftCommands/><NearbySmeltCommands/><RewardForPossessingItem sparse="true" excludeLoops="true"><Item amount="1" reward="1" type="log"/><Item amount="1" reward="2" type="planks"/><Item amount="1" reward="4" type="stick"/><Item amount="1" reward="4" type="crafting_table"/><Item amount="1" reward="8" type="wooden_pickaxe"/><Item amount="1" reward="16" type="cobblestone"/><Item amount="1" reward="32" type="furnace"/><Item amount="1" reward="32" type="stone_pickaxe"/><Item amount="1" reward="64" type="iron_ore"/><Item amount="1" reward="128" type="iron_ingot"/><Item amount="1" reward="256" type="iron_pickaxe"/><Item amount="1" reward="1024" type="diamond"/></RewardForPossessingItem><AgentQuitFromPossessingItem><Item type="diamond" amount="1"/></AgentQuitFromPossessingItem></AgentHandlers></AgentSection></Mission><ExperimentUID>ec62c799-899f-455f-8c93-22400b899cd5</ExperimentUID><ClientRole>0</ClientRole><ClientAgentConnection><ClientIPAddress>127.0.0.1</ClientIPAddress><ClientMissionControlPort>0</ClientMissionControlPort><ClientCommandsPort>0</ClientCommandsPort><AgentIPAddress>127.0.0.1</AgentIPAddress><AgentMissionControlPort>0</AgentMissionControlPort><AgentVideoPort>0</AgentVideoPort><AgentDepthPort>0</AgentDepthPort><AgentLuminancePort>0</AgentLuminancePort><AgentObservationsPort>0</AgentObservationsPort><AgentRewardsPort>0</AgentRewardsPort><AgentColourMapPort>0</AgentColourMapPort></ClientAgentConnection></MissionInit>
+[17:57:13] [Client thread/INFO]: [STDOUT]: CLIENT request state: WAITING_FOR_SERVER_MISSION_END
+[17:57:13] [Client thread/INFO]: [STDOUT]: CLIENT enter state: WAITING_FOR_SERVER_MISSION_END
+[17:57:13] [Server thread/INFO]: [STDOUT]: SERVER request state: CLEAN_UP
+[17:57:13] [Client thread/INFO]: [STDOUT]: CLIENT request state: DORMANT
+[17:57:13] [Server thread/INFO]: [STDOUT]: SERVER enter state: CLEAN_UP
+[17:57:13] [Server thread/INFO]: [STDOUT]: SERVER request state: DORMANT
+[17:57:13] [EnvServerSocketHandler/INFO]: [STDOUT]: REPLYING WITH: MALMOBUSY
+[17:57:13] [Client thread/INFO]: [STDOUT]: CLIENT enter state: DORMANT
+[17:57:13] [Client thread/INFO]: [STDOUT]: JETTISONING 0 COMMANDS
+[17:57:14] [EnvServerSocketHandler/INFO]: [STDOUT]: Received from localhost:<MissionInit xmlns="http://ProjectMalmo.microsoft.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SchemaVersion="" PlatformVersion="0.37.0"><Mission><About><Summary>MineRLObtainDiamond-v0</Summary></About><ModSettings><MsPerTick>50</MsPerTick></ModSettings><ServerSection><ServerInitialConditions><Time><StartTime>6000</StartTime><AllowPassageOfTime>true</AllowPassageOfTime></Time><AllowSpawning>true</AllowSpawning></ServerInitialConditions><ServerHandlers><DefaultWorldGenerator forceReset="true" generatorOptions="{}"/><ServerQuitFromTimeUp timeLimitMs="900000" description="out_of_time"/><ServerQuitWhenAnyAgentFinishes/></ServerHandlers></ServerSection><AgentSection mode="Survival"><Name>MineRLAgent0</Name><AgentStart/><AgentHandlers><FileBasedPerformanceProducer/><ObservationFromDamage/><PauseCommand/><VideoProducer want_depth="false"><Width>64</Width><Height>64</Height></VideoProducer><ObservationFromFullInventory flat="false"/><ObservationFromEquippedItem/><HumanLevelCommands/><CameraCommands/><PlaceCommands/><EquipCommands/><SimpleCraftCommands/><NearbyCraftCommands/><NearbySmeltCommands/><RewardForPossessingItem sparse="true" excludeLoops="true"><Item amount="1" reward="1" type="log"/><Item amount="1" reward="2" type="planks"/><Item amount="1" reward="4" type="stick"/><Item amount="1" reward="4" type="crafting_table"/><Item amount="1" reward="8" type="wooden_pickaxe"/><Item amount="1" reward="16" type="cobblestone"/><Item amount="1" reward="32" type="furnace"/><Item amount="1" reward="32" type="stone_pickaxe"/><Item amount="1" reward="64" type="iron_ore"/><Item amount="1" reward="128" type="iron_ingot"/><Item amount="1" reward="256" type="iron_pickaxe"/><Item amount="1" reward="1024" type="diamond"/></RewardForPossessingItem><AgentQuitFromPossessingItem><Item type="diamond" amount="1"/></AgentQuitFromPossessingItem></AgentHandlers></AgentSection></Mission><ExperimentUID>ec62c799-899f-455f-8c93-22400b899cd5</ExperimentUID><ClientRole>0</ClientRole><ClientAgentConnection><ClientIPAddress>127.0.0.1</ClientIPAddress><ClientMissionControlPort>0</ClientMissionControlPort><ClientCommandsPort>0</ClientCommandsPort><AgentIPAddress>127.0.0.1</AgentIPAddress><AgentMissionControlPort>0</AgentMissionControlPort><AgentVideoPort>0</AgentVideoPort><AgentDepthPort>0</AgentDepthPort><AgentLuminancePort>0</AgentLuminancePort><AgentObservationsPort>0</AgentObservationsPort><AgentRewardsPort>0</AgentRewardsPort><AgentColourMapPort>0</AgentColourMapPort></ClientAgentConnection></MissionInit>
+[17:57:14] [EnvServerSocketHandler/INFO]: [STDOUT]: REPLYING WITH: MALMOOK
+[17:57:14] [Client thread/INFO]: [STDOUT]: Mission received: MineRLObtainDiamond-v0
+[17:57:14] [Client thread/INFO]: [STDOUT]: CLIENT request state: CREATING_HANDLERS
+[17:57:14] [Client thread/INFO]: [STDOUT]: CLIENT enter state: CREATING_HANDLERS
+[17:57:14] [Client thread/INFO]: [STDOUT]: CLIENT request state: EVALUATING_WORLD_REQUIREMENTS
+[17:57:14] [Client thread/INFO]: [STDOUT]: CLIENT enter state: EVALUATING_WORLD_REQUIREMENTS
+[17:57:14] [Client thread/INFO]: [STDOUT]: CLIENT request state: PAUSING_OLD_SERVER
+[17:57:14] [Client thread/INFO]: [STDOUT]: CLIENT enter state: PAUSING_OLD_SERVER
+[17:57:14] [Server thread/INFO]: Saving and pausing game...
+[17:57:14] [Server thread/INFO]: Saving chunks for level 'TEMP_0_9a3a9927-53c5-4e62-b399-7f3b05e94639'/Overworld
+[17:57:14] [Server thread/INFO]: Saving chunks for level 'TEMP_0_9a3a9927-53c5-4e62-b399-7f3b05e94639'/Nether
+[17:57:14] [Server thread/INFO]: Saving chunks for level 'TEMP_0_9a3a9927-53c5-4e62-b399-7f3b05e94639'/The End
+[17:57:14] [Client thread/INFO]: [STDOUT]: CLIENT request state: CLOSING_OLD_SERVER
+[17:57:14] [Client thread/INFO]: [STDOUT]: CLIENT enter state: CLOSING_OLD_SERVER
+[17:57:14] [Client thread/INFO]: [STDOUT]: Unpausing
+[17:57:14] [Server thread/INFO]: Stopping server
+[17:57:14] [Server thread/INFO]: Saving players
+[17:57:14] [Server thread/INFO]: MineRLAgent0 lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[17:57:14] [Server thread/INFO]: MineRLAgent0 left the game
+[17:57:14] [Server thread/INFO]: Stopping singleplayer server as player logged out
+[17:57:14] [Server thread/INFO]: Saving worlds
+[17:57:14] [Server thread/INFO]: Saving chunks for level 'TEMP_0_9a3a9927-53c5-4e62-b399-7f3b05e94639'/Overworld
+[17:57:14] [Server thread/INFO]: Saving chunks for level 'TEMP_0_9a3a9927-53c5-4e62-b399-7f3b05e94639'/Nether
+[17:57:14] [Server thread/INFO]: Saving chunks for level 'TEMP_0_9a3a9927-53c5-4e62-b399-7f3b05e94639'/The End
+[17:57:14] [Server thread/INFO]: [STDOUT]: Unpausing
+[17:57:15] [Server thread/INFO]: [STDOUT]: Unpausing
+[17:57:15] [Server thread/INFO]: [STDOUT]: Unpausing
+[17:57:15] [Server thread/INFO]: Unloading dimension 0
+[17:57:15] [Server thread/INFO]: Unloading dimension -1
+[17:57:15] [Server thread/INFO]: Unloading dimension 1
+[17:57:15] [Server thread/INFO]: Applying holder lookups
+[17:57:15] [Server thread/INFO]: Holder lookups applied
+[17:57:25] [Client thread/INFO]: [STDOUT]: CLIENT request state: CREATING_NEW_WORLD
+[17:57:25] [Client thread/INFO]: [STDOUT]: CLIENT enter state: CREATING_NEW_WORLD
+[17:57:25] [Client thread/INFO]: [STDOUT]: [LOGTOPY] GENERATOR OPTIONS = {}
+[17:57:25] [Server thread/INFO]: Starting integrated minecraft server version 1.11.2
+[17:57:25] [Server thread/INFO]: Generating keypair
+[17:57:25] [Server thread/INFO]: Injecting existing block and item data into this server instance
+[17:57:25] [Server thread/INFO]: Applying holder lookups
+[17:57:25] [Server thread/INFO]: Holder lookups applied
+[17:57:25] [Server thread/INFO]: Loading dimension 0 (TEMP_0_bf12223a-2511-422e-86d9-7f82d0a91985) (net.minecraft.server.integrated.IntegratedServer@42fa7800)
+[17:57:25] [Server thread/INFO]: Loading dimension 1 (TEMP_0_bf12223a-2511-422e-86d9-7f82d0a91985) (net.minecraft.server.integrated.IntegratedServer@42fa7800)
+[17:57:25] [Server thread/INFO]: Loading dimension -1 (TEMP_0_bf12223a-2511-422e-86d9-7f82d0a91985) (net.minecraft.server.integrated.IntegratedServer@42fa7800)
+[17:57:25] [Server thread/INFO]: Preparing start region for level 0
+[17:57:26] [Server thread/INFO]: Preparing spawn area: 15%
+[17:57:27] [Server thread/INFO]: Preparing spawn area: 21%
+[17:57:28] [Server thread/INFO]: Preparing spawn area: 28%
+[17:57:29] [Server thread/INFO]: Preparing spawn area: 36%
+[17:57:30] [Server thread/INFO]: Preparing spawn area: 44%
+[17:57:31] [Server thread/INFO]: Preparing spawn area: 48%
+[17:57:32] [Server thread/INFO]: Preparing spawn area: 54%
+[17:57:33] [Server thread/INFO]: Preparing spawn area: 62%
+[17:57:34] [Server thread/INFO]: Preparing spawn area: 68%
+[17:57:35] [Server thread/WARN]: Microsoft Malmo Mod loaded a new chunk (-11, 9  Dimension: 0) during chunk population, causing cascading worldgen lag. Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[17:57:35] [Server thread/WARN]: Microsoft Malmo Mod loaded a new chunk (-11, 11  Dimension: 0) during chunk population, causing cascading worldgen lag. Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[17:57:35] [Server thread/INFO]: Preparing spawn area: 75%
+[17:57:36] [Server thread/INFO]: Preparing spawn area: 80%
+[17:57:38] [Server thread/INFO]: Preparing spawn area: 86%
+[17:57:38] [Server thread/WARN]: Microsoft Malmo Mod loaded a new chunk (-7, 20  Dimension: 0) during chunk population, causing cascading worldgen lag. Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[17:57:38] [Server thread/WARN]: Microsoft Malmo Mod loaded a new chunk (-7, 24  Dimension: 0) during chunk population, causing cascading worldgen lag. Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[17:57:39] [Server thread/INFO]: Preparing spawn area: 93%
+[17:57:39] [Server thread/WARN]: Microsoft Malmo Mod loaded a new chunk (-6, 22  Dimension: 0) during chunk population, causing cascading worldgen lag. Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[17:57:40] [Server thread/INFO]: Preparing spawn area: 99%
+[17:57:40] [Server thread/INFO]: Changing view distance to 4, from 10
+[17:57:40] [Client thread/INFO]: Deleting level TEMP_0_9a3a9927-53c5-4e62-b399-7f3b05e94639
+[17:57:40] [Client thread/INFO]: Attempt 1...
+[17:57:40] [Server thread/INFO]: [STDOUT]: SERVER request state: WAITING_FOR_MOD_READY
+[17:57:40] [Netty Local Client IO #4/INFO]: Server protocol version 2
+[17:57:40] [Netty Server IO #9/INFO]: Client protocol version 2
+[17:57:40] [Netty Server IO #9/INFO]: Client attempting to join with 5 mods : minecraft@1.11.2,FML@8.0.99.99,malmomod@0.37.0,forge@13.20.1.2588,mcp@9.19
+[17:57:40] [Server thread/INFO]: [STDOUT]: CLIENT request state: WAITING_FOR_SERVER_READY
+[17:57:40] [Netty Local Client IO #4/INFO]: [Netty Local Client IO #4] Client side modded connection established
+[17:57:40] [Server thread/INFO]: [STDOUT]: SERVER enter state: WAITING_FOR_MOD_READY
+[17:57:40] [Client thread/INFO]: [STDOUT]: CLIENT enter state: WAITING_FOR_SERVER_READY
+[17:57:41] [Server thread/INFO]: [Server thread] Server side modded connection established
+[17:57:41] [Server thread/INFO]: MineRLAgent0[local:E:d1d3d41f] logged in with entity id 30311 at (-249.5, 67.0, 243.5)
+[17:57:41] [Server thread/INFO]: MineRLAgent0 joined the game
+[17:57:41] [Server thread/INFO]: [STDOUT]: SERVER request state: DORMANT
+[17:57:41] [Server thread/INFO]: [STDOUT]: SERVER enter state: DORMANT
+[17:57:41] [Server thread/INFO]: [STDOUT]: INCOMING MISSION: Received MissionInit directly through ServerStateMachine constructor.
+[17:57:41] [Server thread/INFO]: [STDOUT]: Mission received: MineRLObtainDiamond-v0
+[17:57:41] [Server thread/INFO]: Received mission: §9MineRLObtainDiamond-v0
+[17:57:41] [Server thread/INFO]: Source: §alocalhost
+[17:57:41] [Server thread/INFO]: [STDOUT]: SERVER request state: BUILDING_WORLD
+[17:57:41] [Server thread/INFO]: [STDOUT]: SERVER enter state: BUILDING_WORLD
+[17:57:41] [Server thread/INFO]: [STDOUT]: SERVER request state: WAITING_FOR_AGENTS_TO_ASSEMBLE
+[17:57:41] [Client thread/INFO]: [CHAT] Received mission: §9MineRLObtainDiamond-v0
+[17:57:41] [Client thread/INFO]: [CHAT] Source: §alocalhost
+[17:57:41] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[17:57:41] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[17:57:42] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[17:57:42] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[17:57:42] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[17:57:42] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[17:57:43] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[17:57:43] [Server thread/INFO]: [STDOUT]: SERVER enter state: WAITING_FOR_AGENTS_TO_ASSEMBLE
+[17:57:43] [Server thread/INFO]: [STDOUT]: Experiment requires: 
+[17:57:43] [Server thread/INFO]: [STDOUT]: >>>> MineRLAgent0
+[17:57:43] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[17:57:43] [Server thread/INFO]: [STDOUT]: Initializing player with username MineRLAgent0 and agentname MineRLAgent0
+[17:57:43] [Client thread/INFO]: [STDOUT]: CLIENT request state: RUNNING
+[17:57:43] [Client thread/INFO]: [STDOUT]: CLIENT enter state: RUNNING
+[17:57:43] [Server thread/INFO]: [STDOUT]: SERVER request state: RUNNING
+[17:57:43] [Client thread/INFO]: [STDOUT]: Preparing reward com.microsoft.Malmo.MissionHandlers.RewardForPossessingItemImplementation@6fc8d138 with agent name MineRLAgent0
+[17:57:43] [Server thread/INFO]: [STDOUT]: SERVER enter state: RUNNING
+[17:57:43] [Client thread/INFO]: [STDOUT]: Unpausing
+[17:57:45] [Server thread/INFO]: [STDOUT]: Warning: managed 14/20 ticks this second.
+[17:57:58] [Client thread/INFO]: [STDOUT]: SM: [CLIENT_STATE_MACHINE] Mission ended for reason: null world still exists: true
+[17:57:58] [Client thread/INFO]: [STDOUT]: Unpausing
+[17:57:58] [Client thread/INFO]: [STDOUT]: CLIENT request state: IDLING
+[17:57:58] [Client thread/INFO]: [STDOUT]: CLIENT enter state: IDLING
+[17:57:58] [Server thread/INFO]: [STDOUT]: WHY IS THIS NOT WORKING
+[17:57:58] [Server thread/INFO]: [STDOUT]: SERVER request state: WAITING_FOR_AGENTS_TO_QUIT
+[17:57:58] [Server thread/INFO]: [STDOUT]: SERVER enter state: WAITING_FOR_AGENTS_TO_QUIT
+[17:57:58] [EnvServerSocketHandler/INFO]: [STDOUT]: Received from localhost:<MissionInit xmlns="http://ProjectMalmo.microsoft.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SchemaVersion="" PlatformVersion="0.37.0"><Mission><About><Summary>MineRLObtainDiamond-v0</Summary></About><ModSettings><MsPerTick>50</MsPerTick></ModSettings><ServerSection><ServerInitialConditions><Time><StartTime>6000</StartTime><AllowPassageOfTime>true</AllowPassageOfTime></Time><AllowSpawning>true</AllowSpawning></ServerInitialConditions><ServerHandlers><DefaultWorldGenerator forceReset="true" generatorOptions="{}"/><ServerQuitFromTimeUp timeLimitMs="900000" description="out_of_time"/><ServerQuitWhenAnyAgentFinishes/></ServerHandlers></ServerSection><AgentSection mode="Survival"><Name>MineRLAgent0</Name><AgentStart/><AgentHandlers><FileBasedPerformanceProducer/><ObservationFromDamage/><PauseCommand/><VideoProducer want_depth="false"><Width>64</Width><Height>64</Height></VideoProducer><ObservationFromFullInventory flat="false"/><ObservationFromEquippedItem/><HumanLevelCommands/><CameraCommands/><PlaceCommands/><EquipCommands/><SimpleCraftCommands/><NearbyCraftCommands/><NearbySmeltCommands/><RewardForPossessingItem sparse="true" excludeLoops="true"><Item amount="1" reward="1" type="log"/><Item amount="1" reward="2" type="planks"/><Item amount="1" reward="4" type="stick"/><Item amount="1" reward="4" type="crafting_table"/><Item amount="1" reward="8" type="wooden_pickaxe"/><Item amount="1" reward="16" type="cobblestone"/><Item amount="1" reward="32" type="furnace"/><Item amount="1" reward="32" type="stone_pickaxe"/><Item amount="1" reward="64" type="iron_ore"/><Item amount="1" reward="128" type="iron_ingot"/><Item amount="1" reward="256" type="iron_pickaxe"/><Item amount="1" reward="1024" type="diamond"/></RewardForPossessingItem><AgentQuitFromPossessingItem><Item type="diamond" amount="1"/></AgentQuitFromPossessingItem></AgentHandlers></AgentSection></Mission><ExperimentUID>c76dd8dd-8ae7-4786-b845-cd20f00ccb46</ExperimentUID><ClientRole>0</ClientRole><ClientAgentConnection><ClientIPAddress>127.0.0.1</ClientIPAddress><ClientMissionControlPort>0</ClientMissionControlPort><ClientCommandsPort>0</ClientCommandsPort><AgentIPAddress>127.0.0.1</AgentIPAddress><AgentMissionControlPort>0</AgentMissionControlPort><AgentVideoPort>0</AgentVideoPort><AgentDepthPort>0</AgentDepthPort><AgentLuminancePort>0</AgentLuminancePort><AgentObservationsPort>0</AgentObservationsPort><AgentRewardsPort>0</AgentRewardsPort><AgentColourMapPort>0</AgentColourMapPort></ClientAgentConnection></MissionInit>
+[17:57:58] [EnvServerSocketHandler/INFO]: [STDOUT]: REPLYING WITH: MALMOBUSY
+[17:57:58] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[17:57:58] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[17:57:58] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[17:57:58] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[17:57:58] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[17:57:58] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[17:57:58] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[17:57:58] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[17:57:58] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[17:57:58] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[17:57:58] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[17:57:58] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[17:57:58] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[17:57:58] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[17:57:58] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[17:57:58] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[17:57:58] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[17:57:58] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[17:57:58] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[17:57:58] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[17:57:58] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[17:57:58] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[17:57:58] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[17:57:58] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[17:57:58] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[17:57:58] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[17:57:58] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[17:57:58] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[17:57:58] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[17:57:58] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[17:57:58] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[17:57:58] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[17:57:58] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[17:57:58] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[17:57:58] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[17:57:58] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[17:57:58] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[17:57:58] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[17:57:58] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[17:57:58] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[17:57:58] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[17:57:58] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[17:57:58] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[17:57:58] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[17:57:58] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[17:57:58] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[17:57:58] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[17:57:58] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[17:57:58] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[17:57:58] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[17:57:58] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[17:57:58] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[17:57:58] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[17:57:58] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[17:57:58] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[17:57:58] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[17:57:58] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[17:57:58] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[17:57:58] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[17:57:58] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[17:57:58] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[17:57:58] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[17:57:58] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[17:57:58] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[17:57:58] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[17:57:58] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[17:57:58] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[17:57:58] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[17:57:58] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[17:57:58] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[17:57:58] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[17:57:58] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[17:57:58] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[17:57:58] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[17:57:58] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[17:57:58] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[17:57:58] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[17:57:58] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[17:57:58] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[17:57:58] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[17:57:58] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[17:57:58] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[17:57:58] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[17:57:58] [Client thread/INFO]: [STDOUT]: CLIENT enter state: MISSION_ENDED
+[17:57:58] [Client thread/INFO]: [STDOUT]: inform the agent
+[17:57:58] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[17:57:58] [Client thread/INFO]: [STDOUT]: CLIENT request state: WAITING_FOR_SERVER_MISSION_END
+[17:57:59] [EnvServerSocketHandler/INFO]: [STDOUT]: Received from localhost:<MissionInit xmlns="http://ProjectMalmo.microsoft.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SchemaVersion="" PlatformVersion="0.37.0"><Mission><About><Summary>MineRLObtainDiamond-v0</Summary></About><ModSettings><MsPerTick>50</MsPerTick></ModSettings><ServerSection><ServerInitialConditions><Time><StartTime>6000</StartTime><AllowPassageOfTime>true</AllowPassageOfTime></Time><AllowSpawning>true</AllowSpawning></ServerInitialConditions><ServerHandlers><DefaultWorldGenerator forceReset="true" generatorOptions="{}"/><ServerQuitFromTimeUp timeLimitMs="900000" description="out_of_time"/><ServerQuitWhenAnyAgentFinishes/></ServerHandlers></ServerSection><AgentSection mode="Survival"><Name>MineRLAgent0</Name><AgentStart/><AgentHandlers><FileBasedPerformanceProducer/><ObservationFromDamage/><PauseCommand/><VideoProducer want_depth="false"><Width>64</Width><Height>64</Height></VideoProducer><ObservationFromFullInventory flat="false"/><ObservationFromEquippedItem/><HumanLevelCommands/><CameraCommands/><PlaceCommands/><EquipCommands/><SimpleCraftCommands/><NearbyCraftCommands/><NearbySmeltCommands/><RewardForPossessingItem sparse="true" excludeLoops="true"><Item amount="1" reward="1" type="log"/><Item amount="1" reward="2" type="planks"/><Item amount="1" reward="4" type="stick"/><Item amount="1" reward="4" type="crafting_table"/><Item amount="1" reward="8" type="wooden_pickaxe"/><Item amount="1" reward="16" type="cobblestone"/><Item amount="1" reward="32" type="furnace"/><Item amount="1" reward="32" type="stone_pickaxe"/><Item amount="1" reward="64" type="iron_ore"/><Item amount="1" reward="128" type="iron_ingot"/><Item amount="1" reward="256" type="iron_pickaxe"/><Item amount="1" reward="1024" type="diamond"/></RewardForPossessingItem><AgentQuitFromPossessingItem><Item type="diamond" amount="1"/></AgentQuitFromPossessingItem></AgentHandlers></AgentSection></Mission><ExperimentUID>c76dd8dd-8ae7-4786-b845-cd20f00ccb46</ExperimentUID><ClientRole>0</ClientRole><ClientAgentConnection><ClientIPAddress>127.0.0.1</ClientIPAddress><ClientMissionControlPort>0</ClientMissionControlPort><ClientCommandsPort>0</ClientCommandsPort><AgentIPAddress>127.0.0.1</AgentIPAddress><AgentMissionControlPort>0</AgentMissionControlPort><AgentVideoPort>0</AgentVideoPort><AgentDepthPort>0</AgentDepthPort><AgentLuminancePort>0</AgentLuminancePort><AgentObservationsPort>0</AgentObservationsPort><AgentRewardsPort>0</AgentRewardsPort><AgentColourMapPort>0</AgentColourMapPort></ClientAgentConnection></MissionInit>
+[17:57:59] [EnvServerSocketHandler/INFO]: [STDOUT]: REPLYING WITH: MALMOBUSY
+[17:57:59] [Client thread/INFO]: [STDOUT]: CLIENT enter state: WAITING_FOR_SERVER_MISSION_END
+[17:57:59] [Server thread/INFO]: [STDOUT]: SERVER request state: CLEAN_UP
+[17:57:59] [Client thread/INFO]: [STDOUT]: CLIENT request state: DORMANT
+[17:57:59] [Server thread/INFO]: [STDOUT]: SERVER enter state: CLEAN_UP
+[17:57:59] [Server thread/INFO]: [STDOUT]: SERVER request state: DORMANT
+[17:57:59] [Client thread/INFO]: [STDOUT]: CLIENT enter state: DORMANT
+[17:57:59] [Client thread/INFO]: [STDOUT]: JETTISONING 0 COMMANDS
+[17:58:00] [EnvServerSocketHandler/INFO]: [STDOUT]: Received from localhost:<MissionInit xmlns="http://ProjectMalmo.microsoft.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SchemaVersion="" PlatformVersion="0.37.0"><Mission><About><Summary>MineRLObtainDiamond-v0</Summary></About><ModSettings><MsPerTick>50</MsPerTick></ModSettings><ServerSection><ServerInitialConditions><Time><StartTime>6000</StartTime><AllowPassageOfTime>true</AllowPassageOfTime></Time><AllowSpawning>true</AllowSpawning></ServerInitialConditions><ServerHandlers><DefaultWorldGenerator forceReset="true" generatorOptions="{}"/><ServerQuitFromTimeUp timeLimitMs="900000" description="out_of_time"/><ServerQuitWhenAnyAgentFinishes/></ServerHandlers></ServerSection><AgentSection mode="Survival"><Name>MineRLAgent0</Name><AgentStart/><AgentHandlers><FileBasedPerformanceProducer/><ObservationFromDamage/><PauseCommand/><VideoProducer want_depth="false"><Width>64</Width><Height>64</Height></VideoProducer><ObservationFromFullInventory flat="false"/><ObservationFromEquippedItem/><HumanLevelCommands/><CameraCommands/><PlaceCommands/><EquipCommands/><SimpleCraftCommands/><NearbyCraftCommands/><NearbySmeltCommands/><RewardForPossessingItem sparse="true" excludeLoops="true"><Item amount="1" reward="1" type="log"/><Item amount="1" reward="2" type="planks"/><Item amount="1" reward="4" type="stick"/><Item amount="1" reward="4" type="crafting_table"/><Item amount="1" reward="8" type="wooden_pickaxe"/><Item amount="1" reward="16" type="cobblestone"/><Item amount="1" reward="32" type="furnace"/><Item amount="1" reward="32" type="stone_pickaxe"/><Item amount="1" reward="64" type="iron_ore"/><Item amount="1" reward="128" type="iron_ingot"/><Item amount="1" reward="256" type="iron_pickaxe"/><Item amount="1" reward="1024" type="diamond"/></RewardForPossessingItem><AgentQuitFromPossessingItem><Item type="diamond" amount="1"/></AgentQuitFromPossessingItem></AgentHandlers></AgentSection></Mission><ExperimentUID>c76dd8dd-8ae7-4786-b845-cd20f00ccb46</ExperimentUID><ClientRole>0</ClientRole><ClientAgentConnection><ClientIPAddress>127.0.0.1</ClientIPAddress><ClientMissionControlPort>0</ClientMissionControlPort><ClientCommandsPort>0</ClientCommandsPort><AgentIPAddress>127.0.0.1</AgentIPAddress><AgentMissionControlPort>0</AgentMissionControlPort><AgentVideoPort>0</AgentVideoPort><AgentDepthPort>0</AgentDepthPort><AgentLuminancePort>0</AgentLuminancePort><AgentObservationsPort>0</AgentObservationsPort><AgentRewardsPort>0</AgentRewardsPort><AgentColourMapPort>0</AgentColourMapPort></ClientAgentConnection></MissionInit>
+[17:58:00] [EnvServerSocketHandler/INFO]: [STDOUT]: REPLYING WITH: MALMOOK
+[17:58:00] [Client thread/INFO]: [STDOUT]: Mission received: MineRLObtainDiamond-v0
+[17:58:00] [Client thread/INFO]: [STDOUT]: CLIENT request state: CREATING_HANDLERS
+[17:58:00] [Client thread/INFO]: [STDOUT]: CLIENT enter state: CREATING_HANDLERS
+[17:58:00] [Client thread/INFO]: [STDOUT]: CLIENT request state: EVALUATING_WORLD_REQUIREMENTS
+[17:58:00] [Client thread/INFO]: [STDOUT]: CLIENT enter state: EVALUATING_WORLD_REQUIREMENTS
+[17:58:00] [Client thread/INFO]: [STDOUT]: CLIENT request state: PAUSING_OLD_SERVER
+[17:58:00] [Client thread/INFO]: [STDOUT]: CLIENT enter state: PAUSING_OLD_SERVER
+[17:58:00] [Server thread/INFO]: Saving and pausing game...
+[17:58:00] [Server thread/INFO]: Saving chunks for level 'TEMP_0_bf12223a-2511-422e-86d9-7f82d0a91985'/Overworld
+[17:58:00] [Server thread/INFO]: Saving chunks for level 'TEMP_0_bf12223a-2511-422e-86d9-7f82d0a91985'/Nether
+[17:58:00] [Server thread/INFO]: Saving chunks for level 'TEMP_0_bf12223a-2511-422e-86d9-7f82d0a91985'/The End
+[17:58:00] [Client thread/INFO]: [STDOUT]: CLIENT request state: CLOSING_OLD_SERVER
+[17:58:00] [Client thread/INFO]: [STDOUT]: CLIENT enter state: CLOSING_OLD_SERVER
+[17:58:00] [Client thread/INFO]: [STDOUT]: Unpausing
+[17:58:00] [Server thread/INFO]: Stopping server
+[17:58:00] [Server thread/INFO]: Saving players
+[17:58:00] [Server thread/INFO]: MineRLAgent0 lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[17:58:00] [Server thread/INFO]: MineRLAgent0 left the game
+[17:58:00] [Server thread/INFO]: Stopping singleplayer server as player logged out
+[17:58:00] [Server thread/INFO]: Saving worlds
+[17:58:00] [Server thread/INFO]: Saving chunks for level 'TEMP_0_bf12223a-2511-422e-86d9-7f82d0a91985'/Overworld
+[17:58:00] [Server thread/INFO]: Saving chunks for level 'TEMP_0_bf12223a-2511-422e-86d9-7f82d0a91985'/Nether
+[17:58:00] [Server thread/INFO]: Saving chunks for level 'TEMP_0_bf12223a-2511-422e-86d9-7f82d0a91985'/The End
+[17:58:00] [Server thread/INFO]: [STDOUT]: Unpausing
+[17:58:01] [Server thread/INFO]: [STDOUT]: Unpausing
+[17:58:01] [Server thread/INFO]: [STDOUT]: Unpausing
+[17:58:01] [Server thread/INFO]: Unloading dimension 0
+[17:58:01] [Server thread/INFO]: Unloading dimension -1
+[17:58:01] [Server thread/INFO]: Unloading dimension 1
+[17:58:01] [Server thread/INFO]: Applying holder lookups
+[17:58:01] [Server thread/INFO]: Holder lookups applied
+[17:58:11] [Client thread/INFO]: [STDOUT]: CLIENT request state: CREATING_NEW_WORLD
+[17:58:11] [Client thread/INFO]: [STDOUT]: CLIENT enter state: CREATING_NEW_WORLD
+[17:58:11] [Client thread/INFO]: [STDOUT]: [LOGTOPY] GENERATOR OPTIONS = {}
+[17:58:11] [Server thread/INFO]: Starting integrated minecraft server version 1.11.2
+[17:58:11] [Server thread/INFO]: Generating keypair
+[17:58:11] [Server thread/INFO]: Injecting existing block and item data into this server instance
+[17:58:11] [Server thread/INFO]: Applying holder lookups
+[17:58:11] [Server thread/INFO]: Holder lookups applied
+[17:58:11] [Server thread/INFO]: Loading dimension 0 (TEMP_0_4e3efc02-da31-4537-9aeb-408800c0a33a) (net.minecraft.server.integrated.IntegratedServer@6b5fe683)
+[17:58:11] [Server thread/INFO]: Loading dimension 1 (TEMP_0_4e3efc02-da31-4537-9aeb-408800c0a33a) (net.minecraft.server.integrated.IntegratedServer@6b5fe683)
+[17:58:11] [Server thread/INFO]: Loading dimension -1 (TEMP_0_4e3efc02-da31-4537-9aeb-408800c0a33a) (net.minecraft.server.integrated.IntegratedServer@6b5fe683)
+[17:58:11] [Server thread/INFO]: Preparing start region for level 0
+[17:58:12] [Server thread/INFO]: Preparing spawn area: 14%
+[17:58:13] [Server thread/INFO]: Preparing spawn area: 22%
+[17:58:14] [Server thread/INFO]: Preparing spawn area: 33%
+[17:58:15] [Server thread/INFO]: Preparing spawn area: 47%
+[17:58:16] [Server thread/INFO]: Preparing spawn area: 61%
+[17:58:16] [Server thread/WARN]: Microsoft Malmo Mod loaded a new chunk (3, 5  Dimension: 0) during chunk population, causing cascading worldgen lag. Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[17:58:17] [Server thread/INFO]: Preparing spawn area: 73%
+[17:58:18] [Server thread/INFO]: Preparing spawn area: 83%
+[17:58:18] [Server thread/WARN]: Microsoft Malmo Mod loaded a new chunk (8, 9  Dimension: 0) during chunk population, causing cascading worldgen lag. Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[17:58:19] [Server thread/INFO]: Preparing spawn area: 95%
+[17:58:20] [Server thread/INFO]: Changing view distance to 4, from 10
+[17:58:20] [Client thread/INFO]: Deleting level TEMP_0_bf12223a-2511-422e-86d9-7f82d0a91985
+[17:58:20] [Client thread/INFO]: Attempt 1...
+[17:58:20] [Server thread/INFO]: [STDOUT]: SERVER request state: WAITING_FOR_MOD_READY
+[17:58:20] [Netty Local Client IO #5/INFO]: Server protocol version 2
+[17:58:20] [Netty Server IO #11/INFO]: Client protocol version 2
+[17:58:20] [Netty Server IO #11/INFO]: Client attempting to join with 5 mods : minecraft@1.11.2,FML@8.0.99.99,malmomod@0.37.0,forge@13.20.1.2588,mcp@9.19
+[17:58:20] [Server thread/INFO]: [STDOUT]: CLIENT request state: WAITING_FOR_SERVER_READY
+[17:58:20] [Netty Local Client IO #5/INFO]: [Netty Local Client IO #5] Client side modded connection established
+[17:58:20] [Client thread/INFO]: [STDOUT]: CLIENT enter state: WAITING_FOR_SERVER_READY
+[17:58:20] [Server thread/INFO]: [STDOUT]: SERVER enter state: WAITING_FOR_MOD_READY
+[17:58:21] [Server thread/INFO]: [Server thread] Server side modded connection established
+[17:58:21] [Server thread/INFO]: MineRLAgent0[local:E:c17aa7ad] logged in with entity id 33273 at (-3.5, 64.0, 247.5)
+[17:58:21] [Server thread/INFO]: MineRLAgent0 joined the game
+[17:58:21] [Server thread/INFO]: [STDOUT]: SERVER request state: DORMANT
+[17:58:21] [Server thread/INFO]: [STDOUT]: SERVER enter state: DORMANT
+[17:58:21] [Server thread/INFO]: [STDOUT]: INCOMING MISSION: Received MissionInit directly through ServerStateMachine constructor.
+[17:58:21] [Server thread/INFO]: [STDOUT]: Mission received: MineRLObtainDiamond-v0
+[17:58:21] [Server thread/INFO]: Received mission: §9MineRLObtainDiamond-v0
+[17:58:21] [Server thread/INFO]: Source: §alocalhost
+[17:58:21] [Server thread/INFO]: [STDOUT]: SERVER request state: BUILDING_WORLD
+[17:58:21] [Server thread/INFO]: [STDOUT]: SERVER enter state: BUILDING_WORLD
+[17:58:21] [Server thread/INFO]: [STDOUT]: SERVER request state: WAITING_FOR_AGENTS_TO_ASSEMBLE
+[17:58:21] [Client thread/INFO]: [CHAT] Received mission: §9MineRLObtainDiamond-v0
+[17:58:21] [Client thread/INFO]: [CHAT] Source: §alocalhost
+[17:58:21] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[17:58:21] [Server thread/INFO]: [STDOUT]: SERVER enter state: WAITING_FOR_AGENTS_TO_ASSEMBLE
+[17:58:21] [Server thread/INFO]: [STDOUT]: Experiment requires: 
+[17:58:21] [Server thread/INFO]: [STDOUT]: >>>> MineRLAgent0
+[17:58:21] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[17:58:21] [Server thread/INFO]: [STDOUT]: Initializing player with username MineRLAgent0 and agentname MineRLAgent0
+[17:58:21] [Client thread/INFO]: [STDOUT]: CLIENT request state: RUNNING
+[17:58:21] [Client thread/INFO]: [STDOUT]: CLIENT enter state: RUNNING
+[17:58:21] [Client thread/INFO]: [STDOUT]: Preparing reward com.microsoft.Malmo.MissionHandlers.RewardForPossessingItemImplementation@38ae02b0 with agent name MineRLAgent0
+[17:58:21] [Client thread/INFO]: [STDOUT]: Unpausing
+[17:58:21] [Server thread/INFO]: [STDOUT]: SERVER request state: RUNNING
+[17:58:21] [Server thread/INFO]: [STDOUT]: SERVER enter state: RUNNING
+RewardForPossessingItemImplementation - MineRLAgent0: 1
+RewardForPossessingItemImplementation - MineRLAgent0: 2
+RewardForPossessingItemImplementation - MineRLAgent0: 3
+RewardForPossessingItemImplementation - MineRLAgent0: 4
+RewardForPossessingItemImplementation - MineRLAgent0: 5
+RewardForPossessingItemImplementation - MineRLAgent0: 4
+RewardForPossessingItemImplementation - MineRLAgent0: 8
+RewardForPossessingItemImplementation - MineRLAgent0: 12
+RewardForPossessingItemImplementation - MineRLAgent0: 16
+RewardForPossessingItemImplementation - MineRLAgent0: 20

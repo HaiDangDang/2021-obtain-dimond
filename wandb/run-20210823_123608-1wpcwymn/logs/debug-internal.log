@@ -1,0 +1,182 @@
+2021-08-23 12:36:09,502 INFO    MainThread:61279 [internal.py:wandb_internal():89] W&B internal server running at pid: 61279, started at: 2021-08-23 12:36:09.501831
+2021-08-23 12:36:09,503 INFO    WriterThread:61279 [datastore.py:open_for_write():77] open: /home/dang/Documents/Doc/2021/mine/wandb/run-20210823_123608-1wpcwymn/run-1wpcwymn.wandb
+2021-08-23 12:36:09,504 DEBUG   HandlerThread:61279 [handler.py:handle_request():128] handle_request: check_version
+2021-08-23 12:36:09,506 DEBUG   SenderThread:61279 [sender.py:send():182] send: header
+2021-08-23 12:36:09,506 DEBUG   SenderThread:61279 [sender.py:send_request():196] send_request: check_version
+2021-08-23 12:36:09,670 DEBUG   SenderThread:61279 [sender.py:send():182] send: run
+2021-08-23 12:36:09,674 DEBUG   SenderThread:61279 [git.py:repo():33] git repository is invalid
+2021-08-23 12:36:10,098 INFO    SenderThread:61279 [dir_watcher.py:__init__():168] watching files in: /home/dang/Documents/Doc/2021/mine/wandb/run-20210823_123608-1wpcwymn/files
+2021-08-23 12:36:10,098 INFO    SenderThread:61279 [sender.py:_start_run_threads():743] run started: 1wpcwymn with start time 1629696968
+2021-08-23 12:36:10,098 DEBUG   SenderThread:61279 [sender.py:send():182] send: summary
+2021-08-23 12:36:10,099 INFO    SenderThread:61279 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-23 12:36:10,100 DEBUG   HandlerThread:61279 [handler.py:handle_request():128] handle_request: run_start
+2021-08-23 12:36:10,103 DEBUG   HandlerThread:61279 [meta.py:__init__():39] meta init
+2021-08-23 12:36:10,103 DEBUG   HandlerThread:61279 [meta.py:__init__():53] meta init done
+2021-08-23 12:36:10,103 DEBUG   HandlerThread:61279 [meta.py:probe():210] probe
+2021-08-23 12:36:10,109 DEBUG   HandlerThread:61279 [git.py:repo():33] git repository is invalid
+2021-08-23 12:36:10,109 DEBUG   HandlerThread:61279 [meta.py:_save_code():89] save code
+2021-08-23 12:36:10,109 WARNING HandlerThread:61279 [meta.py:_save_code():91] unable to save code -- program entry not found
+2021-08-23 12:36:10,109 DEBUG   HandlerThread:61279 [meta.py:_save_pip():57] save pip
+2021-08-23 12:36:10,110 DEBUG   HandlerThread:61279 [meta.py:_save_pip():71] save pip done
+2021-08-23 12:36:10,110 DEBUG   HandlerThread:61279 [meta.py:_save_conda():78] save conda
+2021-08-23 12:36:11,101 INFO    Thread-8  :61279 [dir_watcher.py:_on_file_created():216] file/dir created: /home/dang/Documents/Doc/2021/mine/wandb/run-20210823_123608-1wpcwymn/files/wandb-summary.json
+2021-08-23 12:36:11,101 INFO    Thread-8  :61279 [dir_watcher.py:_on_file_created():216] file/dir created: /home/dang/Documents/Doc/2021/mine/wandb/run-20210823_123608-1wpcwymn/files/requirements.txt
+2021-08-23 12:36:11,101 INFO    Thread-8  :61279 [dir_watcher.py:_on_file_created():216] file/dir created: /home/dang/Documents/Doc/2021/mine/wandb/run-20210823_123608-1wpcwymn/files/conda-environment.yaml
+2021-08-23 12:36:14,490 DEBUG   HandlerThread:61279 [meta.py:_save_conda():86] save conda done
+2021-08-23 12:36:14,490 DEBUG   HandlerThread:61279 [meta.py:probe():252] probe done
+2021-08-23 12:36:14,517 DEBUG   SenderThread:61279 [sender.py:send():182] send: files
+2021-08-23 12:36:14,518 INFO    SenderThread:61279 [sender.py:_save_file():873] saving file wandb-metadata.json with policy now
+2021-08-23 12:36:14,525 DEBUG   HandlerThread:61279 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-23 12:36:14,525 DEBUG   SenderThread:61279 [sender.py:send_request():196] send_request: stop_status
+2021-08-23 12:36:15,104 INFO    Thread-8  :61279 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/dang/Documents/Doc/2021/mine/wandb/run-20210823_123608-1wpcwymn/files/conda-environment.yaml
+2021-08-23 12:36:15,104 INFO    Thread-8  :61279 [dir_watcher.py:_on_file_created():216] file/dir created: /home/dang/Documents/Doc/2021/mine/wandb/run-20210823_123608-1wpcwymn/files/wandb-metadata.json
+2021-08-23 12:36:15,104 INFO    Thread-8  :61279 [dir_watcher.py:_on_file_created():216] file/dir created: /home/dang/Documents/Doc/2021/mine/wandb/run-20210823_123608-1wpcwymn/files/output.log
+2021-08-23 12:36:15,430 INFO    Thread-11 :61279 [upload_job.py:push():137] Uploaded file /tmp/tmp3rd9ltdewandb/3n8m67px-wandb-metadata.json
+2021-08-23 12:36:17,105 INFO    Thread-8  :61279 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/dang/Documents/Doc/2021/mine/wandb/run-20210823_123608-1wpcwymn/files/output.log
+2021-08-23 12:36:29,935 DEBUG   HandlerThread:61279 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-23 12:36:29,938 DEBUG   SenderThread:61279 [sender.py:send_request():196] send_request: stop_status
+2021-08-23 12:36:38,460 DEBUG   SenderThread:61279 [sender.py:send():182] send: stats
+2021-08-23 12:36:45,332 DEBUG   HandlerThread:61279 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-23 12:36:45,335 DEBUG   SenderThread:61279 [sender.py:send_request():196] send_request: stop_status
+2021-08-23 12:36:48,597 ERROR   SenderThread:61279 [retry.py:__call__():126] Retry attempt failed:
+Traceback (most recent call last):
+  File "/home/dang/anaconda3/envs/mine/lib/python3.7/site-packages/urllib3/connection.py", line 170, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "/home/dang/anaconda3/envs/mine/lib/python3.7/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/home/dang/anaconda3/envs/mine/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/dang/anaconda3/envs/mine/lib/python3.7/site-packages/urllib3/connectionpool.py", line 706, in urlopen
+    chunked=chunked,
+  File "/home/dang/anaconda3/envs/mine/lib/python3.7/site-packages/urllib3/connectionpool.py", line 382, in _make_request
+    self._validate_conn(conn)
+  File "/home/dang/anaconda3/envs/mine/lib/python3.7/site-packages/urllib3/connectionpool.py", line 1010, in _validate_conn
+    conn.connect()
+  File "/home/dang/anaconda3/envs/mine/lib/python3.7/site-packages/urllib3/connection.py", line 353, in connect
+    conn = self._new_conn()
+  File "/home/dang/anaconda3/envs/mine/lib/python3.7/site-packages/urllib3/connection.py", line 182, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x7f39010ec2d0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/dang/anaconda3/envs/mine/lib/python3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/home/dang/anaconda3/envs/mine/lib/python3.7/site-packages/urllib3/connectionpool.py", line 756, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/home/dang/anaconda3/envs/mine/lib/python3.7/site-packages/urllib3/util/retry.py", line 574, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f39010ec2d0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/dang/anaconda3/envs/mine/lib/python3.7/site-packages/wandb/sdk/lib/retry.py", line 102, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/home/dang/anaconda3/envs/mine/lib/python3.7/site-packages/wandb/sdk/internal/internal_api.py", line 130, in execute
+    return self.client.execute(*args, **kwargs)
+  File "/home/dang/anaconda3/envs/mine/lib/python3.7/site-packages/wandb/vendor/gql-0.2.0/gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/home/dang/anaconda3/envs/mine/lib/python3.7/site-packages/wandb/vendor/gql-0.2.0/gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/home/dang/anaconda3/envs/mine/lib/python3.7/site-packages/wandb/vendor/gql-0.2.0/gql/transport/requests.py", line 38, in execute
+    request = requests.post(self.url, **post_args)
+  File "/home/dang/anaconda3/envs/mine/lib/python3.7/site-packages/requests/api.py", line 117, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/home/dang/anaconda3/envs/mine/lib/python3.7/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/dang/anaconda3/envs/mine/lib/python3.7/site-packages/requests/sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/dang/anaconda3/envs/mine/lib/python3.7/site-packages/requests/sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/dang/anaconda3/envs/mine/lib/python3.7/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f39010ec2d0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2021-08-23 12:41:48,659 INFO    HandlerThread:61279 [handler.py:handle_tbrecord():586] handling tbrecord: tbrecord {
+  log_dir: "runs/v1/PPO_5"
+  save: true
+}
+
+2021-08-23 12:41:48,659 DEBUG   HandlerThread:61279 [config_util.py:dict_from_config_file():101] no default config file found in config-defaults.yaml
+2021-08-23 12:41:51,215 INFO    Thread-8  :61279 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/dang/Documents/Doc/2021/mine/wandb/run-20210823_123608-1wpcwymn/files/output.log
+2021-08-23 12:41:51,215 INFO    Thread-8  :61279 [dir_watcher.py:_on_file_created():216] file/dir created: /home/dang/Documents/Doc/2021/mine/wandb/run-20210823_123608-1wpcwymn/files/events.out.tfevents.1629697308.pop-os.61164.0
+2021-08-23 12:41:54,500 ERROR   Thread-14 :61279 [retry.py:__call__():126] Retry attempt failed:
+Traceback (most recent call last):
+  File "/home/dang/anaconda3/envs/mine/lib/python3.7/site-packages/urllib3/connection.py", line 170, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "/home/dang/anaconda3/envs/mine/lib/python3.7/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/home/dang/anaconda3/envs/mine/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/dang/anaconda3/envs/mine/lib/python3.7/site-packages/urllib3/connectionpool.py", line 706, in urlopen
+    chunked=chunked,
+  File "/home/dang/anaconda3/envs/mine/lib/python3.7/site-packages/urllib3/connectionpool.py", line 382, in _make_request
+    self._validate_conn(conn)
+  File "/home/dang/anaconda3/envs/mine/lib/python3.7/site-packages/urllib3/connectionpool.py", line 1010, in _validate_conn
+    conn.connect()
+  File "/home/dang/anaconda3/envs/mine/lib/python3.7/site-packages/urllib3/connection.py", line 353, in connect
+    conn = self._new_conn()
+  File "/home/dang/anaconda3/envs/mine/lib/python3.7/site-packages/urllib3/connection.py", line 182, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x7f38e6855850>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/dang/anaconda3/envs/mine/lib/python3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/home/dang/anaconda3/envs/mine/lib/python3.7/site-packages/urllib3/connectionpool.py", line 756, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/home/dang/anaconda3/envs/mine/lib/python3.7/site-packages/urllib3/util/retry.py", line 574, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f38e6855850>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/dang/anaconda3/envs/mine/lib/python3.7/site-packages/wandb/sdk/lib/retry.py", line 102, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/home/dang/anaconda3/envs/mine/lib/python3.7/site-packages/wandb/sdk/internal/internal_api.py", line 130, in execute
+    return self.client.execute(*args, **kwargs)
+  File "/home/dang/anaconda3/envs/mine/lib/python3.7/site-packages/wandb/vendor/gql-0.2.0/gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/home/dang/anaconda3/envs/mine/lib/python3.7/site-packages/wandb/vendor/gql-0.2.0/gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/home/dang/anaconda3/envs/mine/lib/python3.7/site-packages/wandb/vendor/gql-0.2.0/gql/transport/requests.py", line 38, in execute
+    request = requests.post(self.url, **post_args)
+  File "/home/dang/anaconda3/envs/mine/lib/python3.7/site-packages/requests/api.py", line 117, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/home/dang/anaconda3/envs/mine/lib/python3.7/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/dang/anaconda3/envs/mine/lib/python3.7/site-packages/requests/sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/dang/anaconda3/envs/mine/lib/python3.7/site-packages/requests/sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/dang/anaconda3/envs/mine/lib/python3.7/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f38e6855850>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2021-08-23 12:47:22,321 INFO    Thread-8  :61279 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/dang/Documents/Doc/2021/mine/wandb/run-20210823_123608-1wpcwymn/files/events.out.tfevents.1629697308.pop-os.61164.0
+2021-08-23 12:47:23,322 INFO    Thread-8  :61279 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/dang/Documents/Doc/2021/mine/wandb/run-20210823_123608-1wpcwymn/files/output.log
+2021-08-23 12:52:11,585 DEBUG   HandlerThread:61279 [handler.py:handle_request():128] handle_request: pause
+2021-08-23 12:52:11,586 INFO    HandlerThread:61279 [handler.py:handle_request_pause():561] stopping system metrics thread
+2021-08-23 12:52:13,409 INFO    Thread-8  :61279 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/dang/Documents/Doc/2021/mine/wandb/run-20210823_123608-1wpcwymn/files/output.log
+2021-08-23 12:52:53,110 WARNING FileStreamThread:61279 [file_stream.py:request_with_retry():466] requests_with_retry encountered retryable exception: ('Connection aborted.', OSError(101, 'Network is unreachable')). func: <bound method Session.post of <requests.sessions.Session object at 0x7f3919199a50>>, args: ('https://api.wandb.ai/files/winter2109/minerl/1wpcwymn/file_stream',), kwargs: {'json': {'files': {'wandb-events.jsonl': {'offset': 0, 'content': ['{"system.gpu.0.gpu": 1.4, "system.gpu.0.memory": 1.2, "system.gpu.0.memoryAllocated": 11.89, "system.gpu.0.temp": 61.07, "system.gpu.process.0.gpu": 1.08, "system.gpu.process.0.memory": 0.17, "system.gpu.process.0.memoryAllocated": 13.3, "system.gpu.process.0.temp": 61.58, "system.gpu.0.powerWatts": 52.13, "system.gpu.0.powerPercent": 18.62, "system.gpu.process.0.powerWatts": 59.89, "system.gpu.process.0.powerPercent": 21.39, "system.cpu": 15.83, "system.memory": 19.89, "system.disk": 95.33, "system.proc.memory.availableMB": 38618.85, "system.proc.memory.rssMB": 79.73, "system.proc.memory.percent": 0.17, "system.proc.cpu.threads": 11.8, "system.network.sent": 24055, "system.network.recv": 43228, "_wandb": true, "_timestamp": 1629696998, "_runtime": 30}']}}, 'dropped': 0}}
+2021-08-23 12:52:55,342 WARNING FileStreamThread:61279 [file_stream.py:request_with_retry():466] requests_with_retry encountered retryable exception: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /files/winter2109/minerl/1wpcwymn/file_stream (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f38e76b2dd0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution')). func: <bound method Session.post of <requests.sessions.Session object at 0x7f3919199a50>>, args: ('https://api.wandb.ai/files/winter2109/minerl/1wpcwymn/file_stream',), kwargs: {'json': {'files': {'wandb-events.jsonl': {'offset': 0, 'content': ['{"system.gpu.0.gpu": 1.4, "system.gpu.0.memory": 1.2, "system.gpu.0.memoryAllocated": 11.89, "system.gpu.0.temp": 61.07, "system.gpu.process.0.gpu": 1.08, "system.gpu.process.0.memory": 0.17, "system.gpu.process.0.memoryAllocated": 13.3, "system.gpu.process.0.temp": 61.58, "system.gpu.0.powerWatts": 52.13, "system.gpu.0.powerPercent": 18.62, "system.gpu.process.0.powerWatts": 59.89, "system.gpu.process.0.powerPercent": 21.39, "system.cpu": 15.83, "system.memory": 19.89, "system.disk": 95.33, "system.proc.memory.availableMB": 38618.85, "system.proc.memory.rssMB": 79.73, "system.proc.memory.percent": 0.17, "system.proc.cpu.threads": 11.8, "system.network.sent": 24055, "system.network.recv": 43228, "_wandb": true, "_timestamp": 1629696998, "_runtime": 30}']}}, 'dropped': 0}}
+2021-08-23 12:52:59,713 WARNING FileStreamThread:61279 [file_stream.py:request_with_retry():466] requests_with_retry encountered retryable exception: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /files/winter2109/minerl/1wpcwymn/file_stream (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f38e76b2b90>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution')). func: <bound method Session.post of <requests.sessions.Session object at 0x7f3919199a50>>, args: ('https://api.wandb.ai/files/winter2109/minerl/1wpcwymn/file_stream',), kwargs: {'json': {'files': {'wandb-events.jsonl': {'offset': 0, 'content': ['{"system.gpu.0.gpu": 1.4, "system.gpu.0.memory": 1.2, "system.gpu.0.memoryAllocated": 11.89, "system.gpu.0.temp": 61.07, "system.gpu.process.0.gpu": 1.08, "system.gpu.process.0.memory": 0.17, "system.gpu.process.0.memoryAllocated": 13.3, "system.gpu.process.0.temp": 61.58, "system.gpu.0.powerWatts": 52.13, "system.gpu.0.powerPercent": 18.62, "system.gpu.process.0.powerWatts": 59.89, "system.gpu.process.0.powerPercent": 21.39, "system.cpu": 15.83, "system.memory": 19.89, "system.disk": 95.33, "system.proc.memory.availableMB": 38618.85, "system.proc.memory.rssMB": 79.73, "system.proc.memory.percent": 0.17, "system.proc.cpu.threads": 11.8, "system.network.sent": 24055, "system.network.recv": 43228, "_wandb": true, "_timestamp": 1629696998, "_runtime": 30}']}}, 'dropped': 0}}
+2021-08-23 12:53:09,441 WARNING FileStreamThread:61279 [file_stream.py:request_with_retry():466] requests_with_retry encountered retryable exception: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /files/winter2109/minerl/1wpcwymn/file_stream (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f38e76b2d50>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution')). func: <bound method Session.post of <requests.sessions.Session object at 0x7f3919199a50>>, args: ('https://api.wandb.ai/files/winter2109/minerl/1wpcwymn/file_stream',), kwargs: {'json': {'files': {'wandb-events.jsonl': {'offset': 0, 'content': ['{"system.gpu.0.gpu": 1.4, "system.gpu.0.memory": 1.2, "system.gpu.0.memoryAllocated": 11.89, "system.gpu.0.temp": 61.07, "system.gpu.process.0.gpu": 1.08, "system.gpu.process.0.memory": 0.17, "system.gpu.process.0.memoryAllocated": 13.3, "system.gpu.process.0.temp": 61.58, "system.gpu.0.powerWatts": 52.13, "system.gpu.0.powerPercent": 18.62, "system.gpu.process.0.powerWatts": 59.89, "system.gpu.process.0.powerPercent": 21.39, "system.cpu": 15.83, "system.memory": 19.89, "system.disk": 95.33, "system.proc.memory.availableMB": 38618.85, "system.proc.memory.rssMB": 79.73, "system.proc.memory.percent": 0.17, "system.proc.cpu.threads": 11.8, "system.network.sent": 24055, "system.network.recv": 43228, "_wandb": true, "_timestamp": 1629696998, "_runtime": 30}']}}, 'dropped': 0}}
+2021-08-23 12:53:26,353 WARNING FileStreamThread:61279 [file_stream.py:request_with_retry():466] requests_with_retry encountered retryable exception: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /files/winter2109/minerl/1wpcwymn/file_stream (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f38e76b2dd0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution')). func: <bound method Session.post of <requests.sessions.Session object at 0x7f3919199a50>>, args: ('https://api.wandb.ai/files/winter2109/minerl/1wpcwymn/file_stream',), kwargs: {'json': {'files': {'wandb-events.jsonl': {'offset': 0, 'content': ['{"system.gpu.0.gpu": 1.4, "system.gpu.0.memory": 1.2, "system.gpu.0.memoryAllocated": 11.89, "system.gpu.0.temp": 61.07, "system.gpu.process.0.gpu": 1.08, "system.gpu.process.0.memory": 0.17, "system.gpu.process.0.memoryAllocated": 13.3, "system.gpu.process.0.temp": 61.58, "system.gpu.0.powerWatts": 52.13, "system.gpu.0.powerPercent": 18.62, "system.gpu.process.0.powerWatts": 59.89, "system.gpu.process.0.powerPercent": 21.39, "system.cpu": 15.83, "system.memory": 19.89, "system.disk": 95.33, "system.proc.memory.availableMB": 38618.85, "system.proc.memory.rssMB": 79.73, "system.proc.memory.percent": 0.17, "system.proc.cpu.threads": 11.8, "system.network.sent": 24055, "system.network.recv": 43228, "_wandb": true, "_timestamp": 1629696998, "_runtime": 30}']}}, 'dropped': 0}}
+2021-08-23 12:54:05,715 WARNING FileStreamThread:61279 [file_stream.py:request_with_retry():466] requests_with_retry encountered retryable exception: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /files/winter2109/minerl/1wpcwymn/file_stream (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f39010bfe50>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution')). func: <bound method Session.post of <requests.sessions.Session object at 0x7f3919199a50>>, args: ('https://api.wandb.ai/files/winter2109/minerl/1wpcwymn/file_stream',), kwargs: {'json': {'files': {'wandb-events.jsonl': {'offset': 0, 'content': ['{"system.gpu.0.gpu": 1.4, "system.gpu.0.memory": 1.2, "system.gpu.0.memoryAllocated": 11.89, "system.gpu.0.temp": 61.07, "system.gpu.process.0.gpu": 1.08, "system.gpu.process.0.memory": 0.17, "system.gpu.process.0.memoryAllocated": 13.3, "system.gpu.process.0.temp": 61.58, "system.gpu.0.powerWatts": 52.13, "system.gpu.0.powerPercent": 18.62, "system.gpu.process.0.powerWatts": 59.89, "system.gpu.process.0.powerPercent": 21.39, "system.cpu": 15.83, "system.memory": 19.89, "system.disk": 95.33, "system.proc.memory.availableMB": 38618.85, "system.proc.memory.rssMB": 79.73, "system.proc.memory.percent": 0.17, "system.proc.cpu.threads": 11.8, "system.network.sent": 24055, "system.network.recv": 43228, "_wandb": true, "_timestamp": 1629696998, "_runtime": 30}']}}, 'dropped': 0}}
+2021-08-23 12:55:15,846 WARNING FileStreamThread:61279 [file_stream.py:request_with_retry():466] requests_with_retry encountered retryable exception: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /files/winter2109/minerl/1wpcwymn/file_stream (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f39010e1750>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution')). func: <bound method Session.post of <requests.sessions.Session object at 0x7f3919199a50>>, args: ('https://api.wandb.ai/files/winter2109/minerl/1wpcwymn/file_stream',), kwargs: {'json': {'files': {'wandb-events.jsonl': {'offset': 0, 'content': ['{"system.gpu.0.gpu": 1.4, "system.gpu.0.memory": 1.2, "system.gpu.0.memoryAllocated": 11.89, "system.gpu.0.temp": 61.07, "system.gpu.process.0.gpu": 1.08, "system.gpu.process.0.memory": 0.17, "system.gpu.process.0.memoryAllocated": 13.3, "system.gpu.process.0.temp": 61.58, "system.gpu.0.powerWatts": 52.13, "system.gpu.0.powerPercent": 18.62, "system.gpu.process.0.powerWatts": 59.89, "system.gpu.process.0.powerPercent": 21.39, "system.cpu": 15.83, "system.memory": 19.89, "system.disk": 95.33, "system.proc.memory.availableMB": 38618.85, "system.proc.memory.rssMB": 79.73, "system.proc.memory.percent": 0.17, "system.proc.cpu.threads": 11.8, "system.network.sent": 24055, "system.network.recv": 43228, "_wandb": true, "_timestamp": 1629696998, "_runtime": 30}']}}, 'dropped': 0}}
+2021-08-23 12:57:40,415 WARNING FileStreamThread:61279 [file_stream.py:request_with_retry():466] requests_with_retry encountered retryable exception: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /files/winter2109/minerl/1wpcwymn/file_stream (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f39010e1ad0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution')). func: <bound method Session.post of <requests.sessions.Session object at 0x7f3919199a50>>, args: ('https://api.wandb.ai/files/winter2109/minerl/1wpcwymn/file_stream',), kwargs: {'json': {'files': {'wandb-events.jsonl': {'offset': 0, 'content': ['{"system.gpu.0.gpu": 1.4, "system.gpu.0.memory": 1.2, "system.gpu.0.memoryAllocated": 11.89, "system.gpu.0.temp": 61.07, "system.gpu.process.0.gpu": 1.08, "system.gpu.process.0.memory": 0.17, "system.gpu.process.0.memoryAllocated": 13.3, "system.gpu.process.0.temp": 61.58, "system.gpu.0.powerWatts": 52.13, "system.gpu.0.powerPercent": 18.62, "system.gpu.process.0.powerWatts": 59.89, "system.gpu.process.0.powerPercent": 21.39, "system.cpu": 15.83, "system.memory": 19.89, "system.disk": 95.33, "system.proc.memory.availableMB": 38618.85, "system.proc.memory.rssMB": 79.73, "system.proc.memory.percent": 0.17, "system.proc.cpu.threads": 11.8, "system.network.sent": 24055, "system.network.recv": 43228, "_wandb": true, "_timestamp": 1629696998, "_runtime": 30}']}}, 'dropped': 0}}
+2021-08-23 13:02:06,679 WARNING FileStreamThread:61279 [file_stream.py:request_with_retry():466] requests_with_retry encountered retryable exception: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /files/winter2109/minerl/1wpcwymn/file_stream (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f38e6847810>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution')). func: <bound method Session.post of <requests.sessions.Session object at 0x7f3919199a50>>, args: ('https://api.wandb.ai/files/winter2109/minerl/1wpcwymn/file_stream',), kwargs: {'json': {'files': {'wandb-events.jsonl': {'offset': 0, 'content': ['{"system.gpu.0.gpu": 1.4, "system.gpu.0.memory": 1.2, "system.gpu.0.memoryAllocated": 11.89, "system.gpu.0.temp": 61.07, "system.gpu.process.0.gpu": 1.08, "system.gpu.process.0.memory": 0.17, "system.gpu.process.0.memoryAllocated": 13.3, "system.gpu.process.0.temp": 61.58, "system.gpu.0.powerWatts": 52.13, "system.gpu.0.powerPercent": 18.62, "system.gpu.process.0.powerWatts": 59.89, "system.gpu.process.0.powerPercent": 21.39, "system.cpu": 15.83, "system.memory": 19.89, "system.disk": 95.33, "system.proc.memory.availableMB": 38618.85, "system.proc.memory.rssMB": 79.73, "system.proc.memory.percent": 0.17, "system.proc.cpu.threads": 11.8, "system.network.sent": 24055, "system.network.recv": 43228, "_wandb": true, "_timestamp": 1629696998, "_runtime": 30}']}}, 'dropped': 0}}

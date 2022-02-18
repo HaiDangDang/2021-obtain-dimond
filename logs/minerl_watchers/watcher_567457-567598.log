@@ -1,0 +1,8 @@
+2021-08-16 17:50:23 pop-os process_watcher[567654] INFO Process watcher started between parent 567457 and child 567598 
+2021-08-16 17:50:53 pop-os process_watcher[567654] INFO Parent is not running, hence we need terminate the child.
+2021-08-16 17:50:53 pop-os process_watcher[567654] INFO About to reap process tree of 567598:launchClient.sh:/usr/bin/bash i sleeping, owner 2518, printing process tree status in termination order:
+2021-08-16 17:50:53 pop-os process_watcher[567654] INFO 	-567603:java:/usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java i sleeping, owner 567598
+2021-08-16 17:50:53 pop-os process_watcher[567654] INFO 	-567598:launchClient.sh:/usr/bin/bash i sleeping, owner 2518
+2021-08-16 17:50:53 pop-os process_watcher[567654] INFO Trying to SIGTERM 567603:java:/usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java i sleeping, owner 567598
+2021-08-16 17:50:54 pop-os process_watcher[567654] INFO Process psutil.Process(pid=567603, status='terminated') terminated with exit code None
+2021-08-16 17:50:54 pop-os process_watcher[567654] INFO Process psutil.Process(pid=567598, status='terminated') does not exist or is zombie.

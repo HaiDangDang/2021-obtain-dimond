@@ -1,0 +1,7 @@
+{
+  "challenge_id": "neurips-2021-minerl-diamond-competition",
+  "authors": ["winter2109"],
+  "tags": "intro",
+  "description": "A baseline solution using scripted behaviour and behavioural cloning",
+  "gpu": true
+}

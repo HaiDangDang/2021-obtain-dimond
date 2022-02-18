@@ -1,0 +1,3 @@
+/home/dang/anaconda3/envs/mine/lib/python3.7/site-packages/stable_baselines3/common/env_checker.py:82: UserWarning: The action space is not based off a numpy array. Typically this means it's either a Dict or Tuple space. This type of action space is currently not supported by Stable Baselines 3. You should try to flatten the action using a wrapper.
+  "The action space is not based off a numpy array. Typically this means it's either a Dict or Tuple space. "
+/home/dang/anaconda3/envs/mine/lib/python3.7/site-packages/stable_baselines3/common/env_checker.py:48: UserWarning: The minimal resolution for an image is 36x36 for the default `CnnPolicy`. You might need to use a custom feature extractor cf. https://stable-baselines3.readthedocs.io/en/master/guide/custom_policy.html

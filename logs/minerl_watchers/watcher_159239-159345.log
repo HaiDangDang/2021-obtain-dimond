@@ -1,0 +1,2 @@
+2021-09-15 23:07:27 pop-os process_watcher[159401] INFO Process watcher started between parent 159239 and child 159345 
+2021-09-16 20:44:57 pop-os process_watcher[159401] INFO Parent is not running, hence we need terminate the child.

@@ -1,0 +1,66 @@
+2021-08-23 14:49:27,716 INFO    MainThread:93946 [internal.py:wandb_internal():89] W&B internal server running at pid: 93946, started at: 2021-08-23 14:49:27.716316
+2021-08-23 14:49:27,718 INFO    WriterThread:93946 [datastore.py:open_for_write():77] open: /home/dang/Documents/Doc/2021/mine/wandb/run-20210823_144927-31u7x77e/run-31u7x77e.wandb
+2021-08-23 14:49:27,718 DEBUG   HandlerThread:93946 [handler.py:handle_request():128] handle_request: check_version
+2021-08-23 14:49:27,720 DEBUG   SenderThread:93946 [sender.py:send():182] send: header
+2021-08-23 14:49:27,720 DEBUG   SenderThread:93946 [sender.py:send_request():196] send_request: check_version
+2021-08-23 14:49:27,873 DEBUG   SenderThread:93946 [sender.py:send():182] send: run
+2021-08-23 14:49:27,877 DEBUG   SenderThread:93946 [git.py:repo():33] git repository is invalid
+2021-08-23 14:49:28,331 INFO    SenderThread:93946 [dir_watcher.py:__init__():168] watching files in: /home/dang/Documents/Doc/2021/mine/wandb/run-20210823_144927-31u7x77e/files
+2021-08-23 14:49:28,331 INFO    SenderThread:93946 [sender.py:_start_run_threads():743] run started: 31u7x77e with start time 1629704967
+2021-08-23 14:49:28,331 DEBUG   SenderThread:93946 [sender.py:send():182] send: summary
+2021-08-23 14:49:28,331 INFO    SenderThread:93946 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-23 14:49:28,333 DEBUG   HandlerThread:93946 [handler.py:handle_request():128] handle_request: run_start
+2021-08-23 14:49:28,335 DEBUG   HandlerThread:93946 [meta.py:__init__():39] meta init
+2021-08-23 14:49:28,335 DEBUG   HandlerThread:93946 [meta.py:__init__():53] meta init done
+2021-08-23 14:49:28,335 DEBUG   HandlerThread:93946 [meta.py:probe():210] probe
+2021-08-23 14:49:28,341 DEBUG   HandlerThread:93946 [git.py:repo():33] git repository is invalid
+2021-08-23 14:49:28,341 DEBUG   HandlerThread:93946 [meta.py:_save_code():89] save code
+2021-08-23 14:49:28,341 WARNING HandlerThread:93946 [meta.py:_save_code():91] unable to save code -- program entry not found
+2021-08-23 14:49:28,341 DEBUG   HandlerThread:93946 [meta.py:_save_pip():57] save pip
+2021-08-23 14:49:28,342 DEBUG   HandlerThread:93946 [meta.py:_save_pip():71] save pip done
+2021-08-23 14:49:28,342 DEBUG   HandlerThread:93946 [meta.py:_save_conda():78] save conda
+2021-08-23 14:49:29,333 INFO    Thread-8  :93946 [dir_watcher.py:_on_file_created():216] file/dir created: /home/dang/Documents/Doc/2021/mine/wandb/run-20210823_144927-31u7x77e/files/wandb-summary.json
+2021-08-23 14:49:29,334 INFO    Thread-8  :93946 [dir_watcher.py:_on_file_created():216] file/dir created: /home/dang/Documents/Doc/2021/mine/wandb/run-20210823_144927-31u7x77e/files/requirements.txt
+2021-08-23 14:49:29,334 INFO    Thread-8  :93946 [dir_watcher.py:_on_file_created():216] file/dir created: /home/dang/Documents/Doc/2021/mine/wandb/run-20210823_144927-31u7x77e/files/conda-environment.yaml
+2021-08-23 14:49:31,962 DEBUG   HandlerThread:93946 [meta.py:_save_conda():86] save conda done
+2021-08-23 14:49:31,962 DEBUG   HandlerThread:93946 [meta.py:probe():252] probe done
+2021-08-23 14:49:31,991 DEBUG   SenderThread:93946 [sender.py:send():182] send: files
+2021-08-23 14:49:31,991 INFO    SenderThread:93946 [sender.py:_save_file():873] saving file wandb-metadata.json with policy now
+2021-08-23 14:49:31,999 DEBUG   HandlerThread:93946 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-23 14:49:31,999 DEBUG   SenderThread:93946 [sender.py:send_request():196] send_request: stop_status
+2021-08-23 14:49:32,336 INFO    Thread-8  :93946 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/dang/Documents/Doc/2021/mine/wandb/run-20210823_144927-31u7x77e/files/conda-environment.yaml
+2021-08-23 14:49:32,337 INFO    Thread-8  :93946 [dir_watcher.py:_on_file_created():216] file/dir created: /home/dang/Documents/Doc/2021/mine/wandb/run-20210823_144927-31u7x77e/files/output.log
+2021-08-23 14:49:32,340 INFO    Thread-8  :93946 [dir_watcher.py:_on_file_created():216] file/dir created: /home/dang/Documents/Doc/2021/mine/wandb/run-20210823_144927-31u7x77e/files/wandb-metadata.json
+2021-08-23 14:49:32,799 INFO    Thread-11 :93946 [upload_job.py:push():137] Uploaded file /tmp/tmpey2uybw7wandb/2fjnjx0k-wandb-metadata.json
+2021-08-23 14:49:34,337 INFO    Thread-8  :93946 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/dang/Documents/Doc/2021/mine/wandb/run-20210823_144927-31u7x77e/files/output.log
+2021-08-23 14:49:47,363 DEBUG   HandlerThread:93946 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-23 14:49:47,366 DEBUG   SenderThread:93946 [sender.py:send_request():196] send_request: stop_status
+2021-08-23 14:49:56,647 DEBUG   SenderThread:93946 [sender.py:send():182] send: stats
+2021-08-23 14:50:02,792 DEBUG   HandlerThread:93946 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-23 14:50:02,795 DEBUG   SenderThread:93946 [sender.py:send_request():196] send_request: stop_status
+2021-08-23 14:50:12,024 DEBUG   HandlerThread:93946 [handler.py:handle_request():128] handle_request: pause
+2021-08-23 14:50:12,025 INFO    HandlerThread:93946 [handler.py:handle_request_pause():561] stopping system metrics thread
+2021-08-23 14:50:12,112 DEBUG   SenderThread:93946 [sender.py:send():182] send: stats
+2021-08-23 14:50:14,349 INFO    Thread-8  :93946 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/dang/Documents/Doc/2021/mine/wandb/run-20210823_144927-31u7x77e/files/output.log
+2021-08-23 14:50:18,184 DEBUG   HandlerThread:93946 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-23 14:50:18,185 DEBUG   SenderThread:93946 [sender.py:send_request():196] send_request: stop_status
+2021-08-23 14:50:33,575 DEBUG   HandlerThread:93946 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-23 14:50:33,579 DEBUG   SenderThread:93946 [sender.py:send_request():196] send_request: stop_status
+2021-08-23 14:50:48,961 DEBUG   HandlerThread:93946 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-23 14:50:48,964 DEBUG   SenderThread:93946 [sender.py:send_request():196] send_request: stop_status
+2021-08-23 14:51:04,392 DEBUG   HandlerThread:93946 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-23 14:51:04,396 DEBUG   SenderThread:93946 [sender.py:send_request():196] send_request: stop_status
+2021-08-23 14:51:19,775 DEBUG   HandlerThread:93946 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-23 14:51:19,775 DEBUG   SenderThread:93946 [sender.py:send_request():196] send_request: stop_status
+2021-08-23 14:51:35,152 DEBUG   HandlerThread:93946 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-23 14:51:35,155 DEBUG   SenderThread:93946 [sender.py:send_request():196] send_request: stop_status
+2021-08-23 14:51:50,529 DEBUG   HandlerThread:93946 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-23 14:51:50,532 DEBUG   SenderThread:93946 [sender.py:send_request():196] send_request: stop_status
+2021-08-23 14:52:05,912 DEBUG   HandlerThread:93946 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-23 14:52:05,912 DEBUG   SenderThread:93946 [sender.py:send_request():196] send_request: stop_status
+2021-08-23 14:52:21,282 DEBUG   HandlerThread:93946 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-23 14:52:21,285 DEBUG   SenderThread:93946 [sender.py:send_request():196] send_request: stop_status
+2021-08-23 14:52:36,666 DEBUG   HandlerThread:93946 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-23 14:52:36,669 DEBUG   SenderThread:93946 [sender.py:send_request():196] send_request: stop_status
+2021-08-23 14:52:52,044 DEBUG   HandlerThread:93946 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-23 14:52:52,047 DEBUG   SenderThread:93946 [sender.py:send_request():196] send_request: stop_status

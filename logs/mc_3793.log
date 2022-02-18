@@ -1,0 +1,97 @@
+[13:26:15] [EnvServerSocketHandler/INFO]: [STDOUT]: Received from localhost:<MissionInit xmlns="http://ProjectMalmo.microsoft.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SchemaVersion="" PlatformVersion="0.37.0"><Mission><About><Summary>MineRLObtainDiamond-v0</Summary></About><ModSettings><MsPerTick>50</MsPerTick></ModSettings><ServerSection><ServerInitialConditions><Time><StartTime>6000</StartTime><AllowPassageOfTime>true</AllowPassageOfTime></Time><AllowSpawning>true</AllowSpawning></ServerInitialConditions><ServerHandlers><DefaultWorldGenerator forceReset="true" generatorOptions="{}"/><ServerQuitFromTimeUp timeLimitMs="900000" description="out_of_time"/><ServerQuitWhenAnyAgentFinishes/></ServerHandlers></ServerSection><AgentSection mode="Survival"><Name>MineRLAgent0</Name><AgentStart/><AgentHandlers><FileBasedPerformanceProducer/><ObservationFromDamage/><PauseCommand/><VideoProducer want_depth="false"><Width>64</Width><Height>64</Height></VideoProducer><ObservationFromFullInventory flat="false"/><ObservationFromEquippedItem/><HumanLevelCommands/><CameraCommands/><PlaceCommands/><EquipCommands/><SimpleCraftCommands/><NearbyCraftCommands/><NearbySmeltCommands/><RewardForPossessingItem sparse="true" excludeLoops="true"><Item amount="1" reward="1" type="log"/><Item amount="1" reward="2" type="planks"/><Item amount="1" reward="4" type="stick"/><Item amount="1" reward="4" type="crafting_table"/><Item amount="1" reward="8" type="wooden_pickaxe"/><Item amount="1" reward="16" type="cobblestone"/><Item amount="1" reward="32" type="furnace"/><Item amount="1" reward="32" type="stone_pickaxe"/><Item amount="1" reward="64" type="iron_ore"/><Item amount="1" reward="128" type="iron_ingot"/><Item amount="1" reward="256" type="iron_pickaxe"/><Item amount="1" reward="1024" type="diamond"/></RewardForPossessingItem><AgentQuitFromPossessingItem><Item type="diamond" amount="1"/></AgentQuitFromPossessingItem></AgentHandlers></AgentSection></Mission><ExperimentUID>992cd3e1-0292-4402-bf51-4ec9448e7ee0</ExperimentUID><ClientRole>0</ClientRole><ClientAgentConnection><ClientIPAddress>127.0.0.1</ClientIPAddress><ClientMissionControlPort>0</ClientMissionControlPort><ClientCommandsPort>0</ClientCommandsPort><AgentIPAddress>127.0.0.1</AgentIPAddress><AgentMissionControlPort>0</AgentMissionControlPort><AgentVideoPort>0</AgentVideoPort><AgentDepthPort>0</AgentDepthPort><AgentLuminancePort>0</AgentLuminancePort><AgentObservationsPort>0</AgentObservationsPort><AgentRewardsPort>0</AgentRewardsPort><AgentColourMapPort>0</AgentColourMapPort></ClientAgentConnection></MissionInit>
+[13:26:16] [EnvServerSocketHandler/INFO]: [STDOUT]: REPLYING WITH: MALMOOK
+[13:26:16] [Client thread/INFO]: [STDOUT]: Mission received: MineRLObtainDiamond-v0
+[13:26:16] [Client thread/INFO]: [STDOUT]: CLIENT request state: CREATING_HANDLERS
+[13:26:16] [Client thread/INFO]: [STDOUT]: CLIENT enter state: CREATING_HANDLERS
+[13:26:16] [Client thread/INFO]: [STDOUT]: Starting command server.
+[13:26:16] [Thread-11/INFO]: [STDOUT]: INFO: ->com(0) Listening for messages on port 10655
+[13:26:16] [Client thread/INFO]: [STDOUT]: CLIENT request state: EVALUATING_WORLD_REQUIREMENTS
+[13:26:16] [Client thread/INFO]: [STDOUT]: CLIENT enter state: EVALUATING_WORLD_REQUIREMENTS
+[13:26:16] [Client thread/INFO]: [STDOUT]: CLIENT request state: CREATING_NEW_WORLD
+[13:26:16] [Client thread/INFO]: [STDOUT]: CLIENT enter state: CREATING_NEW_WORLD
+[13:26:16] [Client thread/INFO]: [STDOUT]: [LOGTOPY] GENERATOR OPTIONS = {}
+[13:26:16] [Server thread/INFO]: Starting integrated minecraft server version 1.11.2
+[13:26:16] [Server thread/INFO]: Generating keypair
+[13:26:16] [Server thread/INFO]: Injecting existing block and item data into this server instance
+[13:26:16] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[13:26:16] [Server thread/INFO]: Applying holder lookups
+[13:26:16] [Server thread/INFO]: Holder lookups applied
+[13:26:17] [Server thread/INFO]: Loading dimension 0 (TEMP_0_6e086b87-ed96-44a9-bbcb-9e1fb1fc2548) (net.minecraft.server.integrated.IntegratedServer@708c921f)
+[13:26:17] [Server thread/INFO]: Loading dimension 1 (TEMP_0_6e086b87-ed96-44a9-bbcb-9e1fb1fc2548) (net.minecraft.server.integrated.IntegratedServer@708c921f)
+[13:26:17] [Server thread/INFO]: Loading dimension -1 (TEMP_0_6e086b87-ed96-44a9-bbcb-9e1fb1fc2548) (net.minecraft.server.integrated.IntegratedServer@708c921f)
+[13:26:17] [Server thread/INFO]: Preparing start region for level 0
+[13:26:18] [Server thread/INFO]: Preparing spawn area: 13%
+[13:26:19] [Server thread/INFO]: Preparing spawn area: 29%
+[13:26:20] [Server thread/INFO]: Preparing spawn area: 45%
+[13:26:21] [Server thread/INFO]: Preparing spawn area: 64%
+[13:26:22] [Server thread/INFO]: Preparing spawn area: 84%
+[13:26:23] [Server thread/INFO]: Changing view distance to 4, from 10
+[13:26:23] [Netty Local Client IO #0/INFO]: [STDOUT]: Transformed Name: net.minecraft.client.entity.EntityOtherPlayerMP
+[13:26:23] [Netty Local Client IO #0/INFO]: [STDOUT]: MALMO: Found EntityOtherPlayerMP, attempting to transform it
+[13:26:24] [Server thread/INFO]: [STDOUT]: SERVER request state: WAITING_FOR_MOD_READY
+[13:26:24] [Server thread/INFO]: [STDOUT]: CLIENT request state: WAITING_FOR_SERVER_READY
+[13:26:24] [Client thread/INFO]: [STDOUT]: CLIENT enter state: WAITING_FOR_SERVER_READY
+[13:26:24] [Server thread/INFO]: [STDOUT]: SERVER enter state: WAITING_FOR_MOD_READY
+[13:26:24] [Netty Local Client IO #0/INFO]: Server protocol version 2
+[13:26:24] [Netty Server IO #1/INFO]: Client protocol version 2
+[13:26:24] [Netty Server IO #1/INFO]: Client attempting to join with 5 mods : minecraft@1.11.2,FML@8.0.99.99,malmomod@0.37.0,forge@13.20.1.2588,mcp@9.19
+[13:26:24] [Netty Local Client IO #0/INFO]: [Netty Local Client IO #0] Client side modded connection established
+[13:26:24] [Server thread/INFO]: [Server thread] Server side modded connection established
+[13:26:24] [Server thread/INFO]: MineRLAgent0[local:E:f83f5f16] logged in with entity id 585 at (-231.5, 71.0, 235.5)
+[13:26:24] [Server thread/INFO]: MineRLAgent0 joined the game
+[13:26:24] [Server thread/INFO]: [STDOUT]: SERVER request state: DORMANT
+[13:26:24] [Server thread/INFO]: [STDOUT]: SERVER enter state: DORMANT
+[13:26:24] [Server thread/INFO]: [STDOUT]: INCOMING MISSION: Received MissionInit directly through ServerStateMachine constructor.
+[13:26:24] [Server thread/INFO]: [STDOUT]: Mission received: MineRLObtainDiamond-v0
+[13:26:24] [Server thread/INFO]: Received mission: §9MineRLObtainDiamond-v0
+[13:26:24] [Server thread/INFO]: Source: §alocalhost
+[13:26:24] [Server thread/INFO]: [STDOUT]: SERVER request state: BUILDING_WORLD
+[13:26:24] [Server thread/INFO]: [STDOUT]: SERVER enter state: BUILDING_WORLD
+[13:26:24] [Server thread/INFO]: [STDOUT]: SERVER request state: WAITING_FOR_AGENTS_TO_ASSEMBLE
+[13:26:25] [Client thread/INFO]: [CHAT] Received mission: §9MineRLObtainDiamond-v0
+[13:26:25] [Client thread/INFO]: [CHAT] Source: §alocalhost
+[13:26:25] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[13:26:25] [Server thread/INFO]: [STDOUT]: SERVER enter state: WAITING_FOR_AGENTS_TO_ASSEMBLE
+[13:26:25] [Server thread/INFO]: [STDOUT]: Experiment requires: 
+[13:26:25] [Server thread/INFO]: [STDOUT]: >>>> MineRLAgent0
+[13:26:26] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[13:26:26] [Server thread/INFO]: [STDOUT]: Initializing player with username MineRLAgent0 and agentname MineRLAgent0
+[13:26:26] [Client thread/INFO]: [STDOUT]: CLIENT request state: RUNNING
+[13:26:26] [Client thread/INFO]: [STDOUT]: CLIENT enter state: RUNNING
+[13:26:26] [Server thread/INFO]: [STDOUT]: SERVER request state: RUNNING
+[13:26:26] [Client thread/INFO]: [STDOUT]: Preparing reward com.microsoft.Malmo.MissionHandlers.RewardForPossessingItemImplementation@7cd8c021 with agent name MineRLAgent0
+[13:26:26] [Client thread/INFO]: [STDOUT]: [LOGTOPY] On Mac OSX Catalina make sure to install this OpenJDK 1.8.0_152-release-1056-b12, this prevents the NSDragRegions crash
+[13:26:26] [Server thread/INFO]: [STDOUT]: SERVER enter state: RUNNING
+[13:26:26] [Client thread/INFO]: [STDOUT]: Resized the window
+[13:26:26] [Client thread/INFO]: [STDOUT]: Unpausing
+[13:30:28] [Server thread/INFO]: [STDOUT]: Warning: managed 9/20 ticks this second.
+[13:30:29] [Server thread/INFO]: [STDOUT]: Warning: managed 9/20 ticks this second.
+[13:30:30] [Server thread/INFO]: [STDOUT]: Warning: managed 9/20 ticks this second.
+[13:30:31] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[13:30:32] [Server thread/INFO]: [STDOUT]: Warning: managed 9/20 ticks this second.
+[13:30:33] [Server thread/INFO]: [STDOUT]: Warning: managed 9/20 ticks this second.
+[13:30:34] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[13:30:35] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[13:30:36] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[13:31:30] [Server thread/INFO]: [STDOUT]: Warning: managed 8/20 ticks this second.
+[13:31:32] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[13:31:33] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[13:31:34] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[13:31:35] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[13:31:36] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[13:31:37] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[13:31:38] [Server thread/INFO]: [STDOUT]: Warning: managed 9/20 ticks this second.
+[13:31:39] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[13:31:40] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[13:31:41] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[13:31:42] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[13:32:35] [Server thread/INFO]: [STDOUT]: Warning: managed 1/20 ticks this second.
+[13:32:36] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[13:32:37] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[13:32:38] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[13:32:40] [Server thread/INFO]: [STDOUT]: Warning: managed 12/20 ticks this second.
+[13:32:41] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[13:32:42] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[13:32:43] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[13:32:44] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[13:32:45] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.

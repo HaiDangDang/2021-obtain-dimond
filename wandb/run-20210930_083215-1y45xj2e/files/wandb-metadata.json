@@ -1,0 +1,26 @@
+{
+    "os": "Linux-5.11.0-7614-generic-x86_64-with-debian-bullseye-sid",
+    "python": "3.7.11",
+    "heartbeatAt": "2021-09-30T01:32:16.410672",
+    "startedAt": "2021-09-30T01:32:15.259326",
+    "docker": null,
+    "gpu": "GeForce GTX 1080 Ti",
+    "gpu_count": 1,
+    "cpu_count": 16,
+    "cuda": null,
+    "args": [
+        "--mode=client",
+        "--port=42667"
+    ],
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "git@PA-P.gitlab.aicrowd.com:PA-P/competition_submission_starter_template.git",
+        "commit": "b3e803a9a36266b63c429a237a749f9e40ea04de"
+    },
+    "email": "danghaidang.dn2810@gmail.com",
+    "root": "/home/dang/Documents/Doc/2021",
+    "host": "pop-os",
+    "username": "dang",
+    "executable": "/home/dang/anaconda3/envs/mine/bin/python"
+}

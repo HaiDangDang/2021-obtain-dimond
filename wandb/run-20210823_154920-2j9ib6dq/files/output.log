@@ -1,0 +1,12 @@
+Using cuda device
+Wrapping the env in a VecTransposeImage.
+Logging to runs/v1/PPO_7
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 1.14e+03 |
+|    ep_rew_mean     | 0        |
+| time/              |          |
+|    fps             | 23       |
+|    iterations      | 1        |
+|    time_elapsed    | 426      |
+|    total_timesteps | 10240    |

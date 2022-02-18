@@ -1,0 +1,1020 @@
+[16:45:22] [EnvServerSocketHandler/INFO]: [STDOUT]: Received from localhost:<MissionInit xmlns="http://ProjectMalmo.microsoft.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SchemaVersion="" PlatformVersion="0.37.0"><Mission><About><Summary>MineRLObtainDiamond-v0</Summary></About><ModSettings><MsPerTick>50</MsPerTick></ModSettings><ServerSection><ServerInitialConditions><Time><StartTime>6000</StartTime><AllowPassageOfTime>true</AllowPassageOfTime></Time><AllowSpawning>true</AllowSpawning></ServerInitialConditions><ServerHandlers><DefaultWorldGenerator forceReset="true" generatorOptions="{}"/><ServerQuitFromTimeUp timeLimitMs="900000" description="out_of_time"/><ServerQuitWhenAnyAgentFinishes/></ServerHandlers></ServerSection><AgentSection mode="Survival"><Name>MineRLAgent0</Name><AgentStart/><AgentHandlers><FileBasedPerformanceProducer/><ObservationFromDamage/><PauseCommand/><VideoProducer want_depth="false"><Width>64</Width><Height>64</Height></VideoProducer><ObservationFromFullInventory flat="false"/><ObservationFromEquippedItem/><HumanLevelCommands/><CameraCommands/><PlaceCommands/><EquipCommands/><SimpleCraftCommands/><NearbyCraftCommands/><NearbySmeltCommands/><RewardForPossessingItem sparse="true" excludeLoops="true"><Item amount="1" reward="1" type="log"/><Item amount="1" reward="2" type="planks"/><Item amount="1" reward="4" type="stick"/><Item amount="1" reward="4" type="crafting_table"/><Item amount="1" reward="8" type="wooden_pickaxe"/><Item amount="1" reward="16" type="cobblestone"/><Item amount="1" reward="32" type="furnace"/><Item amount="1" reward="32" type="stone_pickaxe"/><Item amount="1" reward="64" type="iron_ore"/><Item amount="1" reward="128" type="iron_ingot"/><Item amount="1" reward="256" type="iron_pickaxe"/><Item amount="1" reward="1024" type="diamond"/></RewardForPossessingItem><AgentQuitFromPossessingItem><Item type="diamond" amount="1"/></AgentQuitFromPossessingItem></AgentHandlers></AgentSection></Mission><ExperimentUID>cb19cbee-811f-412f-a29d-03d4957fc135</ExperimentUID><ClientRole>0</ClientRole><ClientAgentConnection><ClientIPAddress>127.0.0.1</ClientIPAddress><ClientMissionControlPort>0</ClientMissionControlPort><ClientCommandsPort>0</ClientCommandsPort><AgentIPAddress>127.0.0.1</AgentIPAddress><AgentMissionControlPort>0</AgentMissionControlPort><AgentVideoPort>0</AgentVideoPort><AgentDepthPort>0</AgentDepthPort><AgentLuminancePort>0</AgentLuminancePort><AgentObservationsPort>0</AgentObservationsPort><AgentRewardsPort>0</AgentRewardsPort><AgentColourMapPort>0</AgentColourMapPort></ClientAgentConnection></MissionInit>
+[16:45:23] [EnvServerSocketHandler/INFO]: [STDOUT]: REPLYING WITH: MALMOOK
+[16:45:23] [Client thread/INFO]: [STDOUT]: Mission received: MineRLObtainDiamond-v0
+[16:45:23] [Client thread/INFO]: [STDOUT]: CLIENT request state: CREATING_HANDLERS
+[16:45:23] [Client thread/INFO]: [STDOUT]: CLIENT enter state: CREATING_HANDLERS
+[16:45:23] [Client thread/INFO]: [STDOUT]: Starting command server.
+[16:45:23] [Thread-11/INFO]: [STDOUT]: INFO: ->com(0) Listening for messages on port 10643
+[16:45:23] [Client thread/INFO]: [STDOUT]: CLIENT request state: EVALUATING_WORLD_REQUIREMENTS
+[16:45:23] [Client thread/INFO]: [STDOUT]: CLIENT enter state: EVALUATING_WORLD_REQUIREMENTS
+[16:45:23] [Client thread/INFO]: [STDOUT]: CLIENT request state: CREATING_NEW_WORLD
+[16:45:23] [Client thread/INFO]: [STDOUT]: CLIENT enter state: CREATING_NEW_WORLD
+[16:45:23] [Client thread/INFO]: [STDOUT]: [LOGTOPY] GENERATOR OPTIONS = {}
+[16:45:23] [Server thread/INFO]: Starting integrated minecraft server version 1.11.2
+[16:45:23] [Server thread/INFO]: Generating keypair
+[16:45:24] [Server thread/INFO]: Injecting existing block and item data into this server instance
+[16:45:24] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[16:45:24] [Server thread/INFO]: Applying holder lookups
+[16:45:24] [Server thread/INFO]: Holder lookups applied
+[16:45:24] [Server thread/INFO]: Loading dimension 0 (TEMP_0_5e1c091d-d62f-4447-9c24-ce0371c5b760) (net.minecraft.server.integrated.IntegratedServer@7d01e124)
+[16:45:24] [Server thread/INFO]: Loading dimension 1 (TEMP_0_5e1c091d-d62f-4447-9c24-ce0371c5b760) (net.minecraft.server.integrated.IntegratedServer@7d01e124)
+[16:45:24] [Server thread/INFO]: Loading dimension -1 (TEMP_0_5e1c091d-d62f-4447-9c24-ce0371c5b760) (net.minecraft.server.integrated.IntegratedServer@7d01e124)
+[16:45:24] [Server thread/INFO]: Preparing start region for level 0
+[16:45:25] [Server thread/INFO]: Preparing spawn area: 10%
+[16:45:25] [Server thread/WARN]: Microsoft Malmo Mod loaded a new chunk (-5, 5  Dimension: 0) during chunk population, causing cascading worldgen lag. Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[16:45:26] [Server thread/WARN]: Microsoft Malmo Mod loaded a new chunk (-4, 13  Dimension: 0) during chunk population, causing cascading worldgen lag. Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[16:45:26] [Server thread/INFO]: Preparing spawn area: 18%
+[16:45:26] [Server thread/WARN]: Microsoft Malmo Mod loaded a new chunk (-3, 5  Dimension: 0) during chunk population, causing cascading worldgen lag. Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[16:45:27] [Server thread/INFO]: Preparing spawn area: 26%
+[16:45:28] [Server thread/INFO]: Preparing spawn area: 34%
+[16:45:29] [Server thread/WARN]: Microsoft Malmo Mod loaded a new chunk (1, 14  Dimension: 0) during chunk population, causing cascading worldgen lag. Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[16:45:29] [Server thread/WARN]: Microsoft Malmo Mod loaded a new chunk (2, 9  Dimension: 0) during chunk population, causing cascading worldgen lag. Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[16:45:29] [Server thread/WARN]: Microsoft Malmo Mod loaded a new chunk (2, 13  Dimension: 0) during chunk population, causing cascading worldgen lag. Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[16:45:29] [Server thread/INFO]: Preparing spawn area: 43%
+[16:45:30] [Server thread/INFO]: Preparing spawn area: 53%
+[16:45:31] [Server thread/INFO]: Preparing spawn area: 62%
+[16:45:32] [Server thread/WARN]: Microsoft Malmo Mod loaded a new chunk (8, 19  Dimension: 0) during chunk population, causing cascading worldgen lag. Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[16:45:32] [Server thread/WARN]: Microsoft Malmo Mod loaded a new chunk (9, 9  Dimension: 0) during chunk population, causing cascading worldgen lag. Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[16:45:32] [Server thread/INFO]: Preparing spawn area: 71%
+[16:45:33] [Server thread/INFO]: Preparing spawn area: 81%
+[16:45:34] [Server thread/INFO]: Preparing spawn area: 90%
+[16:45:34] [Server thread/WARN]: Microsoft Malmo Mod loaded a new chunk (14, 21  Dimension: 0) during chunk population, causing cascading worldgen lag. Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[16:45:35] [Server thread/INFO]: Preparing spawn area: 98%
+[16:45:35] [Server thread/WARN]: Microsoft Malmo Mod loaded a new chunk (16, 23  Dimension: 0) during chunk population, causing cascading worldgen lag. Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[16:45:36] [Server thread/INFO]: Changing view distance to 4, from 10
+[16:45:36] [Netty Local Client IO #0/INFO]: [STDOUT]: Transformed Name: net.minecraft.client.entity.EntityOtherPlayerMP
+[16:45:36] [Netty Local Client IO #0/INFO]: [STDOUT]: MALMO: Found EntityOtherPlayerMP, attempting to transform it
+[16:45:36] [Server thread/INFO]: [STDOUT]: SERVER request state: WAITING_FOR_MOD_READY
+[16:45:36] [Server thread/INFO]: [STDOUT]: CLIENT request state: WAITING_FOR_SERVER_READY
+[16:45:36] [Server thread/INFO]: [STDOUT]: SERVER enter state: WAITING_FOR_MOD_READY
+[16:45:36] [Netty Local Client IO #0/INFO]: Server protocol version 2
+[16:45:36] [Netty Server IO #1/INFO]: Client protocol version 2
+[16:45:36] [Netty Server IO #1/INFO]: Client attempting to join with 5 mods : minecraft@1.11.2,FML@8.0.99.99,malmomod@0.37.0,forge@13.20.1.2588,mcp@9.19
+[16:45:36] [Netty Local Client IO #0/INFO]: [Netty Local Client IO #0] Client side modded connection established
+[16:45:36] [Client thread/INFO]: [STDOUT]: CLIENT enter state: WAITING_FOR_SERVER_READY
+[16:45:37] [Server thread/INFO]: [Server thread] Server side modded connection established
+[16:45:37] [Server thread/INFO]: MineRLAgent0[local:E:5c0367eb] logged in with entity id 533 at (77.5, 62.0, 246.5)
+[16:45:37] [Server thread/INFO]: MineRLAgent0 joined the game
+[16:45:37] [Server thread/INFO]: [STDOUT]: SERVER request state: DORMANT
+[16:45:37] [Server thread/INFO]: [STDOUT]: SERVER enter state: DORMANT
+[16:45:37] [Server thread/INFO]: [STDOUT]: INCOMING MISSION: Received MissionInit directly through ServerStateMachine constructor.
+[16:45:37] [Server thread/INFO]: [STDOUT]: Mission received: MineRLObtainDiamond-v0
+[16:45:37] [Server thread/INFO]: Received mission: §9MineRLObtainDiamond-v0
+[16:45:37] [Server thread/INFO]: Source: §alocalhost
+[16:45:37] [Server thread/INFO]: [STDOUT]: SERVER request state: BUILDING_WORLD
+[16:45:37] [Server thread/INFO]: [STDOUT]: SERVER enter state: BUILDING_WORLD
+[16:45:37] [Server thread/INFO]: [STDOUT]: SERVER request state: WAITING_FOR_AGENTS_TO_ASSEMBLE
+[16:45:37] [Client thread/INFO]: [CHAT] Received mission: §9MineRLObtainDiamond-v0
+[16:45:37] [Client thread/INFO]: [CHAT] Source: §alocalhost
+[16:45:37] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:45:37] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:45:37] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:45:38] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:45:38] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:45:38] [Server thread/INFO]: [STDOUT]: SERVER enter state: WAITING_FOR_AGENTS_TO_ASSEMBLE
+[16:45:38] [Server thread/INFO]: [STDOUT]: Experiment requires: 
+[16:45:38] [Server thread/INFO]: [STDOUT]: >>>> MineRLAgent0
+[16:45:39] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:45:39] [Server thread/INFO]: [STDOUT]: Initializing player with username MineRLAgent0 and agentname MineRLAgent0
+[16:45:39] [Client thread/INFO]: [STDOUT]: CLIENT request state: RUNNING
+[16:45:39] [Client thread/INFO]: [STDOUT]: CLIENT enter state: RUNNING
+[16:45:39] [Client thread/INFO]: [STDOUT]: Preparing reward com.microsoft.Malmo.MissionHandlers.RewardForPossessingItemImplementation@138fc80a with agent name MineRLAgent0
+[16:45:39] [Server thread/INFO]: [STDOUT]: SERVER request state: RUNNING
+[16:45:39] [Client thread/INFO]: [STDOUT]: [LOGTOPY] On Mac OSX Catalina make sure to install this OpenJDK 1.8.0_152-release-1056-b12, this prevents the NSDragRegions crash
+[16:45:39] [Server thread/INFO]: [STDOUT]: SERVER enter state: RUNNING
+[16:45:39] [Client thread/INFO]: [STDOUT]: Resized the window
+[16:45:39] [Client thread/INFO]: [STDOUT]: Unpausing
+RewardForPossessingItemImplementation - MineRLAgent0: 1
+RewardForPossessingItemImplementation - MineRLAgent0: 2
+RewardForPossessingItemImplementation - MineRLAgent0: 3
+RewardForPossessingItemImplementation - MineRLAgent0: 4
+RewardForPossessingItemImplementation - MineRLAgent0: 5
+RewardForPossessingItemImplementation - MineRLAgent0: 1
+RewardForPossessingItemImplementation - MineRLAgent0: 2
+RewardForPossessingItemImplementation - MineRLAgent0: 1
+[16:46:57] [Client thread/INFO]: [STDOUT]: 2.0 damage from drown by entity null
+[16:46:58] [Client thread/INFO]: [STDOUT]: 2.0 damage from drown by entity null
+[16:46:58] [Client thread/INFO]: [STDOUT]: 2.0 damage from drown by entity null
+[16:46:58] [Client thread/INFO]: [STDOUT]: 2.0 damage from drown by entity null
+[16:46:59] [Client thread/INFO]: [STDOUT]: 2.0 damage from drown by entity null
+[16:46:59] [Client thread/INFO]: [STDOUT]: 2.0 damage from drown by entity null
+[16:47:00] [Client thread/INFO]: [STDOUT]: 2.0 damage from drown by entity null
+RewardForPossessingItemImplementation - MineRLAgent0: 3
+[16:47:00] [Client thread/INFO]: [STDOUT]: 2.0 damage from drown by entity null
+[16:47:01] [Client thread/INFO]: [STDOUT]: 2.0 damage from drown by entity null
+[16:47:01] [Client thread/INFO]: [STDOUT]: 2.0 damage from drown by entity null
+[16:47:01] [Client thread/INFO]: [STDOUT]: 2.0 damage from drown by entity null
+[16:47:02] [Client thread/INFO]: [STDOUT]: 2.0 damage from drown by entity null
+[16:47:02] [Client thread/INFO]: [STDOUT]: 2.0 damage from drown by entity null
+[16:47:03] [Client thread/INFO]: [STDOUT]: 2.0 damage from drown by entity null
+[16:47:03] [Client thread/INFO]: [STDOUT]: 2.0 damage from drown by entity null
+[16:47:04] [Client thread/INFO]: [STDOUT]: 2.0 damage from drown by entity null
+[16:47:04] [Server thread/INFO]: MineRLAgent0 drowned
+[16:47:04] [Client thread/INFO]: [STDOUT]: 2.0 damage from drown by entity null
+[16:47:04] [Client thread/INFO]: [CHAT] MineRLAgent0 drowned
+[16:47:05] [Client thread/INFO]: [STDOUT]: SM: [CLIENT_STATE_MACHINE] Mission ended for reason: null world still exists: true
+[16:47:05] [Client thread/INFO]: [STDOUT]: Unpausing
+[16:47:05] [Client thread/INFO]: [STDOUT]: CLIENT request state: IDLING
+[16:47:05] [Client thread/INFO]: [STDOUT]: CLIENT enter state: IDLING
+[16:47:05] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 23ms behind, skipping 0 tick(s)
+[16:47:05] [Server thread/INFO]: [STDOUT]: WHY IS THIS NOT WORKING
+[16:47:05] [Server thread/INFO]: [STDOUT]: SERVER request state: WAITING_FOR_AGENTS_TO_QUIT
+[16:47:05] [Server thread/INFO]: [STDOUT]: SERVER enter state: WAITING_FOR_AGENTS_TO_QUIT
+[16:47:05] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[16:47:05] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[16:47:05] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[16:47:05] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[16:47:05] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[16:47:05] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[16:47:05] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[16:47:05] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[16:47:05] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[16:47:05] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[16:47:05] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[16:47:05] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[16:47:05] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[16:47:05] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[16:47:05] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[16:47:05] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[16:47:05] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[16:47:05] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[16:47:05] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[16:47:05] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[16:47:05] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[16:47:05] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[16:47:05] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[16:47:05] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[16:47:05] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[16:47:05] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[16:47:05] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[16:47:05] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[16:47:05] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[16:47:05] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[16:47:05] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[16:47:05] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[16:47:05] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[16:47:05] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[16:47:05] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[16:47:05] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[16:47:05] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[16:47:05] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[16:47:05] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[16:47:05] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[16:47:05] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[16:47:05] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[16:47:05] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[16:47:05] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[16:47:05] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[16:47:05] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[16:47:05] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[16:47:05] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[16:47:05] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[16:47:05] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[16:47:05] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[16:47:05] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[16:47:05] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[16:47:05] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[16:47:05] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[16:47:05] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[16:47:05] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[16:47:05] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[16:47:05] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[16:47:05] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[16:47:05] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[16:47:05] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[16:47:05] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[16:47:05] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[16:47:05] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[16:47:05] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[16:47:05] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[16:47:05] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[16:47:05] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[16:47:05] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[16:47:05] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[16:47:05] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[16:47:05] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[16:47:05] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[16:47:05] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[16:47:05] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[16:47:05] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[16:47:05] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[16:47:05] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[16:47:05] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[16:47:05] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[16:47:05] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[16:47:05] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[16:47:05] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[16:47:05] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[16:47:05] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[16:47:05] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[16:47:05] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[16:47:05] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[16:47:05] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[16:47:05] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[16:47:05] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[16:47:05] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[16:47:05] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[16:47:05] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[16:47:05] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[16:47:05] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[16:47:05] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[16:47:05] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[16:47:05] [Client thread/INFO]: [STDOUT]: CLIENT enter state: MISSION_ENDED
+[16:47:05] [Client thread/INFO]: [STDOUT]: inform the agent
+[16:47:05] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[16:47:05] [Client thread/INFO]: [STDOUT]: CLIENT request state: WAITING_FOR_SERVER_MISSION_END
+[16:47:06] [Client thread/INFO]: [STDOUT]: CLIENT enter state: WAITING_FOR_SERVER_MISSION_END
+[16:47:06] [Server thread/INFO]: [STDOUT]: SERVER request state: CLEAN_UP
+[16:47:06] [Server thread/INFO]: [STDOUT]: SERVER enter state: CLEAN_UP
+[16:47:06] [Client thread/INFO]: [STDOUT]: CLIENT request state: DORMANT
+[16:47:06] [Server thread/INFO]: [STDOUT]: SERVER request state: DORMANT
+[16:47:06] [Client thread/INFO]: [STDOUT]: CLIENT enter state: DORMANT
+[16:47:06] [Client thread/INFO]: [STDOUT]: JETTISONING 0 COMMANDS
+[16:47:14] [EnvServerSocketHandler/INFO]: [STDOUT]: Received from localhost:<MissionInit xmlns="http://ProjectMalmo.microsoft.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SchemaVersion="" PlatformVersion="0.37.0"><Mission><About><Summary>MineRLObtainDiamond-v0</Summary></About><ModSettings><MsPerTick>50</MsPerTick></ModSettings><ServerSection><ServerInitialConditions><Time><StartTime>6000</StartTime><AllowPassageOfTime>true</AllowPassageOfTime></Time><AllowSpawning>true</AllowSpawning></ServerInitialConditions><ServerHandlers><DefaultWorldGenerator forceReset="true" generatorOptions="{}"/><ServerQuitFromTimeUp timeLimitMs="900000" description="out_of_time"/><ServerQuitWhenAnyAgentFinishes/></ServerHandlers></ServerSection><AgentSection mode="Survival"><Name>MineRLAgent0</Name><AgentStart/><AgentHandlers><FileBasedPerformanceProducer/><ObservationFromDamage/><PauseCommand/><VideoProducer want_depth="false"><Width>64</Width><Height>64</Height></VideoProducer><ObservationFromFullInventory flat="false"/><ObservationFromEquippedItem/><HumanLevelCommands/><CameraCommands/><PlaceCommands/><EquipCommands/><SimpleCraftCommands/><NearbyCraftCommands/><NearbySmeltCommands/><RewardForPossessingItem sparse="true" excludeLoops="true"><Item amount="1" reward="1" type="log"/><Item amount="1" reward="2" type="planks"/><Item amount="1" reward="4" type="stick"/><Item amount="1" reward="4" type="crafting_table"/><Item amount="1" reward="8" type="wooden_pickaxe"/><Item amount="1" reward="16" type="cobblestone"/><Item amount="1" reward="32" type="furnace"/><Item amount="1" reward="32" type="stone_pickaxe"/><Item amount="1" reward="64" type="iron_ore"/><Item amount="1" reward="128" type="iron_ingot"/><Item amount="1" reward="256" type="iron_pickaxe"/><Item amount="1" reward="1024" type="diamond"/></RewardForPossessingItem><AgentQuitFromPossessingItem><Item type="diamond" amount="1"/></AgentQuitFromPossessingItem></AgentHandlers></AgentSection></Mission><ExperimentUID>60fecc81-1e30-4f54-98a2-f7faeecf61c8</ExperimentUID><ClientRole>0</ClientRole><ClientAgentConnection><ClientIPAddress>127.0.0.1</ClientIPAddress><ClientMissionControlPort>0</ClientMissionControlPort><ClientCommandsPort>0</ClientCommandsPort><AgentIPAddress>127.0.0.1</AgentIPAddress><AgentMissionControlPort>0</AgentMissionControlPort><AgentVideoPort>0</AgentVideoPort><AgentDepthPort>0</AgentDepthPort><AgentLuminancePort>0</AgentLuminancePort><AgentObservationsPort>0</AgentObservationsPort><AgentRewardsPort>0</AgentRewardsPort><AgentColourMapPort>0</AgentColourMapPort></ClientAgentConnection></MissionInit>
+[16:47:14] [EnvServerSocketHandler/INFO]: [STDOUT]: REPLYING WITH: MALMOOK
+[16:47:14] [Client thread/INFO]: [STDOUT]: Mission received: MineRLObtainDiamond-v0
+[16:47:14] [Client thread/INFO]: [STDOUT]: CLIENT request state: CREATING_HANDLERS
+[16:47:14] [Client thread/INFO]: [STDOUT]: CLIENT enter state: CREATING_HANDLERS
+[16:47:14] [Client thread/INFO]: [STDOUT]: CLIENT request state: EVALUATING_WORLD_REQUIREMENTS
+[16:47:14] [Client thread/INFO]: [STDOUT]: CLIENT enter state: EVALUATING_WORLD_REQUIREMENTS
+[16:47:14] [Client thread/INFO]: [STDOUT]: CLIENT request state: PAUSING_OLD_SERVER
+[16:47:14] [Client thread/INFO]: [STDOUT]: CLIENT enter state: PAUSING_OLD_SERVER
+[16:47:14] [Server thread/INFO]: Saving and pausing game...
+[16:47:14] [Server thread/INFO]: Saving chunks for level 'TEMP_0_5e1c091d-d62f-4447-9c24-ce0371c5b760'/Overworld
+[16:47:14] [Server thread/INFO]: Saving chunks for level 'TEMP_0_5e1c091d-d62f-4447-9c24-ce0371c5b760'/Nether
+[16:47:14] [Server thread/INFO]: Saving chunks for level 'TEMP_0_5e1c091d-d62f-4447-9c24-ce0371c5b760'/The End
+[16:47:14] [Client thread/INFO]: [STDOUT]: CLIENT request state: CLOSING_OLD_SERVER
+[16:47:14] [Client thread/INFO]: [STDOUT]: CLIENT enter state: CLOSING_OLD_SERVER
+[16:47:14] [Client thread/INFO]: [STDOUT]: Unpausing
+[16:47:14] [Server thread/INFO]: Stopping server
+[16:47:14] [Server thread/INFO]: Saving players
+[16:47:14] [Server thread/INFO]: MineRLAgent0 lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[16:47:14] [Server thread/INFO]: MineRLAgent0 left the game
+[16:47:14] [Server thread/INFO]: Stopping singleplayer server as player logged out
+[16:47:14] [Server thread/INFO]: Saving worlds
+[16:47:14] [Server thread/INFO]: Saving chunks for level 'TEMP_0_5e1c091d-d62f-4447-9c24-ce0371c5b760'/Overworld
+[16:47:14] [Server thread/INFO]: Saving chunks for level 'TEMP_0_5e1c091d-d62f-4447-9c24-ce0371c5b760'/Nether
+[16:47:14] [Server thread/INFO]: Saving chunks for level 'TEMP_0_5e1c091d-d62f-4447-9c24-ce0371c5b760'/The End
+[16:47:14] [Server thread/INFO]: [STDOUT]: Unpausing
+[16:47:14] [Server thread/INFO]: [STDOUT]: Unpausing
+[16:47:14] [Server thread/INFO]: [STDOUT]: Unpausing
+[16:47:14] [Server thread/INFO]: Unloading dimension 0
+[16:47:14] [Server thread/INFO]: Unloading dimension -1
+[16:47:14] [Server thread/INFO]: Unloading dimension 1
+[16:47:15] [Server thread/INFO]: Applying holder lookups
+[16:47:15] [Server thread/INFO]: Holder lookups applied
+[16:47:25] [Client thread/INFO]: [STDOUT]: CLIENT request state: CREATING_NEW_WORLD
+[16:47:25] [Client thread/INFO]: [STDOUT]: CLIENT enter state: CREATING_NEW_WORLD
+[16:47:25] [Client thread/INFO]: [STDOUT]: [LOGTOPY] GENERATOR OPTIONS = {}
+[16:47:25] [Server thread/INFO]: Starting integrated minecraft server version 1.11.2
+[16:47:25] [Server thread/INFO]: Generating keypair
+[16:47:25] [Server thread/INFO]: Injecting existing block and item data into this server instance
+[16:47:25] [Server thread/INFO]: Applying holder lookups
+[16:47:25] [Server thread/INFO]: Holder lookups applied
+[16:47:25] [Server thread/INFO]: Loading dimension 0 (TEMP_0_f1d5eb70-20b0-4702-a007-62cc51321c5f) (net.minecraft.server.integrated.IntegratedServer@6884bd78)
+[16:47:25] [Server thread/INFO]: Loading dimension 1 (TEMP_0_f1d5eb70-20b0-4702-a007-62cc51321c5f) (net.minecraft.server.integrated.IntegratedServer@6884bd78)
+[16:47:25] [Server thread/INFO]: Loading dimension -1 (TEMP_0_f1d5eb70-20b0-4702-a007-62cc51321c5f) (net.minecraft.server.integrated.IntegratedServer@6884bd78)
+[16:47:25] [Server thread/INFO]: Preparing start region for level 0
+[16:47:26] [Server thread/INFO]: Preparing spawn area: 17%
+[16:47:27] [Server thread/INFO]: Preparing spawn area: 29%
+[16:47:28] [Server thread/INFO]: Preparing spawn area: 43%
+[16:47:29] [Server thread/INFO]: Preparing spawn area: 59%
+[16:47:30] [Server thread/INFO]: Preparing spawn area: 75%
+[16:47:31] [Server thread/INFO]: Preparing spawn area: 92%
+[16:47:32] [Server thread/INFO]: Changing view distance to 4, from 10
+[16:47:32] [Client thread/INFO]: Deleting level TEMP_0_5e1c091d-d62f-4447-9c24-ce0371c5b760
+[16:47:32] [Client thread/INFO]: Attempt 1...
+[16:47:32] [Server thread/INFO]: [STDOUT]: SERVER request state: WAITING_FOR_MOD_READY
+[16:47:32] [Server thread/INFO]: [STDOUT]: CLIENT request state: WAITING_FOR_SERVER_READY
+[16:47:32] [Client thread/INFO]: [STDOUT]: CLIENT enter state: WAITING_FOR_SERVER_READY
+[16:47:32] [Server thread/INFO]: [STDOUT]: SERVER enter state: WAITING_FOR_MOD_READY
+[16:47:32] [Netty Local Client IO #1/INFO]: Server protocol version 2
+[16:47:32] [Netty Server IO #3/INFO]: Client protocol version 2
+[16:47:32] [Netty Server IO #3/INFO]: Client attempting to join with 5 mods : minecraft@1.11.2,FML@8.0.99.99,malmomod@0.37.0,forge@13.20.1.2588,mcp@9.19
+[16:47:32] [Netty Local Client IO #1/INFO]: [Netty Local Client IO #1] Client side modded connection established
+[16:47:32] [Server thread/INFO]: [STDOUT]: SERVER request state: DORMANT
+[16:47:32] [Server thread/INFO]: [STDOUT]: SERVER enter state: DORMANT
+[16:47:32] [Server thread/INFO]: [STDOUT]: INCOMING MISSION: Received MissionInit directly through ServerStateMachine constructor.
+[16:47:32] [Server thread/INFO]: [STDOUT]: Mission received: MineRLObtainDiamond-v0
+[16:47:32] [Server thread/INFO]: Received mission: §9MineRLObtainDiamond-v0
+[16:47:32] [Server thread/INFO]: Source: §alocalhost
+[16:47:32] [Server thread/INFO]: [STDOUT]: SERVER request state: BUILDING_WORLD
+[16:47:32] [Server thread/INFO]: [Server thread] Server side modded connection established
+[16:47:32] [Server thread/INFO]: MineRLAgent0[local:E:9754e833] logged in with entity id 6087 at (-233.5, 72.0, 245.5)
+[16:47:32] [Server thread/INFO]: MineRLAgent0 joined the game
+[16:47:32] [Server thread/INFO]: [STDOUT]: SERVER enter state: BUILDING_WORLD
+[16:47:32] [Server thread/INFO]: [STDOUT]: SERVER request state: WAITING_FOR_AGENTS_TO_ASSEMBLE
+[16:47:32] [Server thread/INFO]: [STDOUT]: SERVER enter state: WAITING_FOR_AGENTS_TO_ASSEMBLE
+[16:47:32] [Server thread/INFO]: [STDOUT]: Experiment requires: 
+[16:47:32] [Server thread/INFO]: [STDOUT]: >>>> MineRLAgent0
+[16:47:33] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:47:33] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:47:33] [Server thread/INFO]: [STDOUT]: Initializing player with username MineRLAgent0 and agentname MineRLAgent0
+[16:47:33] [Client thread/INFO]: [STDOUT]: CLIENT request state: RUNNING
+[16:47:33] [Client thread/INFO]: [STDOUT]: CLIENT enter state: RUNNING
+[16:47:33] [Client thread/INFO]: [STDOUT]: Preparing reward com.microsoft.Malmo.MissionHandlers.RewardForPossessingItemImplementation@46539bb6 with agent name MineRLAgent0
+[16:47:33] [Client thread/INFO]: [STDOUT]: Unpausing
+[16:47:33] [Server thread/INFO]: [STDOUT]: SERVER request state: RUNNING
+[16:47:33] [Server thread/INFO]: [STDOUT]: SERVER enter state: RUNNING
+RewardForPossessingItemImplementation - MineRLAgent0: 1
+RewardForPossessingItemImplementation - MineRLAgent0: 1
+RewardForPossessingItemImplementation - MineRLAgent0: 1
+RewardForPossessingItemImplementation - MineRLAgent0: 2
+RewardForPossessingItemImplementation - MineRLAgent0: 3
+RewardForPossessingItemImplementation - MineRLAgent0: 3
+RewardForPossessingItemImplementation - MineRLAgent0: 4
+RewardForPossessingItemImplementation - MineRLAgent0: 5
+RewardForPossessingItemImplementation - MineRLAgent0: 6
+RewardForPossessingItemImplementation - MineRLAgent0: 7
+RewardForPossessingItemImplementation - MineRLAgent0: 8
+RewardForPossessingItemImplementation - MineRLAgent0: 4
+RewardForPossessingItemImplementation - MineRLAgent0: 9
+RewardForPossessingItemImplementation - MineRLAgent0: 10
+RewardForPossessingItemImplementation - MineRLAgent0: 11
+RewardForPossessingItemImplementation - MineRLAgent0: 5
+RewardForPossessingItemImplementation - MineRLAgent0: 4
+RewardForPossessingItemImplementation - MineRLAgent0: 8
+RewardForPossessingItemImplementation - MineRLAgent0: 12
+RewardForPossessingItemImplementation - MineRLAgent0: 16
+RewardForPossessingItemImplementation - MineRLAgent0: 20
+RewardForPossessingItemImplementation - MineRLAgent0: 24
+RewardForPossessingItemImplementation - MineRLAgent0: 28
+RewardForPossessingItemImplementation - MineRLAgent0: 32
+RewardForPossessingItemImplementation - MineRLAgent0: 4
+RewardForPossessingItemImplementation - MineRLAgent0: 8
+RewardForPossessingItemImplementation - MineRLAgent0: 12
+RewardForPossessingItemImplementation - MineRLAgent0: 16
+RewardForPossessingItemImplementation - MineRLAgent0: 1
+RewardForPossessingItemImplementation - MineRLAgent0: 2
+RewardForPossessingItemImplementation - MineRLAgent0: 20
+RewardForPossessingItemImplementation - MineRLAgent0: 1
+RewardForPossessingItemImplementation - MineRLAgent0: 2
+RewardForPossessingItemImplementation - MineRLAgent0: 3
+RewardForPossessingItemImplementation - MineRLAgent0: 4
+RewardForPossessingItemImplementation - MineRLAgent0: 2
+RewardForPossessingItemImplementation - MineRLAgent0: 12
+RewardForPossessingItemImplementation - MineRLAgent0: 6
+RewardForPossessingItemImplementation - MineRLAgent0: 7
+RewardForPossessingItemImplementation - MineRLAgent0: 8
+RewardForPossessingItemImplementation - MineRLAgent0: 9
+RewardForPossessingItemImplementation - MineRLAgent0: 10
+RewardForPossessingItemImplementation - MineRLAgent0: 1
+RewardForPossessingItemImplementation - MineRLAgent0: 2
+RewardForPossessingItemImplementation - MineRLAgent0: 11
+RewardForPossessingItemImplementation - MineRLAgent0: 12
+RewardForPossessingItemImplementation - MineRLAgent0: 13
+RewardForPossessingItemImplementation - MineRLAgent0: 2
+RewardForPossessingItemImplementation - MineRLAgent0: 3
+RewardForPossessingItemImplementation - MineRLAgent0: 4
+RewardForPossessingItemImplementation - MineRLAgent0: 5
+RewardForPossessingItemImplementation - MineRLAgent0: 6
+RewardForPossessingItemImplementation - MineRLAgent0: 7
+RewardForPossessingItemImplementation - MineRLAgent0: 8
+RewardForPossessingItemImplementation - MineRLAgent0: 9
+RewardForPossessingItemImplementation - MineRLAgent0: 14
+RewardForPossessingItemImplementation - MineRLAgent0: 10
+RewardForPossessingItemImplementation - MineRLAgent0: 15
+RewardForPossessingItemImplementation - MineRLAgent0: 11
+RewardForPossessingItemImplementation - MineRLAgent0: 12
+RewardForPossessingItemImplementation - MineRLAgent0: 13
+RewardForPossessingItemImplementation - MineRLAgent0: 14
+RewardForPossessingItemImplementation - MineRLAgent0: 15
+RewardForPossessingItemImplementation - MineRLAgent0: 1
+RewardForPossessingItemImplementation - MineRLAgent0: 1
+RewardForPossessingItemImplementation - MineRLAgent0: 16
+RewardForPossessingItemImplementation - MineRLAgent0: 17
+RewardForPossessingItemImplementation - MineRLAgent0: 18
+RewardForPossessingItemImplementation - MineRLAgent0: 19
+RewardForPossessingItemImplementation - MineRLAgent0: 1
+RewardForPossessingItemImplementation - MineRLAgent0: 2
+RewardForPossessingItemImplementation - MineRLAgent0: 14
+RewardForPossessingItemImplementation - MineRLAgent0: 16
+RewardForPossessingItemImplementation - MineRLAgent0: 1
+RewardForPossessingItemImplementation - MineRLAgent0: 2
+RewardForPossessingItemImplementation - MineRLAgent0: 15
+RewardForPossessingItemImplementation - MineRLAgent0: 18
+RewardForPossessingItemImplementation - MineRLAgent0: 16
+RewardForPossessingItemImplementation - MineRLAgent0: 17
+RewardForPossessingItemImplementation - MineRLAgent0: 18
+RewardForPossessingItemImplementation - MineRLAgent0: 19
+RewardForPossessingItemImplementation - MineRLAgent0: 20
+RewardForPossessingItemImplementation - MineRLAgent0: 21
+RewardForPossessingItemImplementation - MineRLAgent0: 3
+RewardForPossessingItemImplementation - MineRLAgent0: 4
+RewardForPossessingItemImplementation - MineRLAgent0: 5
+RewardForPossessingItemImplementation - MineRLAgent0: 6
+RewardForPossessingItemImplementation - MineRLAgent0: 22
+RewardForPossessingItemImplementation - MineRLAgent0: 7
+RewardForPossessingItemImplementation - MineRLAgent0: 8
+RewardForPossessingItemImplementation - MineRLAgent0: 9
+RewardForPossessingItemImplementation - MineRLAgent0: 23
+RewardForPossessingItemImplementation - MineRLAgent0: 24
+RewardForPossessingItemImplementation - MineRLAgent0: 25
+RewardForPossessingItemImplementation - MineRLAgent0: 26
+RewardForPossessingItemImplementation - MineRLAgent0: 27
+RewardForPossessingItemImplementation - MineRLAgent0: 28
+RewardForPossessingItemImplementation - MineRLAgent0: 29
+RewardForPossessingItemImplementation - MineRLAgent0: 10
+RewardForPossessingItemImplementation - MineRLAgent0: 30
+RewardForPossessingItemImplementation - MineRLAgent0: 11
+RewardForPossessingItemImplementation - MineRLAgent0: 12
+RewardForPossessingItemImplementation - MineRLAgent0: 13
+RewardForPossessingItemImplementation - MineRLAgent0: 19
+RewardForPossessingItemImplementation - MineRLAgent0: 20
+RewardForPossessingItemImplementation - MineRLAgent0: 31
+RewardForPossessingItemImplementation - MineRLAgent0: 32
+RewardForPossessingItemImplementation - MineRLAgent0: 33
+RewardForPossessingItemImplementation - MineRLAgent0: 34
+RewardForPossessingItemImplementation - MineRLAgent0: 35
+RewardForPossessingItemImplementation - MineRLAgent0: 36
+RewardForPossessingItemImplementation - MineRLAgent0: 38
+RewardForPossessingItemImplementation - MineRLAgent0: 39
+RewardForPossessingItemImplementation - MineRLAgent0: 40
+RewardForPossessingItemImplementation - MineRLAgent0: 41
+RewardForPossessingItemImplementation - MineRLAgent0: 42
+RewardForPossessingItemImplementation - MineRLAgent0: 43
+RewardForPossessingItemImplementation - MineRLAgent0: 44
+RewardForPossessingItemImplementation - MineRLAgent0: 21
+RewardForPossessingItemImplementation - MineRLAgent0: 45
+RewardForPossessingItemImplementation - MineRLAgent0: 46
+RewardForPossessingItemImplementation - MineRLAgent0: 47
+RewardForPossessingItemImplementation - MineRLAgent0: 48
+RewardForPossessingItemImplementation - MineRLAgent0: 49
+RewardForPossessingItemImplementation - MineRLAgent0: 50
+RewardForPossessingItemImplementation - MineRLAgent0: 51
+RewardForPossessingItemImplementation - MineRLAgent0: 52
+RewardForPossessingItemImplementation - MineRLAgent0: 53
+RewardForPossessingItemImplementation - MineRLAgent0: 54
+RewardForPossessingItemImplementation - MineRLAgent0: 55
+RewardForPossessingItemImplementation - MineRLAgent0: 57
+RewardForPossessingItemImplementation - MineRLAgent0: 58
+RewardForPossessingItemImplementation - MineRLAgent0: 59
+RewardForPossessingItemImplementation - MineRLAgent0: 60
+RewardForPossessingItemImplementation - MineRLAgent0: 61
+RewardForPossessingItemImplementation - MineRLAgent0: 62
+RewardForPossessingItemImplementation - MineRLAgent0: 63
+RewardForPossessingItemImplementation - MineRLAgent0: 64
+RewardForPossessingItemImplementation - MineRLAgent0: 65
+RewardForPossessingItemImplementation - MineRLAgent0: 66
+RewardForPossessingItemImplementation - MineRLAgent0: 69
+RewardForPossessingItemImplementation - MineRLAgent0: 70
+RewardForPossessingItemImplementation - MineRLAgent0: 71
+RewardForPossessingItemImplementation - MineRLAgent0: 72
+RewardForPossessingItemImplementation - MineRLAgent0: 73
+RewardForPossessingItemImplementation - MineRLAgent0: 75
+RewardForPossessingItemImplementation - MineRLAgent0: 76
+RewardForPossessingItemImplementation - MineRLAgent0: 77
+RewardForPossessingItemImplementation - MineRLAgent0: 78
+RewardForPossessingItemImplementation - MineRLAgent0: 79
+RewardForPossessingItemImplementation - MineRLAgent0: 80
+RewardForPossessingItemImplementation - MineRLAgent0: 81
+RewardForPossessingItemImplementation - MineRLAgent0: 82
+RewardForPossessingItemImplementation - MineRLAgent0: 83
+RewardForPossessingItemImplementation - MineRLAgent0: 84
+RewardForPossessingItemImplementation - MineRLAgent0: 85
+RewardForPossessingItemImplementation - MineRLAgent0: 86
+RewardForPossessingItemImplementation - MineRLAgent0: 87
+RewardForPossessingItemImplementation - MineRLAgent0: 88
+RewardForPossessingItemImplementation - MineRLAgent0: 89
+RewardForPossessingItemImplementation - MineRLAgent0: 90
+RewardForPossessingItemImplementation - MineRLAgent0: 91
+RewardForPossessingItemImplementation - MineRLAgent0: 92
+RewardForPossessingItemImplementation - MineRLAgent0: 93
+RewardForPossessingItemImplementation - MineRLAgent0: 95
+RewardForPossessingItemImplementation - MineRLAgent0: 96
+RewardForPossessingItemImplementation - MineRLAgent0: 97
+RewardForPossessingItemImplementation - MineRLAgent0: 98
+RewardForPossessingItemImplementation - MineRLAgent0: 99
+RewardForPossessingItemImplementation - MineRLAgent0: 100
+RewardForPossessingItemImplementation - MineRLAgent0: 101
+RewardForPossessingItemImplementation - MineRLAgent0: 102
+RewardForPossessingItemImplementation - MineRLAgent0: 103
+RewardForPossessingItemImplementation - MineRLAgent0: 104
+RewardForPossessingItemImplementation - MineRLAgent0: 105
+RewardForPossessingItemImplementation - MineRLAgent0: 106
+RewardForPossessingItemImplementation - MineRLAgent0: 107
+RewardForPossessingItemImplementation - MineRLAgent0: 108
+RewardForPossessingItemImplementation - MineRLAgent0: 109
+RewardForPossessingItemImplementation - MineRLAgent0: 110
+RewardForPossessingItemImplementation - MineRLAgent0: 111
+RewardForPossessingItemImplementation - MineRLAgent0: 112
+RewardForPossessingItemImplementation - MineRLAgent0: 113
+RewardForPossessingItemImplementation - MineRLAgent0: 114
+RewardForPossessingItemImplementation - MineRLAgent0: 115
+RewardForPossessingItemImplementation - MineRLAgent0: 116
+RewardForPossessingItemImplementation - MineRLAgent0: 117
+RewardForPossessingItemImplementation - MineRLAgent0: 118
+RewardForPossessingItemImplementation - MineRLAgent0: 119
+RewardForPossessingItemImplementation - MineRLAgent0: 120
+RewardForPossessingItemImplementation - MineRLAgent0: 121
+RewardForPossessingItemImplementation - MineRLAgent0: 122
+RewardForPossessingItemImplementation - MineRLAgent0: 123
+RewardForPossessingItemImplementation - MineRLAgent0: 124
+RewardForPossessingItemImplementation - MineRLAgent0: 125
+RewardForPossessingItemImplementation - MineRLAgent0: 126
+RewardForPossessingItemImplementation - MineRLAgent0: 128
+RewardForPossessingItemImplementation - MineRLAgent0: 129
+RewardForPossessingItemImplementation - MineRLAgent0: 130
+RewardForPossessingItemImplementation - MineRLAgent0: 131
+RewardForPossessingItemImplementation - MineRLAgent0: 132
+RewardForPossessingItemImplementation - MineRLAgent0: 133
+RewardForPossessingItemImplementation - MineRLAgent0: 134
+RewardForPossessingItemImplementation - MineRLAgent0: 135
+RewardForPossessingItemImplementation - MineRLAgent0: 136
+RewardForPossessingItemImplementation - MineRLAgent0: 137
+RewardForPossessingItemImplementation - MineRLAgent0: 138
+RewardForPossessingItemImplementation - MineRLAgent0: 139
+RewardForPossessingItemImplementation - MineRLAgent0: 140
+RewardForPossessingItemImplementation - MineRLAgent0: 141
+RewardForPossessingItemImplementation - MineRLAgent0: 142
+RewardForPossessingItemImplementation - MineRLAgent0: 2
+RewardForPossessingItemImplementation - MineRLAgent0: 143
+RewardForPossessingItemImplementation - MineRLAgent0: 3
+RewardForPossessingItemImplementation - MineRLAgent0: 4
+RewardForPossessingItemImplementation - MineRLAgent0: 5
+RewardForPossessingItemImplementation - MineRLAgent0: 6
+RewardForPossessingItemImplementation - MineRLAgent0: 144
+RewardForPossessingItemImplementation - MineRLAgent0: 145
+RewardForPossessingItemImplementation - MineRLAgent0: 146
+RewardForPossessingItemImplementation - MineRLAgent0: 147
+RewardForPossessingItemImplementation - MineRLAgent0: 148
+RewardForPossessingItemImplementation - MineRLAgent0: 149
+RewardForPossessingItemImplementation - MineRLAgent0: 150
+RewardForPossessingItemImplementation - MineRLAgent0: 151
+RewardForPossessingItemImplementation - MineRLAgent0: 7
+RewardForPossessingItemImplementation - MineRLAgent0: 152
+RewardForPossessingItemImplementation - MineRLAgent0: 153
+RewardForPossessingItemImplementation - MineRLAgent0: 154
+RewardForPossessingItemImplementation - MineRLAgent0: 155
+RewardForPossessingItemImplementation - MineRLAgent0: 156
+RewardForPossessingItemImplementation - MineRLAgent0: 157
+RewardForPossessingItemImplementation - MineRLAgent0: 158
+RewardForPossessingItemImplementation - MineRLAgent0: 159
+RewardForPossessingItemImplementation - MineRLAgent0: 160
+RewardForPossessingItemImplementation - MineRLAgent0: 161
+RewardForPossessingItemImplementation - MineRLAgent0: 162
+RewardForPossessingItemImplementation - MineRLAgent0: 163
+RewardForPossessingItemImplementation - MineRLAgent0: 164
+RewardForPossessingItemImplementation - MineRLAgent0: 165
+RewardForPossessingItemImplementation - MineRLAgent0: 166
+RewardForPossessingItemImplementation - MineRLAgent0: 167
+RewardForPossessingItemImplementation - MineRLAgent0: 168
+RewardForPossessingItemImplementation - MineRLAgent0: 169
+RewardForPossessingItemImplementation - MineRLAgent0: 170
+RewardForPossessingItemImplementation - MineRLAgent0: 172
+RewardForPossessingItemImplementation - MineRLAgent0: 173
+RewardForPossessingItemImplementation - MineRLAgent0: 174
+RewardForPossessingItemImplementation - MineRLAgent0: 175
+RewardForPossessingItemImplementation - MineRLAgent0: 176
+RewardForPossessingItemImplementation - MineRLAgent0: 177
+RewardForPossessingItemImplementation - MineRLAgent0: 178
+RewardForPossessingItemImplementation - MineRLAgent0: 179
+RewardForPossessingItemImplementation - MineRLAgent0: 180
+RewardForPossessingItemImplementation - MineRLAgent0: 181
+RewardForPossessingItemImplementation - MineRLAgent0: 182
+RewardForPossessingItemImplementation - MineRLAgent0: 183
+RewardForPossessingItemImplementation - MineRLAgent0: 184
+RewardForPossessingItemImplementation - MineRLAgent0: 185
+RewardForPossessingItemImplementation - MineRLAgent0: 186
+RewardForPossessingItemImplementation - MineRLAgent0: 187
+RewardForPossessingItemImplementation - MineRLAgent0: 188
+RewardForPossessingItemImplementation - MineRLAgent0: 189
+RewardForPossessingItemImplementation - MineRLAgent0: 190
+RewardForPossessingItemImplementation - MineRLAgent0: 191
+RewardForPossessingItemImplementation - MineRLAgent0: 192
+RewardForPossessingItemImplementation - MineRLAgent0: 193
+RewardForPossessingItemImplementation - MineRLAgent0: 194
+RewardForPossessingItemImplementation - MineRLAgent0: 195
+RewardForPossessingItemImplementation - MineRLAgent0: 196
+RewardForPossessingItemImplementation - MineRLAgent0: 197
+RewardForPossessingItemImplementation - MineRLAgent0: 198
+RewardForPossessingItemImplementation - MineRLAgent0: 199
+RewardForPossessingItemImplementation - MineRLAgent0: 200
+RewardForPossessingItemImplementation - MineRLAgent0: 201
+RewardForPossessingItemImplementation - MineRLAgent0: 202
+RewardForPossessingItemImplementation - MineRLAgent0: 203
+RewardForPossessingItemImplementation - MineRLAgent0: 204
+RewardForPossessingItemImplementation - MineRLAgent0: 205
+RewardForPossessingItemImplementation - MineRLAgent0: 206
+RewardForPossessingItemImplementation - MineRLAgent0: 207
+RewardForPossessingItemImplementation - MineRLAgent0: 208
+RewardForPossessingItemImplementation - MineRLAgent0: 209
+RewardForPossessingItemImplementation - MineRLAgent0: 210
+RewardForPossessingItemImplementation - MineRLAgent0: 211
+RewardForPossessingItemImplementation - MineRLAgent0: 212
+RewardForPossessingItemImplementation - MineRLAgent0: 213
+RewardForPossessingItemImplementation - MineRLAgent0: 214
+RewardForPossessingItemImplementation - MineRLAgent0: 215
+RewardForPossessingItemImplementation - MineRLAgent0: 216
+RewardForPossessingItemImplementation - MineRLAgent0: 217
+RewardForPossessingItemImplementation - MineRLAgent0: 218
+RewardForPossessingItemImplementation - MineRLAgent0: 219
+RewardForPossessingItemImplementation - MineRLAgent0: 220
+RewardForPossessingItemImplementation - MineRLAgent0: 221
+RewardForPossessingItemImplementation - MineRLAgent0: 222
+RewardForPossessingItemImplementation - MineRLAgent0: 223
+RewardForPossessingItemImplementation - MineRLAgent0: 224
+RewardForPossessingItemImplementation - MineRLAgent0: 225
+RewardForPossessingItemImplementation - MineRLAgent0: 227
+RewardForPossessingItemImplementation - MineRLAgent0: 228
+RewardForPossessingItemImplementation - MineRLAgent0: 229
+RewardForPossessingItemImplementation - MineRLAgent0: 230
+RewardForPossessingItemImplementation - MineRLAgent0: 231
+RewardForPossessingItemImplementation - MineRLAgent0: 232
+RewardForPossessingItemImplementation - MineRLAgent0: 233
+RewardForPossessingItemImplementation - MineRLAgent0: 234
+RewardForPossessingItemImplementation - MineRLAgent0: 235
+RewardForPossessingItemImplementation - MineRLAgent0: 236
+RewardForPossessingItemImplementation - MineRLAgent0: 237
+RewardForPossessingItemImplementation - MineRLAgent0: 238
+RewardForPossessingItemImplementation - MineRLAgent0: 239
+RewardForPossessingItemImplementation - MineRLAgent0: 240
+RewardForPossessingItemImplementation - MineRLAgent0: 241
+RewardForPossessingItemImplementation - MineRLAgent0: 242
+RewardForPossessingItemImplementation - MineRLAgent0: 8
+RewardForPossessingItemImplementation - MineRLAgent0: 1
+RewardForPossessingItemImplementation - MineRLAgent0: 1
+RewardForPossessingItemImplementation - MineRLAgent0: 2
+RewardForPossessingItemImplementation - MineRLAgent0: 3
+RewardForPossessingItemImplementation - MineRLAgent0: 226
+RewardForPossessingItemImplementation - MineRLAgent0: 2
+RewardForPossessingItemImplementation - MineRLAgent0: 227
+RewardForPossessingItemImplementation - MineRLAgent0: 228
+RewardForPossessingItemImplementation - MineRLAgent0: 229
+RewardForPossessingItemImplementation - MineRLAgent0: 230
+RewardForPossessingItemImplementation - MineRLAgent0: 231
+RewardForPossessingItemImplementation - MineRLAgent0: 232
+RewardForPossessingItemImplementation - MineRLAgent0: 233
+RewardForPossessingItemImplementation - MineRLAgent0: 234
+RewardForPossessingItemImplementation - MineRLAgent0: 235
+RewardForPossessingItemImplementation - MineRLAgent0: 236
+RewardForPossessingItemImplementation - MineRLAgent0: 237
+RewardForPossessingItemImplementation - MineRLAgent0: 238
+RewardForPossessingItemImplementation - MineRLAgent0: 239
+RewardForPossessingItemImplementation - MineRLAgent0: 240
+RewardForPossessingItemImplementation - MineRLAgent0: 241
+RewardForPossessingItemImplementation - MineRLAgent0: 242
+RewardForPossessingItemImplementation - MineRLAgent0: 243
+RewardForPossessingItemImplementation - MineRLAgent0: 244
+RewardForPossessingItemImplementation - MineRLAgent0: 245
+RewardForPossessingItemImplementation - MineRLAgent0: 246
+RewardForPossessingItemImplementation - MineRLAgent0: 247
+RewardForPossessingItemImplementation - MineRLAgent0: 248
+RewardForPossessingItemImplementation - MineRLAgent0: 249
+RewardForPossessingItemImplementation - MineRLAgent0: 250
+RewardForPossessingItemImplementation - MineRLAgent0: 251
+RewardForPossessingItemImplementation - MineRLAgent0: 252
+RewardForPossessingItemImplementation - MineRLAgent0: 253
+RewardForPossessingItemImplementation - MineRLAgent0: 254
+RewardForPossessingItemImplementation - MineRLAgent0: 255
+RewardForPossessingItemImplementation - MineRLAgent0: 256
+RewardForPossessingItemImplementation - MineRLAgent0: 257
+RewardForPossessingItemImplementation - MineRLAgent0: 258
+RewardForPossessingItemImplementation - MineRLAgent0: 259
+RewardForPossessingItemImplementation - MineRLAgent0: 260
+RewardForPossessingItemImplementation - MineRLAgent0: 261
+RewardForPossessingItemImplementation - MineRLAgent0: 263
+RewardForPossessingItemImplementation - MineRLAgent0: 264
+RewardForPossessingItemImplementation - MineRLAgent0: 265
+RewardForPossessingItemImplementation - MineRLAgent0: 266
+RewardForPossessingItemImplementation - MineRLAgent0: 267
+RewardForPossessingItemImplementation - MineRLAgent0: 268
+RewardForPossessingItemImplementation - MineRLAgent0: 269
+RewardForPossessingItemImplementation - MineRLAgent0: 270
+RewardForPossessingItemImplementation - MineRLAgent0: 271
+RewardForPossessingItemImplementation - MineRLAgent0: 272
+RewardForPossessingItemImplementation - MineRLAgent0: 273
+RewardForPossessingItemImplementation - MineRLAgent0: 274
+RewardForPossessingItemImplementation - MineRLAgent0: 275
+RewardForPossessingItemImplementation - MineRLAgent0: 276
+RewardForPossessingItemImplementation - MineRLAgent0: 277
+RewardForPossessingItemImplementation - MineRLAgent0: 278
+RewardForPossessingItemImplementation - MineRLAgent0: 279
+RewardForPossessingItemImplementation - MineRLAgent0: 280
+RewardForPossessingItemImplementation - MineRLAgent0: 281
+RewardForPossessingItemImplementation - MineRLAgent0: 282
+RewardForPossessingItemImplementation - MineRLAgent0: 283
+RewardForPossessingItemImplementation - MineRLAgent0: 284
+RewardForPossessingItemImplementation - MineRLAgent0: 285
+RewardForPossessingItemImplementation - MineRLAgent0: 286
+RewardForPossessingItemImplementation - MineRLAgent0: 287
+RewardForPossessingItemImplementation - MineRLAgent0: 289
+RewardForPossessingItemImplementation - MineRLAgent0: 290
+RewardForPossessingItemImplementation - MineRLAgent0: 291
+RewardForPossessingItemImplementation - MineRLAgent0: 292
+RewardForPossessingItemImplementation - MineRLAgent0: 293
+RewardForPossessingItemImplementation - MineRLAgent0: 294
+RewardForPossessingItemImplementation - MineRLAgent0: 295
+RewardForPossessingItemImplementation - MineRLAgent0: 296
+RewardForPossessingItemImplementation - MineRLAgent0: 297
+RewardForPossessingItemImplementation - MineRLAgent0: 298
+RewardForPossessingItemImplementation - MineRLAgent0: 300
+RewardForPossessingItemImplementation - MineRLAgent0: 304
+RewardForPossessingItemImplementation - MineRLAgent0: 305
+RewardForPossessingItemImplementation - MineRLAgent0: 306
+RewardForPossessingItemImplementation - MineRLAgent0: 307
+RewardForPossessingItemImplementation - MineRLAgent0: 308
+RewardForPossessingItemImplementation - MineRLAgent0: 309
+RewardForPossessingItemImplementation - MineRLAgent0: 310
+RewardForPossessingItemImplementation - MineRLAgent0: 311
+RewardForPossessingItemImplementation - MineRLAgent0: 312
+RewardForPossessingItemImplementation - MineRLAgent0: 313
+RewardForPossessingItemImplementation - MineRLAgent0: 314
+RewardForPossessingItemImplementation - MineRLAgent0: 315
+RewardForPossessingItemImplementation - MineRLAgent0: 316
+RewardForPossessingItemImplementation - MineRLAgent0: 317
+RewardForPossessingItemImplementation - MineRLAgent0: 1
+RewardForPossessingItemImplementation - MineRLAgent0: 318
+RewardForPossessingItemImplementation - MineRLAgent0: 319
+RewardForPossessingItemImplementation - MineRLAgent0: 320
+RewardForPossessingItemImplementation - MineRLAgent0: 321
+RewardForPossessingItemImplementation - MineRLAgent0: 322
+RewardForPossessingItemImplementation - MineRLAgent0: 323
+RewardForPossessingItemImplementation - MineRLAgent0: 324
+RewardForPossessingItemImplementation - MineRLAgent0: 325
+RewardForPossessingItemImplementation - MineRLAgent0: 326
+RewardForPossessingItemImplementation - MineRLAgent0: 327
+RewardForPossessingItemImplementation - MineRLAgent0: 328
+RewardForPossessingItemImplementation - MineRLAgent0: 329
+RewardForPossessingItemImplementation - MineRLAgent0: 330
+RewardForPossessingItemImplementation - MineRLAgent0: 331
+RewardForPossessingItemImplementation - MineRLAgent0: 332
+RewardForPossessingItemImplementation - MineRLAgent0: 333
+RewardForPossessingItemImplementation - MineRLAgent0: 334
+RewardForPossessingItemImplementation - MineRLAgent0: 335
+RewardForPossessingItemImplementation - MineRLAgent0: 336
+RewardForPossessingItemImplementation - MineRLAgent0: 337
+RewardForPossessingItemImplementation - MineRLAgent0: 14
+RewardForPossessingItemImplementation - MineRLAgent0: 15
+RewardForPossessingItemImplementation - MineRLAgent0: 338
+RewardForPossessingItemImplementation - MineRLAgent0: 339
+RewardForPossessingItemImplementation - MineRLAgent0: 16
+RewardForPossessingItemImplementation - MineRLAgent0: 17
+RewardForPossessingItemImplementation - MineRLAgent0: 18
+RewardForPossessingItemImplementation - MineRLAgent0: 340
+RewardForPossessingItemImplementation - MineRLAgent0: 341
+RewardForPossessingItemImplementation - MineRLAgent0: 19
+RewardForPossessingItemImplementation - MineRLAgent0: 342
+RewardForPossessingItemImplementation - MineRLAgent0: 343
+RewardForPossessingItemImplementation - MineRLAgent0: 20
+RewardForPossessingItemImplementation - MineRLAgent0: 344
+RewardForPossessingItemImplementation - MineRLAgent0: 345
+RewardForPossessingItemImplementation - MineRLAgent0: 346
+RewardForPossessingItemImplementation - MineRLAgent0: 347
+RewardForPossessingItemImplementation - MineRLAgent0: 348
+RewardForPossessingItemImplementation - MineRLAgent0: 349
+RewardForPossessingItemImplementation - MineRLAgent0: 350
+RewardForPossessingItemImplementation - MineRLAgent0: 351
+RewardForPossessingItemImplementation - MineRLAgent0: 352
+RewardForPossessingItemImplementation - MineRLAgent0: 353
+RewardForPossessingItemImplementation - MineRLAgent0: 354
+RewardForPossessingItemImplementation - MineRLAgent0: 355
+RewardForPossessingItemImplementation - MineRLAgent0: 356
+RewardForPossessingItemImplementation - MineRLAgent0: 357
+RewardForPossessingItemImplementation - MineRLAgent0: 358
+RewardForPossessingItemImplementation - MineRLAgent0: 359
+RewardForPossessingItemImplementation - MineRLAgent0: 360
+RewardForPossessingItemImplementation - MineRLAgent0: 361
+RewardForPossessingItemImplementation - MineRLAgent0: 362
+RewardForPossessingItemImplementation - MineRLAgent0: 363
+RewardForPossessingItemImplementation - MineRLAgent0: 364
+RewardForPossessingItemImplementation - MineRLAgent0: 365
+RewardForPossessingItemImplementation - MineRLAgent0: 366
+RewardForPossessingItemImplementation - MineRLAgent0: 367
+RewardForPossessingItemImplementation - MineRLAgent0: 368
+RewardForPossessingItemImplementation - MineRLAgent0: 8
+RewardForPossessingItemImplementation - MineRLAgent0: 369
+RewardForPossessingItemImplementation - MineRLAgent0: 370
+RewardForPossessingItemImplementation - MineRLAgent0: 371
+RewardForPossessingItemImplementation - MineRLAgent0: 372
+RewardForPossessingItemImplementation - MineRLAgent0: 373
+RewardForPossessingItemImplementation - MineRLAgent0: 374
+RewardForPossessingItemImplementation - MineRLAgent0: 375
+RewardForPossessingItemImplementation - MineRLAgent0: 376
+RewardForPossessingItemImplementation - MineRLAgent0: 377
+RewardForPossessingItemImplementation - MineRLAgent0: 378
+RewardForPossessingItemImplementation - MineRLAgent0: 2
+RewardForPossessingItemImplementation - MineRLAgent0: 379
+RewardForPossessingItemImplementation - MineRLAgent0: 380
+RewardForPossessingItemImplementation - MineRLAgent0: 382
+RewardForPossessingItemImplementation - MineRLAgent0: 384
+RewardForPossessingItemImplementation - MineRLAgent0: 385
+RewardForPossessingItemImplementation - MineRLAgent0: 386
+RewardForPossessingItemImplementation - MineRLAgent0: 387
+RewardForPossessingItemImplementation - MineRLAgent0: 388
+RewardForPossessingItemImplementation - MineRLAgent0: 389
+RewardForPossessingItemImplementation - MineRLAgent0: 390
+RewardForPossessingItemImplementation - MineRLAgent0: 21
+RewardForPossessingItemImplementation - MineRLAgent0: 391
+RewardForPossessingItemImplementation - MineRLAgent0: 392
+RewardForPossessingItemImplementation - MineRLAgent0: 22
+RewardForPossessingItemImplementation - MineRLAgent0: 393
+RewardForPossessingItemImplementation - MineRLAgent0: 394
+RewardForPossessingItemImplementation - MineRLAgent0: 23
+RewardForPossessingItemImplementation - MineRLAgent0: 395
+RewardForPossessingItemImplementation - MineRLAgent0: 396
+RewardForPossessingItemImplementation - MineRLAgent0: 397
+RewardForPossessingItemImplementation - MineRLAgent0: 398
+RewardForPossessingItemImplementation - MineRLAgent0: 399
+RewardForPossessingItemImplementation - MineRLAgent0: 400
+RewardForPossessingItemImplementation - MineRLAgent0: 9
+RewardForPossessingItemImplementation - MineRLAgent0: 401
+RewardForPossessingItemImplementation - MineRLAgent0: 10
+RewardForPossessingItemImplementation - MineRLAgent0: 11
+RewardForPossessingItemImplementation - MineRLAgent0: 402
+RewardForPossessingItemImplementation - MineRLAgent0: 403
+RewardForPossessingItemImplementation - MineRLAgent0: 404
+RewardForPossessingItemImplementation - MineRLAgent0: 405
+RewardForPossessingItemImplementation - MineRLAgent0: 406
+RewardForPossessingItemImplementation - MineRLAgent0: 407
+RewardForPossessingItemImplementation - MineRLAgent0: 408
+RewardForPossessingItemImplementation - MineRLAgent0: 409
+RewardForPossessingItemImplementation - MineRLAgent0: 410
+RewardForPossessingItemImplementation - MineRLAgent0: 411
+RewardForPossessingItemImplementation - MineRLAgent0: 412
+RewardForPossessingItemImplementation - MineRLAgent0: 413
+RewardForPossessingItemImplementation - MineRLAgent0: 414
+RewardForPossessingItemImplementation - MineRLAgent0: 415
+RewardForPossessingItemImplementation - MineRLAgent0: 416
+RewardForPossessingItemImplementation - MineRLAgent0: 417
+RewardForPossessingItemImplementation - MineRLAgent0: 418
+RewardForPossessingItemImplementation - MineRLAgent0: 419
+RewardForPossessingItemImplementation - MineRLAgent0: 420
+RewardForPossessingItemImplementation - MineRLAgent0: 421
+RewardForPossessingItemImplementation - MineRLAgent0: 422
+RewardForPossessingItemImplementation - MineRLAgent0: 423
+RewardForPossessingItemImplementation - MineRLAgent0: 424
+RewardForPossessingItemImplementation - MineRLAgent0: 425
+RewardForPossessingItemImplementation - MineRLAgent0: 426
+RewardForPossessingItemImplementation - MineRLAgent0: 427
+RewardForPossessingItemImplementation - MineRLAgent0: 428
+RewardForPossessingItemImplementation - MineRLAgent0: 429
+RewardForPossessingItemImplementation - MineRLAgent0: 430
+RewardForPossessingItemImplementation - MineRLAgent0: 431
+RewardForPossessingItemImplementation - MineRLAgent0: 432
+RewardForPossessingItemImplementation - MineRLAgent0: 433
+RewardForPossessingItemImplementation - MineRLAgent0: 434
+RewardForPossessingItemImplementation - MineRLAgent0: 435
+RewardForPossessingItemImplementation - MineRLAgent0: 436
+RewardForPossessingItemImplementation - MineRLAgent0: 437
+RewardForPossessingItemImplementation - MineRLAgent0: 438
+RewardForPossessingItemImplementation - MineRLAgent0: 439
+RewardForPossessingItemImplementation - MineRLAgent0: 440
+RewardForPossessingItemImplementation - MineRLAgent0: 441
+RewardForPossessingItemImplementation - MineRLAgent0: 442
+RewardForPossessingItemImplementation - MineRLAgent0: 443
+RewardForPossessingItemImplementation - MineRLAgent0: 444
+RewardForPossessingItemImplementation - MineRLAgent0: 445
+RewardForPossessingItemImplementation - MineRLAgent0: 446
+RewardForPossessingItemImplementation - MineRLAgent0: 447
+RewardForPossessingItemImplementation - MineRLAgent0: 448
+RewardForPossessingItemImplementation - MineRLAgent0: 449
+RewardForPossessingItemImplementation - MineRLAgent0: 450
+RewardForPossessingItemImplementation - MineRLAgent0: 451
+RewardForPossessingItemImplementation - MineRLAgent0: 452
+RewardForPossessingItemImplementation - MineRLAgent0: 453
+RewardForPossessingItemImplementation - MineRLAgent0: 454
+RewardForPossessingItemImplementation - MineRLAgent0: 455
+RewardForPossessingItemImplementation - MineRLAgent0: 456
+RewardForPossessingItemImplementation - MineRLAgent0: 457
+RewardForPossessingItemImplementation - MineRLAgent0: 458
+RewardForPossessingItemImplementation - MineRLAgent0: 459
+RewardForPossessingItemImplementation - MineRLAgent0: 460
+RewardForPossessingItemImplementation - MineRLAgent0: 461
+RewardForPossessingItemImplementation - MineRLAgent0: 462
+RewardForPossessingItemImplementation - MineRLAgent0: 463
+RewardForPossessingItemImplementation - MineRLAgent0: 464
+RewardForPossessingItemImplementation - MineRLAgent0: 465
+RewardForPossessingItemImplementation - MineRLAgent0: 466
+RewardForPossessingItemImplementation - MineRLAgent0: 467
+RewardForPossessingItemImplementation - MineRLAgent0: 468
+RewardForPossessingItemImplementation - MineRLAgent0: 469
+RewardForPossessingItemImplementation - MineRLAgent0: 470
+RewardForPossessingItemImplementation - MineRLAgent0: 471
+RewardForPossessingItemImplementation - MineRLAgent0: 472
+RewardForPossessingItemImplementation - MineRLAgent0: 473
+RewardForPossessingItemImplementation - MineRLAgent0: 475
+RewardForPossessingItemImplementation - MineRLAgent0: 476
+RewardForPossessingItemImplementation - MineRLAgent0: 477
+RewardForPossessingItemImplementation - MineRLAgent0: 478
+RewardForPossessingItemImplementation - MineRLAgent0: 479
+RewardForPossessingItemImplementation - MineRLAgent0: 480
+RewardForPossessingItemImplementation - MineRLAgent0: 481
+RewardForPossessingItemImplementation - MineRLAgent0: 482
+RewardForPossessingItemImplementation - MineRLAgent0: 483
+RewardForPossessingItemImplementation - MineRLAgent0: 484
+RewardForPossessingItemImplementation - MineRLAgent0: 485
+RewardForPossessingItemImplementation - MineRLAgent0: 486
+RewardForPossessingItemImplementation - MineRLAgent0: 487
+RewardForPossessingItemImplementation - MineRLAgent0: 488
+RewardForPossessingItemImplementation - MineRLAgent0: 489
+RewardForPossessingItemImplementation - MineRLAgent0: 490
+RewardForPossessingItemImplementation - MineRLAgent0: 491
+RewardForPossessingItemImplementation - MineRLAgent0: 492
+RewardForPossessingItemImplementation - MineRLAgent0: 493
+RewardForPossessingItemImplementation - MineRLAgent0: 494
+RewardForPossessingItemImplementation - MineRLAgent0: 495
+[16:53:16] [Client thread/INFO]: [CHAT] §l29...
+[16:53:17] [Client thread/INFO]: [CHAT] §l28...
+RewardForPossessingItemImplementation - MineRLAgent0: 496
+[16:53:17] [Client thread/INFO]: [CHAT] §l27...
+RewardForPossessingItemImplementation - MineRLAgent0: 497
+[16:53:18] [Client thread/INFO]: [CHAT] §l26...
+RewardForPossessingItemImplementation - MineRLAgent0: 498
+[16:53:18] [Client thread/INFO]: [CHAT] §l25...
+[16:53:18] [Client thread/INFO]: [CHAT] §l24...
+[16:53:19] [Client thread/INFO]: [CHAT] §l23...
+RewardForPossessingItemImplementation - MineRLAgent0: 499
+[16:53:19] [Client thread/INFO]: [CHAT] §l22...
+RewardForPossessingItemImplementation - MineRLAgent0: 500
+[16:53:20] [Client thread/INFO]: [CHAT] §l21...
+[16:53:20] [Client thread/INFO]: [CHAT] §l20...
+RewardForPossessingItemImplementation - MineRLAgent0: 502
+[16:53:20] [Client thread/INFO]: [CHAT] §l19...
+RewardForPossessingItemImplementation - MineRLAgent0: 503
+[16:53:21] [Client thread/INFO]: [CHAT] §l18...
+[16:53:21] [Client thread/INFO]: [CHAT] §l17...
+[16:53:22] [Client thread/INFO]: [CHAT] §l16...
+[16:53:22] [Client thread/INFO]: [CHAT] §l15...
+[16:53:22] [Client thread/INFO]: [CHAT] §l14...
+RewardForPossessingItemImplementation - MineRLAgent0: 504
+[16:53:23] [Client thread/INFO]: [CHAT] §l13...
+[16:53:23] [Client thread/INFO]: [CHAT] §l12...
+RewardForPossessingItemImplementation - MineRLAgent0: 506
+[16:53:24] [Client thread/INFO]: [CHAT] §l11...
+RewardForPossessingItemImplementation - MineRLAgent0: 507
+[16:53:24] [Client thread/INFO]: [CHAT] §l10...
+RewardForPossessingItemImplementation - MineRLAgent0: 508
+[16:53:24] [Client thread/INFO]: [CHAT] §l9...
+RewardForPossessingItemImplementation - MineRLAgent0: 509
+[16:53:25] [Client thread/INFO]: [CHAT] §l8...
+RewardForPossessingItemImplementation - MineRLAgent0: 510
+[16:53:25] [Client thread/INFO]: [CHAT] §l7...
+[16:53:26] [Client thread/INFO]: [CHAT] §l6...
+[16:53:26] [Client thread/INFO]: [CHAT] §c§l5...
+RewardForPossessingItemImplementation - MineRLAgent0: 511
+[16:53:26] [Client thread/INFO]: [CHAT] §c§l4...
+RewardForPossessingItemImplementation - MineRLAgent0: 512
+[16:53:27] [Client thread/INFO]: [CHAT] §c§l3...
+[16:53:27] [Client thread/INFO]: [CHAT] §c§l2...
+RewardForPossessingItemImplementation - MineRLAgent0: 513
+[16:53:28] [Client thread/INFO]: [CHAT] §c§l1...
+[16:53:28] [Server thread/INFO]: [STDOUT]: SERVER request state: WAITING_FOR_AGENTS_TO_QUIT
+[16:53:28] [Server thread/INFO]: [STDOUT]: SERVER enter state: WAITING_FOR_AGENTS_TO_QUIT
+[16:53:28] [Client thread/INFO]: [CHAT] §c§l0...
+[16:53:28] [Client thread/INFO]: [STDOUT]: SM: [CLIENT_STATE_MACHINE] Mission ended for reason: null world still exists: true
+[16:53:28] [Client thread/INFO]: [STDOUT]: Unpausing
+[16:53:28] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[16:53:28] [Client thread/INFO]: [STDOUT]: CLIENT enter state: MISSION_ENDED
+[16:53:28] [Client thread/INFO]: [STDOUT]: inform the agent
+[16:53:28] [Client thread/INFO]: [STDOUT]: CLIENT request state: WAITING_FOR_SERVER_MISSION_END
+[16:53:28] [Client thread/INFO]: [STDOUT]: CLIENT enter state: WAITING_FOR_SERVER_MISSION_END
+[16:53:28] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 29ms behind, skipping 0 tick(s)
+[16:53:28] [Server thread/INFO]: [STDOUT]: SERVER request state: CLEAN_UP
+[16:53:28] [Server thread/INFO]: [STDOUT]: SERVER enter state: CLEAN_UP
+[16:53:28] [Server thread/INFO]: [STDOUT]: SERVER request state: DORMANT
+[16:53:28] [Client thread/INFO]: [STDOUT]: CLIENT request state: DORMANT
+[16:53:28] [Client thread/INFO]: [STDOUT]: CLIENT enter state: DORMANT
+[16:53:28] [Client thread/INFO]: [STDOUT]: JETTISONING 0 COMMANDS
+[18:14:00] [Server thread/INFO]: [STDOUT]: Warning skipped damage event - multiple damage events in one tick!
+[18:14:00] [Server thread/INFO]: [STDOUT]: This damage event will be marked as stale=True.
+[18:14:00] [Server thread/INFO]: [STDOUT]: Warning skipped damage event - multiple damage events in one tick!
+[18:14:00] [Server thread/INFO]: [STDOUT]: This damage event will be marked as stale=True.
+[18:14:03] [Server thread/INFO]: [STDOUT]: Warning skipped damage event - multiple damage events in one tick!
+[18:14:03] [Server thread/INFO]: [STDOUT]: This damage event will be marked as stale=True.
+[18:14:03] [Server thread/INFO]: [STDOUT]: Warning skipped damage event - multiple damage events in one tick!
+[18:14:03] [Server thread/INFO]: [STDOUT]: This damage event will be marked as stale=True.
+[18:14:06] [Server thread/INFO]: [STDOUT]: Warning skipped damage event - multiple damage events in one tick!
+[18:14:06] [Server thread/INFO]: [STDOUT]: This damage event will be marked as stale=True.
+[18:14:06] [Server thread/INFO]: [STDOUT]: Warning skipped damage event - multiple damage events in one tick!
+[18:14:06] [Server thread/INFO]: [STDOUT]: This damage event will be marked as stale=True.
+[18:14:09] [Server thread/INFO]: [STDOUT]: Warning skipped damage event - multiple damage events in one tick!
+[18:14:09] [Server thread/INFO]: [STDOUT]: This damage event will be marked as stale=True.
+[18:14:09] [Server thread/INFO]: [STDOUT]: Warning skipped damage event - multiple damage events in one tick!
+[18:14:09] [Server thread/INFO]: [STDOUT]: This damage event will be marked as stale=True.
+[18:14:12] [Server thread/INFO]: [STDOUT]: Warning skipped damage event - multiple damage events in one tick!
+[18:14:12] [Server thread/INFO]: [STDOUT]: This damage event will be marked as stale=True.
+[18:14:12] [Server thread/INFO]: [STDOUT]: Warning skipped damage event - multiple damage events in one tick!
+[18:14:12] [Server thread/INFO]: [STDOUT]: This damage event will be marked as stale=True.
+[18:14:15] [Server thread/INFO]: [STDOUT]: Warning skipped damage event - multiple damage events in one tick!
+[18:14:15] [Server thread/INFO]: [STDOUT]: This damage event will be marked as stale=True.
+[18:14:15] [Server thread/INFO]: [STDOUT]: Warning skipped damage event - multiple damage events in one tick!
+[18:14:15] [Server thread/INFO]: [STDOUT]: This damage event will be marked as stale=True.
+[18:14:18] [Server thread/INFO]: [STDOUT]: Warning skipped damage event - multiple damage events in one tick!
+[18:14:18] [Server thread/INFO]: [STDOUT]: This damage event will be marked as stale=True.
+[18:14:18] [Server thread/INFO]: [STDOUT]: Warning skipped damage event - multiple damage events in one tick!
+[18:14:18] [Server thread/INFO]: [STDOUT]: This damage event will be marked as stale=True.
+[18:14:21] [Server thread/INFO]: [STDOUT]: Warning skipped damage event - multiple damage events in one tick!
+[18:14:21] [Server thread/INFO]: [STDOUT]: This damage event will be marked as stale=True.
+[18:14:21] [Server thread/INFO]: [STDOUT]: Warning skipped damage event - multiple damage events in one tick!
+[18:14:21] [Server thread/INFO]: [STDOUT]: This damage event will be marked as stale=True.
+[18:14:24] [Server thread/INFO]: [STDOUT]: Warning skipped damage event - multiple damage events in one tick!
+[18:14:24] [Server thread/INFO]: [STDOUT]: This damage event will be marked as stale=True.
+[18:14:24] [Server thread/INFO]: [STDOUT]: Warning skipped damage event - multiple damage events in one tick!
+[18:14:24] [Server thread/INFO]: [STDOUT]: This damage event will be marked as stale=True.
+[18:14:27] [Server thread/INFO]: [STDOUT]: Warning skipped damage event - multiple damage events in one tick!
+[18:14:27] [Server thread/INFO]: [STDOUT]: This damage event will be marked as stale=True.
+[18:14:27] [Server thread/INFO]: [STDOUT]: Warning skipped damage event - multiple damage events in one tick!
+[18:14:27] [Server thread/INFO]: [STDOUT]: This damage event will be marked as stale=True.
+[18:14:27] [Server thread/INFO]: MineRLAgent0 was slain by Zombie
+[18:14:27] [Client thread/INFO]: [CHAT] MineRLAgent0 was slain by Zombie

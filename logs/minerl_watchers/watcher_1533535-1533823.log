@@ -1,0 +1,6 @@
+2021-09-01 14:51:32 pop-os process_watcher[1533879] INFO Process watcher started between parent 1533535 and child 1533823 
+2021-09-01 18:36:21 pop-os process_watcher[1533879] INFO Parent is not running, hence we need terminate the child.
+2021-09-01 18:36:21 pop-os process_watcher[1533879] INFO About to reap process tree of 1533823:launchClient.sh:/usr/bin/bash i sleeping, owner 2476, printing process tree status in termination order:
+2021-09-01 18:36:21 pop-os process_watcher[1533879] INFO 	-1533827:java:/usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java i sleeping, owner 1533823
+2021-09-01 18:36:21 pop-os process_watcher[1533879] INFO 	-1533823:launchClient.sh:/usr/bin/bash i sleeping, owner 2476
+2021-09-01 18:36:21 pop-os process_watcher[1533879] INFO Trying to SIGTERM 1533827:java:/usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java i sleeping, owner 1533823

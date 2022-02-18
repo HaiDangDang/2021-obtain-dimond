@@ -1,0 +1,14 @@
+2021-08-05 09:24:36 pop-os process_watcher[33961] INFO Process watcher started between parent 33674 and child 33849 
+2021-08-05 09:27:49 pop-os process_watcher[33961] INFO Parent is not running, hence we need terminate the child.
+2021-08-05 09:27:49 pop-os process_watcher[33961] INFO About to reap process tree of 33849:launchClient.sh:/usr/bin/bash i sleeping, owner 2420, printing process tree status in termination order:
+2021-08-05 09:27:49 pop-os process_watcher[33961] INFO 	-33927:java:/usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java i sleeping, owner 33855
+2021-08-05 09:27:49 pop-os process_watcher[33961] INFO 	-33865:Xvfb:/usr/bin/Xvfb i sleeping, owner 33855
+2021-08-05 09:27:49 pop-os process_watcher[33961] INFO 	-33855:xvfb-run:/usr/bin/dash i sleeping, owner 33849
+2021-08-05 09:27:49 pop-os process_watcher[33961] INFO 	-33849:launchClient.sh:/usr/bin/bash i sleeping, owner 2420
+2021-08-05 09:27:49 pop-os process_watcher[33961] INFO Trying to SIGTERM 33927:java:/usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java i sleeping, owner 33855
+2021-08-05 09:27:54 pop-os process_watcher[33961] INFO Process 33927 survived SIGTERM; trying SIGKILL on 33927:java:/usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java i sleeping, owner 33855
+2021-08-05 09:27:54 pop-os process_watcher[33961] INFO Process psutil.Process(pid=33927, status='terminated') terminated with exit code None
+2021-08-05 09:27:54 pop-os process_watcher[33961] INFO Trying to SIGTERM 33865:Xvfb:/usr/bin/Xvfb i running, owner 2420
+2021-08-05 09:27:54 pop-os process_watcher[33961] INFO Process psutil.Process(pid=33865, status='terminated') terminated with exit code None
+2021-08-05 09:27:54 pop-os process_watcher[33961] INFO Process psutil.Process(pid=33855, status='terminated') does not exist or is zombie.
+2021-08-05 09:27:54 pop-os process_watcher[33961] INFO Process psutil.Process(pid=33849, status='terminated') does not exist or is zombie.

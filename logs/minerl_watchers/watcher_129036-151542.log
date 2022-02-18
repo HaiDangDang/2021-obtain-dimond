@@ -1,0 +1,2 @@
+2021-09-05 17:11:08 pop-os process_watcher[151598] INFO Process watcher started between parent 129036 and child 151542 
+2021-09-05 17:16:09 pop-os process_watcher[151598] INFO Child is not running anymore, launcher can terminate.

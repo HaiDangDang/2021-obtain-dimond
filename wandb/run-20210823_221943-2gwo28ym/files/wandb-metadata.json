@@ -1,0 +1,20 @@
+{
+    "os": "Linux-5.11.0-7614-generic-x86_64-with-debian-bullseye-sid",
+    "python": "3.7.11",
+    "heartbeatAt": "2021-08-23T15:19:44.446817",
+    "startedAt": "2021-08-23T15:19:43.271774",
+    "docker": null,
+    "gpu": "GeForce GTX 1080 Ti",
+    "gpu_count": 1,
+    "cpu_count": 16,
+    "cuda": null,
+    "args": [
+        "--mode=client",
+        "--port=43459"
+    ],
+    "state": "running",
+    "program": "<python with no main file>",
+    "host": "pop-os",
+    "username": "dang",
+    "executable": "/home/dang/anaconda3/envs/mine/bin/python"
+}

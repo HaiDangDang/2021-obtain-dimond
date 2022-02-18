@@ -1,0 +1,62 @@
+2021-09-04 08:53:37,758 INFO    MainThread:366741 [internal.py:wandb_internal():89] W&B internal server running at pid: 366741, started at: 2021-09-04 08:53:37.758323
+2021-09-04 08:53:37,760 DEBUG   HandlerThread:366741 [handler.py:handle_request():128] handle_request: check_version
+2021-09-04 08:53:37,760 INFO    WriterThread:366741 [datastore.py:open_for_write():77] open: /home/dang/Documents/Doc/2021/mine/wandb/run-20210904_085334-1drx6jfm/run-1drx6jfm.wandb
+2021-09-04 08:53:37,762 DEBUG   SenderThread:366741 [sender.py:send():182] send: header
+2021-09-04 08:53:37,762 DEBUG   SenderThread:366741 [sender.py:send_request():196] send_request: check_version
+2021-09-04 08:53:37,936 DEBUG   SenderThread:366741 [sender.py:send():182] send: run
+2021-09-04 08:53:37,942 DEBUG   SenderThread:366741 [git.py:repo():33] git repository is invalid
+2021-09-04 08:53:38,366 INFO    SenderThread:366741 [dir_watcher.py:__init__():168] watching files in: /home/dang/Documents/Doc/2021/mine/wandb/run-20210904_085334-1drx6jfm/files
+2021-09-04 08:53:38,367 INFO    SenderThread:366741 [sender.py:_start_run_threads():743] run started: 1drx6jfm with start time 1630720417
+2021-09-04 08:53:38,367 DEBUG   SenderThread:366741 [sender.py:send():182] send: summary
+2021-09-04 08:53:38,367 INFO    SenderThread:366741 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-04 08:53:38,368 DEBUG   HandlerThread:366741 [handler.py:handle_request():128] handle_request: run_start
+2021-09-04 08:53:38,371 DEBUG   HandlerThread:366741 [meta.py:__init__():39] meta init
+2021-09-04 08:53:38,372 DEBUG   HandlerThread:366741 [meta.py:__init__():53] meta init done
+2021-09-04 08:53:38,372 DEBUG   HandlerThread:366741 [meta.py:probe():210] probe
+2021-09-04 08:53:38,378 DEBUG   HandlerThread:366741 [git.py:repo():33] git repository is invalid
+2021-09-04 08:53:38,378 DEBUG   HandlerThread:366741 [meta.py:_save_code():89] save code
+2021-09-04 08:53:38,378 WARNING HandlerThread:366741 [meta.py:_save_code():91] unable to save code -- program entry not found
+2021-09-04 08:53:38,378 DEBUG   HandlerThread:366741 [meta.py:_save_pip():57] save pip
+2021-09-04 08:53:38,379 DEBUG   HandlerThread:366741 [meta.py:_save_pip():71] save pip done
+2021-09-04 08:53:38,379 DEBUG   HandlerThread:366741 [meta.py:_save_conda():78] save conda
+2021-09-04 08:53:39,368 INFO    Thread-8  :366741 [dir_watcher.py:_on_file_created():216] file/dir created: /home/dang/Documents/Doc/2021/mine/wandb/run-20210904_085334-1drx6jfm/files/requirements.txt
+2021-09-04 08:53:39,369 INFO    Thread-8  :366741 [dir_watcher.py:_on_file_created():216] file/dir created: /home/dang/Documents/Doc/2021/mine/wandb/run-20210904_085334-1drx6jfm/files/wandb-summary.json
+2021-09-04 08:53:39,369 INFO    Thread-8  :366741 [dir_watcher.py:_on_file_created():216] file/dir created: /home/dang/Documents/Doc/2021/mine/wandb/run-20210904_085334-1drx6jfm/files/conda-environment.yaml
+2021-09-04 08:53:43,008 DEBUG   HandlerThread:366741 [meta.py:_save_conda():86] save conda done
+2021-09-04 08:53:43,009 DEBUG   HandlerThread:366741 [meta.py:probe():252] probe done
+2021-09-04 08:53:43,042 DEBUG   SenderThread:366741 [sender.py:send():182] send: files
+2021-09-04 08:53:43,042 INFO    SenderThread:366741 [sender.py:_save_file():873] saving file wandb-metadata.json with policy now
+2021-09-04 08:53:43,047 DEBUG   HandlerThread:366741 [handler.py:handle_request():128] handle_request: stop_status
+2021-09-04 08:53:43,047 DEBUG   SenderThread:366741 [sender.py:send_request():196] send_request: stop_status
+2021-09-04 08:53:43,368 INFO    Thread-8  :366741 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/dang/Documents/Doc/2021/mine/wandb/run-20210904_085334-1drx6jfm/files/conda-environment.yaml
+2021-09-04 08:53:43,368 INFO    Thread-8  :366741 [dir_watcher.py:_on_file_created():216] file/dir created: /home/dang/Documents/Doc/2021/mine/wandb/run-20210904_085334-1drx6jfm/files/wandb-metadata.json
+2021-09-04 08:53:43,368 INFO    Thread-8  :366741 [dir_watcher.py:_on_file_created():216] file/dir created: /home/dang/Documents/Doc/2021/mine/wandb/run-20210904_085334-1drx6jfm/files/output.log
+2021-09-04 08:53:43,988 INFO    Thread-11 :366741 [upload_job.py:push():137] Uploaded file /tmp/tmpn60i15vdwandb/2e0smup9-wandb-metadata.json
+2021-09-04 08:53:45,369 INFO    Thread-8  :366741 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/dang/Documents/Doc/2021/mine/wandb/run-20210904_085334-1drx6jfm/files/output.log
+2021-09-04 08:53:58,445 DEBUG   HandlerThread:366741 [handler.py:handle_request():128] handle_request: stop_status
+2021-09-04 08:53:58,447 DEBUG   SenderThread:366741 [sender.py:send_request():196] send_request: stop_status
+2021-09-04 08:54:06,765 DEBUG   SenderThread:366741 [sender.py:send():182] send: stats
+2021-09-04 08:54:13,833 DEBUG   HandlerThread:366741 [handler.py:handle_request():128] handle_request: stop_status
+2021-09-04 08:54:13,835 DEBUG   SenderThread:366741 [sender.py:send_request():196] send_request: stop_status
+2021-09-04 08:54:29,243 DEBUG   HandlerThread:366741 [handler.py:handle_request():128] handle_request: stop_status
+2021-09-04 08:54:29,243 DEBUG   SenderThread:366741 [sender.py:send_request():196] send_request: stop_status
+2021-09-04 08:54:36,017 INFO    HandlerThread:366741 [handler.py:handle_tbrecord():586] handling tbrecord: tbrecord {
+  log_dir: "runs/v1/PPO_15"
+  save: true
+}
+
+2021-09-04 08:54:36,017 DEBUG   HandlerThread:366741 [config_util.py:dict_from_config_file():101] no default config file found in config-defaults.yaml
+2021-09-04 08:54:37,258 DEBUG   SenderThread:366741 [sender.py:send():182] send: tbrecord
+2021-09-04 08:54:37,259 DEBUG   SenderThread:366741 [sender.py:send():182] send: files
+2021-09-04 08:54:37,260 INFO    SenderThread:366741 [sender.py:_save_file():873] saving file events.out.tfevents.1630720476.pop-os.144877.1 with policy live
+2021-09-04 08:54:37,297 DEBUG   SenderThread:366741 [sender.py:send():182] send: stats
+2021-09-04 08:54:37,396 INFO    Thread-8  :366741 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/dang/Documents/Doc/2021/mine/wandb/run-20210904_085334-1drx6jfm/files/output.log
+2021-09-04 08:54:37,397 INFO    Thread-8  :366741 [dir_watcher.py:_on_file_created():216] file/dir created: /home/dang/Documents/Doc/2021/mine/wandb/run-20210904_085334-1drx6jfm/files/events.out.tfevents.1630720476.pop-os.144877.1
+2021-09-04 08:54:38,173 INFO    Thread-14 :366741 [upload_job.py:push():137] Uploaded file /tmp/tmpn60i15vdwandb/a0imvnzu-events.out.tfevents.1630720476.pop-os.144877.1
+2021-09-04 08:54:44,633 DEBUG   HandlerThread:366741 [handler.py:handle_request():128] handle_request: stop_status
+2021-09-04 08:54:44,633 DEBUG   SenderThread:366741 [sender.py:send_request():196] send_request: stop_status
+2021-09-04 08:55:00,013 DEBUG   HandlerThread:366741 [handler.py:handle_request():128] handle_request: stop_status
+2021-09-04 08:55:00,015 DEBUG   SenderThread:366741 [sender.py:send_request():196] send_request: stop_status
+2021-09-04 08:55:07,676 DEBUG   SenderThread:366741 [sender.py:send():182] send: stats
+2021-09-04 08:55:15,407 DEBUG   HandlerThread:366741 [handler.py:handle_request():128] handle_request: stop_status
+2021-09-04 08:55:15,408 DEBUG   SenderThread:366741 [sender.py:send_request():196] send_request: stop_status

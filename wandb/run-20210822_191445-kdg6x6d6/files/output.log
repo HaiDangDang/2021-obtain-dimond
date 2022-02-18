@@ -1,0 +1,26 @@
+
+Using cuda device
+Traceback (most recent call last):
+  File "/home/dang/.local/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3296, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "<ipython-input-2-77caa101a43e>", line 167, in <module>
+    model.learn(total_timesteps=4000000)  # 2m steps is about 8h at 70 FPS
+  File "/home/dang/anaconda3/envs/mine/lib/python3.7/site-packages/stable_baselines3/ppo/ppo.py", line 308, in learn
+    reset_num_timesteps=reset_num_timesteps,
+  File "/home/dang/anaconda3/envs/mine/lib/python3.7/site-packages/stable_baselines3/common/on_policy_algorithm.py", line 227, in learn
+    total_timesteps, eval_env, callback, eval_freq, n_eval_episodes, eval_log_path, reset_num_timesteps, tb_log_name
+  File "/home/dang/anaconda3/envs/mine/lib/python3.7/site-packages/stable_baselines3/common/base_class.py", line 420, in _setup_learn
+    self._last_obs = self.env.reset()  # pytype: disable=annotation-type-mismatch
+  File "/home/dang/anaconda3/envs/mine/lib/python3.7/site-packages/stable_baselines3/common/vec_env/dummy_vec_env.py", line 61, in reset
+    obs = self.envs[env_idx].reset()
+  File "/home/dang/anaconda3/envs/mine/lib/python3.7/site-packages/gym/wrappers/record_episode_statistics.py", line 17, in reset
+    observation = super(RecordEpisodeStatistics, self).reset(**kwargs)
+  File "/home/dang/anaconda3/envs/mine/lib/python3.7/site-packages/gym/core.py", line 237, in reset
+    return self.env.reset(**kwargs)
+  File "/home/dang/anaconda3/envs/mine/lib/python3.7/site-packages/gym/core.py", line 289, in reset
+    return self.env.reset(**kwargs)
+  File "/home/dang/anaconda3/envs/mine/lib/python3.7/site-packages/gym/core.py", line 265, in reset
+    return self.observation(observation)
+  File "<ipython-input-2-77caa101a43e>", line 85, in observation
+    obs = np.concatenate([final, inventory])
+  File "<__array_function__ internals>", line 6, in concatenate

@@ -1,0 +1,50 @@
+
+Using cuda device
+Logging to runs/v1/PPO_5
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 1e+03    |
+|    ep_rew_mean     | 0        |
+| time/              |          |
+|    fps             | 21       |
+|    iterations      | 1        |
+|    time_elapsed    | 665      |
+|    total_timesteps | 14336    |
+---------------------------------
+Traceback (most recent call last):
+  File "/home/dang/.local/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3296, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "<ipython-input-2-072a68c87970>", line 167, in <module>
+    model.learn(total_timesteps=4000000)  # 2m steps is about 8h at 70 FPS
+  File "/home/dang/anaconda3/envs/mine/lib/python3.7/site-packages/stable_baselines3/ppo/ppo.py", line 308, in learn
+    reset_num_timesteps=reset_num_timesteps,
+  File "/home/dang/anaconda3/envs/mine/lib/python3.7/site-packages/stable_baselines3/common/on_policy_algorithm.py", line 234, in learn
+    continue_training = self.collect_rollouts(self.env, callback, self.rollout_buffer, n_rollout_steps=self.n_steps)
+  File "/home/dang/anaconda3/envs/mine/lib/python3.7/site-packages/stable_baselines3/common/on_policy_algorithm.py", line 175, in collect_rollouts
+    new_obs, rewards, dones, infos = env.step(clipped_actions)
+  File "/home/dang/anaconda3/envs/mine/lib/python3.7/site-packages/stable_baselines3/common/vec_env/base_vec_env.py", line 162, in step
+    return self.step_wait()
+  File "/home/dang/anaconda3/envs/mine/lib/python3.7/site-packages/stable_baselines3/common/vec_env/dummy_vec_env.py", line 49, in step_wait
+    obs = self.envs[env_idx].reset()
+  File "/home/dang/anaconda3/envs/mine/lib/python3.7/site-packages/gym/wrappers/record_episode_statistics.py", line 17, in reset
+    observation = super(RecordEpisodeStatistics, self).reset(**kwargs)
+  File "/home/dang/anaconda3/envs/mine/lib/python3.7/site-packages/gym/core.py", line 237, in reset
+    return self.env.reset(**kwargs)
+  File "/home/dang/anaconda3/envs/mine/lib/python3.7/site-packages/gym/core.py", line 289, in reset
+    return self.env.reset(**kwargs)
+  File "/home/dang/anaconda3/envs/mine/lib/python3.7/site-packages/gym/core.py", line 264, in reset
+    observation = self.env.reset(**kwargs)
+  File "/home/dang/anaconda3/envs/mine/lib/python3.7/site-packages/gym/wrappers/time_limit.py", line 25, in reset
+    return self.env.reset(**kwargs)
+  File "/home/dang/.local/lib/python3.7/site-packages/minerl/env/_singleagent.py", line 22, in reset
+    multi_obs = super().reset()
+  File "/home/dang/.local/lib/python3.7/site-packages/minerl/env/_multiagent.py", line 465, in reset
+    self._send_mission(self.instances[0], agent_xmls[0], self._get_token(0, ep_uid))  # Master
+  File "/home/dang/.local/lib/python3.7/site-packages/minerl/env/_multiagent.py", line 614, in _send_mission
+    reply = instance.client_socket_recv_message()
+  File "/home/dang/.local/lib/python3.7/site-packages/minerl/env/malmo.py", line 458, in client_socket_recv_message
+    return comms.recv_message(self.client_socket)
+  File "/home/dang/.local/lib/python3.7/site-packages/minerl/env/comms.py", line 63, in recv_message
+    lengthbuf = recvall(sock, 4)
+  File "/home/dang/.local/lib/python3.7/site-packages/minerl/env/comms.py", line 73, in recvall
+    newbuf = sock.recv(count)

@@ -1,0 +1,13 @@
+2021-08-04 11:24:28 pop-os process_watcher[72042] INFO Process watcher started between parent 70995 and child 71874 
+2021-08-04 12:15:51 pop-os process_watcher[72042] INFO Parent is not running, hence we need terminate the child.
+2021-08-04 12:15:51 pop-os process_watcher[72042] INFO About to reap process tree of 71874:launchClient.sh:/usr/bin/bash i sleeping, owner 2569, printing process tree status in termination order:
+2021-08-04 12:15:51 pop-os process_watcher[72042] INFO 	-71964:java:/usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java i sleeping, owner 71880
+2021-08-04 12:15:51 pop-os process_watcher[72042] INFO 	-71890:Xvfb:/usr/bin/Xvfb i sleeping, owner 71880
+2021-08-04 12:15:51 pop-os process_watcher[72042] INFO 	-71880:xvfb-run:/usr/bin/dash i sleeping, owner 71874
+2021-08-04 12:15:51 pop-os process_watcher[72042] INFO 	-71874:launchClient.sh:/usr/bin/bash i sleeping, owner 2569
+2021-08-04 12:15:51 pop-os process_watcher[72042] INFO Trying to SIGTERM 71964:java:/usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java i sleeping, owner 71880
+2021-08-04 12:15:51 pop-os process_watcher[72042] INFO Process psutil.Process(pid=71964, status='terminated') terminated with exit code None
+2021-08-04 12:15:51 pop-os process_watcher[72042] INFO Trying to SIGTERM 71890:Xvfb:/usr/bin/Xvfb i sleeping, owner 2569
+2021-08-04 12:15:51 pop-os process_watcher[72042] INFO Process psutil.Process(pid=71890, status='terminated') terminated with exit code None
+2021-08-04 12:15:51 pop-os process_watcher[72042] INFO Process psutil.Process(pid=71880, status='terminated') does not exist or is zombie.
+2021-08-04 12:15:51 pop-os process_watcher[72042] INFO Process psutil.Process(pid=71874, status='terminated') does not exist or is zombie.

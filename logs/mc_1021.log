@@ -1,0 +1,114 @@
+[18:56:00] [EnvServerSocketHandler/INFO]: [STDOUT]: Received from localhost:<MissionInit xmlns="http://ProjectMalmo.microsoft.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SchemaVersion="" PlatformVersion="0.37.0"><Mission><About><Summary>MineRLObtainDiamond-v0</Summary></About><ModSettings><MsPerTick>50</MsPerTick></ModSettings><ServerSection><ServerInitialConditions><Time><StartTime>6000</StartTime><AllowPassageOfTime>true</AllowPassageOfTime></Time><AllowSpawning>true</AllowSpawning></ServerInitialConditions><ServerHandlers><DefaultWorldGenerator forceReset="true" generatorOptions="{}"/><ServerQuitFromTimeUp timeLimitMs="900000" description="out_of_time"/><ServerQuitWhenAnyAgentFinishes/></ServerHandlers></ServerSection><AgentSection mode="Survival"><Name>MineRLAgent0</Name><AgentStart/><AgentHandlers><FileBasedPerformanceProducer/><ObservationFromDamage/><PauseCommand/><VideoProducer want_depth="false"><Width>64</Width><Height>64</Height></VideoProducer><ObservationFromFullInventory flat="false"/><ObservationFromEquippedItem/><HumanLevelCommands/><CameraCommands/><PlaceCommands/><EquipCommands/><SimpleCraftCommands/><NearbyCraftCommands/><NearbySmeltCommands/><RewardForPossessingItem sparse="true" excludeLoops="true"><Item amount="1" reward="1" type="log"/><Item amount="1" reward="2" type="planks"/><Item amount="1" reward="4" type="stick"/><Item amount="1" reward="4" type="crafting_table"/><Item amount="1" reward="8" type="wooden_pickaxe"/><Item amount="1" reward="16" type="cobblestone"/><Item amount="1" reward="32" type="furnace"/><Item amount="1" reward="32" type="stone_pickaxe"/><Item amount="1" reward="64" type="iron_ore"/><Item amount="1" reward="128" type="iron_ingot"/><Item amount="1" reward="256" type="iron_pickaxe"/><Item amount="1" reward="1024" type="diamond"/></RewardForPossessingItem><AgentQuitFromPossessingItem><Item type="diamond" amount="1"/></AgentQuitFromPossessingItem></AgentHandlers></AgentSection></Mission><ExperimentUID>3768d366-9092-424d-abf5-ce1b79d9269e</ExperimentUID><ClientRole>0</ClientRole><ClientAgentConnection><ClientIPAddress>127.0.0.1</ClientIPAddress><ClientMissionControlPort>0</ClientMissionControlPort><ClientCommandsPort>0</ClientCommandsPort><AgentIPAddress>127.0.0.1</AgentIPAddress><AgentMissionControlPort>0</AgentMissionControlPort><AgentVideoPort>0</AgentVideoPort><AgentDepthPort>0</AgentDepthPort><AgentLuminancePort>0</AgentLuminancePort><AgentObservationsPort>0</AgentObservationsPort><AgentRewardsPort>0</AgentRewardsPort><AgentColourMapPort>0</AgentColourMapPort></ClientAgentConnection></MissionInit>
+[18:56:01] [EnvServerSocketHandler/INFO]: [STDOUT]: REPLYING WITH: MALMOOK
+[18:56:01] [Client thread/INFO]: [STDOUT]: Mission received: MineRLObtainDiamond-v0
+[18:56:01] [Client thread/INFO]: [STDOUT]: CLIENT request state: CREATING_HANDLERS
+[18:56:01] [Client thread/INFO]: [STDOUT]: CLIENT enter state: CREATING_HANDLERS
+[18:56:01] [Client thread/INFO]: [STDOUT]: Starting command server.
+[18:56:01] [Thread-11/INFO]: [STDOUT]: INFO: ->com(0) Listening for messages on port 10380
+[18:56:01] [Client thread/INFO]: [STDOUT]: CLIENT request state: EVALUATING_WORLD_REQUIREMENTS
+[18:56:01] [Client thread/INFO]: [STDOUT]: CLIENT enter state: EVALUATING_WORLD_REQUIREMENTS
+[18:56:01] [Client thread/INFO]: [STDOUT]: CLIENT request state: CREATING_NEW_WORLD
+[18:56:01] [Client thread/INFO]: [STDOUT]: CLIENT enter state: CREATING_NEW_WORLD
+[18:56:01] [Client thread/INFO]: [STDOUT]: [LOGTOPY] GENERATOR OPTIONS = {}
+[18:56:01] [Server thread/INFO]: Starting integrated minecraft server version 1.11.2
+[18:56:01] [Server thread/INFO]: Generating keypair
+[18:56:01] [Server thread/INFO]: Injecting existing block and item data into this server instance
+[18:56:02] [Server thread/INFO]: Applying holder lookups
+[18:56:02] [Server thread/INFO]: Holder lookups applied
+[18:56:02] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[18:56:02] [Server thread/INFO]: Loading dimension 0 (TEMP_0_0a8866f5-3cae-4614-acb3-395cf6286b7e) (net.minecraft.server.integrated.IntegratedServer@4fcbe2f5)
+[18:56:02] [Server thread/INFO]: Loading dimension 1 (TEMP_0_0a8866f5-3cae-4614-acb3-395cf6286b7e) (net.minecraft.server.integrated.IntegratedServer@4fcbe2f5)
+[18:56:02] [Server thread/INFO]: Loading dimension -1 (TEMP_0_0a8866f5-3cae-4614-acb3-395cf6286b7e) (net.minecraft.server.integrated.IntegratedServer@4fcbe2f5)
+[18:56:02] [Server thread/INFO]: Preparing start region for level 0
+[18:56:03] [Server thread/INFO]: Preparing spawn area: 10%
+[18:56:04] [Server thread/INFO]: Preparing spawn area: 22%
+[18:56:05] [Server thread/INFO]: Preparing spawn area: 37%
+[18:56:06] [Server thread/INFO]: Preparing spawn area: 55%
+[18:56:07] [Server thread/INFO]: Preparing spawn area: 74%
+[18:56:07] [Server thread/WARN]: Microsoft Malmo Mod loaded a new chunk (20, 14  Dimension: 0) during chunk population, causing cascading worldgen lag. Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[18:56:08] [Server thread/INFO]: Preparing spawn area: 84%
+[18:56:09] [Server thread/INFO]: Preparing spawn area: 94%
+[18:56:10] [Server thread/INFO]: Changing view distance to 4, from 10
+[18:56:10] [Netty Local Client IO #0/INFO]: [STDOUT]: Transformed Name: net.minecraft.client.entity.EntityOtherPlayerMP
+[18:56:10] [Netty Local Client IO #0/INFO]: [STDOUT]: MALMO: Found EntityOtherPlayerMP, attempting to transform it
+[18:56:10] [Server thread/INFO]: [STDOUT]: SERVER request state: WAITING_FOR_MOD_READY
+[18:56:10] [Server thread/INFO]: [STDOUT]: CLIENT request state: WAITING_FOR_SERVER_READY
+[18:56:10] [Server thread/INFO]: [STDOUT]: SERVER enter state: WAITING_FOR_MOD_READY
+[18:56:10] [Netty Local Client IO #0/INFO]: Server protocol version 2
+[18:56:10] [Netty Server IO #1/INFO]: Client protocol version 2
+[18:56:10] [Netty Server IO #1/INFO]: Client attempting to join with 5 mods : minecraft@1.11.2,FML@8.0.99.99,malmomod@0.37.0,forge@13.20.1.2588,mcp@9.19
+[18:56:10] [Netty Local Client IO #0/INFO]: [Netty Local Client IO #0] Client side modded connection established
+[18:56:10] [Client thread/INFO]: [STDOUT]: CLIENT enter state: WAITING_FOR_SERVER_READY
+[18:56:11] [Server thread/INFO]: [Server thread] Server side modded connection established
+[18:56:11] [Server thread/INFO]: MineRLAgent0[local:E:d6566ebe] logged in with entity id 459 at (235.5, 67.0, 203.5)
+[18:56:11] [Server thread/INFO]: MineRLAgent0 joined the game
+[18:56:11] [Server thread/INFO]: [STDOUT]: SERVER request state: DORMANT
+[18:56:11] [Server thread/INFO]: [STDOUT]: SERVER enter state: DORMANT
+[18:56:11] [Server thread/INFO]: [STDOUT]: INCOMING MISSION: Received MissionInit directly through ServerStateMachine constructor.
+[18:56:11] [Server thread/INFO]: [STDOUT]: Mission received: MineRLObtainDiamond-v0
+[18:56:11] [Server thread/INFO]: Received mission: §9MineRLObtainDiamond-v0
+[18:56:11] [Server thread/INFO]: Source: §alocalhost
+[18:56:11] [Server thread/INFO]: [STDOUT]: SERVER request state: BUILDING_WORLD
+[18:56:11] [Server thread/INFO]: [STDOUT]: SERVER enter state: BUILDING_WORLD
+[18:56:11] [Server thread/INFO]: [STDOUT]: SERVER request state: WAITING_FOR_AGENTS_TO_ASSEMBLE
+[18:56:12] [Client thread/INFO]: [CHAT] Received mission: §9MineRLObtainDiamond-v0
+[18:56:12] [Client thread/INFO]: [CHAT] Source: §alocalhost
+[18:56:12] [Server thread/INFO]: [STDOUT]: SERVER enter state: WAITING_FOR_AGENTS_TO_ASSEMBLE
+[18:56:12] [Server thread/INFO]: [STDOUT]: Experiment requires: 
+[18:56:12] [Server thread/INFO]: [STDOUT]: >>>> MineRLAgent0
+[18:56:12] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[18:56:12] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[18:56:12] [Server thread/INFO]: [STDOUT]: Initializing player with username MineRLAgent0 and agentname MineRLAgent0
+[18:56:12] [Client thread/INFO]: [STDOUT]: CLIENT request state: RUNNING
+[18:56:12] [Client thread/INFO]: [STDOUT]: CLIENT enter state: RUNNING
+[18:56:12] [Client thread/INFO]: [STDOUT]: Preparing reward com.microsoft.Malmo.MissionHandlers.RewardForPossessingItemImplementation@38f2a5ad with agent name MineRLAgent0
+[18:56:12] [Client thread/INFO]: [STDOUT]: [LOGTOPY] On Mac OSX Catalina make sure to install this OpenJDK 1.8.0_152-release-1056-b12, this prevents the NSDragRegions crash
+[18:56:12] [Server thread/INFO]: [STDOUT]: SERVER request state: RUNNING
+[18:56:12] [Server thread/INFO]: [STDOUT]: SERVER enter state: RUNNING
+[18:56:12] [Client thread/INFO]: [STDOUT]: Resized the window
+[18:56:12] [Client thread/INFO]: [STDOUT]: Unpausing
+[18:59:09] [Server thread/INFO]: [STDOUT]: Warning: managed 2/20 ticks this second.
+[18:59:10] [Server thread/INFO]: [STDOUT]: Warning: managed 6/20 ticks this second.
+[18:59:11] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[18:59:12] [Server thread/INFO]: [STDOUT]: Warning: managed 14/20 ticks this second.
+[18:59:13] [Server thread/INFO]: [STDOUT]: Warning: managed 12/20 ticks this second.
+[18:59:14] [Server thread/INFO]: [STDOUT]: Warning: managed 13/20 ticks this second.
+RewardForPossessingItemImplementation - MineRLAgent0: 1
+[18:59:15] [Server thread/INFO]: [STDOUT]: Warning: managed 16/20 ticks this second.
+RewardForPossessingItemImplementation - MineRLAgent0: 2
+[18:59:19] [Server thread/INFO]: [STDOUT]: Warning: managed 19/20 ticks this second.
+[18:59:22] [Server thread/INFO]: [STDOUT]: Warning: managed 19/20 ticks this second.
+RewardForPossessingItemImplementation - MineRLAgent0: 3
+[18:59:58] [Server thread/INFO]: [STDOUT]: Warning: managed 19/20 ticks this second.
+[19:00:05] [Client thread/INFO]: [STDOUT]: 4.0 damage from fall by entity null
+[19:00:08] [Server thread/INFO]: [STDOUT]: Warning: managed 12/20 ticks this second.
+[19:00:39] [Server thread/INFO]: [STDOUT]: Warning: managed 1/20 ticks this second.
+[19:01:30] [Client thread/INFO]: [STDOUT]: 5.0 damage from fall by entity null
+RewardForPossessingItemImplementation - MineRLAgent0: 4
+[19:03:13] [Server thread/INFO]: [STDOUT]: Warning: managed 17/20 ticks this second.
+[19:03:23] [Server thread/INFO]: [STDOUT]: Warning: managed 19/20 ticks this second.
+RewardForPossessingItemImplementation - MineRLAgent0: 1
+RewardForPossessingItemImplementation - MineRLAgent0: 1
+RewardForPossessingItemImplementation - MineRLAgent0: 1
+RewardForPossessingItemImplementation - MineRLAgent0: 2
+RewardForPossessingItemImplementation - MineRLAgent0: 3
+[19:03:56] [Server thread/INFO]: [STDOUT]: Warning: managed 6/20 ticks this second.
+[19:04:37] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+RewardForPossessingItemImplementation - MineRLAgent0: 4
+RewardForPossessingItemImplementation - MineRLAgent0: 5
+[19:06:00] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+RewardForPossessingItemImplementation - MineRLAgent0: 6
+[19:08:51] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[19:08:52] [Client thread/INFO]: [STDOUT]: 5.0 damage from arrow by entity EntitySkeleton['Skeleton'/9315, l='TEMP_0_0a8866f5-3cae-4614-acb3-395cf6286b7e', x=197.87, y=72.00, z=240.28]
+[19:10:01] [Server thread/INFO]: [STDOUT]: Warning: managed 3/20 ticks this second.
+RewardForPossessingItemImplementation - MineRLAgent0: 7
+RewardForPossessingItemImplementation - MineRLAgent0: 8
+RewardForPossessingItemImplementation - MineRLAgent0: 9
+RewardForPossessingItemImplementation - MineRLAgent0: 10
+RewardForPossessingItemImplementation - MineRLAgent0: 11
+RewardForPossessingItemImplementation - MineRLAgent0: 12
+RewardForPossessingItemImplementation - MineRLAgent0: 13
+RewardForPossessingItemImplementation - MineRLAgent0: 14
+RewardForPossessingItemImplementation - MineRLAgent0: 15
+RewardForPossessingItemImplementation - MineRLAgent0: 1
+RewardForPossessingItemImplementation - MineRLAgent0: 2

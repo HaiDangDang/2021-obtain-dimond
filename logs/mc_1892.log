@@ -1,0 +1,312 @@
+[16:37:05] [EnvServerSocketHandler/INFO]: [STDOUT]: Received from localhost:<MissionInit xmlns="http://ProjectMalmo.microsoft.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SchemaVersion="" PlatformVersion="0.37.0"><Mission><About><Summary>MineRLObtainDiamond-v0</Summary></About><ModSettings><MsPerTick>50</MsPerTick></ModSettings><ServerSection><ServerInitialConditions><Time><StartTime>6000</StartTime><AllowPassageOfTime>true</AllowPassageOfTime></Time><AllowSpawning>true</AllowSpawning></ServerInitialConditions><ServerHandlers><DefaultWorldGenerator forceReset="true" generatorOptions="{}"/><ServerQuitFromTimeUp timeLimitMs="900000" description="out_of_time"/><ServerQuitWhenAnyAgentFinishes/></ServerHandlers></ServerSection><AgentSection mode="Survival"><Name>MineRLAgent0</Name><AgentStart/><AgentHandlers><FileBasedPerformanceProducer/><ObservationFromDamage/><PauseCommand/><VideoProducer want_depth="false"><Width>64</Width><Height>64</Height></VideoProducer><ObservationFromFullInventory flat="false"/><ObservationFromEquippedItem/><HumanLevelCommands/><CameraCommands/><PlaceCommands/><EquipCommands/><SimpleCraftCommands/><NearbyCraftCommands/><NearbySmeltCommands/><RewardForPossessingItem sparse="true" excludeLoops="true"><Item amount="1" reward="1" type="log"/><Item amount="1" reward="2" type="planks"/><Item amount="1" reward="4" type="stick"/><Item amount="1" reward="4" type="crafting_table"/><Item amount="1" reward="8" type="wooden_pickaxe"/><Item amount="1" reward="16" type="cobblestone"/><Item amount="1" reward="32" type="furnace"/><Item amount="1" reward="32" type="stone_pickaxe"/><Item amount="1" reward="64" type="iron_ore"/><Item amount="1" reward="128" type="iron_ingot"/><Item amount="1" reward="256" type="iron_pickaxe"/><Item amount="1" reward="1024" type="diamond"/></RewardForPossessingItem><AgentQuitFromPossessingItem><Item type="diamond" amount="1"/></AgentQuitFromPossessingItem></AgentHandlers></AgentSection></Mission><ExperimentUID>8aacf86f-e241-457c-84a9-41202969dcad</ExperimentUID><ClientRole>0</ClientRole><ClientAgentConnection><ClientIPAddress>127.0.0.1</ClientIPAddress><ClientMissionControlPort>0</ClientMissionControlPort><ClientCommandsPort>0</ClientCommandsPort><AgentIPAddress>127.0.0.1</AgentIPAddress><AgentMissionControlPort>0</AgentMissionControlPort><AgentVideoPort>0</AgentVideoPort><AgentDepthPort>0</AgentDepthPort><AgentLuminancePort>0</AgentLuminancePort><AgentObservationsPort>0</AgentObservationsPort><AgentRewardsPort>0</AgentRewardsPort><AgentColourMapPort>0</AgentColourMapPort></ClientAgentConnection></MissionInit>
+[16:37:06] [EnvServerSocketHandler/INFO]: [STDOUT]: REPLYING WITH: MALMOOK
+[16:37:06] [Client thread/INFO]: [STDOUT]: Mission received: MineRLObtainDiamond-v0
+[16:37:06] [Client thread/INFO]: [STDOUT]: CLIENT request state: CREATING_HANDLERS
+[16:37:06] [Client thread/INFO]: [STDOUT]: CLIENT enter state: CREATING_HANDLERS
+[16:37:06] [Client thread/INFO]: [STDOUT]: Starting command server.
+[16:37:06] [Thread-11/INFO]: [STDOUT]: INFO: ->com(0) Listening for messages on port 10779
+[16:37:06] [Client thread/INFO]: [STDOUT]: CLIENT request state: EVALUATING_WORLD_REQUIREMENTS
+[16:37:06] [Client thread/INFO]: [STDOUT]: CLIENT enter state: EVALUATING_WORLD_REQUIREMENTS
+[16:37:06] [Client thread/INFO]: [STDOUT]: CLIENT request state: CREATING_NEW_WORLD
+[16:37:06] [Client thread/INFO]: [STDOUT]: CLIENT enter state: CREATING_NEW_WORLD
+[16:37:06] [Client thread/INFO]: [STDOUT]: [LOGTOPY] GENERATOR OPTIONS = {}
+[16:37:06] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[16:37:07] [Server thread/INFO]: Starting integrated minecraft server version 1.11.2
+[16:37:07] [Server thread/INFO]: Generating keypair
+[16:37:07] [Server thread/INFO]: Injecting existing block and item data into this server instance
+[16:37:07] [Server thread/INFO]: Applying holder lookups
+[16:37:07] [Server thread/INFO]: Holder lookups applied
+[16:37:07] [Server thread/INFO]: Loading dimension 0 (TEMP_0_c3209c5a-71ea-4196-bd82-4c8f86655418) (net.minecraft.server.integrated.IntegratedServer@60ffc4a)
+[16:37:07] [Server thread/WARN]: Unable to find spawn biome
+[16:37:08] [Server thread/INFO]: Loading dimension 1 (TEMP_0_c3209c5a-71ea-4196-bd82-4c8f86655418) (net.minecraft.server.integrated.IntegratedServer@60ffc4a)
+[16:37:08] [Server thread/INFO]: Loading dimension -1 (TEMP_0_c3209c5a-71ea-4196-bd82-4c8f86655418) (net.minecraft.server.integrated.IntegratedServer@60ffc4a)
+[16:37:08] [Server thread/INFO]: Preparing start region for level 0
+[16:37:09] [Server thread/WARN]: Microsoft Malmo Mod loaded a new chunk (-3, 3  Dimension: 0) during chunk population, causing cascading worldgen lag. Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[16:37:09] [Server thread/INFO]: Preparing spawn area: 9%
+[16:37:10] [Server thread/INFO]: Preparing spawn area: 20%
+[16:37:11] [Server thread/INFO]: Preparing spawn area: 31%
+[16:37:12] [Server thread/INFO]: Preparing spawn area: 46%
+[16:37:13] [Server thread/INFO]: Preparing spawn area: 60%
+[16:37:14] [Server thread/INFO]: Preparing spawn area: 78%
+[16:37:15] [Server thread/INFO]: Preparing spawn area: 97%
+[16:37:15] [Server thread/INFO]: Changing view distance to 4, from 10
+[16:37:16] [Netty Local Client IO #0/INFO]: [STDOUT]: Transformed Name: net.minecraft.client.entity.EntityOtherPlayerMP
+[16:37:16] [Netty Local Client IO #0/INFO]: [STDOUT]: MALMO: Found EntityOtherPlayerMP, attempting to transform it
+[16:37:16] [Server thread/INFO]: [STDOUT]: SERVER request state: WAITING_FOR_MOD_READY
+[16:37:16] [Server thread/INFO]: [STDOUT]: CLIENT request state: WAITING_FOR_SERVER_READY
+[16:37:16] [Server thread/INFO]: [STDOUT]: SERVER enter state: WAITING_FOR_MOD_READY
+[16:37:16] [Client thread/INFO]: [STDOUT]: CLIENT enter state: WAITING_FOR_SERVER_READY
+[16:37:16] [Netty Local Client IO #0/INFO]: Server protocol version 2
+[16:37:16] [Netty Server IO #1/INFO]: Client protocol version 2
+[16:37:16] [Netty Server IO #1/INFO]: Client attempting to join with 5 mods : minecraft@1.11.2,FML@8.0.99.99,malmomod@0.37.0,forge@13.20.1.2588,mcp@9.19
+[16:37:16] [Netty Local Client IO #0/INFO]: [Netty Local Client IO #0] Client side modded connection established
+[16:37:17] [Server thread/INFO]: [Server thread] Server side modded connection established
+[16:37:17] [Server thread/INFO]: MineRLAgent0[local:E:1fcaa1b7] logged in with entity id 713 at (164.5, 74.0, 176.5)
+[16:37:17] [Server thread/INFO]: MineRLAgent0 joined the game
+[16:37:17] [Server thread/INFO]: [STDOUT]: SERVER request state: DORMANT
+[16:37:17] [Server thread/INFO]: [STDOUT]: SERVER enter state: DORMANT
+[16:37:17] [Server thread/INFO]: [STDOUT]: INCOMING MISSION: Received MissionInit directly through ServerStateMachine constructor.
+[16:37:17] [Server thread/INFO]: [STDOUT]: Mission received: MineRLObtainDiamond-v0
+[16:37:17] [Server thread/INFO]: Received mission: §9MineRLObtainDiamond-v0
+[16:37:17] [Server thread/INFO]: Source: §alocalhost
+[16:37:17] [Server thread/INFO]: [STDOUT]: SERVER request state: BUILDING_WORLD
+[16:37:17] [Server thread/INFO]: [STDOUT]: SERVER enter state: BUILDING_WORLD
+[16:37:17] [Server thread/INFO]: [STDOUT]: SERVER request state: WAITING_FOR_AGENTS_TO_ASSEMBLE
+[16:37:18] [Server thread/INFO]: [STDOUT]: SERVER enter state: WAITING_FOR_AGENTS_TO_ASSEMBLE
+[16:37:18] [Server thread/INFO]: [STDOUT]: Experiment requires: 
+[16:37:18] [Server thread/INFO]: [STDOUT]: >>>> MineRLAgent0
+[16:37:18] [Client thread/INFO]: [CHAT] Received mission: §9MineRLObtainDiamond-v0
+[16:37:18] [Client thread/INFO]: [CHAT] Source: §alocalhost
+[16:37:18] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:37:18] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:37:18] [Server thread/INFO]: [STDOUT]: Initializing player with username MineRLAgent0 and agentname MineRLAgent0
+[16:37:18] [Client thread/INFO]: [STDOUT]: CLIENT request state: RUNNING
+[16:37:18] [Client thread/INFO]: [STDOUT]: CLIENT enter state: RUNNING
+[16:37:18] [Client thread/INFO]: [STDOUT]: Preparing reward com.microsoft.Malmo.MissionHandlers.RewardForPossessingItemImplementation@38f2a5ad with agent name MineRLAgent0
+[16:37:18] [Server thread/INFO]: [STDOUT]: SERVER request state: RUNNING
+[16:37:18] [Client thread/INFO]: [STDOUT]: [LOGTOPY] On Mac OSX Catalina make sure to install this OpenJDK 1.8.0_152-release-1056-b12, this prevents the NSDragRegions crash
+[16:37:18] [Server thread/INFO]: [STDOUT]: SERVER enter state: RUNNING
+[16:37:18] [Client thread/INFO]: [STDOUT]: Resized the window
+[16:37:18] [Client thread/INFO]: [STDOUT]: Unpausing
+[16:37:20] [Server thread/INFO]: [STDOUT]: Warning: managed 6/20 ticks this second.
+[16:37:22] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[16:37:23] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[16:37:24] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[16:37:25] [Server thread/INFO]: [STDOUT]: Warning: managed 12/20 ticks this second.
+[16:37:26] [Server thread/INFO]: [STDOUT]: Warning: managed 12/20 ticks this second.
+[16:37:27] [Server thread/INFO]: [STDOUT]: Warning: managed 16/20 ticks this second.
+[16:37:28] [Server thread/INFO]: [STDOUT]: Warning: managed 14/20 ticks this second.
+[16:37:29] [Server thread/INFO]: [STDOUT]: Warning: managed 14/20 ticks this second.
+[16:37:30] [Server thread/INFO]: [STDOUT]: Warning: managed 15/20 ticks this second.
+[16:37:31] [Server thread/INFO]: [STDOUT]: Warning: managed 15/20 ticks this second.
+[16:37:32] [Server thread/INFO]: [STDOUT]: Warning: managed 12/20 ticks this second.
+[16:37:33] [Server thread/INFO]: [STDOUT]: Warning: managed 16/20 ticks this second.
+[16:37:34] [Server thread/INFO]: [STDOUT]: Warning: managed 16/20 ticks this second.
+[16:37:35] [Server thread/INFO]: [STDOUT]: Warning: managed 15/20 ticks this second.
+[16:37:36] [Server thread/INFO]: [STDOUT]: Warning: managed 17/20 ticks this second.
+[16:37:37] [Server thread/INFO]: [STDOUT]: Warning: managed 16/20 ticks this second.
+[16:37:38] [Server thread/INFO]: [STDOUT]: Warning: managed 18/20 ticks this second.
+RewardForPossessingItemImplementation - MineRLAgent0: 1
+[16:37:39] [Server thread/INFO]: [STDOUT]: Warning: managed 16/20 ticks this second.
+RewardForPossessingItemImplementation - MineRLAgent0: 2
+[16:37:40] [Server thread/INFO]: [STDOUT]: Warning: managed 19/20 ticks this second.
+[16:37:41] [Server thread/INFO]: [STDOUT]: Warning: managed 19/20 ticks this second.
+[16:37:42] [Server thread/INFO]: [STDOUT]: Warning: managed 18/20 ticks this second.
+[16:37:43] [Server thread/INFO]: [STDOUT]: Warning: managed 17/20 ticks this second.
+[16:37:47] [Server thread/INFO]: [STDOUT]: Warning: managed 19/20 ticks this second.
+RewardForPossessingItemImplementation - MineRLAgent0: 4
+RewardForPossessingItemImplementation - MineRLAgent0: 8
+RewardForPossessingItemImplementation - MineRLAgent0: 4
+RewardForPossessingItemImplementation - MineRLAgent0: 1
+RewardForPossessingItemImplementation - MineRLAgent0: 8
+[16:37:52] [Server thread/INFO]: [STDOUT]: Warning: managed 19/20 ticks this second.
+[16:37:53] [Server thread/INFO]: [STDOUT]: Warning: managed 18/20 ticks this second.
+[16:38:00] [Server thread/INFO]: [STDOUT]: Warning: managed 19/20 ticks this second.
+[16:38:09] [Server thread/INFO]: [STDOUT]: Warning: managed 15/20 ticks this second.
+[16:38:10] [Server thread/INFO]: [STDOUT]: Warning: managed 9/20 ticks this second.
+Oct 01, 2021 4:38:11 PM com.microsoft.Malmo.Client.MalmoModClient onGuiOpenEvent
+WARNING: GUI Window GuiIngameMenu opened!
+[16:38:11] [Client thread/ERROR]: Exception caught during firing event net.minecraftforge.client.event.GuiOpenEvent@192b6001:
+java.lang.AssertionError: GUI Window GuiIngameMenu opened!
+	at com.microsoft.Malmo.Client.MalmoModClient.onGuiOpenEvent(MalmoModClient.java:254) ~[MalmoModClient.class:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_11_MalmoModClient_onGuiOpenEvent_GuiOpenEvent.invoke(.dynamic) ~[?:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) ~[ASMEventHandler.class:?]
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:185) [EventBus.class:?]
+	at net.minecraft.client.Minecraft.displayGuiScreen(Minecraft.java:932) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.displayInGameMenu(Minecraft.java:1400) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.runTickKeyboard(Minecraft.java:1897) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1744) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:3300) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:372) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_292]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_292]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_292]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_292]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [MalmoMod-0.37.0-fat.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [MalmoMod-0.37.0-fat.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_292]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_292]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_292]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_292]
+	at com.microsoft.Malmo.Launcher.GradleStartCommon.launch(GradleStartCommon.java:98) [MalmoMod-0.37.0-fat.jar:?]
+	at com.microsoft.Malmo.Launcher.GradleStart.main(GradleStart.java:27) [MalmoMod-0.37.0-fat.jar:?]
+[16:38:11] [Client thread/ERROR]: Index: 1 Listeners:
+[16:38:11] [Client thread/ERROR]: 0: LOWEST
+[16:38:11] [Client thread/ERROR]: 1: ASM: com.microsoft.Malmo.Client.MalmoModClient@4719b606 onGuiOpenEvent(Lnet/minecraftforge/client/event/GuiOpenEvent;)V
+[16:38:11] [Client thread/INFO]: [STDOUT]: Unpausing
+[16:38:11] [EnvServerSocketHandler/INFO]: [STDERR]: [DEBUG] Error while processing commands: java.lang.NullPointerException
+[16:38:11] [EnvServerSocketHandler/INFO]: [STDERR]: java.lang.NullPointerException
+[16:38:11] [EnvServerSocketHandler/INFO]: [STDERR]: 	at com.microsoft.Malmo.Client.MalmoEnvServer.stepClientSync(MalmoEnvServer.java:553)
+[16:38:11] [EnvServerSocketHandler/INFO]: [STDERR]: 	at com.microsoft.Malmo.Client.MalmoEnvServer.stepClient(MalmoEnvServer.java:608)
+[16:38:11] [EnvServerSocketHandler/INFO]: [STDERR]: 	at com.microsoft.Malmo.Client.MalmoEnvServer.access$300(MalmoEnvServer.java:55)
+[16:38:11] [EnvServerSocketHandler/INFO]: [STDERR]: 	at com.microsoft.Malmo.Client.MalmoEnvServer$1.run(MalmoEnvServer.java:169)
+[16:38:11] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 368ms behind, skipping 7 tick(s)
+[16:38:11] [EnvServerSocketHandler/INFO]: [STDOUT]: Received from localhost:<MissionInit xmlns="http://ProjectMalmo.microsoft.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SchemaVersion="" PlatformVersion="0.37.0"><Mission><About><Summary>MineRLObtainDiamond-v0</Summary></About><ModSettings><MsPerTick>50</MsPerTick></ModSettings><ServerSection><ServerInitialConditions><Time><StartTime>6000</StartTime><AllowPassageOfTime>true</AllowPassageOfTime></Time><AllowSpawning>true</AllowSpawning></ServerInitialConditions><ServerHandlers><DefaultWorldGenerator forceReset="true" generatorOptions="{}"/><ServerQuitFromTimeUp timeLimitMs="900000" description="out_of_time"/><ServerQuitWhenAnyAgentFinishes/></ServerHandlers></ServerSection><AgentSection mode="Survival"><Name>MineRLAgent0</Name><AgentStart/><AgentHandlers><FileBasedPerformanceProducer/><ObservationFromDamage/><PauseCommand/><VideoProducer want_depth="false"><Width>64</Width><Height>64</Height></VideoProducer><ObservationFromFullInventory flat="false"/><ObservationFromEquippedItem/><HumanLevelCommands/><CameraCommands/><PlaceCommands/><EquipCommands/><SimpleCraftCommands/><NearbyCraftCommands/><NearbySmeltCommands/><RewardForPossessingItem sparse="true" excludeLoops="true"><Item amount="1" reward="1" type="log"/><Item amount="1" reward="2" type="planks"/><Item amount="1" reward="4" type="stick"/><Item amount="1" reward="4" type="crafting_table"/><Item amount="1" reward="8" type="wooden_pickaxe"/><Item amount="1" reward="16" type="cobblestone"/><Item amount="1" reward="32" type="furnace"/><Item amount="1" reward="32" type="stone_pickaxe"/><Item amount="1" reward="64" type="iron_ore"/><Item amount="1" reward="128" type="iron_ingot"/><Item amount="1" reward="256" type="iron_pickaxe"/><Item amount="1" reward="1024" type="diamond"/></RewardForPossessingItem><AgentQuitFromPossessingItem><Item type="diamond" amount="1"/></AgentQuitFromPossessingItem></AgentHandlers></AgentSection></Mission><ExperimentUID>8bebd38e-58b8-4428-ae44-6776551f96f4</ExperimentUID><ClientRole>0</ClientRole><ClientAgentConnection><ClientIPAddress>127.0.0.1</ClientIPAddress><ClientMissionControlPort>0</ClientMissionControlPort><ClientCommandsPort>0</ClientCommandsPort><AgentIPAddress>127.0.0.1</AgentIPAddress><AgentMissionControlPort>0</AgentMissionControlPort><AgentVideoPort>0</AgentVideoPort><AgentDepthPort>0</AgentDepthPort><AgentLuminancePort>0</AgentLuminancePort><AgentObservationsPort>0</AgentObservationsPort><AgentRewardsPort>0</AgentRewardsPort><AgentColourMapPort>0</AgentColourMapPort></ClientAgentConnection></MissionInit>
+[16:38:11] [EnvServerSocketHandler/INFO]: [STDOUT]: REPLYING WITH: MALMOBUSY
+[16:38:12] [EnvServerSocketHandler/INFO]: [STDOUT]: Received from localhost:<MissionInit xmlns="http://ProjectMalmo.microsoft.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SchemaVersion="" PlatformVersion="0.37.0"><Mission><About><Summary>MineRLObtainDiamond-v0</Summary></About><ModSettings><MsPerTick>50</MsPerTick></ModSettings><ServerSection><ServerInitialConditions><Time><StartTime>6000</StartTime><AllowPassageOfTime>true</AllowPassageOfTime></Time><AllowSpawning>true</AllowSpawning></ServerInitialConditions><ServerHandlers><DefaultWorldGenerator forceReset="true" generatorOptions="{}"/><ServerQuitFromTimeUp timeLimitMs="900000" description="out_of_time"/><ServerQuitWhenAnyAgentFinishes/></ServerHandlers></ServerSection><AgentSection mode="Survival"><Name>MineRLAgent0</Name><AgentStart/><AgentHandlers><FileBasedPerformanceProducer/><ObservationFromDamage/><PauseCommand/><VideoProducer want_depth="false"><Width>64</Width><Height>64</Height></VideoProducer><ObservationFromFullInventory flat="false"/><ObservationFromEquippedItem/><HumanLevelCommands/><CameraCommands/><PlaceCommands/><EquipCommands/><SimpleCraftCommands/><NearbyCraftCommands/><NearbySmeltCommands/><RewardForPossessingItem sparse="true" excludeLoops="true"><Item amount="1" reward="1" type="log"/><Item amount="1" reward="2" type="planks"/><Item amount="1" reward="4" type="stick"/><Item amount="1" reward="4" type="crafting_table"/><Item amount="1" reward="8" type="wooden_pickaxe"/><Item amount="1" reward="16" type="cobblestone"/><Item amount="1" reward="32" type="furnace"/><Item amount="1" reward="32" type="stone_pickaxe"/><Item amount="1" reward="64" type="iron_ore"/><Item amount="1" reward="128" type="iron_ingot"/><Item amount="1" reward="256" type="iron_pickaxe"/><Item amount="1" reward="1024" type="diamond"/></RewardForPossessingItem><AgentQuitFromPossessingItem><Item type="diamond" amount="1"/></AgentQuitFromPossessingItem></AgentHandlers></AgentSection></Mission><ExperimentUID>8bebd38e-58b8-4428-ae44-6776551f96f4</ExperimentUID><ClientRole>0</ClientRole><ClientAgentConnection><ClientIPAddress>127.0.0.1</ClientIPAddress><ClientMissionControlPort>0</ClientMissionControlPort><ClientCommandsPort>0</ClientCommandsPort><AgentIPAddress>127.0.0.1</AgentIPAddress><AgentMissionControlPort>0</AgentMissionControlPort><AgentVideoPort>0</AgentVideoPort><AgentDepthPort>0</AgentDepthPort><AgentLuminancePort>0</AgentLuminancePort><AgentObservationsPort>0</AgentObservationsPort><AgentRewardsPort>0</AgentRewardsPort><AgentColourMapPort>0</AgentColourMapPort></ClientAgentConnection></MissionInit>
+[16:38:12] [EnvServerSocketHandler/INFO]: [STDOUT]: REPLYING WITH: MALMOBUSY
+[16:38:13] [Server thread/INFO]: Stopping server
+[16:38:13] [Server thread/INFO]: Saving players
+[16:38:13] [Server thread/INFO]: Saving worlds
+[16:38:13] [Server thread/INFO]: Saving chunks for level 'TEMP_0_c3209c5a-71ea-4196-bd82-4c8f86655418'/Overworld
+[16:38:13] [Server thread/INFO]: Saving chunks for level 'TEMP_0_c3209c5a-71ea-4196-bd82-4c8f86655418'/Nether
+[16:38:13] [Server thread/INFO]: Saving chunks for level 'TEMP_0_c3209c5a-71ea-4196-bd82-4c8f86655418'/The End
+[16:38:13] [Server thread/INFO]: [STDOUT]: Unpausing
+[16:38:13] [EnvServerSocketHandler/INFO]: [STDOUT]: Received from localhost:<MissionInit xmlns="http://ProjectMalmo.microsoft.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SchemaVersion="" PlatformVersion="0.37.0"><Mission><About><Summary>MineRLObtainDiamond-v0</Summary></About><ModSettings><MsPerTick>50</MsPerTick></ModSettings><ServerSection><ServerInitialConditions><Time><StartTime>6000</StartTime><AllowPassageOfTime>true</AllowPassageOfTime></Time><AllowSpawning>true</AllowSpawning></ServerInitialConditions><ServerHandlers><DefaultWorldGenerator forceReset="true" generatorOptions="{}"/><ServerQuitFromTimeUp timeLimitMs="900000" description="out_of_time"/><ServerQuitWhenAnyAgentFinishes/></ServerHandlers></ServerSection><AgentSection mode="Survival"><Name>MineRLAgent0</Name><AgentStart/><AgentHandlers><FileBasedPerformanceProducer/><ObservationFromDamage/><PauseCommand/><VideoProducer want_depth="false"><Width>64</Width><Height>64</Height></VideoProducer><ObservationFromFullInventory flat="false"/><ObservationFromEquippedItem/><HumanLevelCommands/><CameraCommands/><PlaceCommands/><EquipCommands/><SimpleCraftCommands/><NearbyCraftCommands/><NearbySmeltCommands/><RewardForPossessingItem sparse="true" excludeLoops="true"><Item amount="1" reward="1" type="log"/><Item amount="1" reward="2" type="planks"/><Item amount="1" reward="4" type="stick"/><Item amount="1" reward="4" type="crafting_table"/><Item amount="1" reward="8" type="wooden_pickaxe"/><Item amount="1" reward="16" type="cobblestone"/><Item amount="1" reward="32" type="furnace"/><Item amount="1" reward="32" type="stone_pickaxe"/><Item amount="1" reward="64" type="iron_ore"/><Item amount="1" reward="128" type="iron_ingot"/><Item amount="1" reward="256" type="iron_pickaxe"/><Item amount="1" reward="1024" type="diamond"/></RewardForPossessingItem><AgentQuitFromPossessingItem><Item type="diamond" amount="1"/></AgentQuitFromPossessingItem></AgentHandlers></AgentSection></Mission><ExperimentUID>8bebd38e-58b8-4428-ae44-6776551f96f4</ExperimentUID><ClientRole>0</ClientRole><ClientAgentConnection><ClientIPAddress>127.0.0.1</ClientIPAddress><ClientMissionControlPort>0</ClientMissionControlPort><ClientCommandsPort>0</ClientCommandsPort><AgentIPAddress>127.0.0.1</AgentIPAddress><AgentMissionControlPort>0</AgentMissionControlPort><AgentVideoPort>0</AgentVideoPort><AgentDepthPort>0</AgentDepthPort><AgentLuminancePort>0</AgentLuminancePort><AgentObservationsPort>0</AgentObservationsPort><AgentRewardsPort>0</AgentRewardsPort><AgentColourMapPort>0</AgentColourMapPort></ClientAgentConnection></MissionInit>
+[16:38:13] [EnvServerSocketHandler/INFO]: [STDOUT]: REPLYING WITH: MALMOBUSY
+[16:38:13] [Server thread/INFO]: [STDOUT]: Unpausing
+[16:38:13] [Server thread/INFO]: [STDOUT]: Unpausing
+[16:38:13] [Server thread/INFO]: Unloading dimension 0
+[16:38:13] [Server thread/INFO]: Unloading dimension -1
+[16:38:13] [Server thread/INFO]: Unloading dimension 1
+[16:38:14] [EnvServerSocketHandler/INFO]: [STDOUT]: Received from localhost:<MissionInit xmlns="http://ProjectMalmo.microsoft.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SchemaVersion="" PlatformVersion="0.37.0"><Mission><About><Summary>MineRLObtainDiamond-v0</Summary></About><ModSettings><MsPerTick>50</MsPerTick></ModSettings><ServerSection><ServerInitialConditions><Time><StartTime>6000</StartTime><AllowPassageOfTime>true</AllowPassageOfTime></Time><AllowSpawning>true</AllowSpawning></ServerInitialConditions><ServerHandlers><DefaultWorldGenerator forceReset="true" generatorOptions="{}"/><ServerQuitFromTimeUp timeLimitMs="900000" description="out_of_time"/><ServerQuitWhenAnyAgentFinishes/></ServerHandlers></ServerSection><AgentSection mode="Survival"><Name>MineRLAgent0</Name><AgentStart/><AgentHandlers><FileBasedPerformanceProducer/><ObservationFromDamage/><PauseCommand/><VideoProducer want_depth="false"><Width>64</Width><Height>64</Height></VideoProducer><ObservationFromFullInventory flat="false"/><ObservationFromEquippedItem/><HumanLevelCommands/><CameraCommands/><PlaceCommands/><EquipCommands/><SimpleCraftCommands/><NearbyCraftCommands/><NearbySmeltCommands/><RewardForPossessingItem sparse="true" excludeLoops="true"><Item amount="1" reward="1" type="log"/><Item amount="1" reward="2" type="planks"/><Item amount="1" reward="4" type="stick"/><Item amount="1" reward="4" type="crafting_table"/><Item amount="1" reward="8" type="wooden_pickaxe"/><Item amount="1" reward="16" type="cobblestone"/><Item amount="1" reward="32" type="furnace"/><Item amount="1" reward="32" type="stone_pickaxe"/><Item amount="1" reward="64" type="iron_ore"/><Item amount="1" reward="128" type="iron_ingot"/><Item amount="1" reward="256" type="iron_pickaxe"/><Item amount="1" reward="1024" type="diamond"/></RewardForPossessingItem><AgentQuitFromPossessingItem><Item type="diamond" amount="1"/></AgentQuitFromPossessingItem></AgentHandlers></AgentSection></Mission><ExperimentUID>8bebd38e-58b8-4428-ae44-6776551f96f4</ExperimentUID><ClientRole>0</ClientRole><ClientAgentConnection><ClientIPAddress>127.0.0.1</ClientIPAddress><ClientMissionControlPort>0</ClientMissionControlPort><ClientCommandsPort>0</ClientCommandsPort><AgentIPAddress>127.0.0.1</AgentIPAddress><AgentMissionControlPort>0</AgentMissionControlPort><AgentVideoPort>0</AgentVideoPort><AgentDepthPort>0</AgentDepthPort><AgentLuminancePort>0</AgentLuminancePort><AgentObservationsPort>0</AgentObservationsPort><AgentRewardsPort>0</AgentRewardsPort><AgentColourMapPort>0</AgentColourMapPort></ClientAgentConnection></MissionInit>
+[16:38:14] [Client thread/FATAL]: Unreported exception thrown!
+java.lang.AssertionError: GUI Window GuiIngameMenu opened!
+	at com.microsoft.Malmo.Client.MalmoModClient.onGuiOpenEvent(MalmoModClient.java:254) ~[MalmoModClient.class:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_11_MalmoModClient_onGuiOpenEvent_GuiOpenEvent.invoke(.dynamic) ~[?:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) ~[ASMEventHandler.class:?]
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:185) ~[EventBus.class:?]
+	at net.minecraft.client.Minecraft.displayGuiScreen(Minecraft.java:932) ~[Minecraft.class:?]
+	at net.minecraft.client.Minecraft.displayInGameMenu(Minecraft.java:1400) ~[Minecraft.class:?]
+	at net.minecraft.client.Minecraft.runTickKeyboard(Minecraft.java:1897) ~[Minecraft.class:?]
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1744) ~[Minecraft.class:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:3300) ~[Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:372) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_292]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_292]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_292]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_292]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [MalmoMod-0.37.0-fat.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [MalmoMod-0.37.0-fat.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_292]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_292]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_292]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_292]
+	at com.microsoft.Malmo.Launcher.GradleStartCommon.launch(GradleStartCommon.java:98) [MalmoMod-0.37.0-fat.jar:?]
+	at com.microsoft.Malmo.Launcher.GradleStart.main(GradleStart.java:27) [MalmoMod-0.37.0-fat.jar:?]
+[16:38:14] [Client thread/INFO]: [net.minecraft.init.Bootstrap:printToSYSOUT:523]: ---- Minecraft Crash Report ----
+// Ouch. That hurt :(
+
+Time: 10/1/21 4:38 PM
+Description: Unexpected error
+
+java.lang.AssertionError: GUI Window GuiIngameMenu opened!
+	at com.microsoft.Malmo.Client.MalmoModClient.onGuiOpenEvent(MalmoModClient.java:254)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_11_MalmoModClient_onGuiOpenEvent_GuiOpenEvent.invoke(.dynamic)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90)
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:185)
+	at net.minecraft.client.Minecraft.displayGuiScreen(Minecraft.java:932)
+	at net.minecraft.client.Minecraft.displayInGameMenu(Minecraft.java:1400)
+	at net.minecraft.client.Minecraft.runTickKeyboard(Minecraft.java:1897)
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1744)
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:3300)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:372)
+	at net.minecraft.client.main.Main.main(SourceFile:124)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.microsoft.Malmo.Launcher.GradleStartCommon.launch(GradleStartCommon.java:98)
+	at com.microsoft.Malmo.Launcher.GradleStart.main(GradleStart.java:27)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Client thread
+Stacktrace:
+	at com.microsoft.Malmo.Client.MalmoModClient.onGuiOpenEvent(MalmoModClient.java:254)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_11_MalmoModClient_onGuiOpenEvent_GuiOpenEvent.invoke(.dynamic)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90)
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:185)
+	at net.minecraft.client.Minecraft.displayGuiScreen(Minecraft.java:932)
+	at net.minecraft.client.Minecraft.displayInGameMenu(Minecraft.java:1400)
+	at net.minecraft.client.Minecraft.runTickKeyboard(Minecraft.java:1897)
+
+-- Affected level --
+Details:
+	Level name: MpServer
+	All players: 1 total; [EntityPlayerSP['MineRLAgent0'/713, l='MpServer', x=188.70, y=72.00, z=208.11]]
+	Chunk stats: MultiplayerChunkCache: 81, 81
+	Level seed: 0
+	Level generator: ID 04 - customized, ver 0. Features enabled: false
+	Level generator options: 
+	Level spawn location: World: (173,64,182), Chunk: (at 13,4,6 in 10,11; contains blocks 160,0,176 to 175,255,191), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+	Level time: 919 game time, 6900 day time
+	Level dimension: 0
+	Level storage version: 0x00000 - Unknown?
+	Level weather: Rain time: 0 (now: false), thunder time: 0 (now: false)
+	Level game mode: Game mode: survival (ID 0). Hardcore: false. Cheats: false
+	Forced entities: 43 total; [EntityCreeper['Creeper'/2571, l='MpServer', x=179.50, y=17.00, z=194.50], EntityBat['Bat'/2326, l='MpServer', x=147.42, y=36.13, z=212.41], EntityWitch['Witch'/2583, l='MpServer', x=221.50, y=38.00, z=213.50], EntityCreeper['Creeper'/2584, l='MpServer', x=222.50, y=38.00, z=217.50], EntityZombie['Zombie'/2592, l='MpServer', x=206.50, y=18.00, z=253.50], EntityCow['Cow'/33, l='MpServer', x=153.58, y=73.00, z=189.78], EntityBat['Bat'/2081, l='MpServer', x=158.53, y=17.05, z=174.55], EntityZombie['Zombie'/2593, l='MpServer', x=215.47, y=23.00, z=249.39], EntityCow['Cow'/34, l='MpServer', x=166.66, y=72.00, z=190.79], EntityCow['Cow'/35, l='MpServer', x=148.50, y=73.00, z=193.50], EntityCow['Cow'/36, l='MpServer', x=144.52, y=72.00, z=192.82], EntityPlayerSP['MineRLAgent0'/713, l='MpServer', x=188.70, y=72.00, z=208.11], EntityCreeper['Creeper'/1331, l='MpServer', x=173.50, y=34.00, z=255.50], EntityItem['item.item.seeds'/2869, l='MpServer', x=232.76, y=64.00, z=243.85], EntityWitch['Witch'/2358, l='MpServer', x=158.50, y=17.00, z=172.50], EntityCreeper['Creeper'/2872, l='MpServer', x=182.50, y=33.00, z=239.50], EntitySquid['Squid'/1340, l='MpServer', x=228.63, y=59.41, z=213.40], EntitySquid['Squid'/1341, l='MpServer', x=223.40, y=60.36, z=212.83], EntitySquid['Squid'/1348, l='MpServer', x=197.31, y=48.46, z=161.31], EntitySquid['Squid'/1349, l='MpServer', x=197.40, y=50.85, z=163.43], EntityCreeper['Creeper'/2899, l='MpServer', x=155.50, y=37.00, z=212.15], EntityCreeper['Creeper'/2391, l='MpServer', x=206.50, y=24.00, z=235.50], EntityCreeper['Creeper'/2392, l='MpServer', x=214.16, y=21.00, z=233.50], EntityCreeper['Creeper'/2393, l='MpServer', x=209.50, y=24.00, z=240.50], EntityCreeper['Creeper'/2653, l='MpServer', x=167.50, y=16.00, z=176.50], EntityCreeper['Creeper'/2403, l='MpServer', x=201.50, y=28.00, z=242.50], EntityBat['Bat'/2927, l='MpServer', x=158.25, y=40.00, z=214.25], EntityZombie['Zombie'/2934, l='MpServer', x=146.50, y=47.00, z=184.50], EntityZombie['Zombie'/2935, l='MpServer', x=148.50, y=47.00, z=186.50], EntityCreeper['Creeper'/2186, l='MpServer', x=156.50, y=35.00, z=176.50], EntitySkeleton['Skeleton'/2699, l='MpServer', x=145.21, y=60.00, z=187.48], EntitySkeleton['Skeleton'/2450, l='MpServer', x=145.50, y=46.00, z=190.50], EntityBat['Bat'/2214, l='MpServer', x=203.25, y=22.10, z=175.53], EntityCreeper['Creeper'/2474, l='MpServer', x=159.18, y=36.00, z=201.53], EntityCreeper['Creeper'/2476, l='MpServer', x=154.50, y=36.00, z=208.50], EntityZombie['Zombie'/2477, l='MpServer', x=149.50, y=36.00, z=213.50], EntityCreeper['Creeper'/2746, l='MpServer', x=145.47, y=65.00, z=231.18], EntityCreeper['Creeper'/2510, l='MpServer', x=212.50, y=13.00, z=190.50], EntitySkeleton['Skeleton'/1503, l='MpServer', x=202.50, y=20.00, z=185.50], EntitySpider['Spider'/2528, l='MpServer', x=181.50, y=31.00, z=204.50], EntityZombie['Zombie'/2529, l='MpServer', x=215.50, y=22.00, z=250.63], EntityBat['Bat'/1507, l='MpServer', x=150.55, y=39.10, z=222.50], EntityCreeper['Creeper'/2544, l='MpServer', x=150.50, y=19.00, z=173.50]]
+	Retry entities: 0 total; []
+	Server brand: fml,forge
+	Server type: Integrated singleplayer server
+Stacktrace:
+	at net.minecraft.client.multiplayer.WorldClient.addWorldInfoToCrashReport(WorldClient.java:415)
+	at net.minecraft.client.Minecraft.addGraphicsAndWorldToCrashReport(Minecraft.java:2655)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:401)
+	at net.minecraft.client.main.Main.main(SourceFile:124)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.microsoft.Malmo.Launcher.GradleStartCommon.launch(GradleStartCommon.java:98)
+	at com.microsoft.Malmo.Launcher.GradleStart.main(GradleStart.java:27)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.11.2
+	Operating System: Linux (amd64) version 5.11.0-7614-generic
+	Java Version: 1.8.0_292, Private Build
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Private Build
+	Memory: 415554616 bytes (396 MB) / 1225261056 bytes (1168 MB) up to 1908932608 bytes (1820 MB)
+	JVM Flags: 1 total; -Xmx2G
+	IntCache: cache: 0, tcache: 0, allocated: 13, tallocated: 95
+	FML: MCP 9.38 Powered by Forge 13.20.1.2588 5 mods loaded, 5 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+	UCHIJAAAA	minecraft{1.11.2} [Minecraft] (minecraft.jar) 
+	UCHIJAAAA	mcp{9.19} [Minecraft Coder Pack] (minecraft.jar) 
+	UCHIJAAAA	FML{8.0.99.99} [Forge Mod Loader] (MalmoMod-0.37.0-fat.jar) 
+	UCHIJAAAA	forge{13.20.1.2588} [Minecraft Forge] (MalmoMod-0.37.0-fat.jar) 
+	UCHIJAAAA	malmomod{0.37.0} [Microsoft Malmo Mod] (MalmoMod-0.37.0-fat.jar) 
+	Loaded coremods (and transformers): 
+OverclockingPlugin (MalmoMod-0.37.0-fat.jar)
+  com.microsoft.Malmo.OverclockingClassTransformer
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 460.67' Renderer: 'GeForce GTX 1080 Ti/PCIe/SSE2'
+	Launched Version: 1.11.2
+	LWJGL: 2.9.4
+	OpenGL: GeForce GTX 1080 Ti/PCIe/SSE2 GL version 4.6.0 NVIDIA 460.67, NVIDIA Corporation
+	GL Caps: Using GL 1.3 multitexturing.
+Using GL 1.3 texture combiners.
+Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
+Shaders are available because OpenGL 2.1 is supported.
+VBOs are available because OpenGL 1.5 is supported.
+
+	Using VBOs: Yes
+	Is Modded: Definitely; Client brand changed to 'fml,forge'
+	Type: Client (map_client.txt)
+	Resource Packs: 
+	Current Language: English (US)
+	Profiler Position: N/A (disabled)
+	CPU: 16x AMD Ryzen 7 2700X Eight-Core Processor
+[16:38:14] [Client thread/INFO]: [net.minecraft.init.Bootstrap:printToSYSOUT:523]: #@!@# Game crashed! Crash report saved to: #@!@# /tmp/tmp4kz9xq6l/Minecraft/run/./crash-reports/crash-2021-10-01_16.38.14-client.txt
+[16:38:14] [Client thread/INFO]: Waiting for the server to terminate/save.
+[16:38:14] [Server thread/INFO]: Applying holder lookups
+[16:38:14] [Server thread/INFO]: Holder lookups applied
+[16:38:14] [Client thread/INFO]: Server terminated.
+AL lib: (EE) alc_cleanup: 1 device not closed

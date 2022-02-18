@@ -1,0 +1,28 @@
+diff --git a/mine/sub/v2/test_submission_code.py b/mine/sub/v2/test_submission_code.py
+index db7b0f1..5724568 100644
+--- a/mine/sub/v2/test_submission_code.py
++++ b/mine/sub/v2/test_submission_code.py
+@@ -58,7 +58,7 @@ class NatureCNN(nn.Module):
+             n_flatten = self.cnn(th.zeros(1, *input_shape)).shape[1]
+ 
+         self.linear_stack = nn.Sequential(
+-            nn.Linear(22, 512),
++            nn.Linear(23, 512),
+             nn.ReLU(),
+             nn.Linear(512, 512),
+         )
+@@ -139,6 +139,8 @@ def process_inventory(obs, attack, t, full_previous, angle_1, angle_2):
+     data[21] = np.clip((obs['inventory']['dirt'] + obs['inventory']['stone']
+                         + obs['inventory']['cobblestone']) / 300, 0, 1)
+ 
++    data[22] = np.clip(obs['inventory']['torch'] / 20, 0, 1)
++
+     # data[15] = attack
+     # data = np.concatenate((data, full_previous), axis=0)
+ 
+diff --git a/mine/sub/v2/train/action_key_1.pkl b/mine/sub/v2/train/action_key_1.pkl
+index e66f61a..bd82e8f 100644
+Binary files a/mine/sub/v2/train/action_key_1.pkl and b/mine/sub/v2/train/action_key_1.pkl differ
+diff --git a/mine/sub/v2/train/another_potato_4.pth b/mine/sub/v2/train/another_potato_4.pth
+index 3df7599..f2acc09 100644
+Binary files a/mine/sub/v2/train/another_potato_4.pth and b/mine/sub/v2/train/another_potato_4.pth differ

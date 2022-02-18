@@ -1,0 +1,54 @@
+2021-08-24 00:10:46,920 INFO    MainThread:245716 [internal.py:wandb_internal():89] W&B internal server running at pid: 245716, started at: 2021-08-24 00:10:46.920358
+2021-08-24 00:10:46,922 DEBUG   HandlerThread:245716 [handler.py:handle_request():128] handle_request: check_version
+2021-08-24 00:10:46,922 INFO    WriterThread:245716 [datastore.py:open_for_write():77] open: /home/dang/Documents/Doc/2021/mine/wandb/run-20210824_001046-ph7xuz2l/run-ph7xuz2l.wandb
+2021-08-24 00:10:46,924 DEBUG   SenderThread:245716 [sender.py:send():182] send: header
+2021-08-24 00:10:46,924 DEBUG   SenderThread:245716 [sender.py:send_request():196] send_request: check_version
+2021-08-24 00:10:47,080 DEBUG   SenderThread:245716 [sender.py:send():182] send: run
+2021-08-24 00:10:47,084 DEBUG   SenderThread:245716 [git.py:repo():33] git repository is invalid
+2021-08-24 00:10:47,557 INFO    SenderThread:245716 [dir_watcher.py:__init__():168] watching files in: /home/dang/Documents/Doc/2021/mine/wandb/run-20210824_001046-ph7xuz2l/files
+2021-08-24 00:10:47,557 INFO    SenderThread:245716 [sender.py:_start_run_threads():743] run started: ph7xuz2l with start time 1629738646
+2021-08-24 00:10:47,557 DEBUG   SenderThread:245716 [sender.py:send():182] send: summary
+2021-08-24 00:10:47,557 INFO    SenderThread:245716 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-24 00:10:47,558 DEBUG   HandlerThread:245716 [handler.py:handle_request():128] handle_request: run_start
+2021-08-24 00:10:47,561 DEBUG   HandlerThread:245716 [meta.py:__init__():39] meta init
+2021-08-24 00:10:47,561 DEBUG   HandlerThread:245716 [meta.py:__init__():53] meta init done
+2021-08-24 00:10:47,561 DEBUG   HandlerThread:245716 [meta.py:probe():210] probe
+2021-08-24 00:10:47,567 DEBUG   HandlerThread:245716 [git.py:repo():33] git repository is invalid
+2021-08-24 00:10:47,567 DEBUG   HandlerThread:245716 [meta.py:_save_code():89] save code
+2021-08-24 00:10:47,568 WARNING HandlerThread:245716 [meta.py:_save_code():91] unable to save code -- program entry not found
+2021-08-24 00:10:47,568 DEBUG   HandlerThread:245716 [meta.py:_save_pip():57] save pip
+2021-08-24 00:10:47,568 DEBUG   HandlerThread:245716 [meta.py:_save_pip():71] save pip done
+2021-08-24 00:10:47,568 DEBUG   HandlerThread:245716 [meta.py:_save_conda():78] save conda
+2021-08-24 00:10:48,559 INFO    Thread-8  :245716 [dir_watcher.py:_on_file_created():216] file/dir created: /home/dang/Documents/Doc/2021/mine/wandb/run-20210824_001046-ph7xuz2l/files/conda-environment.yaml
+2021-08-24 00:10:48,559 INFO    Thread-8  :245716 [dir_watcher.py:_on_file_created():216] file/dir created: /home/dang/Documents/Doc/2021/mine/wandb/run-20210824_001046-ph7xuz2l/files/wandb-summary.json
+2021-08-24 00:10:48,560 INFO    Thread-8  :245716 [dir_watcher.py:_on_file_created():216] file/dir created: /home/dang/Documents/Doc/2021/mine/wandb/run-20210824_001046-ph7xuz2l/files/requirements.txt
+2021-08-24 00:10:51,727 DEBUG   HandlerThread:245716 [meta.py:_save_conda():86] save conda done
+2021-08-24 00:10:51,727 DEBUG   HandlerThread:245716 [meta.py:probe():252] probe done
+2021-08-24 00:10:51,758 DEBUG   SenderThread:245716 [sender.py:send():182] send: files
+2021-08-24 00:10:51,758 INFO    SenderThread:245716 [sender.py:_save_file():873] saving file wandb-metadata.json with policy now
+2021-08-24 00:10:51,767 DEBUG   HandlerThread:245716 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-24 00:10:51,767 DEBUG   SenderThread:245716 [sender.py:send_request():196] send_request: stop_status
+2021-08-24 00:10:52,558 INFO    Thread-8  :245716 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/dang/Documents/Doc/2021/mine/wandb/run-20210824_001046-ph7xuz2l/files/conda-environment.yaml
+2021-08-24 00:10:52,562 INFO    Thread-8  :245716 [dir_watcher.py:_on_file_created():216] file/dir created: /home/dang/Documents/Doc/2021/mine/wandb/run-20210824_001046-ph7xuz2l/files/wandb-metadata.json
+2021-08-24 00:10:52,563 INFO    Thread-8  :245716 [dir_watcher.py:_on_file_created():216] file/dir created: /home/dang/Documents/Doc/2021/mine/wandb/run-20210824_001046-ph7xuz2l/files/output.log
+2021-08-24 00:10:52,765 INFO    Thread-11 :245716 [upload_job.py:push():137] Uploaded file /tmp/tmpkz0yoz5ywandb/3no93jsq-wandb-metadata.json
+2021-08-24 00:10:55,931 WARNING MainThread:245716 [internal.py:is_dead():365] Internal process exiting, parent pid 242215 disappeared
+2021-08-24 00:10:55,934 ERROR   MainThread:245716 [internal.py:wandb_internal():141] Internal process shutdown.
+2021-08-24 00:10:56,221 INFO    SenderThread:245716 [sender.py:finish():979] shutting down sender
+2021-08-24 00:10:56,221 INFO    SenderThread:245716 [dir_watcher.py:finish():282] shutting down directory watcher
+2021-08-24 00:10:56,564 INFO    SenderThread:245716 [dir_watcher.py:finish():312] scan: /home/dang/Documents/Doc/2021/mine/wandb/run-20210824_001046-ph7xuz2l/files
+2021-08-24 00:10:56,564 INFO    SenderThread:245716 [dir_watcher.py:finish():318] scan save: /home/dang/Documents/Doc/2021/mine/wandb/run-20210824_001046-ph7xuz2l/files/config.yaml config.yaml
+2021-08-24 00:10:56,564 INFO    SenderThread:245716 [dir_watcher.py:finish():318] scan save: /home/dang/Documents/Doc/2021/mine/wandb/run-20210824_001046-ph7xuz2l/files/output.log output.log
+2021-08-24 00:10:56,565 INFO    SenderThread:245716 [dir_watcher.py:finish():318] scan save: /home/dang/Documents/Doc/2021/mine/wandb/run-20210824_001046-ph7xuz2l/files/wandb-summary.json wandb-summary.json
+2021-08-24 00:10:56,570 INFO    SenderThread:245716 [dir_watcher.py:finish():318] scan save: /home/dang/Documents/Doc/2021/mine/wandb/run-20210824_001046-ph7xuz2l/files/requirements.txt requirements.txt
+2021-08-24 00:10:56,571 INFO    SenderThread:245716 [dir_watcher.py:finish():318] scan save: /home/dang/Documents/Doc/2021/mine/wandb/run-20210824_001046-ph7xuz2l/files/conda-environment.yaml conda-environment.yaml
+2021-08-24 00:10:56,576 INFO    SenderThread:245716 [dir_watcher.py:finish():318] scan save: /home/dang/Documents/Doc/2021/mine/wandb/run-20210824_001046-ph7xuz2l/files/wandb-metadata.json wandb-metadata.json
+2021-08-24 00:10:56,576 INFO    SenderThread:245716 [file_pusher.py:finish():177] shutting down file pusher
+2021-08-24 00:10:56,576 INFO    SenderThread:245716 [file_pusher.py:join():182] waiting for file pusher
+2021-08-24 00:10:56,759 INFO    WriterThread:245716 [datastore.py:close():281] close: /home/dang/Documents/Doc/2021/mine/wandb/run-20210824_001046-ph7xuz2l/run-ph7xuz2l.wandb
+2021-08-24 00:10:56,772 INFO    HandlerThread:245716 [handler.py:finish():677] shutting down handler
+2021-08-24 00:10:57,529 INFO    Thread-12 :245716 [upload_job.py:push():137] Uploaded file /home/dang/Documents/Doc/2021/mine/wandb/run-20210824_001046-ph7xuz2l/files/config.yaml
+2021-08-24 00:10:57,541 INFO    Thread-13 :245716 [upload_job.py:push():137] Uploaded file /home/dang/Documents/Doc/2021/mine/wandb/run-20210824_001046-ph7xuz2l/files/wandb-summary.json
+2021-08-24 00:10:57,548 INFO    Thread-15 :245716 [upload_job.py:push():137] Uploaded file /home/dang/Documents/Doc/2021/mine/wandb/run-20210824_001046-ph7xuz2l/files/conda-environment.yaml
+2021-08-24 00:10:57,582 INFO    Thread-14 :245716 [upload_job.py:push():137] Uploaded file /home/dang/Documents/Doc/2021/mine/wandb/run-20210824_001046-ph7xuz2l/files/requirements.txt
+2021-08-24 00:10:58,354 INFO    MainThread:245716 [internal.py:handle_exit():76] Internal process exited

@@ -1,0 +1,863 @@
+[23:02:36] [EnvServerSocketHandler/INFO]: [STDOUT]: Received from localhost:<MissionInit xmlns="http://ProjectMalmo.microsoft.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SchemaVersion="" PlatformVersion="0.37.0"><Mission><About><Summary>MineRLObtainDiamond-v0</Summary></About><ModSettings><MsPerTick>50</MsPerTick></ModSettings><ServerSection><ServerInitialConditions><Time><StartTime>6000</StartTime><AllowPassageOfTime>true</AllowPassageOfTime></Time><AllowSpawning>true</AllowSpawning></ServerInitialConditions><ServerHandlers><DefaultWorldGenerator forceReset="true" generatorOptions="{}"/><ServerQuitFromTimeUp timeLimitMs="900000" description="out_of_time"/><ServerQuitWhenAnyAgentFinishes/></ServerHandlers></ServerSection><AgentSection mode="Survival"><Name>MineRLAgent0</Name><AgentStart/><AgentHandlers><FileBasedPerformanceProducer/><ObservationFromDamage/><PauseCommand/><VideoProducer want_depth="false"><Width>64</Width><Height>64</Height></VideoProducer><ObservationFromFullInventory flat="false"/><ObservationFromEquippedItem/><HumanLevelCommands/><CameraCommands/><PlaceCommands/><EquipCommands/><SimpleCraftCommands/><NearbyCraftCommands/><NearbySmeltCommands/><RewardForPossessingItem sparse="true" excludeLoops="true"><Item amount="1" reward="1" type="log"/><Item amount="1" reward="2" type="planks"/><Item amount="1" reward="4" type="stick"/><Item amount="1" reward="4" type="crafting_table"/><Item amount="1" reward="8" type="wooden_pickaxe"/><Item amount="1" reward="16" type="cobblestone"/><Item amount="1" reward="32" type="furnace"/><Item amount="1" reward="32" type="stone_pickaxe"/><Item amount="1" reward="64" type="iron_ore"/><Item amount="1" reward="128" type="iron_ingot"/><Item amount="1" reward="256" type="iron_pickaxe"/><Item amount="1" reward="1024" type="diamond"/></RewardForPossessingItem><AgentQuitFromPossessingItem><Item type="diamond" amount="1"/></AgentQuitFromPossessingItem></AgentHandlers></AgentSection></Mission><ExperimentUID>f50c6533-f5a1-46df-b888-63ac39fb9b40</ExperimentUID><ClientRole>0</ClientRole><ClientAgentConnection><ClientIPAddress>127.0.0.1</ClientIPAddress><ClientMissionControlPort>0</ClientMissionControlPort><ClientCommandsPort>0</ClientCommandsPort><AgentIPAddress>127.0.0.1</AgentIPAddress><AgentMissionControlPort>0</AgentMissionControlPort><AgentVideoPort>0</AgentVideoPort><AgentDepthPort>0</AgentDepthPort><AgentLuminancePort>0</AgentLuminancePort><AgentObservationsPort>0</AgentObservationsPort><AgentRewardsPort>0</AgentRewardsPort><AgentColourMapPort>0</AgentColourMapPort></ClientAgentConnection></MissionInit>
+[23:02:36] [EnvServerSocketHandler/INFO]: [STDOUT]: REPLYING WITH: MALMOOK
+[23:02:36] [Client thread/INFO]: [STDOUT]: Mission received: MineRLObtainDiamond-v0
+[23:02:36] [Client thread/INFO]: [STDOUT]: CLIENT request state: CREATING_HANDLERS
+[23:02:36] [Client thread/INFO]: [STDOUT]: CLIENT enter state: CREATING_HANDLERS
+[23:02:37] [Client thread/INFO]: [STDOUT]: Starting command server.
+[23:02:37] [Thread-11/INFO]: [STDOUT]: INFO: ->com(0) Listening for messages on port 10538
+[23:02:37] [Client thread/INFO]: [STDOUT]: CLIENT request state: EVALUATING_WORLD_REQUIREMENTS
+[23:02:37] [Client thread/INFO]: [STDOUT]: CLIENT enter state: EVALUATING_WORLD_REQUIREMENTS
+[23:02:37] [Client thread/INFO]: [STDOUT]: CLIENT request state: CREATING_NEW_WORLD
+[23:02:37] [Client thread/INFO]: [STDOUT]: CLIENT enter state: CREATING_NEW_WORLD
+[23:02:37] [Client thread/INFO]: [STDOUT]: [LOGTOPY] GENERATOR OPTIONS = {}
+[23:02:37] [Server thread/INFO]: Starting integrated minecraft server version 1.11.2
+[23:02:37] [Server thread/INFO]: Generating keypair
+[23:02:37] [Server thread/INFO]: Injecting existing block and item data into this server instance
+[23:02:37] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[23:02:37] [Server thread/INFO]: Applying holder lookups
+[23:02:37] [Server thread/INFO]: Holder lookups applied
+[23:02:37] [Server thread/INFO]: Loading dimension 0 (TEMP_0_970ca5ef-6394-4cfe-98c2-c419060d7d12) (net.minecraft.server.integrated.IntegratedServer@7b00e422)
+[23:02:38] [Server thread/INFO]: Loading dimension 1 (TEMP_0_970ca5ef-6394-4cfe-98c2-c419060d7d12) (net.minecraft.server.integrated.IntegratedServer@7b00e422)
+[23:02:38] [Server thread/INFO]: Loading dimension -1 (TEMP_0_970ca5ef-6394-4cfe-98c2-c419060d7d12) (net.minecraft.server.integrated.IntegratedServer@7b00e422)
+[23:02:38] [Server thread/INFO]: Preparing start region for level 0
+[23:02:39] [Server thread/INFO]: Preparing spawn area: 13%
+[23:02:40] [Server thread/INFO]: Preparing spawn area: 31%
+[23:02:41] [Server thread/INFO]: Preparing spawn area: 47%
+[23:02:42] [Server thread/INFO]: Preparing spawn area: 64%
+[23:02:43] [Server thread/INFO]: Preparing spawn area: 79%
+[23:02:44] [Server thread/INFO]: Preparing spawn area: 97%
+[23:02:44] [Server thread/INFO]: Changing view distance to 4, from 10
+[23:02:45] [Netty Local Client IO #0/INFO]: [STDOUT]: Transformed Name: net.minecraft.client.entity.EntityOtherPlayerMP
+[23:02:45] [Netty Local Client IO #0/INFO]: [STDOUT]: MALMO: Found EntityOtherPlayerMP, attempting to transform it
+[23:02:45] [Server thread/INFO]: [STDOUT]: SERVER request state: WAITING_FOR_MOD_READY
+[23:02:45] [Server thread/INFO]: [STDOUT]: CLIENT request state: WAITING_FOR_SERVER_READY
+[23:02:45] [Server thread/INFO]: [STDOUT]: SERVER enter state: WAITING_FOR_MOD_READY
+[23:02:45] [Netty Local Client IO #0/INFO]: Server protocol version 2
+[23:02:45] [Netty Server IO #1/INFO]: Client protocol version 2
+[23:02:45] [Netty Server IO #1/INFO]: Client attempting to join with 5 mods : minecraft@1.11.2,FML@8.0.99.99,malmomod@0.37.0,forge@13.20.1.2588,mcp@9.19
+[23:02:45] [Netty Local Client IO #0/INFO]: [Netty Local Client IO #0] Client side modded connection established
+[23:02:45] [Client thread/INFO]: [STDOUT]: CLIENT enter state: WAITING_FOR_SERVER_READY
+[23:02:45] [Server thread/INFO]: [Server thread] Server side modded connection established
+[23:02:45] [Server thread/INFO]: MineRLAgent0[local:E:aff79352] logged in with entity id 574 at (89.5, 67.0, 154.5)
+[23:02:45] [Server thread/INFO]: MineRLAgent0 joined the game
+[23:02:45] [Server thread/INFO]: [STDOUT]: SERVER request state: DORMANT
+[23:02:45] [Server thread/INFO]: [STDOUT]: SERVER enter state: DORMANT
+[23:02:45] [Server thread/INFO]: [STDOUT]: INCOMING MISSION: Received MissionInit directly through ServerStateMachine constructor.
+[23:02:45] [Server thread/INFO]: [STDOUT]: Mission received: MineRLObtainDiamond-v0
+[23:02:45] [Server thread/INFO]: Received mission: §9MineRLObtainDiamond-v0
+[23:02:45] [Server thread/INFO]: Source: §alocalhost
+[23:02:45] [Server thread/INFO]: [STDOUT]: SERVER request state: BUILDING_WORLD
+[23:02:45] [Server thread/INFO]: [STDOUT]: SERVER enter state: BUILDING_WORLD
+[23:02:45] [Server thread/INFO]: [STDOUT]: SERVER request state: WAITING_FOR_AGENTS_TO_ASSEMBLE
+[23:02:45] [Server thread/INFO]: [STDOUT]: SERVER enter state: WAITING_FOR_AGENTS_TO_ASSEMBLE
+[23:02:45] [Server thread/INFO]: [STDOUT]: Experiment requires: 
+[23:02:45] [Server thread/INFO]: [STDOUT]: >>>> MineRLAgent0
+[23:02:46] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[23:02:46] [Server thread/INFO]: [STDOUT]: Initializing player with username MineRLAgent0 and agentname MineRLAgent0
+[23:02:46] [Client thread/INFO]: [CHAT] Received mission: §9MineRLObtainDiamond-v0
+[23:02:46] [Client thread/INFO]: [CHAT] Source: §alocalhost
+[23:02:46] [Client thread/INFO]: [STDOUT]: CLIENT request state: RUNNING
+[23:02:46] [Client thread/INFO]: [STDOUT]: CLIENT enter state: RUNNING
+[23:02:46] [Client thread/INFO]: [STDOUT]: Preparing reward com.microsoft.Malmo.MissionHandlers.RewardForPossessingItemImplementation@2ee881cc with agent name MineRLAgent0
+[23:02:46] [Server thread/INFO]: [STDOUT]: SERVER request state: RUNNING
+[23:02:46] [Client thread/INFO]: [STDOUT]: [LOGTOPY] On Mac OSX Catalina make sure to install this OpenJDK 1.8.0_152-release-1056-b12, this prevents the NSDragRegions crash
+[23:02:46] [Server thread/INFO]: [STDOUT]: SERVER enter state: RUNNING
+[23:02:46] [Client thread/INFO]: [STDOUT]: Resized the window
+[23:02:46] [Client thread/INFO]: [STDOUT]: Unpausing
+[23:05:00] [Server thread/INFO]: [STDOUT]: Warning: managed 8/20 ticks this second.
+[23:05:01] [Server thread/INFO]: [STDOUT]: Warning: managed 9/20 ticks this second.
+[23:05:02] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:05:03] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[23:06:05] [Server thread/INFO]: [STDOUT]: Warning: managed 1/20 ticks this second.
+[23:06:06] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[23:06:07] [Server thread/INFO]: [STDOUT]: Warning: managed 7/20 ticks this second.
+[23:06:08] [Server thread/INFO]: [STDOUT]: Warning: managed 9/20 ticks this second.
+[23:06:09] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[23:06:11] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[23:06:12] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[23:08:02] [Server thread/INFO]: [STDOUT]: Warning: managed 9/20 ticks this second.
+[23:08:03] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:08:05] [Server thread/INFO]: [STDOUT]: Warning: managed 9/20 ticks this second.
+[23:08:06] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[23:08:07] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:08:08] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:08:09] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:08:10] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:08:11] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+RewardForPossessingItemImplementation - MineRLAgent0: 1
+[23:08:12] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:08:13] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:08:14] [Server thread/INFO]: [STDOUT]: Warning: managed 9/20 ticks this second.
+[23:10:20] [Server thread/INFO]: [STDOUT]: Warning: managed 2/20 ticks this second.
+[23:10:21] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[23:10:22] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[23:10:23] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:10:53] [Server thread/INFO]: [STDOUT]: Warning: managed 3/20 ticks this second.
+[23:10:54] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:10:55] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:10:56] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:10:57] [Server thread/INFO]: [STDOUT]: Warning: managed 12/20 ticks this second.
+[23:11:53] [Server thread/INFO]: [STDOUT]: Warning: managed 8/20 ticks this second.
+[23:11:54] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[23:11:55] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:11:56] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:11:57] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:11:58] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:11:59] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:12:00] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:13:50] [Server thread/INFO]: [STDOUT]: Warning: managed 2/20 ticks this second.
+[23:13:51] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:13:52] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:13:53] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:13:54] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:13:55] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:13:56] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:15:11] [Server thread/INFO]: [STDOUT]: Warning: managed 8/20 ticks this second.
+[23:15:12] [Server thread/INFO]: [STDOUT]: Warning: managed 9/20 ticks this second.
+[23:15:13] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[23:15:14] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:15:15] [Server thread/INFO]: [STDOUT]: Warning: managed 9/20 ticks this second.
+[23:17:21] [Server thread/INFO]: [STDOUT]: Warning: managed 5/20 ticks this second.
+[23:17:22] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:17:23] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[23:17:24] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:17:25] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:17:26] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[23:17:27] [Server thread/INFO]: [STDOUT]: Warning: managed 9/20 ticks this second.
+[23:17:28] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[23:17:29] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[23:17:30] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:17:31] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[23:17:32] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:17:33] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:17:34] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:17:35] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:17:36] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+RewardForPossessingItemImplementation - MineRLAgent0: 2
+[23:17:37] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:17:38] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[23:17:40] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:17:41] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:17:49] [Server thread/INFO]: [STDOUT]: Warning: managed 7/20 ticks this second.
+[23:17:50] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[23:17:51] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[23:18:20] [Server thread/INFO]: [STDOUT]: Warning: managed 6/20 ticks this second.
+[23:18:21] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:18:22] [Server thread/INFO]: [STDOUT]: Warning: managed 12/20 ticks this second.
+[23:18:23] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:18:24] [Server thread/INFO]: [STDOUT]: Warning: managed 12/20 ticks this second.
+[23:18:25] [Server thread/INFO]: [STDOUT]: Warning: managed 12/20 ticks this second.
+[23:18:26] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:18:27] [Server thread/INFO]: [STDOUT]: Warning: managed 12/20 ticks this second.
+[23:18:28] [Server thread/INFO]: [STDOUT]: Warning: managed 12/20 ticks this second.
+[23:18:29] [Server thread/INFO]: [STDOUT]: Warning: managed 12/20 ticks this second.
+[23:18:30] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[23:20:10] [Server thread/INFO]: [STDOUT]: Warning: managed 1/20 ticks this second.
+[23:20:11] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:20:12] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:20:13] [Server thread/INFO]: [STDOUT]: Warning: managed 12/20 ticks this second.
+[23:20:14] [Server thread/INFO]: [STDOUT]: Warning: managed 12/20 ticks this second.
+[23:20:15] [Server thread/INFO]: [STDOUT]: Warning: managed 12/20 ticks this second.
+[23:22:17] [Server thread/INFO]: [STDOUT]: Warning: managed 7/20 ticks this second.
+[23:22:18] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:22:19] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:22:20] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:22:21] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:22:22] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:22:23] [Server thread/INFO]: [STDOUT]: Warning: managed 12/20 ticks this second.
+[23:23:14] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[23:23:15] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[23:23:16] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:23:17] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:23:19] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:23:20] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:23:21] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[23:23:22] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:23:23] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:23:24] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:23:25] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:23:26] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:23:27] [Server thread/INFO]: [STDOUT]: Warning: managed 12/20 ticks this second.
+[23:23:28] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:23:29] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:23:30] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:23:31] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:23:32] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:24:19] [Server thread/INFO]: [STDOUT]: Warning: managed 7/20 ticks this second.
+[23:24:20] [Server thread/INFO]: [STDOUT]: Warning: managed 12/20 ticks this second.
+[23:24:21] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:24:22] [Server thread/INFO]: [STDOUT]: Warning: managed 12/20 ticks this second.
+[23:24:23] [Server thread/INFO]: [STDOUT]: Warning: managed 12/20 ticks this second.
+[23:24:25] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:24:26] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[23:24:27] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:24:28] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[23:24:29] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:24:30] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:25:41] [Server thread/INFO]: [STDOUT]: Warning: managed 3/20 ticks this second.
+[23:25:42] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:25:44] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:25:45] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[23:25:46] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[23:25:47] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:25:48] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:25:49] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:25:50] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:25:51] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:25:52] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:25:53] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:25:54] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:25:55] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[23:25:56] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:25:57] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:25:58] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:25:59] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:26:00] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:26:20] [Server thread/INFO]: [STDOUT]: Warning: managed 7/20 ticks this second.
+[23:26:21] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:26:22] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[23:26:23] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:26:24] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:26:25] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:26:26] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:26:27] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+RewardForPossessingItemImplementation - MineRLAgent0: 3
+[23:26:28] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:26:29] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:28:14] [Client thread/INFO]: [STDOUT]: SM: [CLIENT_STATE_MACHINE] Mission ended for reason: null world still exists: true
+[23:28:14] [Client thread/INFO]: [STDOUT]: Unpausing
+[23:28:14] [Client thread/INFO]: [STDOUT]: CLIENT request state: IDLING
+[23:28:14] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:28:14] [Server thread/INFO]: [STDOUT]: WHY IS THIS NOT WORKING
+[23:28:14] [Server thread/INFO]: [STDOUT]: SERVER request state: WAITING_FOR_AGENTS_TO_QUIT
+[23:28:14] [Server thread/INFO]: [STDOUT]: SERVER enter state: WAITING_FOR_AGENTS_TO_QUIT
+[23:28:14] [Client thread/INFO]: [STDOUT]: CLIENT enter state: IDLING
+[23:28:14] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[23:28:14] [Client thread/INFO]: [STDOUT]: CLIENT enter state: MISSION_ENDED
+[23:28:14] [Client thread/INFO]: [STDOUT]: inform the agent
+[23:28:14] [EnvServerSocketHandler/INFO]: [STDOUT]: Received from localhost:<MissionInit xmlns="http://ProjectMalmo.microsoft.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SchemaVersion="" PlatformVersion="0.37.0"><Mission><About><Summary>MineRLObtainDiamond-v0</Summary></About><ModSettings><MsPerTick>50</MsPerTick></ModSettings><ServerSection><ServerInitialConditions><Time><StartTime>6000</StartTime><AllowPassageOfTime>true</AllowPassageOfTime></Time><AllowSpawning>true</AllowSpawning></ServerInitialConditions><ServerHandlers><DefaultWorldGenerator forceReset="true" generatorOptions="{}"/><ServerQuitFromTimeUp timeLimitMs="900000" description="out_of_time"/><ServerQuitWhenAnyAgentFinishes/></ServerHandlers></ServerSection><AgentSection mode="Survival"><Name>MineRLAgent0</Name><AgentStart/><AgentHandlers><FileBasedPerformanceProducer/><ObservationFromDamage/><PauseCommand/><VideoProducer want_depth="false"><Width>64</Width><Height>64</Height></VideoProducer><ObservationFromFullInventory flat="false"/><ObservationFromEquippedItem/><HumanLevelCommands/><CameraCommands/><PlaceCommands/><EquipCommands/><SimpleCraftCommands/><NearbyCraftCommands/><NearbySmeltCommands/><RewardForPossessingItem sparse="true" excludeLoops="true"><Item amount="1" reward="1" type="log"/><Item amount="1" reward="2" type="planks"/><Item amount="1" reward="4" type="stick"/><Item amount="1" reward="4" type="crafting_table"/><Item amount="1" reward="8" type="wooden_pickaxe"/><Item amount="1" reward="16" type="cobblestone"/><Item amount="1" reward="32" type="furnace"/><Item amount="1" reward="32" type="stone_pickaxe"/><Item amount="1" reward="64" type="iron_ore"/><Item amount="1" reward="128" type="iron_ingot"/><Item amount="1" reward="256" type="iron_pickaxe"/><Item amount="1" reward="1024" type="diamond"/></RewardForPossessingItem><AgentQuitFromPossessingItem><Item type="diamond" amount="1"/></AgentQuitFromPossessingItem></AgentHandlers></AgentSection></Mission><ExperimentUID>70c766b2-8c44-451e-bef5-092258591769</ExperimentUID><ClientRole>0</ClientRole><ClientAgentConnection><ClientIPAddress>127.0.0.1</ClientIPAddress><ClientMissionControlPort>0</ClientMissionControlPort><ClientCommandsPort>0</ClientCommandsPort><AgentIPAddress>127.0.0.1</AgentIPAddress><AgentMissionControlPort>0</AgentMissionControlPort><AgentVideoPort>0</AgentVideoPort><AgentDepthPort>0</AgentDepthPort><AgentLuminancePort>0</AgentLuminancePort><AgentObservationsPort>0</AgentObservationsPort><AgentRewardsPort>0</AgentRewardsPort><AgentColourMapPort>0</AgentColourMapPort></ClientAgentConnection></MissionInit>
+[23:28:14] [Client thread/INFO]: [STDOUT]: CLIENT request state: WAITING_FOR_SERVER_MISSION_END
+[23:28:14] [Client thread/INFO]: [STDOUT]: CLIENT enter state: WAITING_FOR_SERVER_MISSION_END
+[23:28:14] [Server thread/INFO]: [STDOUT]: SERVER request state: CLEAN_UP
+[23:28:14] [Client thread/INFO]: [STDOUT]: CLIENT request state: DORMANT
+[23:28:14] [Server thread/INFO]: [STDOUT]: SERVER enter state: CLEAN_UP
+[23:28:14] [Server thread/INFO]: [STDOUT]: SERVER request state: DORMANT
+[23:28:14] [EnvServerSocketHandler/INFO]: [STDOUT]: REPLYING WITH: MALMOBUSY
+[23:28:14] [Client thread/INFO]: [STDOUT]: CLIENT enter state: DORMANT
+[23:28:14] [Client thread/INFO]: [STDOUT]: JETTISONING 0 COMMANDS
+[23:28:15] [EnvServerSocketHandler/INFO]: [STDOUT]: Received from localhost:<MissionInit xmlns="http://ProjectMalmo.microsoft.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SchemaVersion="" PlatformVersion="0.37.0"><Mission><About><Summary>MineRLObtainDiamond-v0</Summary></About><ModSettings><MsPerTick>50</MsPerTick></ModSettings><ServerSection><ServerInitialConditions><Time><StartTime>6000</StartTime><AllowPassageOfTime>true</AllowPassageOfTime></Time><AllowSpawning>true</AllowSpawning></ServerInitialConditions><ServerHandlers><DefaultWorldGenerator forceReset="true" generatorOptions="{}"/><ServerQuitFromTimeUp timeLimitMs="900000" description="out_of_time"/><ServerQuitWhenAnyAgentFinishes/></ServerHandlers></ServerSection><AgentSection mode="Survival"><Name>MineRLAgent0</Name><AgentStart/><AgentHandlers><FileBasedPerformanceProducer/><ObservationFromDamage/><PauseCommand/><VideoProducer want_depth="false"><Width>64</Width><Height>64</Height></VideoProducer><ObservationFromFullInventory flat="false"/><ObservationFromEquippedItem/><HumanLevelCommands/><CameraCommands/><PlaceCommands/><EquipCommands/><SimpleCraftCommands/><NearbyCraftCommands/><NearbySmeltCommands/><RewardForPossessingItem sparse="true" excludeLoops="true"><Item amount="1" reward="1" type="log"/><Item amount="1" reward="2" type="planks"/><Item amount="1" reward="4" type="stick"/><Item amount="1" reward="4" type="crafting_table"/><Item amount="1" reward="8" type="wooden_pickaxe"/><Item amount="1" reward="16" type="cobblestone"/><Item amount="1" reward="32" type="furnace"/><Item amount="1" reward="32" type="stone_pickaxe"/><Item amount="1" reward="64" type="iron_ore"/><Item amount="1" reward="128" type="iron_ingot"/><Item amount="1" reward="256" type="iron_pickaxe"/><Item amount="1" reward="1024" type="diamond"/></RewardForPossessingItem><AgentQuitFromPossessingItem><Item type="diamond" amount="1"/></AgentQuitFromPossessingItem></AgentHandlers></AgentSection></Mission><ExperimentUID>70c766b2-8c44-451e-bef5-092258591769</ExperimentUID><ClientRole>0</ClientRole><ClientAgentConnection><ClientIPAddress>127.0.0.1</ClientIPAddress><ClientMissionControlPort>0</ClientMissionControlPort><ClientCommandsPort>0</ClientCommandsPort><AgentIPAddress>127.0.0.1</AgentIPAddress><AgentMissionControlPort>0</AgentMissionControlPort><AgentVideoPort>0</AgentVideoPort><AgentDepthPort>0</AgentDepthPort><AgentLuminancePort>0</AgentLuminancePort><AgentObservationsPort>0</AgentObservationsPort><AgentRewardsPort>0</AgentRewardsPort><AgentColourMapPort>0</AgentColourMapPort></ClientAgentConnection></MissionInit>
+[23:28:15] [EnvServerSocketHandler/INFO]: [STDOUT]: REPLYING WITH: MALMOOK
+[23:28:15] [Client thread/INFO]: [STDOUT]: Mission received: MineRLObtainDiamond-v0
+[23:28:15] [Client thread/INFO]: [STDOUT]: CLIENT request state: CREATING_HANDLERS
+[23:28:15] [Client thread/INFO]: [STDOUT]: CLIENT enter state: CREATING_HANDLERS
+[23:28:15] [Client thread/INFO]: [STDOUT]: CLIENT request state: EVALUATING_WORLD_REQUIREMENTS
+[23:28:15] [Client thread/INFO]: [STDOUT]: CLIENT enter state: EVALUATING_WORLD_REQUIREMENTS
+[23:28:15] [Client thread/INFO]: [STDOUT]: CLIENT request state: PAUSING_OLD_SERVER
+[23:28:15] [Client thread/INFO]: [STDOUT]: CLIENT enter state: PAUSING_OLD_SERVER
+[23:28:16] [Server thread/INFO]: Saving and pausing game...
+[23:28:16] [Server thread/INFO]: Saving chunks for level 'TEMP_0_970ca5ef-6394-4cfe-98c2-c419060d7d12'/Overworld
+[23:28:16] [Server thread/INFO]: Saving chunks for level 'TEMP_0_970ca5ef-6394-4cfe-98c2-c419060d7d12'/Nether
+[23:28:16] [Server thread/INFO]: Saving chunks for level 'TEMP_0_970ca5ef-6394-4cfe-98c2-c419060d7d12'/The End
+[23:28:16] [Client thread/INFO]: [STDOUT]: CLIENT request state: CLOSING_OLD_SERVER
+[23:28:16] [Client thread/INFO]: [STDOUT]: CLIENT enter state: CLOSING_OLD_SERVER
+[23:28:16] [Client thread/INFO]: [STDOUT]: Unpausing
+[23:28:16] [Server thread/INFO]: Stopping server
+[23:28:16] [Server thread/INFO]: Saving players
+[23:28:16] [Server thread/INFO]: MineRLAgent0 lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[23:28:16] [Server thread/INFO]: MineRLAgent0 left the game
+[23:28:16] [Server thread/INFO]: Stopping singleplayer server as player logged out
+[23:28:16] [Server thread/INFO]: Saving worlds
+[23:28:16] [Server thread/INFO]: Saving chunks for level 'TEMP_0_970ca5ef-6394-4cfe-98c2-c419060d7d12'/Overworld
+[23:28:16] [Server thread/INFO]: Saving chunks for level 'TEMP_0_970ca5ef-6394-4cfe-98c2-c419060d7d12'/Nether
+[23:28:16] [Server thread/INFO]: Saving chunks for level 'TEMP_0_970ca5ef-6394-4cfe-98c2-c419060d7d12'/The End
+[23:28:16] [Server thread/INFO]: [STDOUT]: Unpausing
+[23:28:16] [Server thread/INFO]: [STDOUT]: Unpausing
+[23:28:16] [Server thread/INFO]: [STDOUT]: Unpausing
+[23:28:16] [Server thread/INFO]: Unloading dimension 0
+[23:28:16] [Server thread/INFO]: Unloading dimension -1
+[23:28:16] [Server thread/INFO]: Unloading dimension 1
+[23:28:16] [Server thread/INFO]: Applying holder lookups
+[23:28:16] [Server thread/INFO]: Holder lookups applied
+[23:28:26] [Client thread/INFO]: [STDOUT]: CLIENT request state: CREATING_NEW_WORLD
+[23:28:26] [Client thread/INFO]: [STDOUT]: CLIENT enter state: CREATING_NEW_WORLD
+[23:28:26] [Client thread/INFO]: [STDOUT]: [LOGTOPY] GENERATOR OPTIONS = {}
+[23:28:27] [Server thread/INFO]: Starting integrated minecraft server version 1.11.2
+[23:28:27] [Server thread/INFO]: Generating keypair
+[23:28:27] [Server thread/INFO]: Injecting existing block and item data into this server instance
+[23:28:27] [Server thread/INFO]: Applying holder lookups
+[23:28:27] [Server thread/INFO]: Holder lookups applied
+[23:28:27] [Server thread/INFO]: Loading dimension 0 (TEMP_0_8314682a-3bfd-43a3-a504-6e5a08b40664) (net.minecraft.server.integrated.IntegratedServer@274af9b8)
+[23:28:27] [Server thread/INFO]: Loading dimension 1 (TEMP_0_8314682a-3bfd-43a3-a504-6e5a08b40664) (net.minecraft.server.integrated.IntegratedServer@274af9b8)
+[23:28:27] [Server thread/INFO]: Loading dimension -1 (TEMP_0_8314682a-3bfd-43a3-a504-6e5a08b40664) (net.minecraft.server.integrated.IntegratedServer@274af9b8)
+[23:28:27] [Server thread/INFO]: Preparing start region for level 0
+[23:28:28] [Server thread/INFO]: Preparing spawn area: 12%
+[23:28:29] [Server thread/INFO]: Preparing spawn area: 20%
+[23:28:30] [Server thread/INFO]: Preparing spawn area: 36%
+[23:28:31] [Server thread/INFO]: Preparing spawn area: 56%
+[23:28:32] [Server thread/INFO]: Preparing spawn area: 76%
+[23:28:33] [Server thread/INFO]: Preparing spawn area: 93%
+[23:28:34] [Server thread/INFO]: Changing view distance to 4, from 10
+[23:28:34] [Client thread/INFO]: Deleting level TEMP_0_970ca5ef-6394-4cfe-98c2-c419060d7d12
+[23:28:34] [Client thread/INFO]: Attempt 1...
+[23:28:34] [Server thread/INFO]: [STDOUT]: SERVER request state: WAITING_FOR_MOD_READY
+[23:28:34] [Netty Local Client IO #1/INFO]: Server protocol version 2
+[23:28:34] [Server thread/INFO]: [STDOUT]: CLIENT request state: WAITING_FOR_SERVER_READY
+[23:28:34] [Netty Server IO #3/INFO]: Client protocol version 2
+[23:28:34] [Netty Server IO #3/INFO]: Client attempting to join with 5 mods : minecraft@1.11.2,FML@8.0.99.99,malmomod@0.37.0,forge@13.20.1.2588,mcp@9.19
+[23:28:34] [Netty Local Client IO #1/INFO]: [Netty Local Client IO #1] Client side modded connection established
+[23:28:34] [Client thread/INFO]: [STDOUT]: CLIENT enter state: WAITING_FOR_SERVER_READY
+[23:28:34] [Server thread/INFO]: [STDOUT]: SERVER enter state: WAITING_FOR_MOD_READY
+[23:28:34] [Server thread/INFO]: [Server thread] Server side modded connection established
+[23:28:34] [Server thread/INFO]: MineRLAgent0[local:E:c13ee21f] logged in with entity id 7900 at (237.5, 65.0, 249.5)
+[23:28:34] [Server thread/INFO]: MineRLAgent0 joined the game
+[23:28:35] [Server thread/INFO]: [STDOUT]: SERVER request state: DORMANT
+[23:28:35] [Server thread/INFO]: [STDOUT]: SERVER enter state: DORMANT
+[23:28:35] [Server thread/INFO]: [STDOUT]: INCOMING MISSION: Received MissionInit directly through ServerStateMachine constructor.
+[23:28:35] [Server thread/INFO]: [STDOUT]: Mission received: MineRLObtainDiamond-v0
+[23:28:35] [Server thread/INFO]: Received mission: §9MineRLObtainDiamond-v0
+[23:28:35] [Server thread/INFO]: Source: §alocalhost
+[23:28:35] [Server thread/INFO]: [STDOUT]: SERVER request state: BUILDING_WORLD
+[23:28:35] [Server thread/INFO]: [STDOUT]: SERVER enter state: BUILDING_WORLD
+[23:28:35] [Server thread/INFO]: [STDOUT]: SERVER request state: WAITING_FOR_AGENTS_TO_ASSEMBLE
+[23:28:35] [Server thread/INFO]: [STDOUT]: SERVER enter state: WAITING_FOR_AGENTS_TO_ASSEMBLE
+[23:28:35] [Server thread/INFO]: [STDOUT]: Experiment requires: 
+[23:28:35] [Server thread/INFO]: [STDOUT]: >>>> MineRLAgent0
+[23:28:35] [Client thread/INFO]: [CHAT] Received mission: §9MineRLObtainDiamond-v0
+[23:28:35] [Client thread/INFO]: [CHAT] Source: §alocalhost
+[23:28:35] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[23:28:35] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[23:28:35] [Server thread/INFO]: [STDOUT]: Initializing player with username MineRLAgent0 and agentname MineRLAgent0
+[23:28:35] [Client thread/INFO]: [STDOUT]: CLIENT request state: RUNNING
+[23:28:35] [Client thread/INFO]: [STDOUT]: CLIENT enter state: RUNNING
+[23:28:35] [Client thread/INFO]: [STDOUT]: Preparing reward com.microsoft.Malmo.MissionHandlers.RewardForPossessingItemImplementation@f86b30d with agent name MineRLAgent0
+[23:28:35] [Client thread/INFO]: [STDOUT]: Unpausing
+[23:28:35] [Server thread/INFO]: [STDOUT]: SERVER request state: RUNNING
+[23:28:35] [Server thread/INFO]: [STDOUT]: SERVER enter state: RUNNING
+[23:29:38] [Server thread/INFO]: [STDOUT]: Warning: managed 19/20 ticks this second.
+[23:29:39] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:29:40] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[23:29:41] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:30:01] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[23:30:02] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:30:03] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:30:04] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:30:05] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:30:06] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[23:30:08] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:30:09] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:30:10] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:30:11] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[23:30:21] [Server thread/INFO]: [STDOUT]: Warning: managed 1/20 ticks this second.
+[23:30:23] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:30:24] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[23:30:25] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:30:26] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[23:30:37] [Server thread/INFO]: [STDOUT]: Warning: managed 3/20 ticks this second.
+[23:30:38] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:30:39] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:30:40] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:30:41] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:30:42] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:31:12] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:31:13] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[23:31:14] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:31:15] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:31:46] [Server thread/INFO]: [STDOUT]: Warning: managed 8/20 ticks this second.
+[23:31:47] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:31:48] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:31:49] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:31:50] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:31:51] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:31:52] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:31:53] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:31:54] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:31:55] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:31:56] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:31:57] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:31:58] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:32:00] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:32:01] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:32:02] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:32:03] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:32:04] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[23:32:05] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:32:06] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:32:07] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:32:08] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:32:09] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:32:10] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:32:11] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:32:12] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:32:13] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:32:14] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[23:32:15] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:32:58] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:33:00] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:33:01] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[23:33:02] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[23:33:03] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:33:04] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:33:05] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:33:06] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:33:07] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:33:08] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:33:09] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:33:10] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:33:11] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:33:12] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[23:33:13] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[23:33:14] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+RewardForPossessingItemImplementation - MineRLAgent0: 1
+[23:33:15] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[23:33:16] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:33:17] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[23:33:18] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+RewardForPossessingItemImplementation - MineRLAgent0: 2
+[23:33:19] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[23:33:20] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[23:33:21] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:33:23] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[23:33:24] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:33:25] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[23:33:26] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:33:27] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:33:28] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:33:29] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:33:30] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:33:31] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:33:32] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:33:33] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:33:42] [Server thread/INFO]: [STDOUT]: Warning: managed 6/20 ticks this second.
+[23:33:43] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:33:44] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[23:33:45] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[23:33:46] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[23:33:47] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[23:33:48] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:33:49] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:33:50] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:33:51] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:33:52] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:33:53] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+RewardForPossessingItemImplementation - MineRLAgent0: 1
+[23:33:54] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:33:55] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:34:39] [Server thread/INFO]: [STDOUT]: Warning: managed 4/20 ticks this second.
+[23:34:40] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:34:41] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:34:42] [Server thread/INFO]: [STDOUT]: Warning: managed 12/20 ticks this second.
+[23:34:43] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:34:44] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:34:45] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:34:46] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:34:47] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:34:48] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:34:49] [Server thread/INFO]: [STDOUT]: Warning: managed 12/20 ticks this second.
+[23:34:50] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:34:51] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:34:52] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:34:53] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:34:54] [Server thread/INFO]: [STDOUT]: Warning: managed 12/20 ticks this second.
+[23:34:55] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:34:56] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:34:57] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:34:58] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+RewardForPossessingItemImplementation - MineRLAgent0: 3
+[23:34:59] [Server thread/INFO]: [STDOUT]: Warning: managed 9/20 ticks this second.
+[23:35:00] [Server thread/INFO]: [STDOUT]: Warning: managed 9/20 ticks this second.
+[23:35:02] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[23:35:03] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:35:04] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:35:05] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:35:06] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:35:07] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:35:08] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:35:09] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[23:35:10] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[23:35:11] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:35:12] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:35:13] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:35:14] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:35:15] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:35:16] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[23:35:18] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:35:19] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:43:30] [Server thread/INFO]: [STDOUT]: Warning: managed 1/20 ticks this second.
+[23:43:31] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:43:32] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:43:34] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:43:35] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:43:36] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[23:43:37] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[23:43:38] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[23:43:39] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[23:44:05] [Server thread/INFO]: [STDOUT]: Warning: managed 5/20 ticks this second.
+[23:44:06] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:44:07] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[23:44:08] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:44:09] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[23:44:10] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[23:44:11] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:44:12] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+RewardForPossessingItemImplementation - MineRLAgent0: 2
+[23:44:13] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:47:53] [Server thread/INFO]: [STDOUT]: Warning: managed 8/20 ticks this second.
+[23:47:54] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:47:55] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[23:47:56] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[23:47:57] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:47:58] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:47:59] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:48:00] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:48:01] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:48:49] [Server thread/INFO]: [STDOUT]: Warning: managed 7/20 ticks this second.
+[23:48:50] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:48:51] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:48:52] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:48:53] [Server thread/INFO]: [STDOUT]: Warning: managed 12/20 ticks this second.
+[23:48:54] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:48:55] [Server thread/INFO]: [STDOUT]: Warning: managed 12/20 ticks this second.
+[23:48:56] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+RewardForPossessingItemImplementation - MineRLAgent0: 3
+[23:48:57] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:48:58] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:48:59] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:49:00] [Server thread/INFO]: [STDOUT]: Warning: managed 12/20 ticks this second.
+[23:49:01] [Server thread/INFO]: [STDOUT]: Warning: managed 12/20 ticks this second.
+[23:49:02] [Server thread/INFO]: [STDOUT]: Warning: managed 12/20 ticks this second.
+[23:49:03] [Server thread/INFO]: [STDOUT]: Warning: managed 12/20 ticks this second.
+[23:49:04] [Server thread/INFO]: [STDOUT]: Warning: managed 12/20 ticks this second.
+[23:49:05] [Server thread/INFO]: [STDOUT]: Warning: managed 12/20 ticks this second.
+[23:49:18] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[23:49:19] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:49:20] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:49:21] [Server thread/INFO]: [STDOUT]: Warning: managed 12/20 ticks this second.
+[23:49:22] [Server thread/INFO]: [STDOUT]: Warning: managed 12/20 ticks this second.
+[23:49:23] [Server thread/INFO]: [STDOUT]: Warning: managed 12/20 ticks this second.
+[23:49:33] [Server thread/INFO]: [STDOUT]: Warning: managed 4/20 ticks this second.
+[23:49:34] [Server thread/INFO]: [STDOUT]: Warning: managed 12/20 ticks this second.
+[23:49:35] [Server thread/INFO]: [STDOUT]: Warning: managed 12/20 ticks this second.
+[23:49:36] [Server thread/INFO]: [STDOUT]: Warning: managed 12/20 ticks this second.
+[23:49:37] [Server thread/INFO]: [STDOUT]: Warning: managed 12/20 ticks this second.
+[23:49:38] [Server thread/INFO]: [STDOUT]: Warning: managed 12/20 ticks this second.
+[23:49:39] [Server thread/INFO]: [STDOUT]: Warning: managed 12/20 ticks this second.
+[23:49:40] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:51:51] [Server thread/INFO]: [STDOUT]: Warning: managed 1/20 ticks this second.
+[23:51:52] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[23:51:53] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[23:51:54] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:51:55] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:51:56] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+RewardForPossessingItemImplementation - MineRLAgent0: 1
+[23:51:57] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+RewardForPossessingItemImplementation - MineRLAgent0: 2
+[23:51:58] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:51:59] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[23:52:00] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+RewardForPossessingItemImplementation - MineRLAgent0: 3
+[23:52:01] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:52:02] [Server thread/INFO]: [STDOUT]: Warning: managed 12/20 ticks this second.
+[23:52:03] [Server thread/INFO]: [STDOUT]: Warning: managed 12/20 ticks this second.
+[23:52:36] [Server thread/INFO]: [STDOUT]: Warning: managed 4/20 ticks this second.
+[23:52:37] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:52:38] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[23:52:39] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+RewardForPossessingItemImplementation - MineRLAgent0: 4
+[23:52:41] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:52:42] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[23:52:43] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:52:59] [Server thread/INFO]: [STDOUT]: Warning: managed 7/20 ticks this second.
+RewardForPossessingItemImplementation - MineRLAgent0: 5
+[23:53:00] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:53:01] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:53:02] [Server thread/INFO]: [STDOUT]: Warning: managed 12/20 ticks this second.
+[23:53:03] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:53:04] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[23:53:05] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:53:06] [Server thread/INFO]: [STDOUT]: Warning: managed 12/20 ticks this second.
+RewardForPossessingItemImplementation - MineRLAgent0: 6
+[23:53:07] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[23:53:08] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:53:09] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:53:10] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:53:11] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:53:12] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+RewardForPossessingItemImplementation - MineRLAgent0: 7
+[23:53:13] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+RewardForPossessingItemImplementation - MineRLAgent0: 8
+[23:53:15] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:53:16] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:53:17] [Server thread/INFO]: [STDOUT]: Warning: managed 12/20 ticks this second.
+[23:53:18] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:53:19] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:53:20] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:54:02] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:54:03] [Server thread/INFO]: [STDOUT]: Warning: managed 9/20 ticks this second.
+[23:54:04] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[23:54:05] [Server thread/INFO]: [STDOUT]: Warning: managed 7/20 ticks this second.
+[23:54:06] [Server thread/INFO]: [STDOUT]: Warning: managed 9/20 ticks this second.
+[23:54:07] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[23:54:08] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:54:55] [Server thread/INFO]: [STDOUT]: Warning: managed 4/20 ticks this second.
+[23:54:56] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:54:57] [Server thread/INFO]: [STDOUT]: Warning: managed 9/20 ticks this second.
+[23:54:58] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[23:54:59] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:55:00] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[23:55:01] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:55:02] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:55:03] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[23:55:34] [Server thread/INFO]: [STDOUT]: Warning: managed 1/20 ticks this second.
+[23:55:36] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[23:55:37] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[23:55:38] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[23:55:39] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:55:40] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:55:41] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[23:55:42] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[23:55:43] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:55:44] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:55:45] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:55:46] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:55:47] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:55:48] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:55:49] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:55:51] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:55:52] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[23:55:53] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[23:55:54] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:55:55] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:56:12] [Server thread/INFO]: [STDOUT]: Warning: managed 8/20 ticks this second.
+[23:56:13] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[23:56:14] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+AL lib: (EE) stream_state_callback2: Received stream failure!
+[23:57:48] [Server thread/INFO]: [STDOUT]: Warning: managed 9/20 ticks this second.
+[23:57:49] [Server thread/INFO]: [STDOUT]: Warning: managed 9/20 ticks this second.
+[23:57:50] [Server thread/INFO]: [STDOUT]: Warning: managed 9/20 ticks this second.
+[23:57:51] [Server thread/INFO]: [STDOUT]: Warning: managed 9/20 ticks this second.
+[23:57:52] [Server thread/INFO]: [STDOUT]: Warning: managed 9/20 ticks this second.
+[23:57:53] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[23:57:54] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[23:57:55] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[23:57:56] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[23:57:57] [Server thread/INFO]: [STDOUT]: Warning: managed 9/20 ticks this second.
+[23:57:58] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[23:57:59] [Server thread/INFO]: [STDOUT]: Warning: managed 9/20 ticks this second.
+[23:58:00] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[23:58:01] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[00:09:10] [Server thread/INFO]: [STDOUT]: Warning: managed 8/20 ticks this second.
+[00:09:11] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[00:09:12] [Server thread/INFO]: [STDOUT]: Warning: managed 9/20 ticks this second.
+[00:09:13] [Server thread/INFO]: [STDOUT]: Warning: managed 9/20 ticks this second.
+[00:09:14] [Server thread/INFO]: [STDOUT]: Warning: managed 9/20 ticks this second.
+[00:09:16] [Server thread/INFO]: [STDOUT]: Warning: managed 9/20 ticks this second.
+[00:09:17] [Server thread/INFO]: [STDOUT]: Warning: managed 9/20 ticks this second.
+[00:09:18] [Server thread/INFO]: [STDOUT]: Warning: managed 9/20 ticks this second.
+[00:09:19] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[00:09:20] [Server thread/INFO]: [STDOUT]: Warning: managed 9/20 ticks this second.
+[00:09:21] [Server thread/INFO]: [STDOUT]: Warning: managed 9/20 ticks this second.
+[00:09:22] [Server thread/INFO]: [STDOUT]: Warning: managed 9/20 ticks this second.
+[00:09:23] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[00:09:24] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[00:09:25] [Server thread/INFO]: [STDOUT]: Warning: managed 9/20 ticks this second.
+[00:09:26] [Server thread/INFO]: [STDOUT]: Warning: managed 9/20 ticks this second.
+[00:09:27] [Server thread/INFO]: [STDOUT]: Warning: managed 9/20 ticks this second.
+[00:09:28] [Server thread/INFO]: [STDOUT]: Warning: managed 9/20 ticks this second.
+[00:09:29] [Server thread/INFO]: [STDOUT]: Warning: managed 9/20 ticks this second.
+[00:09:30] [Server thread/INFO]: [STDOUT]: Warning: managed 9/20 ticks this second.
+[00:09:31] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[00:09:32] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[00:09:33] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[00:09:35] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[00:09:36] [Server thread/INFO]: [STDOUT]: Warning: managed 9/20 ticks this second.
+[00:09:37] [Server thread/INFO]: [STDOUT]: Warning: managed 9/20 ticks this second.
+[00:09:38] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[00:09:39] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[00:09:40] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[00:09:41] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[00:09:42] [Server thread/INFO]: [STDOUT]: Warning: managed 9/20 ticks this second.
+[00:09:43] [Server thread/INFO]: [STDOUT]: Warning: managed 9/20 ticks this second.
+[00:09:44] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[00:09:45] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[00:09:46] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[00:09:47] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[00:09:48] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[00:09:49] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[00:09:50] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[00:09:51] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[00:09:52] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[00:09:53] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[00:09:55] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[00:09:56] [Server thread/INFO]: [STDOUT]: Warning: managed 9/20 ticks this second.
+[00:09:57] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[00:09:58] [Server thread/INFO]: [STDOUT]: Warning: managed 9/20 ticks this second.
+[00:09:59] [Server thread/INFO]: [STDOUT]: Warning: managed 9/20 ticks this second.
+[00:10:00] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[00:10:01] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[00:10:02] [Server thread/INFO]: [STDOUT]: Warning: managed 9/20 ticks this second.
+[00:10:03] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[00:10:04] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[00:10:05] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[00:10:06] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[00:10:07] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[00:10:08] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[00:10:09] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[00:10:10] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[00:10:11] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[00:10:12] [Server thread/INFO]: [STDOUT]: Warning: managed 9/20 ticks this second.
+[00:10:14] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[00:10:15] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[00:10:16] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[00:10:17] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[00:10:18] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[00:10:19] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[00:10:20] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[00:10:21] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[00:10:22] [Server thread/INFO]: [STDOUT]: Warning: managed 9/20 ticks this second.
+[00:10:23] [Server thread/INFO]: [STDOUT]: Warning: managed 9/20 ticks this second.
+[00:10:24] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[00:10:25] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[00:10:26] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[00:10:27] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[00:10:28] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[00:10:29] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[00:10:31] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[00:10:32] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[00:10:33] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[00:10:34] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[00:10:35] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[00:10:36] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[00:10:37] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[00:10:38] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[00:10:39] [Server thread/INFO]: [STDOUT]: Warning: managed 9/20 ticks this second.
+RewardForPossessingItemImplementation - MineRLAgent0: 4
+[00:10:40] [Server thread/INFO]: [STDOUT]: Warning: managed 9/20 ticks this second.
+[00:10:41] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[00:10:42] [Server thread/INFO]: [STDOUT]: Warning: managed 9/20 ticks this second.
+[00:10:43] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[00:10:44] [Server thread/INFO]: [STDOUT]: Warning: managed 9/20 ticks this second.
+[00:10:45] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[00:10:46] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[00:10:48] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[00:10:49] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[00:10:50] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[00:10:51] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[00:10:52] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[00:10:53] [Server thread/INFO]: [STDOUT]: Warning: managed 9/20 ticks this second.
+[00:10:54] [Server thread/INFO]: [STDOUT]: Warning: managed 9/20 ticks this second.
+[00:10:55] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[00:10:56] [Server thread/INFO]: [STDOUT]: Warning: managed 9/20 ticks this second.
+[00:10:57] [Server thread/INFO]: [STDOUT]: Warning: managed 8/20 ticks this second.
+[00:10:58] [Server thread/INFO]: [STDOUT]: Warning: managed 9/20 ticks this second.
+[00:10:59] [Server thread/INFO]: [STDOUT]: Warning: managed 9/20 ticks this second.
+[00:11:00] [Server thread/INFO]: [STDOUT]: Warning: managed 9/20 ticks this second.
+[00:11:01] [Server thread/INFO]: [STDOUT]: Warning: managed 9/20 ticks this second.
+[00:11:02] [Server thread/INFO]: [STDOUT]: Warning: managed 9/20 ticks this second.
+[00:11:03] [Server thread/INFO]: [STDOUT]: Warning: managed 9/20 ticks this second.
+[00:11:04] [Server thread/INFO]: [STDOUT]: Warning: managed 9/20 ticks this second.
+[00:11:06] [Server thread/INFO]: [STDOUT]: Warning: managed 7/20 ticks this second.
+[00:11:07] [Server thread/INFO]: [STDOUT]: Warning: managed 8/20 ticks this second.
+[00:11:08] [Server thread/INFO]: [STDOUT]: Warning: managed 9/20 ticks this second.
+[00:11:09] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[00:11:10] [Server thread/INFO]: [STDOUT]: Warning: managed 9/20 ticks this second.
+[00:11:11] [Server thread/INFO]: [STDOUT]: Warning: managed 9/20 ticks this second.
+[00:11:12] [Server thread/INFO]: [STDOUT]: Warning: managed 9/20 ticks this second.
+[10:22:40] [Server thread/INFO]: [STDOUT]: Warning: managed 1/20 ticks this second.
+[10:22:41] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[10:22:43] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[10:22:44] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[10:22:45] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[10:22:46] [Server thread/INFO]: [STDOUT]: Warning: managed 9/20 ticks this second.
+[10:22:47] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[10:22:48] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[10:22:49] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[10:22:50] [Server thread/INFO]: [STDOUT]: Warning: managed 9/20 ticks this second.
+[10:22:51] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[10:22:52] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[10:46:24] [Server thread/INFO]: [STDOUT]: Warning: managed 9/20 ticks this second.
+[10:46:25] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[10:46:26] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[10:46:27] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[10:46:28] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[10:46:29] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[10:46:30] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[10:46:31] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[10:46:32] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[10:46:33] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[10:46:35] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[10:46:36] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[10:46:37] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[10:46:38] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[10:46:39] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[10:46:40] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[10:46:41] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[10:46:42] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[10:46:43] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[10:46:44] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[10:46:45] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[10:46:46] [Server thread/INFO]: [STDOUT]: Warning: managed 9/20 ticks this second.
+[10:46:47] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[10:46:48] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[10:46:49] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[10:46:50] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[10:46:51] [Server thread/INFO]: [STDOUT]: Warning: managed 9/20 ticks this second.
+[10:46:52] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[10:46:53] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[10:46:54] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[10:46:56] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[10:46:57] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[10:46:58] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[10:46:59] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[10:47:00] [Server thread/INFO]: [STDOUT]: Warning: managed 9/20 ticks this second.
+[10:47:01] [Server thread/INFO]: [STDOUT]: Warning: managed 9/20 ticks this second.
+[10:47:02] [Server thread/INFO]: [STDOUT]: Warning: managed 9/20 ticks this second.
+[10:47:03] [Server thread/INFO]: [STDOUT]: Warning: managed 9/20 ticks this second.
+[10:47:04] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[10:47:05] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[10:47:06] [Server thread/INFO]: [STDOUT]: Warning: managed 9/20 ticks this second.
+[10:47:07] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[10:47:08] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[10:47:09] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[10:47:10] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[10:47:11] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[10:47:12] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[10:47:13] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[10:47:14] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[10:47:15] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[10:47:16] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[10:47:18] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[10:47:19] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[10:47:20] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[10:47:21] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[10:47:22] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[10:47:23] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[10:47:24] [Server thread/INFO]: [STDOUT]: Warning: managed 9/20 ticks this second.
+[10:47:25] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[10:47:26] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[10:47:27] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[10:47:27] [Client thread/INFO]: [STDOUT]: 1.0 damage from explosion.player by entity EntityCreeper['Creeper'/14153, l='TEMP_0_8314682a-3bfd-43a3-a504-6e5a08b40664', x=379.51, y=62.92, z=306.05]
+[10:47:28] [Server thread/INFO]: [STDOUT]: Warning: managed 9/20 ticks this second.
+[10:47:29] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[10:47:30] [Server thread/INFO]: [STDOUT]: Warning: managed 9/20 ticks this second.
+[10:50:24] [Server thread/INFO]: [STDOUT]: Warning: managed 4/20 ticks this second.
+[10:50:26] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[10:50:27] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[10:50:28] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[10:50:29] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[10:50:30] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[10:50:31] [Server thread/INFO]: [STDOUT]: Warning: managed 9/20 ticks this second.
+[10:50:32] [Server thread/INFO]: [STDOUT]: Warning: managed 9/20 ticks this second.
+[10:50:33] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[10:50:34] [Server thread/INFO]: [STDOUT]: Warning: managed 9/20 ticks this second.
+[10:50:35] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[10:50:36] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[10:50:37] [Server thread/INFO]: [STDOUT]: Warning: managed 9/20 ticks this second.
+[10:50:38] [Server thread/INFO]: [STDOUT]: Warning: managed 9/20 ticks this second.
+[10:50:39] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[10:50:40] [Server thread/INFO]: [STDOUT]: Warning: managed 9/20 ticks this second.
+[10:50:41] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[10:50:43] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[10:50:44] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[10:50:45] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.
+[10:50:46] [Server thread/INFO]: [STDOUT]: Warning: managed 9/20 ticks this second.
+[10:50:47] [Server thread/INFO]: [STDOUT]: Warning: managed 10/20 ticks this second.

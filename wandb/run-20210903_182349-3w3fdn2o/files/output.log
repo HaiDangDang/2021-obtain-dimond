@@ -1,0 +1,45 @@
+Using cuda device
+Wrapping the env in a VecTransposeImage.
+Logging to runs/v1/PPO_12
+-----------------------------
+| time/              |      |
+|    fps             | 26   |
+|    iterations      | 1    |
+|    time_elapsed    | 77   |
+|    total_timesteps | 2048 |
+-----------------------------
+----------------------------------------
+| time/                   |            |
+|    fps                  | 38         |
+|    iterations           | 2          |
+|    time_elapsed         | 107        |
+|    total_timesteps      | 4096       |
+| train/                  |            |
+|    approx_kl            | 0.02496703 |
+|    clip_fraction        | 0.183      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -1.93      |
+|    explained_variance   | -1.32      |
+|    learning_rate        | 0.0003     |
+|    loss                 | -0.0898    |
+|    n_updates            | 10         |
+|    policy_gradient_loss | -0.0496    |
+|    value_loss           | 0.00788    |
+----------------------------------------
+-----------------------------------------
+| time/                   |             |
+|    fps                  | 45          |
+|    iterations           | 3           |
+|    time_elapsed         | 135         |
+|    total_timesteps      | 6144        |
+| train/                  |             |
+|    approx_kl            | 0.048718408 |
+|    clip_fraction        | 0.313       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.92       |
+|    explained_variance   | -3.29       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.122      |
+|    n_updates            | 20          |
+|    policy_gradient_loss | -0.0782     |
+|    value_loss           | 0.00446     |

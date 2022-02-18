@@ -1,0 +1,10 @@
+2021-09-12 23:03:55 pop-os process_watcher[730243] INFO Process watcher started between parent 717207 and child 730187 
+2021-09-12 23:21:55 pop-os process_watcher[730243] INFO Parent is not running, hence we need terminate the child.
+2021-09-12 23:21:55 pop-os process_watcher[730243] INFO About to reap process tree of 730187:launchClient.sh:/usr/bin/bash i sleeping, owner 2516, printing process tree status in termination order:
+2021-09-12 23:21:55 pop-os process_watcher[730243] INFO 	-730191:java:/usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java i sleeping, owner 730187
+2021-09-12 23:21:55 pop-os process_watcher[730243] INFO 	-730187:launchClient.sh:/usr/bin/bash i sleeping, owner 2516
+2021-09-12 23:21:55 pop-os process_watcher[730243] INFO Trying to SIGTERM 730191:java:/usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java i sleeping, owner 730187
+2021-09-12 23:22:01 pop-os process_watcher[730243] INFO Process 730191 survived SIGTERM; trying SIGKILL on 730191:java:/usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java i sleeping, owner 730187
+2021-09-12 23:22:01 pop-os process_watcher[730243] INFO Process psutil.Process(pid=730191, status='terminated') terminated with exit code None
+2021-09-12 23:22:01 pop-os process_watcher[730243] INFO Trying to SIGTERM 730187:launchClient.sh:/usr/bin/bash i disk-sleep, owner 2516
+2021-09-12 23:22:01 pop-os process_watcher[730243] INFO Process psutil.Process(pid=730187, status='terminated') terminated with exit code None

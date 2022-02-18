@@ -1,0 +1,49 @@
+
+Using cuda device
+Traceback (most recent call last):
+  File "/home/dang/.local/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3296, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "<ipython-input-2-82ef989bec0e>", line 171, in <module>
+    model = PPO('CnnPolicy', env, verbose=1, tensorboard_log=f"runs/{'v1'}")
+  File "/home/dang/anaconda3/envs/mine/lib/python3.7/site-packages/stable_baselines3/ppo/ppo.py", line 152, in __init__
+    self._setup_model()
+  File "/home/dang/anaconda3/envs/mine/lib/python3.7/site-packages/stable_baselines3/ppo/ppo.py", line 155, in _setup_model
+    super(PPO, self)._setup_model()
+  File "/home/dang/anaconda3/envs/mine/lib/python3.7/site-packages/stable_baselines3/common/on_policy_algorithm.py", line 125, in _setup_model
+    **self.policy_kwargs  # pytype:disable=not-instantiable
+  File "/home/dang/anaconda3/envs/mine/lib/python3.7/site-packages/stable_baselines3/common/policies.py", line 716, in __init__
+    optimizer_kwargs,
+  File "/home/dang/anaconda3/envs/mine/lib/python3.7/site-packages/stable_baselines3/common/policies.py", line 426, in __init__
+    self.features_extractor = features_extractor_class(self.observation_space, **self.features_extractor_kwargs)
+  File "/home/dang/anaconda3/envs/mine/lib/python3.7/site-packages/stable_baselines3/common/torch_layers.py", line 68, in __init__
+    "You should use NatureCNN "
+AssertionError: You should use NatureCNN only with images not with Box(0, 255, (32, 32), uint8)
+(you are probably using `CnnPolicy` instead of `MlpPolicy` or `MultiInputPolicy`)
+If you are using a custom environment,
+please check it using our env checker:
+https://stable-baselines3.readthedocs.io/en/master/common/env_checker.html
+Traceback (most recent call last):
+  File "/home/dang/.local/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3296, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "<ipython-input-3-6a1d22871e20>", line 1, in <module>
+    env_checker.check_env(env, warn=True, skip_render_check=True)
+NameError: name 'env_checker' is not defined
+Traceback (most recent call last):
+  File "/home/dang/.local/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3296, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "<ipython-input-5-6a1d22871e20>", line 1, in <module>
+    env_checker.check_env(env, warn=True, skip_render_check=True)
+  File "/home/dang/anaconda3/envs/mine/lib/python3.7/site-packages/stable_baselines3/common/env_checker.py", line 247, in check_env
+    ), "Your environment must inherit from the gym.Env class cf https://github.com/openai/gym/blob/master/gym/core.py"
+AssertionError: Your environment must inherit from the gym.Env class cf https://github.com/openai/gym/blob/master/gym/core.py
+Traceback (most recent call last):
+  File "/home/dang/.local/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3296, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "<ipython-input-6-aef0e2e7a5c5>", line 1, in <module>
+    env_checker.check_env(make_env(0), warn=True, skip_render_check=True)
+  File "/home/dang/anaconda3/envs/mine/lib/python3.7/site-packages/stable_baselines3/common/env_checker.py", line 247, in check_env
+    ), "Your environment must inherit from the gym.Env class cf https://github.com/openai/gym/blob/master/gym/core.py"
+AssertionError: Your environment must inherit from the gym.Env class cf https://github.com/openai/gym/blob/master/gym/core.py
+/home/dang/anaconda3/envs/mine/lib/python3.7/site-packages/stable_baselines3/common/env_checker.py:82: UserWarning: The action space is not based off a numpy array. Typically this means it's either a Dict or Tuple space. This type of action space is currently not supported by Stable Baselines 3. You should try to flatten the action using a wrapper.
+  "The action space is not based off a numpy array. Typically this means it's either a Dict or Tuple space. "
+/home/dang/anaconda3/envs/mine/lib/python3.7/site-packages/stable_baselines3/common/env_checker.py:131: UserWarning: Your observation  has an unconventional shape (neither an image, nor a 1D vector). We recommend you to flatten the observation to have only a 1D vector or use a custom policy to properly process the data.

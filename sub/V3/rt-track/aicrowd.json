@@ -1,0 +1,8 @@
+{
+  "challenge_id": "neurips-2021-minerl-diamond-competition",
+  "authors": ["PA-P"],
+  "tags": "research",
+  "description": "Test Model for MineRL Challenge",
+  "gpu": true,
+   "debug": true
+}

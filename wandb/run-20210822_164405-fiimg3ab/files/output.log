@@ -1,0 +1,45 @@
+
+Using cuda device
+Logging to runs/v1/PPO_1
+-----------------------------
+| time/              |      |
+|    fps             | 13   |
+|    iterations      | 1    |
+|    time_elapsed    | 153  |
+|    total_timesteps | 2048 |
+-----------------------------
+-----------------------------------------
+| time/                   |             |
+|    fps                  | 16          |
+|    iterations           | 2           |
+|    time_elapsed         | 254         |
+|    total_timesteps      | 4096        |
+| train/                  |             |
+|    approx_kl            | 0.010377247 |
+|    clip_fraction        | 0.14        |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.94       |
+|    explained_variance   | -0.399      |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.032      |
+|    n_updates            | 10          |
+|    policy_gradient_loss | -0.0168     |
+|    value_loss           | 0.0433      |
+-----------------------------------------
+----------------------------------------
+| time/                   |            |
+|    fps                  | 17         |
+|    iterations           | 3          |
+|    time_elapsed         | 354        |
+|    total_timesteps      | 6144       |
+| train/                  |            |
+|    approx_kl            | 0.01199411 |
+|    clip_fraction        | 0.116      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -1.92      |
+|    explained_variance   | 0.264      |
+|    learning_rate        | 0.0003     |
+|    loss                 | -0.0555    |
+|    n_updates            | 20         |
+|    policy_gradient_loss | -0.0244    |
+|    value_loss           | 0.00182    |

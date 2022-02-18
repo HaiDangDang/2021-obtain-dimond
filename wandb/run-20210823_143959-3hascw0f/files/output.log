@@ -1,0 +1,29 @@
+Traceback (most recent call last):
+  File "/home/dang/.local/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3296, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "<ipython-input-2-98fce8283691>", line 171, in <module>
+    model = PPO('CnnPolicy', env, verbose=1, tensorboard_log=f"runs/{'v1'}")
+  File "/home/dang/anaconda3/envs/mine/lib/python3.7/site-packages/stable_baselines3/ppo/ppo.py", line 152, in __init__
+    self._setup_model()
+  File "/home/dang/anaconda3/envs/mine/lib/python3.7/site-packages/stable_baselines3/ppo/ppo.py", line 155, in _setup_model
+    super(PPO, self)._setup_model()
+  File "/home/dang/anaconda3/envs/mine/lib/python3.7/site-packages/stable_baselines3/common/on_policy_algorithm.py", line 125, in _setup_model
+    **self.policy_kwargs  # pytype:disable=not-instantiable
+  File "/home/dang/anaconda3/envs/mine/lib/python3.7/site-packages/stable_baselines3/common/policies.py", line 716, in __init__
+    optimizer_kwargs,
+  File "/home/dang/anaconda3/envs/mine/lib/python3.7/site-packages/stable_baselines3/common/policies.py", line 426, in __init__
+    self.features_extractor = features_extractor_class(self.observation_space, **self.features_extractor_kwargs)
+  File "/home/dang/anaconda3/envs/mine/lib/python3.7/site-packages/stable_baselines3/common/torch_layers.py", line 88, in __init__
+    n_flatten = self.cnn(th.as_tensor(observation_space.sample()[None]).float()).shape[1]
+  File "/home/dang/anaconda3/envs/mine/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1051, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/dang/anaconda3/envs/mine/lib/python3.7/site-packages/torch/nn/modules/container.py", line 139, in forward
+    input = module(input)
+  File "/home/dang/anaconda3/envs/mine/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1051, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/dang/anaconda3/envs/mine/lib/python3.7/site-packages/torch/nn/modules/conv.py", line 443, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+  File "/home/dang/anaconda3/envs/mine/lib/python3.7/site-packages/torch/nn/modules/conv.py", line 440, in _conv_forward
+    self.padding, self.dilation, self.groups)
+RuntimeError: Calculated padded input size per channel: (2 x 2). Kernel size: (3 x 3). Kernel size can't be greater than actual input size
+Using cuda device
